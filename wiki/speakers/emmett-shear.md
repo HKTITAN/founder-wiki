@@ -3,10 +3,10 @@ title: Emmett Shear
 type: speaker
 created: 2026-04-05
 last_updated: 2026-04-05
+sources: ["8p-how-to-prioritize-features"]
 aliases: ["Shear", "Emmett Shear"]
 related: ["[[Feature Prioritization Frameworks]]", "[[Product-Market Fit]]", "[[Growth]]"]
-sources: [7y-how-to-build-a-product-with-reddit-s-steve-huffman-and-twitch-s-emmett-shear,
-  8p-how-to-prioritize-features, JQ-how-to-start-a-startup-talking-to-users]
+
 ---
 
 # Emmett Shear

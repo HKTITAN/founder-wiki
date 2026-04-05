@@ -3,9 +3,10 @@ title: Tim Brady
 type: speaker
 created: 2026-04-05
 last_updated: 2026-04-05
+sources: ["6r-building-culture"]
 aliases: ["Tim Brady", "Brady"]
 related: ["[[Startup Culture]]", "[[Startup Management]]"]
-sources: ["6r-building-culture"]
+
 ---
 
 # Tim Brady

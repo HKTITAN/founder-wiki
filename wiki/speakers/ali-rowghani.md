@@ -3,9 +3,10 @@ title: Ali Rowghani
 type: speaker
 created: 2026-04-05
 last_updated: 2026-04-05
+sources: ["3j-how-to-measure-leadership", "3k-the-second-job-of-a-startup-ceo"]
 aliases: ["Ali Rowghani"]
 related: ["[[Startup Leadership]]", "[[Three Traits of Great Leadership]]", "[[Mission-to-Metrics Framework]]", "[[Startup Leadership]]"]
-sources: ["3j-how-to-measure-leadership", "3k-the-second-job-of-a-startup-ceo"]
+
 speakers_referenced: []
 ---
 

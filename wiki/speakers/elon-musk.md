@@ -3,9 +3,10 @@ title: Elon Musk
 type: speaker
 created: 2026-04-05
 last_updated: 2026-04-05
+sources: ["6W-elon-musk-on-how-to-build-the-future"]
 aliases: ["Elon Musk", "Musk", "Elon"]
 related: ["[[Hard Tech Startups]]", "[[Founder Mindset]]", "[[Sam Altman]]"]
-sources: [6W-elon-musk-on-how-to-build-the-future, MX-elon-musk-digital-superintelligence-multiplanetary-life-how-to-be-useful]
+
 ---
 
 # Elon Musk

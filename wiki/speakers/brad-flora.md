@@ -3,19 +3,10 @@ title: Brad Flora
 type: speaker
 created: 2026-04-05
 last_updated: 2026-04-05
+sources: ["Iy-yc-s-group-partners-share-their-favorite-pivot-stories", "Iz-inside-the-group-partner-lounge-how-to-compete-with-amazon-and-google", "J0-inside-the-group-partner-lounge-when-to-launch-your-startup", "J1-inside-the-group-partner-lounge-investors-said-no-now-what", "J2-inside-the-group-partner-lounge-don-t-make-these-hiring-mistakes", "J3-inside-the-group-partner-lounge-turning-users-into-paid-customers", "J5-inside-the-group-partner-lounge-the-ideal-customer", "J6-inside-the-group-partner-lounge-advantages-of-a-first-time-founder", "K5-yc-s-group-partners-share-productivity-tips-and-advice-on-actually-getting-things-done", "Li-how-do-billion-dollar-startups-start", "M3-how-to-use-ai-in-your-startup"]
 aliases: ["Brad Flora", "Flora"]
 related: ["[[Pivoting]]", "[[Competing with Big Companies]]", "[[Launching]]", "[[Handling Investor Rejection]]", "[[Hiring at Early Stage]]", "[[Pricing and Monetization]]", "[[Selling to Startups]]", "[[First-Time Founders]]", "[[AI and Startups]]", "[[Survivorship Bias in Startup Advice]]"]
-sources: [Iy-yc-s-group-partners-share-their-favorite-pivot-stories,
-  Iz-inside-the-group-partner-lounge-how-to-compete-with-amazon-and-google,
-  J0-inside-the-group-partner-lounge-when-to-launch-your-startup,
-  J1-inside-the-group-partner-lounge-investors-said-no-now-what,
-  J2-inside-the-group-partner-lounge-don-t-make-these-hiring-mistakes,
-  J3-inside-the-group-partner-lounge-turning-users-into-paid-customers,
-  J5-inside-the-group-partner-lounge-the-ideal-customer,
-  J6-inside-the-group-partner-lounge-advantages-of-a-first-time-founder,
-  K5-yc-s-group-partners-share-productivity-tips-and-advice-on-actually-getting-things-done,
-  Li-how-do-billion-dollar-startups-start,
-  M3-how-to-use-ai-in-your-startup]
+
 speakers_referenced: ["Brad Flora"]
 ---
 

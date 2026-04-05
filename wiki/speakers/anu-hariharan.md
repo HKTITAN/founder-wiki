@@ -3,9 +3,10 @@ title: Anu Hariharan
 type: speaker
 created: 2026-04-05
 last_updated: 2026-04-05
+sources: ["3t-how-wechat-grew-to-be-the-1-app-in-the-world", "2z-pinduoduo-and-the-rise-of-social-e-commerce", "3x-the-hidden-forces-behind-china-s-content-king-toutiao", "3w-how-to-create-and-manage-a-board", "59-how-to-set-up-hire-and-scale-a-growth-strategy-and-team"]
 aliases: ["Hariharan", "Anu Hariharan"]
 related: ["[[WeChat]]", "[[Pinduoduo]]", "[[Toutiao]]", "[[Board Management]]", "[[Social Commerce]]", "[[Growth]]", "[[China Tech Ecosystem]]"]
-sources: ["3t-how-wechat-grew-to-be-the-1-app-in-the-world", "2z-pinduoduo-and-the-rise-of-social-e-commerce", "3x-the-hidden-forces-behind-china-s-content-king-toutiao", "3w-how-to-create-and-manage-a-board", "59-how-to-set-up-hire-and-scale-a-growth-strategy-and-team"]
+
 speakers_referenced: []
 ---
 

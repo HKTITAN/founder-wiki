@@ -3,9 +3,10 @@ title: Diane Greene
 type: speaker
 created: 2026-04-05
 last_updated: 2026-04-05
+sources: ["6Q-diane-greene-s-advice-for-founders"]
 aliases: ["Diane Greene", "Greene"]
 related: ["[[Hard Tech Startups]]", "[[Founder Mindset]]", "[[Startup Leadership]]", "[[Co-Founders]]"]
-sources: ["6Q-diane-greene-s-advice-for-founders"]
+
 speakers_referenced: ["Diane Greene"]
 ---
 

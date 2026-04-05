@@ -3,9 +3,10 @@ title: Aaron Harris
 type: speaker
 created: 2026-04-05
 last_updated: 2026-04-05
+sources: ["2u-how-to-build-your-seed-round-pitch-deck", "3h-series-a-diligence-checklist"]
 aliases: ["Aaron Harris"]
 related: ["[[Seed Fundraising]]", "[[Series A Fundraising]]", "pitch deck"]
-sources: [2u-how-to-build-your-seed-round-pitch-deck, 3h-series-a-diligence-checklist, JM-how-to-start-a-startup-raising-money-and-succeeding-long-term]
+
 speakers_referenced: []
 ---
 

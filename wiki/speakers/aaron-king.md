@@ -3,9 +3,10 @@ title: Aaron King
 type: speaker
 created: 2026-04-05
 last_updated: 2026-04-05
+sources: ["Gu-snapdocs-aaron-king-on-navigating-market-cycles"]
 aliases: ["Aaron King", "Snapdocs founder"]
 related: ["[[Snapdocs: Navigating Market Cycles]]", "capital efficiency", "navigating market cycles"]
-sources: ["Gu-snapdocs-aaron-king-on-navigating-market-cycles"]
+
 ---
 
 # Aaron King

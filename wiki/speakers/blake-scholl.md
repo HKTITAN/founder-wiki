@@ -3,9 +3,10 @@ title: Blake Scholl
 type: speaker
 created: 2026-04-05
 last_updated: 2026-04-05
+sources: ["5Q-on-starting-and-scaling-aerospace-company-boom"]
 aliases: ["Scholl", "Blake Scholl"]
 related: ["[[Hard Tech Startups]]", "[[Growth]]", "[[Enterprise Sales]]"]
-sources: [5Q-on-starting-and-scaling-aerospace-company-boom, MA-building-a-supersonic-plane-company-from-the-ground-up]
+
 ---
 
 # Blake Scholl

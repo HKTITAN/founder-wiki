@@ -254,6 +254,7 @@ Checks and fixes:
 - **Orphan pages with no inbound links** -- add wikilinks from related articles or flag for review
 - **Speaker pages missing for people referenced in 3+ articles** -- create the page
 - **Stale `last_updated` timestamps** -- update to reflect the most recent actual edit date
+- **Frontmatter source counts must match References** -- if an article's References section lists 14 sources but the frontmatter `sources:` field has 0, rebuild the sources field from the References URLs. The viewer displays source counts from frontmatter, so mismatches make the home page inconsistent.
 
 ### Breakdown
 
