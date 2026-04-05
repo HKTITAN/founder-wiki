@@ -278,16 +278,51 @@ function parseFrontmatter(md) {
   const match = md.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
   if (!match) return { meta: {}, body: md };
   const meta = {};
-  match[1].split('\n').forEach(line => {
-    const m = line.match(/^(\w+):\s*(.+)$/);
-    if (m) {
-      let val = m[2].trim();
-      if (val.startsWith('[')) try { val = JSON.parse(val.replace(/'/g, '"')); } catch(e) {}
-      if (val.startsWith('"') && val.endsWith('"')) val = val.slice(1, -1);
-      meta[m[1]] = val;
+  const lines = match[1].split('\n');
+  let currentKey = null;
+  let currentVal = '';
+
+  for (const line of lines) {
+    // New key-value pair
+    const kv = line.match(/^(\w[\w_]*):\s*(.*)$/);
+    if (kv) {
+      // Save previous key if any
+      if (currentKey) meta[currentKey] = parseYamlValue(currentVal.trim());
+      currentKey = kv[1];
+      currentVal = kv[2];
+    } else if (currentKey && (line.startsWith('  ') || line.startsWith('- '))) {
+      // Continuation of previous value
+      currentVal += '\n' + line;
     }
-  });
+  }
+  // Save last key
+  if (currentKey) meta[currentKey] = parseYamlValue(currentVal.trim());
+
   return { meta, body: match[2] };
+}
+
+function parseYamlValue(val) {
+  if (!val) return '';
+  // Remove surrounding quotes
+  if (val.startsWith('"') && val.endsWith('"')) val = val.slice(1, -1);
+  // JSON array
+  if (val.startsWith('[')) {
+    try {
+      // Normalize: replace [[ with [, handle wikilinks in arrays
+      const cleaned = val.replace(/\[\[/g, '"[[').replace(/\]\]/g, ']]"')
+        .replace(/"""/g, '"');
+      return JSON.parse(cleaned);
+    } catch(e) {
+      try { return JSON.parse(val.replace(/'/g, '"')); } catch(e2) {}
+      // Manual parse: extract strings between quotes
+      const items = [];
+      const re = /"([^"]+)"/g;
+      let m;
+      while ((m = re.exec(val)) !== null) items.push(m[1]);
+      return items.length ? items : val;
+    }
+  }
+  return val;
 }
 
 // Convert wikilinks to clickable links
@@ -298,19 +333,17 @@ function processWikilinks(html) {
   });
 }
 
-// Load all markdown files
+// Load articles from pre-built JSON
 async function loadArticles() {
-  const files = WIKI_FILES; // injected by build or hardcoded
-  for (const f of files) {
-    try {
-      const resp = await fetch(f.path);
-      const text = await resp.text();
-      const { meta, body } = parseFrontmatter(text);
-      const slug = (meta.title || f.name).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-      const article = { ...meta, body, slug, path: f.path, dir: f.dir };
-      ARTICLES[slug] = article;
-      ARTICLE_LIST.push(article);
-    } catch(e) { console.warn('Failed to load', f.path, e); }
+  try {
+    const resp = await fetch('articles.json');
+    const data = await resp.json();
+    data.forEach(a => {
+      ARTICLES[a.slug] = a;
+      ARTICLE_LIST.push(a);
+    });
+  } catch(e) {
+    console.error('Failed to load articles.json', e);
   }
   buildSidebar();
   showHome();
@@ -458,24 +491,6 @@ document.addEventListener('click', e => {
     document.getElementById('searchResults').classList.remove('active');
   }
 });
-
-// File list — hardcoded for simplicity (no build step needed)
-const WIKI_FILES = [
-  { path: '../wiki/topics/startup-ideas.md', dir: 'topics', name: 'startup-ideas' },
-  { path: '../wiki/topics/growth.md', dir: 'topics', name: 'growth' },
-  { path: '../wiki/topics/early-stage-tactics.md', dir: 'topics', name: 'early-stage-tactics' },
-  { path: '../wiki/topics/fundraising.md', dir: 'topics', name: 'fundraising' },
-  { path: '../wiki/topics/financial-survival.md', dir: 'topics', name: 'financial-survival' },
-  { path: '../wiki/topics/hiring.md', dir: 'topics', name: 'hiring' },
-  { path: '../wiki/topics/management.md', dir: 'topics', name: 'management' },
-  { path: '../wiki/topics/product-development.md', dir: 'topics', name: 'product-development' },
-  { path: '../wiki/topics/founder-mindset.md', dir: 'topics', name: 'founder-mindset' },
-  { path: '../wiki/topics/cofounders.md', dir: 'topics', name: 'cofounders' },
-  { path: '../wiki/topics/sales-and-distribution.md', dir: 'topics', name: 'sales-and-distribution' },
-  { path: '../wiki/topics/board-governance.md', dir: 'topics', name: 'board-governance' },
-  { path: '../wiki/frameworks/do-things-that-dont-scale.md', dir: 'frameworks', name: 'do-things-that-dont-scale' },
-  { path: '../wiki/frameworks/default-alive-or-dead.md', dir: 'frameworks', name: 'default-alive-or-dead' },
-];
 
 loadArticles();
 </script>
