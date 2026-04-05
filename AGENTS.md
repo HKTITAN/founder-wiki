@@ -87,8 +87,15 @@ Every wiki page should be densely linked to related pages. When you mention a co
 7. **Preserve external hyperlinks.** If the raw source links to external resources (blog posts, tools, research papers), preserve those links in the wiki article. They are part of the knowledge.
 8. Connect to patterns — when the same theme surfaces across multiple sources, that deserves its own article
 9. Create or update person pages for speakers/authors
-10. Update `wiki/_index.md` with any new articles (include aliases)
+10. **Propagate across the graph.** Every absorption must update all connected nodes:
+    - Update `wiki/_index.md` with any new articles (include aliases and 1-2 sentence summaries)
+    - Update `wiki/_backlinks.json` to reflect new wikilinks
+    - Update existing articles that reference the same topic — if you add a new framework article, go back to the topic articles that should link to it and add the `[[wikilink]]`
+    - Update speaker pages with new source entries
+    - Update the `related:` frontmatter field on articles that gain new connections
+    - **The graph must be consistent after every absorption.** No orphan pages, no broken links, no stale cross-references. If you create a new article, every existing article that mentions that concept should link to it.
 11. Mark source as absorbed in `wiki/_absorb_log.json`
+12. Rebuild `viewer/articles.json` (run the Python rebuild script or regenerate manually) so the viewer reflects all changes immediately
 
 **Anti-cramming:** If you're adding a third paragraph about a sub-topic to an existing article, that sub-topic probably deserves its own page.
 

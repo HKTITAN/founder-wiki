@@ -144,6 +144,18 @@
   .backlinks h3 { font-size: 13px; margin-bottom: 6px; color: #54595d; border: none; }
   .backlinks a { margin-right: 12px; }
 
+  /* Footnote superscripts */
+  .footnote-ref {
+    font-size: 0.75em;
+    vertical-align: super;
+    line-height: 0;
+    color: #36c;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .footnote-ref:hover { text-decoration: underline; }
+
   /* Home page */
   .home-welcome {
     background: #f8f9fa; border: 1px solid #a2a9b1; padding: 16px 20px; margin-bottom: 20px;
@@ -240,50 +252,65 @@ async function loadArticles() {
 function buildSidebar() {
   const sidebar = document.getElementById('sidebar');
 
-  // Group by stage-based categories
-  const categories = {
-    'Getting Started': ['startup-ideas', 'cofounders', 'founder-mindset'],
-    'Building': ['early-stage-tactics', 'product-development', 'growth'],
-    'Money': ['fundraising', 'financial-survival', 'board-governance'],
-    'People': ['hiring', 'management', 'sales-and-distribution'],
-    'Frameworks': [],
+  // Fully dynamic — group by directory type
+  const dirLabels = {
+    'topics': 'Topics',
+    'frameworks': 'Frameworks',
+    'case-studies': 'Case Studies',
+    'speakers': 'People',
+    'industries': 'Industries',
   };
 
-  // Add frameworks
-  ARTICLE_LIST.filter(a => a.dir === 'frameworks').forEach(a => categories['Frameworks'].push(a.slug));
+  const groups = {};
+  ARTICLE_LIST.forEach(a => {
+    const dir = a.dir || 'other';
+    if (!groups[dir]) groups[dir] = [];
+    groups[dir].push(a);
+  });
 
   let html = '<span class="nav-label">Navigation</span>';
   html += `<a href="#" onclick="showHome(); return false;">Main page</a>`;
 
-  for (const [cat, slugs] of Object.entries(categories)) {
-    html += `<h3>${cat}</h3>`;
-    const arts = slugs.map(s => ARTICLES[s]).filter(Boolean);
-    // Also add any uncategorized topics
-    if (cat === 'Frameworks') {
-      // Already have them
-    }
-    arts.sort((a,b) => (a.title||'').localeCompare(b.title||''));
-    arts.forEach(a => {
+  const order = ['topics', 'frameworks', 'case-studies', 'speakers', 'industries'];
+  // Include any dirs not in the predefined order
+  Object.keys(groups).forEach(d => { if (!order.includes(d)) order.push(d); });
+
+  order.forEach(dir => {
+    if (!groups[dir] || !groups[dir].length) return;
+    const label = dirLabels[dir] || dir.charAt(0).toUpperCase() + dir.slice(1);
+    html += `<h3>${label}</h3>`;
+    groups[dir].sort((a,b) => (a.title||'').localeCompare(b.title||''));
+    groups[dir].forEach(a => {
       html += `<a href="#" onclick="navigateTo('${a.slug}'); return false;">${a.title}</a>`;
     });
-  }
+  });
+
   sidebar.innerHTML = html;
 }
 
 function showHome() {
   const content = document.getElementById('content');
-  const topics = ARTICLE_LIST.filter(a => a.dir === 'topics');
-  const frameworks = ARTICLE_LIST.filter(a => a.dir === 'frameworks');
 
-  // Stage-based categories for the home page
-  const stageCategories = [
-    { name: 'Idea & Getting Started', icon: '💡', slugs: ['startup-ideas', 'cofounders', 'founder-mindset'] },
-    { name: 'Building & Pre-PMF', icon: '🔨', slugs: ['early-stage-tactics', 'product-development'] },
-    { name: 'Growth & Distribution', icon: '📈', slugs: ['growth', 'sales-and-distribution'] },
-    { name: 'Fundraising & Finance', icon: '💰', slugs: ['fundraising', 'financial-survival', 'board-governance'] },
-    { name: 'People & Organization', icon: '👥', slugs: ['hiring', 'management'] },
-    { name: 'Frameworks & Mental Models', icon: '🧠', slugs: ['do-things-that-don-t-scale', 'default-alive-or-dead'] },
-  ];
+  // Dynamically group ALL articles by directory
+  const groups = {};
+  ARTICLE_LIST.forEach(a => {
+    const dir = a.dir || 'other';
+    if (!groups[dir]) groups[dir] = [];
+    groups[dir].push(a);
+  });
+
+  const dirMeta = {
+    'topics': { label: 'Topics', desc: 'Core concepts synthesized from multiple sources' },
+    'frameworks': { label: 'Frameworks & Mental Models', desc: 'Named decision frameworks and mental models' },
+    'case-studies': { label: 'Case Studies', desc: 'Deep dives on specific companies and their strategies' },
+    'speakers': { label: 'People', desc: 'Key contributors and their distinct perspectives' },
+    'industries': { label: 'Industries', desc: 'Industry-specific guidance' },
+  };
+
+  const topics = groups['topics'] || [];
+  const speakers = groups['speakers'] || [];
+  const frameworks = groups['frameworks'] || [];
+  const caseStudies = groups['case-studies'] || [];
 
   let html = `
     <h1>Founder Wiki</h1>
@@ -291,34 +318,45 @@ function showHome() {
       <h2>Welcome to Founder Wiki</h2>
       <p>A compiled knowledge base of startup and founder wisdom, built from Y Combinator's library of essays, lectures, and founder stories using the <a href="https://x.com/karpathy/status/2039805659525644595" target="_blank">LLM Knowledge Base pattern</a>.</p>
       <p>Articles synthesize advice from multiple sources into concept-centric pages with citations and cross-references. Every claim links back to its source.</p>
-      <div class="home-stats">${ARTICLE_LIST.length} articles across ${stageCategories.length} categories · ${topics.length} topics · ${frameworks.length} frameworks · Source: YC Library</div>
+      <div class="home-stats">
+        <span><strong>${ARTICLE_LIST.length}</strong> articles</span>
+        <span><strong>${topics.length}</strong> topics</span>
+        <span><strong>${speakers.length}</strong> people</span>
+        <span><strong>${frameworks.length}</strong> frameworks</span>
+        <span><strong>${caseStudies.length}</strong> case studies</span>
+      </div>
     </div>
-
-    <h2 style="border:none; margin-bottom:12px;">Browse by category</h2>
   `;
 
-  // Two-column layout
-  html += '<div class="home-columns">';
-  html += '<div class="home-col">';
+  // Render each directory group
+  const order = ['topics', 'frameworks', 'case-studies', 'speakers', 'industries'];
+  Object.keys(groups).forEach(d => { if (!order.includes(d)) order.push(d); });
 
-  stageCategories.forEach((cat, i) => {
-    if (i === 3) { html += '</div><div class="home-col">'; } // Switch to right column
+  html += '<div class="home-columns"><div class="home-col">';
+  let colSwitch = Math.ceil(order.filter(d => groups[d]?.length).length / 2);
+  let catCount = 0;
+
+  order.forEach(dir => {
+    if (!groups[dir] || !groups[dir].length) return;
+    catCount++;
+    if (catCount === colSwitch + 1) html += '</div><div class="home-col">';
+
+    const meta = dirMeta[dir] || { label: dir.charAt(0).toUpperCase() + dir.slice(1), desc: '' };
     html += `<div class="category-section">`;
-    html += `<h2>${cat.name}</h2>`;
+    html += `<h2>${meta.label}</h2>`;
     html += `<div class="category-list"><ul>`;
-    cat.slugs.forEach(slug => {
-      const a = ARTICLES[slug];
-      if (!a) return;
-      const typeLabel = a.type === 'framework' ? 'framework' : '';
-      html += `<li><a href="#" onclick="navigateTo('${slug}'); return false;">${a.title}</a>`;
-      if (typeLabel) html += ` <span class="item-type">— ${typeLabel}</span>`;
-      html += `</li>`;
+
+    groups[dir].sort((a,b) => (a.title||'').localeCompare(b.title||''));
+    groups[dir].forEach(a => {
+      const srcCount = Array.isArray(a.sources) ? a.sources.length : 0;
+      const srcLabel = srcCount > 0 ? ` <span class="item-type">${srcCount} sources</span>` : '';
+      html += `<li><a href="#" onclick="navigateTo('${a.slug}'); return false;">${a.title}</a>${srcLabel}</li>`;
     });
+
     html += `</ul></div></div>`;
   });
 
   html += '</div></div>';
-
   content.innerHTML = html;
   document.querySelectorAll('.sidebar a').forEach(a => a.classList.remove('active'));
 }
@@ -353,6 +391,16 @@ function navigateTo(slug) {
   // Render markdown
   let rendered = marked.parse(article.body);
   rendered = processWikilinks(rendered);
+
+  // Convert [1] footnote markers to superscript links
+  rendered = rendered.replace(/\[(\d+)\]/g, (m, num) => {
+    return `<a class="footnote-ref" href="#ref-${num}" title="See reference ${num}">[${num}]</a>`;
+  });
+
+  // Add anchor IDs to references section items (1. [Title](...) format)
+  rendered = rendered.replace(/<li>(\d+)\.\s/g, (m, num) => {
+    return `<li id="ref-${num}">${num}. `;
+  });
 
   // Add IDs to h2 for TOC linking
   rendered = rendered.replace(/<h2>(.*?)<\/h2>/g, (m, text) => {
