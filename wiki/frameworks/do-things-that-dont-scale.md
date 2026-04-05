@@ -11,28 +11,28 @@ sources: ["96-do-things-that-don-t-scale"]
 
 # Do Things That Don't Scale
 
-One of Paul Graham's most influential essays and a foundational YC principle. The core claim: startups take off because founders make them take off through manual, unscalable work. There is no shortcut.
+One of Paul Graham's most influential essays and a foundational YC principle. The core claim: startups take off because founders make them take off through manual, unscalable work. There is no shortcut ([Do things that don't scale](https://www.ycombinator.com/library/96-do-things-that-don-t-scale)).
 
 ## The Framework
 
-A startup idea is not just "what you build." Graham reframes it as a vector — a pair of (what you build) + (the unscalable thing you do to get it going). Both components matter.
+A [[Startup Ideas|startup idea]] is not just "what you build." Graham reframes it as a vector — a pair of (what you build) + (the unscalable thing you do to get it going). Both components matter ([Do things that don't scale](https://www.ycombinator.com/library/96-do-things-that-don-t-scale)).
 
 ## Named Patterns
 
-**The Collison Installation.** Named after Stripe's Patrick and John Collison. When someone agreed to try Stripe, instead of emailing a signup link, the brothers said "give me your laptop" and set them up on the spot. The lesson: be aggressive about onboarding. Do not let friction between "yes" and "using it" eat your conversion.
+**The Collison Installation.** Named after Stripe's Patrick and John Collison. When someone agreed to try Stripe, instead of emailing a signup link, the brothers said "give me your laptop" and set them up on the spot. The lesson: be aggressive about onboarding. Do not let friction between "yes" and "using it" eat your conversion ([Do things that don't scale](https://www.ycombinator.com/library/96-do-things-that-don-t-scale)). This is a canonical [[Early-Stage Tactics|early-stage tactic]].
 
-**The Contained Fire.** Focus on a deliberately narrow market and make it white-hot. Facebook launched at Harvard only. The small market lets founders give extraordinary attention to every user, and word-of-mouth spreads faster in a dense community.
+**The Contained Fire.** Focus on a deliberately narrow market and make it white-hot. Facebook launched at Harvard only. The small market lets founders give extraordinary attention to every user, and word-of-mouth spreads faster in a dense community. This pattern directly enables [[Growth|growth]] through concentration ([Do things that don't scale](https://www.ycombinator.com/library/96-do-things-that-don-t-scale)).
 
-**Pulling a Meraki.** Named after Meraki (YC W06), who assembled their first routers by hand. Hardware startups can do manufacturing themselves initially, using the low-volume phase to learn what works before investing in factory production.
+**Pulling a Meraki.** Named after Meraki (YC W06), who assembled their first routers by hand. Hardware startups can do manufacturing themselves initially, using the low-volume phase to learn what works before investing in factory production. This is a [[Product Development|product development]] insight as much as a sales one ([Do things that don't scale](https://www.ycombinator.com/library/96-do-things-that-don-t-scale)).
 
-**The Consulting Model.** Pick one user and build as if you are their personal consultant. The custom work reveals what the product should become — the mold produces a reusable shape.
+**The Consulting Model.** Pick one user and build as if you are their personal consultant. The custom work reveals what the product should become — the mold produces a reusable shape. This approach connects to [[Sales and Distribution|sales]] at the earliest stage ([Do things that don't scale](https://www.ycombinator.com/library/96-do-things-that-don-t-scale)).
 
 ## When It Stops Applying
 
-Graham is clear that unscalable tactics are for the early stage. They are the crank that starts the engine. Once the engine is running (the startup has genuine product-market fit and organic growth), the focus shifts to scaling. But founders consistently err on the side of trying to scale too early, not too late.
+Graham is clear that unscalable tactics are for the early stage. They are the crank that starts the engine. Once the engine is running (the startup has genuine [[Growth|product-market fit]] and organic growth), the focus shifts to scaling. But founders consistently err on the side of trying to scale too early, not too late ([Do things that don't scale](https://www.ycombinator.com/library/96-do-things-that-don-t-scale)).
 
 ## Source Talks
 
 | Source | Speaker | Key Point |
 |--------|---------|-----------|
-| 96-do-things-that-don-t-scale | Paul Graham | The essay defining this framework |
+| [Do things that don't scale](https://www.ycombinator.com/library/96-do-things-that-don-t-scale) | Paul Graham | The essay defining this framework |
