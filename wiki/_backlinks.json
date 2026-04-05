@@ -1,13 +1,179 @@
 {
-  "Startup Ideas": ["Early-Stage Tactics", "Growth", "Founder Mindset", "Do Things That Don't Scale"],
-  "Early-Stage Tactics": ["Startup Ideas", "Growth", "Product-Market Fit", "Hiring", "Do Things That Don't Scale"],
-  "Growth": ["Early-Stage Tactics", "Product-Market Fit", "Fundraising", "Financial Survival", "Default Alive or Default Dead"],
-  "Fundraising": ["Growth", "Financial Survival", "Founder Mindset"],
-  "Financial Survival": ["Fundraising", "Hiring", "Growth", "Default Alive or Default Dead"],
-  "Hiring": ["Management", "Financial Survival", "Early-Stage Tactics", "Cofounders"],
-  "Management": ["Hiring", "Product Development"],
-  "Founder Mindset": ["Startup Ideas", "Early-Stage Tactics", "Cofounders", "Financial Survival"],
-  "Product Development": ["Early-Stage Tactics", "Growth", "Product-Market Fit"],
-  "Do Things That Don't Scale": ["Early-Stage Tactics", "Growth", "Startup Ideas"],
-  "Default Alive or Default Dead": ["Financial Survival", "Growth", "Hiring"]
+  "Startup Ideas": [
+    "Early-Stage Tactics",
+    "Growth",
+    "Founder Mindset",
+    "Do Things That Don't Scale",
+    "Pivoting",
+    "Becoming a Founder"
+  ],
+  "Early-Stage Tactics": [
+    "Startup Ideas",
+    "Growth",
+    "Product-Market Fit",
+    "Hiring",
+    "Do Things That Don't Scale",
+    "Launching",
+    "Talking to Users"
+  ],
+  "Growth": [
+    "Early-Stage Tactics",
+    "Product-Market Fit",
+    "Fundraising",
+    "Financial Survival",
+    "Default Alive or Default Dead",
+    "Analytics and Metrics",
+    "Launching"
+  ],
+  "Fundraising": [
+    "Growth",
+    "Financial Survival",
+    "Founder Mindset",
+    "Board Governance"
+  ],
+  "Financial Survival": [
+    "Fundraising",
+    "Hiring",
+    "Growth",
+    "Default Alive or Default Dead",
+    "Pricing"
+  ],
+  "Hiring": [
+    "Management",
+    "Financial Survival",
+    "Early-Stage Tactics",
+    "Cofounders",
+    "Equity and Compensation",
+    "Company Culture"
+  ],
+  "Management": [
+    "Hiring",
+    "Product Development",
+    "Cofounders",
+    "Company Culture"
+  ],
+  "Founder Mindset": [
+    "Startup Ideas",
+    "Early-Stage Tactics",
+    "Cofounders",
+    "Financial Survival",
+    "Becoming a Founder",
+    "Pivoting"
+  ],
+  "Product Development": [
+    "Early-Stage Tactics",
+    "Growth",
+    "Product-Market Fit",
+    "Talking to Users",
+    "Launching"
+  ],
+  "Do Things That Don't Scale": [
+    "Early-Stage Tactics",
+    "Growth",
+    "Startup Ideas",
+    "Launching"
+  ],
+  "Default Alive or Default Dead": [
+    "Financial Survival",
+    "Growth",
+    "Hiring"
+  ],
+  "Talking to Users": [
+    "Product-Market Fit",
+    "Product Development",
+    "Early-Stage Tactics",
+    "Startup Ideas",
+    "Pricing",
+    "Launching"
+  ],
+  "Launching": [
+    "Early-Stage Tactics",
+    "Growth",
+    "Product Development",
+    "Product-Market Fit",
+    "Sales and Distribution",
+    "Do Things That Don't Scale"
+  ],
+  "Pricing": [
+    "Growth",
+    "Sales and Distribution",
+    "Product-Market Fit",
+    "Financial Survival",
+    "Talking to Users"
+  ],
+  "Analytics and Metrics": [
+    "Product-Market Fit",
+    "Growth",
+    "Product Development",
+    "Pivoting"
+  ],
+  "Pivoting": [
+    "Startup Ideas",
+    "Product-Market Fit",
+    "Founder Mindset",
+    "Early-Stage Tactics",
+    "Analytics and Metrics"
+  ],
+  "Company Culture": [
+    "Hiring",
+    "Management",
+    "Cofounders",
+    "Founder Mindset"
+  ],
+  "Cofounders": [
+    "Hiring",
+    "Founder Mindset",
+    "Startup Ideas",
+    "Management",
+    "Equity and Compensation"
+  ],
+  "Sales and Distribution": [
+    "Growth",
+    "Early-Stage Tactics",
+    "Product Development",
+    "Pricing",
+    "Launching",
+    "Cofounders",
+    "Fundraising"
+  ],
+  "AI Startups": [
+    "Startup Ideas",
+    "Product-Market Fit",
+    "Sales and Distribution",
+    "Pricing",
+    "Growth",
+    "Early-Stage Tactics"
+  ],
+  "Becoming a Founder": [
+    "Founder Mindset",
+    "Cofounders",
+    "Startup Ideas",
+    "Equity and Compensation"
+  ],
+  "Product-Market Fit": [
+    "Growth",
+    "Product Development",
+    "Early-Stage Tactics",
+    "Startup Ideas",
+    "Talking to Users",
+    "Analytics and Metrics",
+    "Pivoting"
+  ],
+  "Biotech and Deep Tech": [
+    "Fundraising",
+    "Founder Mindset",
+    "Early-Stage Tactics",
+    "Equity and Compensation"
+  ],
+  "Board Governance": [
+    "Fundraising",
+    "Management",
+    "Financial Survival"
+  ],
+  "Equity and Compensation": [
+    "Hiring",
+    "Cofounders",
+    "Fundraising",
+    "Financial Survival"
+  ]
 }
