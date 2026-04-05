@@ -319,9 +319,9 @@ excited you are, and only pursue 7.5+ [3].
 ```
 ## References
 
-1. [How to Get Startup Ideas](https://www.ycombinator.com/library/8z-how-to-get-startup-ideas) — Paul Graham
-2. [The 18 Mistakes That Kill Startups](https://www.ycombinator.com/library/8t-the-18-mistakes-that-kill-startups) — Paul Graham
-3. [Where Do Great Startup Ideas Come From](https://www.ycombinator.com/library/DU-dalton-michael-where-do-great-startup-ideas-come-from) — Dalton Caldwell, Michael Seibel
+1. [How to Get Startup Ideas](https://www.ycombinator.com/library/8z-how-to-get-startup-ideas) — Paul Graham (November 2012)
+2. [The 18 Mistakes That Kill Startups](https://www.ycombinator.com/library/8t-the-18-mistakes-that-kill-startups) — Paul Graham (October 2006)
+3. [Where Do Great Startup Ideas Come From](https://www.ycombinator.com/library/DU-dalton-michael-where-do-great-startup-ideas-come-from) — Dalton Caldwell, Michael Seibel (2022)
 ```
 
 **Why this format:**
@@ -379,16 +379,22 @@ The viewer is intentionally simple — navigation, search, and article rendering
 
 ## Feedback and Standards Evolution
 
-This file is a living document. As the wiki is built and queried, patterns emerge about what works and what doesn't. When feedback is given about absorption quality — articles too thin, missing images, links not preserved, speaker attribution wrong — the relevant standards in this file should be updated.
+**This file auto-updates with every piece of user feedback.** When the user identifies a problem, requests a change, or points out an inconsistency — the relevant principle or standard in this file MUST be updated immediately, in the same response. Do not wait for the user to ask for it. Do not treat feedback as a one-time fix. Every fix becomes a permanent standard so the same issue never recurs.
 
-Current evolved standards (from feedback during initial absorption):
-- **Preserve images from blog posts** — they are content, not decoration. Reference them with markdown image syntax.
-- **Preserve hyperlinks from source material** — if a blog post links to a tool, paper, or related post, that link belongs in the wiki article.
-- **Articles should be rich enough to replace reading the source** — if an agent has to click through to raw/ to understand a point, the article has failed.
-- **People are graph nodes** — create person pages, not just inline mentions.
-- **Directories emerge freely** — don't force content into existing categories. Create new directories when the data demands it.
+This is non-negotiable. If the user says "footnotes should scroll to references," update the Rendering Standards section. If the user says "dates should be in references," update the References section. If the user says "images are missing," update the Extraction standards. The feedback loop is: user identifies issue → fix the issue → update AGENTS.md so it never happens again.
 
-When new feedback arrives, add it to this section and update the relevant standards above. This ensures every absorption run benefits from all prior feedback.
+### Current Evolved Standards
+
+From feedback during build:
+- **Preserve images from raw sources** — they are content, not decoration. Extract images during scraping. Reference them in wiki articles with markdown image syntax.
+- **Preserve external hyperlinks from source material** — if a source links to a tool, paper, or related post, that link belongs in the wiki article.
+- **Articles must be rich enough to replace reading the source** — if an agent has to follow a source link to understand a point, the article has failed.
+- **People are first-class graph nodes** — create person pages, not just inline mentions.
+- **Directories emerge freely** — don't force content into existing categories.
+- **Graph propagation is mandatory** — every absorption must update all connected nodes. No orphan pages, no broken links, no stale cross-references.
+- **Extract all available metadata during ingestion** — dates, authors, tags, images, links, duration. Store in frontmatter even if not immediately used. Having the data available is better than needing to re-scrape.
+- **References must include publication dates** — format: `1. [Source Title](URL) — Speaker Name (Month Year)`. Dates provide temporal context for advice that may evolve.
+- **Viewer must be fully dynamic** — no hardcoded article lists, categories, or slugs. Everything renders from the data. New articles automatically appear everywhere.
 
 ## Source Material
 

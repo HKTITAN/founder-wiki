@@ -247,6 +247,7 @@ async function loadArticles() {
   } catch(e) { console.error('Failed to load articles.json', e); }
   buildSidebar();
   showHome();
+  handleInitialRoute();
 }
 
 function buildSidebar() {
@@ -288,7 +289,11 @@ function buildSidebar() {
   sidebar.innerHTML = html;
 }
 
-function showHome() {
+function showHome(fromPopState) {
+  if (!fromPopState) {
+    history.pushState({}, 'Founder Wiki', '#');
+  }
+  document.title = 'Founder Wiki';
   const content = document.getElementById('content');
 
   // Dynamically group ALL articles by directory
@@ -361,9 +366,23 @@ function showHome() {
   document.querySelectorAll('.sidebar a').forEach(a => a.classList.remove('active'));
 }
 
-function navigateTo(slug) {
+// Handle initial load from URL hash
+function handleInitialRoute() {
+  const hash = window.location.hash.slice(1);
+  if (hash && ARTICLES[hash]) {
+    navigateTo(hash);
+  }
+}
+
+function navigateTo(slug, fromPopState) {
   const article = ARTICLES[slug];
   if (!article) { console.warn('Article not found:', slug); return; }
+
+  // Push browser history (unless triggered by back/forward)
+  if (!fromPopState) {
+    history.pushState({ slug }, article.title, `#${slug}`);
+  }
+  document.title = `${article.title} — Founder Wiki`;
 
   // Article meta line
   let metaLine = '<div class="article-meta-line">';
@@ -392,15 +411,30 @@ function navigateTo(slug) {
   let rendered = marked.parse(article.body);
   rendered = processWikilinks(rendered);
 
-  // Convert [1] footnote markers to superscript links
-  rendered = rendered.replace(/\[(\d+)\]/g, (m, num) => {
-    return `<a class="footnote-ref" href="#ref-${num}" title="See reference ${num}">[${num}]</a>`;
-  });
-
-  // Add anchor IDs to references section items (1. [Title](...) format)
-  rendered = rendered.replace(/<li>(\d+)\.\s/g, (m, num) => {
-    return `<li id="ref-${num}">${num}. `;
-  });
+  // Convert [1] footnote markers to superscript links (only in body, not in References section)
+  const refsSplit = rendered.split(/<h2[^>]*>References<\/h2>/i);
+  if (refsSplit.length === 2) {
+    let body = refsSplit[0];
+    let refs = refsSplit[1];
+    // Superscript footnotes in body only
+    body = body.replace(/\[(\d+)\]/g, (m, num) => {
+      return `<a class="footnote-ref" href="#ref-${num}" onclick="event.preventDefault(); document.getElementById('ref-${num}')?.scrollIntoView({behavior:'smooth', block:'center'})">[${num}]</a>`;
+    });
+    // Add anchor IDs to reference list items
+    refs = refs.replace(/<li>\s*(\d+)\./g, (m, num) => {
+      return `<li id="ref-${num}">${num}.`;
+    });
+    // Also handle <p>1. format (when marked renders as paragraphs not list)
+    refs = refs.replace(/<p>(\d+)\.\s/g, (m, num) => {
+      return `<p id="ref-${num}">${num}. `;
+    });
+    rendered = body + '<h2 id="references">References</h2>' + refs;
+  } else {
+    // No References section found — still convert footnotes
+    rendered = rendered.replace(/\[(\d+)\]/g, (m, num) => {
+      return `<a class="footnote-ref" href="#ref-${num}" onclick="event.preventDefault(); document.getElementById('ref-${num}')?.scrollIntoView({behavior:'smooth', block:'center'})">[${num}]</a>`;
+    });
+  }
 
   // Add IDs to h2 for TOC linking
   rendered = rendered.replace(/<h2>(.*?)<\/h2>/g, (m, text) => {
@@ -461,6 +495,15 @@ function onSearch(query) {
 document.addEventListener('click', e => {
   if (!e.target.closest('.search-bar')) {
     document.getElementById('searchResults').classList.remove('active');
+  }
+});
+
+// Browser history support — back/forward buttons work
+window.addEventListener('popstate', (e) => {
+  if (e.state && e.state.slug) {
+    navigateTo(e.state.slug, true); // true = don't push state again
+  } else {
+    showHome(true);
   }
 });
 
