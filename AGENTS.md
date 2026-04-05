@@ -287,6 +287,89 @@ There are no maximum length targets. An article is as long as it needs to be to 
 
 Minimums still apply — don't create stub pages with fewer than 20 lines of real content. If there isn't enough material for a substantive page, fold the content into a broader article.
 
+## Rendering Standards
+
+The wiki is **agent-first, human-readable**. The markdown files are the product — they must be fully useful to an agent via CLI or API without any viewer. The Wikipedia-style viewer is a visualization layer on top. If the viewer broke, the wiki should still be completely functional.
+
+This means: optimize the markdown structure for agent navigation (clean frontmatter, consistent headings, reliable wikilink patterns, parseable reference sections). The viewer renders what the markdown already expresses — it doesn't add information.
+
+### Citations: Wikipedia-Style Footnotes
+
+Use numbered footnote references in the article body, with a References section at the bottom.
+
+**In the body:**
+```
+Graham argues that the way to get startup ideas is not to try to think of them,
+but to notice problems — especially your own [1]. The verb is "notice," not
+"think up." Organic ideas grown from the founder's own experience are almost
+always stronger than ideas generated on demand [1].
+
+Caldwell extends this with a scoring system: rate each idea 1-10 on how
+excited you are, and only pursue 7.5+ [3].
+```
+
+**At the bottom (References section):**
+```
+## References
+
+1. [How to Get Startup Ideas](https://www.ycombinator.com/library/8z-how-to-get-startup-ideas) — Paul Graham
+2. [The 18 Mistakes That Kill Startups](https://www.ycombinator.com/library/8t-the-18-mistakes-that-kill-startups) — Paul Graham
+3. [Where Do Great Startup Ideas Come From](https://www.ycombinator.com/library/DU-dalton-michael-where-do-great-startup-ideas-come-from) — Dalton Caldwell, Michael Seibel
+```
+
+**Why this format:**
+- Numbered references are scannable — an agent or human can quickly see how many sources support a claim.
+- The References section doubles as a bibliography — it shows at a glance every source that contributed, who spoke, and links to the original.
+- Inline attribution ("Graham argues...") provides the human voice. The footnote number provides the provenance. Both work together.
+
+**Rules:**
+- Every factual claim, specific example, or direct quote must have a footnote number.
+- The same source can be referenced multiple times with the same number.
+- References are numbered in order of first appearance in the article.
+- Each reference entry includes: linked title, URL, and speaker/author name(s).
+- Speaker names in references should link to their person page if one exists.
+
+### References Section (Replaces Source Talks Table)
+
+The old Source Talks table is replaced by the References section described above. This is more Wikipedia-standard and serves both audiences better:
+
+- **For agents:** parseable numbered list with URLs and speaker names.
+- **For humans:** a clean bibliography at the bottom of every article.
+
+The References section format:
+```
+## References
+
+1. [Source Title](URL) — Speaker Name, Speaker Name
+2. [Source Title](URL) — Speaker Name
+```
+
+Group by number, not by speaker. The numbering matches the inline `[1]` `[2]` references in the body text.
+
+### Article Rendering Structure
+
+Every article, when rendered, should have these visual sections (in order):
+
+1. **Title** (h1)
+2. **Metadata line** — article type, key speakers, source count
+3. **Table of Contents** — auto-generated from h2 headings, numbered, Wikipedia-style box
+4. **Body** — the article content with inline `[1]` citations and `[[wikilinks]]`
+5. **References** — numbered list of all sources cited
+6. **Backlinks** — auto-generated list of "Pages that link here"
+
+### Wikilink Rendering
+
+`[[Article Title]]` renders as a clickable link to that article. `[[Article Title|display text]]` renders with custom display text. Dead links (referencing articles that don't exist yet) should render in red — this signals gaps in the wiki that need to be filled.
+
+### Viewer Principles
+
+The viewer is intentionally simple — navigation, search, and article rendering. No interactive features beyond these for now. The architecture supports future additions (graph view, query interface) because the underlying data (wikilinks, backlinks, rich index) is already structured for them.
+
+- **Home page:** Browse by category (categories emerge from the graph, reflected in `_index.md`)
+- **Article pages:** Table of Contents, body with rendered wikilinks and citations, References, Backlinks
+- **Search:** Matches against titles, aliases, and body text
+- **Sidebar:** Navigation organized by the categories in `_index.md`
+
 ## Feedback and Standards Evolution
 
 This file is a living document. As the wiki is built and queried, patterns emerge about what works and what doesn't. When feedback is given about absorption quality — articles too thin, missing images, links not preserved, speaker attribution wrong — the relevant standards in this file should be updated.
