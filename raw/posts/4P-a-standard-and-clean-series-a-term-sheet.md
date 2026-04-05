@@ -31,6 +31,8 @@ see most often. Founders with a lot of negotiating leverage can sometimes do bet
 
 [You can also download the Word version of the doc from this page.](https://www.ycombinator.com/series_a_term_sheet/)
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.

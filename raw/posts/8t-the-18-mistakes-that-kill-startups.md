@@ -5,6 +5,7 @@ type: post
 url: https://www.ycombinator.com/library/8t-the-18-mistakes-that-kill-startups
 author: "Paul Graham"
 categories: []
+date: "2006-10"
 description: "YC's Paul Graham on the biggest mistakes for startups: not making something users want."
 ---
 

@@ -5,6 +5,7 @@ type: post
 url: https://www.ycombinator.com/library/8s-startup-growth
 author: "Paul Graham"
 categories: []
+date: "2012-09"
 description: "A startup is a company designed to grow fast. Everything else we associate with startups follows from growth."
 ---
 
@@ -204,6 +205,8 @@ imagination of growth. [9]
 
 It's hard to find something that grows consistently at several percent a week, but if you do you may have found
 something surprisingly valuable. If we project forward we see why.
+
+![uploaded image](images/8s-startup-growth/03a34df22371.png)
 
 A company that grows at 1% a week will grow 1.7x a year, whereas a company that grows at 5% a week will grow 12.6x. A
 company making $1000 a month (a typical number early in YC) and growing at 1% a week will 4 years later be making $7900

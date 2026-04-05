@@ -45,6 +45,8 @@ e-commerce. Social shopping is particularly important for categories where consu
 from friends. Pinduoduo is one of the first companies to successfully create a social shopping experience online, and
 has accelerated the transition of commerce from offline to online in China.
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.
@@ -65,6 +67,8 @@ purchase, he or she may use social platforms such as WeChat to proactively encou
 more passively wait for other buyers to join the purchase on the Pinduoduo (Pinduoduo) platform (3.2). A team needs to
 be formed within 24 hours to have the order confirmed. Once a team is formed, the purchase is confirmed and the product
 is shipped within 48 hours.
+
+![](images/2z-pinduoduo-and-the-rise-of-social-e-commerce/22cf244a2ed3.jpg)
 
 Nearly all Pinduoduo transactions are completed using team purchase. In the early days, the size of many groups was
 large (e.g., 10+), but as Pinduoduo has scaled the group size requirements have declined. Team purchase is beneficial to
@@ -131,6 +135,8 @@ The daily check-in is a simple yet brilliant feature that encourages users to en
 While each check-in does not generate revenue for Pinduoduo, the product experience eventually ties back to commerce
 if/when users redeem their vouchers. This theoretically should yield a higher customer lifetime value for Pinduoduo.
 
+![](images/2z-pinduoduo-and-the-rise-of-social-e-commerce/e621e756cab8.png)
+
 **Price Chop**
 
 Price Chop is a feature that allows users to get products for free by sharing a custom link with their friends. The
@@ -151,6 +157,8 @@ an order on the commerce platform. But unlike Daily Check-In, Price Chop incenti
 their social network. So in addition to increasing customer lifetime value, Price Chop also helps Pinduoduo efficiently
 acquire customers via user-user sharing of the product.
 
+![](images/2z-pinduoduo-and-the-rise-of-social-e-commerce/bf7bb9afff8b.png)
+
 **Card Program**
 
 Pinduoduo’s card program is designed to encourage users to share the product amongst friends and to save money via
@@ -161,10 +169,14 @@ Brand Card, and the Brand Card.
 The Free Pass Card is similar to a loyalty program where users can enjoy a “team purchase discount” without having to
 join a team. Users usually get one Free Pass Card after making two purchases on Pinduoduo.
 
+![](images/2z-pinduoduo-and-the-rise-of-social-e-commerce/cb1438a37151.png)
+
 The Brand Black Card encourages users to leave reviews on the platform by offering them a discount on branded products
 in return. Pinduoduo gives users a Brand Black Card after they have posted 2 - 4 reviews on the website. This is
 important as consumers rely on reviews and recommendations from previous buyers when making purchase decisions. The
 Brand Black Card incentivizes a good user behavior that makes the platform better for the entire user base.
+
+![](images/2z-pinduoduo-and-the-rise-of-social-e-commerce/6ed39bc1ed0c.png)
 
 The Brand Card aims to promote Pinduoduo’s branded products. Consumers get a Brand Card after they have made a purchase
 on Pinduoduo. They can share their brand cards with friends via WeChat, to attract their friends to browse and buy
@@ -174,6 +186,8 @@ normally buy because the recommendation/card was sent to them by a trusted frien
 This is also important because Pinduoduo has historically been used to primarily buy non-branded products. The Brand
 Card is an effective incentive mechanism to increase Pinduoduo’s branded product market share in China.
 
+![](images/2z-pinduoduo-and-the-rise-of-social-e-commerce/e18ba1c6e7bf.png)
+
 **Mini Games**
 
 Pinduoduo wants users to engage with the platform as often as possible, and they want the experience to mimic real-world
@@ -182,6 +196,8 @@ purchase. Pinduoduo now hosts in-app games to help drive up daily time spent on 
 Pinduoduo was Duo Duo Orchard. Think of Farmville except now the rewards are real physical goods. The game is simple – a
 user creates and nurtures a virtual fruit tree to eventually yield a real box of fruit shipped to his or her address. It
 already has more than 11M DAUs!
+
+![](images/2z-pinduoduo-and-the-rise-of-social-e-commerce/b33c6dcf07c3.png)
 
 Though not multiplayer, Orchard has social cooperation aspects that drive up network engagement as well. Once users
 choose a tree to create (e.g., mango, lemon, macadamia nut), they need to nurture the tree with water and fertilizer.

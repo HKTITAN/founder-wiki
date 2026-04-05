@@ -5,6 +5,7 @@ type: post
 url: https://www.ycombinator.com/library/8z-how-to-get-startup-ideas
 author: "Paul Graham"
 categories: []
+date: "2012-11"
 description: "The very best startup ideas tend to have three things in common: they're something the founders themselves want, that they themselves can build, and that few others realize are worth doing."
 ---
 

@@ -5,6 +5,7 @@ type: post
 url: https://www.ycombinator.com/library/98-how-to-convince-investors
 author: "Paul Graham"
 categories: []
+date: "2013-08"
 description: "You need three things: formidable founders, a promising market, and some evidence of success so far."
 ---
 

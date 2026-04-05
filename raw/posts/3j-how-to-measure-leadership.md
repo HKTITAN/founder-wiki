@@ -44,6 +44,8 @@ hard to achieve. If your employees are confused about your mission and strategy,
 credible, they will not follow you with the focus and determination necessary to
 succeed.[1](#footnote1)
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.

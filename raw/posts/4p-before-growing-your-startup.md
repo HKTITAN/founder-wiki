@@ -25,6 +25,8 @@ Facebook, for example, had a product people talked about obsessively from the st
 discovering how to make their product loved. Once they had that, it grew exponentially by word of mouth, and that still
 continues today.
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.

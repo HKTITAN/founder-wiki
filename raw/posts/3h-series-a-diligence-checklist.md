@@ -129,6 +129,8 @@ avoid a morale issue. Since you cannot control the exact timing of when you rece
 do is to make sure there isn't a significant backlog of equity grants while you are in the middle of your fundraise
 process.
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.

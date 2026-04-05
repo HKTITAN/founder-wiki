@@ -8,6 +8,8 @@ categories: ["Becoming a Founder", "College Students", "Working at a Startup"]
 description: "The guide is informed by hundreds of hours of talks, blog posts and essays we've written for students who are interested in starting or working at startups. We talk about why (and why not) you should start a startup, what to do in college if you're interested in starting a company, and how to choose which startup to work for."
 ---
 
+![](images/D0-startups-for-students/46c8ea2d948a.png)
+
 **Introduction**
 
 In his 2007 essay “[Why to Not Not Start a Startup](http://www.paulgraham.com/notnot.html),” YC co-founder Paul Graham
@@ -26,6 +28,8 @@ While it has become more common for people around the world to start startups, t
 startups as an option. For example, lots of folks choose a career in finance or as an engineer at a big company without
 considering other options. Whether you know you want to become a founder or are more interested in finding a job at a
 startup, we want to equip you with the best resources for getting started.
+
+
 
 # What is Y Combinator?
 
@@ -55,9 +59,15 @@ To determine if a startup is right for you, Michael recommends asking yourself t
 
 **Do I like being the underdog?**
 
+![](images/D0-startups-for-students/d9c16f8bc457.png)
+
 **Do I seek hard challenges most people shy away from?**
 
+![](images/D0-startups-for-students/44c264daed4b.png)
+
 **Do I thrive taking personal responsibility for success or failure?**
+
+![](images/D0-startups-for-students/a5251390ea08.png)
 
 “If you answer yes three times, then maybe starting a startup is for you,” he writes. “I cannot promise that doing a
 tech startup will make you rich but I can promise that it is one of the most challenging things you can choose to do.”
@@ -99,11 +109,15 @@ the best ways to prepare to start a company while you’re in school.
 
 **It’s Difficult**
 
+![](images/D0-startups-for-students/9be0ca6c5559.png)
+
 Building a company from scratch is mentally and emotionally taxing, and it’s usually too much for one person to manage.
 The odds are against you too — as we mentioned before, nine out of 10 startups fail in their first year — and the ones
 that do succeed face immense challenges.
 
 **You Have No Co-Founder**
+
+![](images/D0-startups-for-students/a9f3cc80898a.png)
 
 If you look at YC’s [top companies](https://www.ycombinator.com/topcompanies) list, only 7.9 percent were founded by
 solo founders. A co- founder not only gives you someone to split tasks with, but also helps you bear the emotional
@@ -134,6 +148,8 @@ At a startup, there is no clear linear path to success. If the idea of uncertain
 
 ## **3. Bad Reasons For Not Starting a Startup**
 
+![](images/D0-startups-for-students/cffa58eb62a5.png)
+
 At Y Combinator [we put more emphasis on the team than the
 idea](https://www.ycombinator.com/library/6p-all-about-pivoting) because time and time again we’ve seen companies pivot
 after they discovered a newer, more urgent problem to solve. Reddit, Brex, and Segment were all accepted into YC as
@@ -148,6 +164,8 @@ If you’re unsure of an idea to work on, we have the following resources to hel
 
 **Your Parents Want You** **to Get a Real Job**
 
+![](images/D0-startups-for-students/484b0ca670cd.png)
+
 Parental pressure seems like less of a problem for startup founders (at least in the US) today than it was a decade ago.
 When *The Social Network* came out in 2012, YC got a massive spike in applications. We sometimes joke that *The Social
 Network* was the cultural inflection point where parents realized startups could be a viable and lucrative career
@@ -159,6 +177,8 @@ AI](https://www.businessofbusiness.com/articles/scale-ai-machine-learning-startu
 founded by people in their 20s, are all massively successful and now worth billions of dollars.
 
 **You Have Student Loans**
+
+![](images/D0-startups-for-students/8d53a67af700.png)
 
 It’s not impossible to start a company if you have a lot of student debt. But it is a lot harder. Having large student
 loan payments every month certainly makes a well paying job at a big company more enticing. And once you have steady
@@ -178,6 +198,8 @@ might just become the next Airbnb, DoorDash, or Coinbase.)
 Here’s the best way to gain that experience.
 
 **Visit YC’s Work at a Startup**
+
+![](images/D0-startups-for-students/f531600f5a92.png)
 
 YC’s [Work at a Startup](https://www.workatastartup.com/jobs) helps you apply to multiple startups with the same resume
 and also allows founders to get in touch with you directly if they think your skills might be a good fit for a role. If
@@ -259,6 +281,8 @@ batch](https://www.ycombinator.com/apply/) of Y Combinator.
 
 **Why Y Combinator?**
 
+![](images/D0-startups-for-students/80814d76ba9d.png)
+
 **Lifetime Support**
 
 The Y Combinator program doesn't end on demo day. We continue to assist founders from idea through IPO and beyond. YC
@@ -270,6 +294,8 @@ companies](https://blog.ycombinator.com/growth-stage-program/), and hire an exec
 to a certain level, we may [invest in later stage rounds](https://www.ycombinator.com/continuity/).
 
 **Community**
+
+![](images/D0-startups-for-students/9323f3f01eff.png)
 
 Y Combinator boasts the strongest and deepest founder community in the world. For the 6,000+ YC alumni, there’s always
 someone to help guide them through every stage of their business; and with over 3,000 companies funded, founders have a
@@ -283,6 +309,8 @@ need to be well connected in the tech or investment world to be accepted. Our te
 everything from growth strategies to overcoming technical hurdles to communicating with press and media.
 
 **Secret Resources**
+
+![](images/D0-startups-for-students/7e15062bf05c.png)
 
 Some of the lesser known advantages to being part of Y Combinator are access to the massive, vibrant YC alumni network,
 the YC-only hiring platform, [Work at a Startup](http://workatastartup.com/), plus better deals and more customers.
@@ -399,14 +427,20 @@ three skills in college will undoubtedly help in a career as a founder later on.
 
 **Coding**
 
+![](images/D0-startups-for-students/10632a9c7436.png)
+
 Learn to code and become friends with technical folks. You can’t build a software enabled company without software.
 
 **Communication**
+
+![](images/D0-startups-for-students/0bca996d9d8e.png)
 
 Learn to convey your ideas clearly and simply. Think of it this way: even if you’re working on something enormously
 complex you have to be able to explain it in a way your grandparents will understand.
 
 **People Skills**
+
+![](images/D0-startups-for-students/120ad55c4ad4.png)
 
 Build your network. Meet potential co-founders. Gain a deeper understanding of what people's needs are. As a founder,
 it’s crucial to talk to users so you can better solve their problems.
@@ -441,9 +475,13 @@ companies to see how the founders connected with each other. Here’s the breakd
 
 **YC’s TOP COMPANIES (68 entries)**
 
+![](images/D0-startups-for-students/1aff28277a9a.png)
+
 We also looked at how women met their co-founders >>
 
 **WOMEN FOUNDERS (78 entries)**
+
+![](images/D0-startups-for-students/424fb2045038.png)
 
 \**A good way to get started is working on projects or extracurricular activities with your classmates.*
 

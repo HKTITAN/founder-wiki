@@ -69,6 +69,8 @@ Let’s break this down:
 
 ### **Title (1 slide)**
 
+![](images/8d-how-to-build-a-great-series-a-pitch-and-deck/cd9e75fb29a3.png)
+
 Your title slide should list your company name or logo and a one sentence description of what you do. Anyone reading
 your one-liner should immediately be able to picture what you do in their head. This means it should be:
 
@@ -83,8 +85,12 @@ your one-liner should immediately be able to picture what you do in their head. 
 
 ### **Traction (teaser, 1 slide)**
 
+![](images/8d-how-to-build-a-great-series-a-pitch-and-deck/332f6e6e9236.png)
+
 At every point during your pitch, investors are going to be evaluating whether you are worth their time. Putting this
 slide early grabs the investor’s attention and convinces them that your presentation is worth listening closely to.
+
+
 
 # What is Y Combinator?
 
@@ -97,6 +103,8 @@ the past 2 years, we’ve reached 500k WAU growing at 20% m/m.”) and transitio
 people need this product is that smoking is the leading cause of lung cancer…”).
 
 ### **Problem (1 slide)**
+
+![](images/8d-how-to-build-a-great-series-a-pitch-and-deck/085dc4c55fa0.png)
 
 Outline the problem you’re solving. How does the world currently work for your customers, and what’s wrong with it?
 
@@ -134,6 +142,8 @@ happens in a concrete and specific way.
   which takes Y months of delay in reimbursement and results in only Z% of claims being approved…”
 
 ### **Solution (1 slide)**
+
+![](images/8d-how-to-build-a-great-series-a-pitch-and-deck/370a5e22f179.png)
 
 Now that you’ve described how the world works, explain what you do and how it changes the way the world works. What do
 you do to fix the problem you just outlined?
@@ -173,9 +183,15 @@ enough of what the product does to show how it solves your customer’s problem 
 
 **Traction 1:**
 
+![](images/8d-how-to-build-a-great-series-a-pitch-and-deck/640eef18689a.png)
+
 **Traction 2:**
 
+![](images/8d-how-to-build-a-great-series-a-pitch-and-deck/da6a80b9b987.png)
+
 **Traction 3:**
+
+![](images/8d-how-to-build-a-great-series-a-pitch-and-deck/68429506ddb5.png)
 
 Your numbers should tell a story. The story should start with the most important metric to investors. If you have
 revenue, this should be revenue. When you present revenue, make sure you explain how you earn that revenue - i.e. your
@@ -244,6 +260,8 @@ need to have to have more to show for it.
 
 ### **Market (1 slide)**
 
+![](images/8d-how-to-build-a-great-series-a-pitch-and-deck/24ae1bce2667.png)
+
 Show how big of an opportunity you’re tackling. We usually suggest a bottoms-up calculation. A general formula for this
 is:
 
@@ -258,10 +276,14 @@ that you can pattern match against.
 
 ### **Competition (1 slide)**
 
+![](images/8d-how-to-build-a-great-series-a-pitch-and-deck/2eff98b228dc.png)
+
 Show why you’re 10x better than everyone else trying to do what you’re trying to do. The key here is to convince the
 investor that you have a high enough moat to make your business defensible against competitors.
 
 ### **Vision (1 slide)**
+
+![](images/8d-how-to-build-a-great-series-a-pitch-and-deck/0831048590eb.png)
 
 Show how you become a $10B company. This is a thought exercise we used to make all of the companies in our Series A
 program do to expand their ambition as much as possible. Here’s where you can dream and talk about all of the
@@ -270,6 +292,8 @@ your credibility by demonstrating the incredible business you’ve already creat
 investors are more likely to believe you.
 
 ### **Team (1 slide)**
+
+![](images/8d-how-to-build-a-great-series-a-pitch-and-deck/169ca6b8734c.png)
 
 If your team is one of your comparative advantages, then this should be your second or third slide. A team is a
 comparative advantage if:
@@ -297,6 +321,8 @@ your round. If the answer is yes, then why are you giving the pitch? If the answ
 could be a negative signal. In general, best to leave those logos off.
 
 ### **Use of Funds (1 slide)**
+
+![](images/8d-how-to-build-a-great-series-a-pitch-and-deck/1c1028d09c46.png)
 
 The ask is the climax of your whole deck. It’s what everything else has been building towards, so be sure to include it
 (weirdly, I’ve seen many decks without one). It should cover how much you are raising, what you will use it for (on a

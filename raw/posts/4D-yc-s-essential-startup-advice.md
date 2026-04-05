@@ -52,6 +52,8 @@ founders manage to avoid tackling these sorts of problems and focus on other thi
 it tends to be more fun than real work ([The Post YC Slump](http://blog.samaltman.com/the-post-yc-slump) by Sam
 Altman[4](#footnote4)).
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.

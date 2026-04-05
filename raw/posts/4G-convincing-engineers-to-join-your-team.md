@@ -38,6 +38,8 @@ get an engineer's perspective on the importance of speed and responsiveness in t
 responsive seems like obvious advice and yet we still see companies move slowly and miss out on good people. There's two
 reasons this happens.
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.

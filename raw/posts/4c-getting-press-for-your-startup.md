@@ -75,6 +75,8 @@ the YC founder network is super helpful for these. The reporter you want to meet
 you know. Have them intro you. Proper etiquette is to ask your friend for an intro to only one reporter. If you aren’t a
 YC founder, make friends with other startups and reach out to your startup community for warm intros.
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.

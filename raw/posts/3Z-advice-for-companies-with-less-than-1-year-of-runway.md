@@ -27,6 +27,8 @@ revenue more quickly, cut costs, or both.
 
 Founders can get caught in a thought cycle which causes inaction and an inability to fix the situation they are in.
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.
@@ -46,6 +48,8 @@ Here are some common counter-productive ideas:
 Don't let these ideas be the justification(s) for why you choose to remain Default Dead.
 
 **Understand your leverage in a negotiation**
+
+![runwaygraph](images/3Z-advice-for-companies-with-less-than-1-year-of-runway/a8feb33288f6.png)
 
 What can we learn from the above graph?
 

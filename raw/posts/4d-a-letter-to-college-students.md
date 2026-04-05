@@ -60,6 +60,8 @@ I wish my college dean had given this advice to me during freshman year, instead
 stuff I had to endure. Good luck out there, and remember that if you are between the ages of 22 and 32 you are in your
 best startup years. Every year you are not doing a startup you are losing 10% of this prime time.
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.

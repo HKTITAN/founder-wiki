@@ -5,6 +5,7 @@ type: post
 url: https://www.ycombinator.com/library/96-do-things-that-don-t-scale
 author: "Paul Graham"
 categories: []
+date: "2013-07"
 description: "Startups take off because the founders make them take off. Almost all startups are fragile initially. It's important to recruit users manually."
 ---
 

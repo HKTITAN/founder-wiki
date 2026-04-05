@@ -33,6 +33,8 @@ industry, we won’t spend much time on board composition in this post, but the 
 lead your Series A and Series B rounds will typically join the board (later-stage growth stage investors don’t tend to
 ask for board seats).
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.

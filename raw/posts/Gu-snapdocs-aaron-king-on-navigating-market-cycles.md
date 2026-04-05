@@ -34,6 +34,8 @@ There were always a hundred distractions that would result in a broader, less fo
 constraints kept us focused on going deep with our paying customers. That helped us avoid the common trap of building
 products no one wanted.
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.

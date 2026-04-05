@@ -149,6 +149,8 @@ take maker duties off of their plate.
 years. Work with them to put together a plan, help them get the skills and experience they need, and guide them on a
 course to get there.
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.

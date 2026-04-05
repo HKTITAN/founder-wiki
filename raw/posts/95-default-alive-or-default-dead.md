@@ -5,6 +5,7 @@ type: post
 url: https://www.ycombinator.com/library/95-default-alive-or-default-dead
 author: "Paul Graham"
 categories: []
+date: "2015-10"
 description: "Assuming expenses remain constant and revenue growth continues on trend, will your company make it to profitability on the money you have left? Are you default alive or dead?"
 ---
 

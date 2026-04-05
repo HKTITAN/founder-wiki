@@ -5,6 +5,7 @@ type: post
 url: https://www.ycombinator.com/library/9M-billionaires-build
 author: "Paul Graham"
 categories: []
+date: "2020-12"
 description: "YC's Paul Graham shares advice for acing the YC interview."
 ---
 

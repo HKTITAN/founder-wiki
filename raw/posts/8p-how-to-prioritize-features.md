@@ -97,6 +97,8 @@ artists who livestreamed elsewhere online to understand what their needs were. S
 roadmap, rather than a metric driven Three Numbers Matter approach. As the category grows, we have begun to identify the
 set of metrics that matter most for us and we will begin to transition towards Three Numbers Matter instead.
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.

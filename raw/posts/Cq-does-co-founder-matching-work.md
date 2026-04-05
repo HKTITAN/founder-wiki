@@ -21,9 +21,13 @@ launching credit cards like the Chase Sapphire Reserve at Visa to work on a prod
 spent a year working as a solo founder, and, in that time, raised a pre-seed and built an MVP. She knew she needed a
 technical co-founder who was mission driven, had fintech expertise, and was in it for the long haul.
 
+![](images/Cq-does-co-founder-matching-work/63c573fdda7e.jpeg)
+
 That person was Mark Thomas. He had ten years of engineering experience at Paypal, cared deeply about gender equity, and
 spent six years as CTO of family-oriented startups. They had an instant connection and arranged to meet in person soon
 after. Vrinda recalls, “We met the day after we matched, and the day after, and then the day after that.”
+
+
 
 # What is Y Combinator?
 
@@ -37,6 +41,8 @@ $5.7M](https://www.forbes.com/sites/geristengel/2021/09/15/debit-card-startup-bu
 [**Kiwi Biosciences**](https://www.kiwibiosciences.com/) (YC S21) has a similar story. Anjie Liu started the company to
 solve her own pains with irritable bowel syndrome. She had a founding scientist to tackle R&D, but wanted a co-founder
 to help her build a consumer brand and commercialize the product.
+
+![](images/Cq-does-co-founder-matching-work/39a4837470e0.jpeg)
 
 When Anjie saw David Hachuel’s profile on YC co-founder matching, she knew that he was “exactly what [she] was looking
 for.” David had previously sold a startup in the same space, and was immediately interested in her idea.

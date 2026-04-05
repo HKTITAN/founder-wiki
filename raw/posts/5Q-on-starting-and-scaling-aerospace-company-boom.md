@@ -37,6 +37,8 @@ airliner, the DC-3, and the first jetliner, the De Havilland Comet, were all cre
 founders. The last new commercial aircraft company was founded 1921. The last founder retired from the industry in 1958,
 which, coincidentally or not, was also the year we had the first jetliner.
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.

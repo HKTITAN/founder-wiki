@@ -5,6 +5,7 @@ type: post
 url: https://www.ycombinator.com/library/93-a-student-s-guide-to-startups
 author: "Paul Graham"
 categories: []
+date: "2006-10"
 description: "The pros and cons of starting a startup in (or soon after) college. Pros: stamina, poverty, rootlessness, colleagues, ignorance. Cons: building stuff that looks like class projects."
 ---
 

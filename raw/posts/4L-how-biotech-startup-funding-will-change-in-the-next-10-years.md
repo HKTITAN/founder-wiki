@@ -31,6 +31,8 @@ Because they had a lock on the funding market, they asked for onerous financial 
 favored executives. The only model of institutional seed funding was the “business incubator” model, where VC firms
 would fund well-connected founders they knew and incubate them in their office.
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.

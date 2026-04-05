@@ -42,6 +42,8 @@ When applying to a position, be sure to suggest ways you’d be excited to contr
 resume, cover letter or in an intro email. Being a genuine user is a huge plus. These things can helps you stand out
 from the hundreds of other resumes in the recruiter’s inbox.
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.

@@ -31,6 +31,8 @@ sustain their growth prior to achieving profitability. A few startup companies d
 themselves, but they are the exception. Of course, there are lots of great companies that aren’t startups. Managing
 capital needs for such companies is not covered herein.
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.

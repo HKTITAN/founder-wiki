@@ -5,6 +5,7 @@ type: post
 url: https://www.ycombinator.com/library/8x-why-to-not-not-start-a-startup
 author: "Paul Graham"
 categories: []
+date: "2007-03"
 description: "YC's Paul Graham discusses common reasons why people are reluctant to start a company."
 ---
 

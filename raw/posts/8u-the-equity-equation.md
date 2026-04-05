@@ -5,6 +5,7 @@ type: post
 url: https://www.ycombinator.com/library/8u-the-equity-equation
 author: "Paul Graham"
 categories: []
+date: "2007-07"
 description: "YC's Paul Graham introduces a general formula for deciding if trading away stock in your company is worth it."
 ---
 

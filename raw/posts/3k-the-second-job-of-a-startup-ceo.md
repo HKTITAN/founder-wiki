@@ -38,6 +38,8 @@ latest build. It’s even hard to delegate the random and sometimes menial tasks
 because they were “no one’s job.” But you have to stop doing all of these things so that you can safeguard your time for
 high leverage tasks that only CEOs can do.
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.
@@ -139,6 +141,8 @@ rockets. Instead, he recited the company’s entire “Mission-to-Metrics” fra
 Can you define the Mission, Strategy, and Metrics for your startup in a way that’s clear, simple, and inspiring? Most
 Phase 2 CEOs can’t readily do this. And, when they sit down to define it, they find it harder than they thought. The
 diagram below captures the task at hand:
+
+[![Mission-to-Metrics](images/3k-the-second-job-of-a-startup-ceo/cb2bc3e4792d.png)](https://blog.ycombinator.com/wp-content/uploads/2016/11/Artboard-2white_wborder.png)
 
 Your mission should feel ambitious and permanent. It should find its roots in the reasons you started your company and
 should not be something that you change very often. Conversely, you should revisit your product strategy and

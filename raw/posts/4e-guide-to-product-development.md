@@ -40,6 +40,8 @@ Every product meeting was focused around one of three goals:
 
 Whichever goal we chose would be the focus of the meeting and, therefore, the next two weeks.
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.

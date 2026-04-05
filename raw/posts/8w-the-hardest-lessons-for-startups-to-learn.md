@@ -5,6 +5,7 @@ type: post
 url: https://www.ycombinator.com/library/8w-the-hardest-lessons-for-startups-to-learn
 author: "Paul Graham"
 categories: []
+date: "2006-04"
 description: "Seven counterintuitive lessons about startups — from releasing early to not getting your hopes up."
 ---
 

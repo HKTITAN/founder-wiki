@@ -29,6 +29,8 @@ willing to risk everything they’ve built for the chance to go the moon, and ag
 for those people. But many rational people are happy with the airplane they’ve built, and there’s not much advice about
 what to do in this situation.
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.

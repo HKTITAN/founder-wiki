@@ -31,6 +31,8 @@ Enterprise sales, then, involves understanding and influencing the components (p
 the desired behavior (buying your product.) Every system (company) is different, and so you need to develop a systematic
 approach to hacking (selling to) them.
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.

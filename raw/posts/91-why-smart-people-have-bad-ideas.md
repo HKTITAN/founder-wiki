@@ -5,6 +5,7 @@ type: post
 url: https://www.ycombinator.com/library/91-why-smart-people-have-bad-ideas
 author: "Paul Graham"
 categories: []
+date: "2005-04"
 description: "You come up with a random idea, plunge into it, then at each point (a day, a week, a month) feel you've put so much time into it that this must be THE idea."
 ---
 

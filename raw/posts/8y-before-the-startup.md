@@ -5,6 +5,7 @@ type: post
 url: https://www.ycombinator.com/library/8y-before-the-startup
 author: "Paul Graham"
 categories: []
+date: "2014-10"
 description: "YC's Paul Graham explains that startups are counterintuive and all-consuming, and he boils down his advice to two words: just learn."
 ---
 

@@ -25,6 +25,8 @@ You shouldn’t make the structure complicated. To start, all you need is for ev
 and for everyone to have exactly one manager. Every manager should know who their direct reports are, and you should try
 to cluster people into teams that make sense.
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.

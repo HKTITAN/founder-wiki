@@ -24,6 +24,8 @@ Hiring your first engineer at a startup is incredibly hard. As a founder you're 
 time. There are bugs to fix, customers to close and any number of urgent existential fires that demand your full
 attention. You know you should be spending more time on hiring but it's a battle to find it.
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.

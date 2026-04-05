@@ -30,6 +30,8 @@ method behind the madness as WeChat scaled from 0 to 800M+ MAUs in less than 6 y
 one of the few companies to have evolved its messaging product portfolio successfully from a web/desktop product to a
 mobile/messaging platform.
 
+[![WeChat-Growth](images/3t-how-wechat-grew-to-be-the-1-app-in-the-world/a260bf04ade6.png)](https://blog.ycombinator.com/wp-content/uploads/2017/04/WeChat-Growth.png)
+
 # Lesson 1: Build Your Own Competition
 
 ***Tencent Started WeChat (mobile-first messenger) as a side project, and it ended up reinventing messaging in China.***
@@ -40,6 +42,8 @@ Instant Messenger). At the time, Tencent’s products had ~650M[4](#footnote4)
 monthly active Instant Messenger accounts. Recognizing the growing importance of mobile, the company created a mobile
 version of QQ in 2008, but the app was weighted down by desktop-centric features (e.g., multiple user statuses, large
 file transfers, embedded services such as music streaming, etc.) back then.
+
+
 
 # What is Y Combinator?
 
@@ -191,6 +195,8 @@ In only two years, WeChat Pay has become the most significant player in the Chin
 multitude of actions - used for everything from Red Packets to offline payments. As of 2016, Tencent has 600M mobile
 payment MAUs and over 600M average daily payment transactions.
 
+[![WeChat-Pay](images/3t-how-wechat-grew-to-be-the-1-app-in-the-world/5b831210586e.png)](https://blog.ycombinator.com/wp-content/uploads/2017/04/WeChat-Pay.png)
+
 # Lesson 5: Monetize Subtly
 
 ***Monetization and User Growth are not mutually exclusive. WeChat has always been ready for monetization and even uses
@@ -208,7 +214,13 @@ user experience, WeChat limited the number of native ads shown in a user’s WeC
 with Facebook’s limit of [one ad every ~10
 posts](http://tumblr.jackdawresearch.com/post/152915251408/facebook-ad-load-and-revenue-growth) in News Feed).
 
-An example of Airbnb’s native ad in WeChat Moments feedIf a user double clicks on the Airbnb ad they will see 3 or 4 photos with text sharing the story, which is very
+[![WeChat-Moment-Ad](images/3t-how-wechat-grew-to-be-the-1-app-in-the-world/683b74fa5f3d.png)](https://blog.ycombinator.com/wp-content/uploads/2017/04/WeChat-Moment-Ad.png)
+
+An example of Airbnb’s native ad in WeChat Moments feed
+
+[![WeChat-Moment](images/3t-how-wechat-grew-to-be-the-1-app-in-the-world/507d68f2e342.jpg)](https://blog.ycombinator.com/wp-content/uploads/2017/04/WeChat-Moment.jpg)
+
+If a user double clicks on the Airbnb ad they will see 3 or 4 photos with text sharing the story, which is very
 similar to what WeChat moments offers with friends.
 
 Users interact with and share ads similar to how they share posts from their friends, which is uncommon on other social
@@ -237,6 +249,8 @@ drumbeat-message engineers receive every day is “are you creating *more* value
 be a tool through which people accomplish their daily tasks, WeChat puts limits on how many friends you have, how many
 promotional messages you can see, how much engagement they display from your social circles -- ultimately they see this
 as noise that may distract from the utility of WeChat.
+
+[![WeChat-Engagement](images/3t-how-wechat-grew-to-be-the-1-app-in-the-world/fdd1b0a18af3.png)](https://blog.ycombinator.com/wp-content/uploads/2017/04/WeChat-Engagement.png)
 
 WeChat’s elevation of the QR code as a link from the offline became the lynchpin for China’s online-to-offline boom
 in 2015. Previously, to engage with a service or brand, a user would have to search or enter a website address. WeChat’s

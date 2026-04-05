@@ -55,6 +55,8 @@ hustle *around* a missing prerequisite instead of *solving the underlying issue*
 technical skills to build your MVP, don’t work with a dev shop. Make friends with people who do have these skills.
 Convince them to join you.
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.

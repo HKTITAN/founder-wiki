@@ -24,6 +24,8 @@ about Toutiao isn’t that people consume such varied content all in one place�
 any explicit user inputs, social graph, or product purchase history to rely on, Toutiao offers a personalized, high
 quality-content feed for each user that is powered by machine and deep learning algorithms.
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.
@@ -57,6 +59,7 @@ time spent on each article, time of the day the user reads, pauses, comments, in
 measured across millions of dimensions and the result is a personalized, extensive, and high-quality content feed for
 every user, each time they open the app.
 
+![Toutiao Blog Post Graphic_Minutes](images/3x-the-hidden-forces-behind-china-s-content-king-toutiao/3ce55ba68c9f.png)
 Sources: Snapchat - S-1 filing. Instagram - [Recode](https://www.recode.net/2017/8/2/16081086/instagram-snapchat-stories-anniversary-time-spent). Facebook - Q1 2016 earnings report.
 
 ---
@@ -101,6 +104,8 @@ competitors arrived, it already had an important and valuable foothold.
 
 *The image below shows the personalized feed of two different users.*
 
+[![Toutiao 2-1](images/3x-the-hidden-forces-behind-china-s-content-king-toutiao/90e7a053ef4e.png)](https://blog.ycombinator.com/wp-content/uploads/2017/10/Toutiao-2-1.png)
+
 ## 2: A data network effect deliberately built across the entire system
 
 You can have all the algorithms in the world, but without an addictive product there is no data, and without data, no
@@ -115,6 +120,8 @@ algorithms, which in turn further refines the products’ quality. Ultimately, t
 cycle to optimize every stage of what they call the “content lifecycle”: Creation, Curation, Recommendation and
 Interaction.
 
+[![Toutiao 3-1](images/3x-the-hidden-forces-behind-china-s-content-king-toutiao/b040e075c650.jpg)](https://blog.ycombinator.com/wp-content/uploads/2017/10/Toutiao-3-1.jpg)
+
 **Creation**  
 Ever since the invention of written language, content creation has been the exclusive domain of humans. Toutiao looks to
 change that. It’s begun with Xiaomingbot, an artificial intelligence that has already published more than 8,000 stories
@@ -125,6 +132,8 @@ human writers on average.
 
 *Below is a screenshot of an article written by the Xiaomingbot describing the results of the tennis match between Andy
 Murray and Juan Martin Del Potro during the 2016 Olympics.*
+
+[![Toutiao 4](images/3x-the-hidden-forces-behind-china-s-content-king-toutiao/5678238ea111.jpeg)](https://blog.ycombinator.com/wp-content/uploads/2017/10/Toutiao-4.jpeg)
 
 To achieve this, Toutiao had to overcome a couple of significant technical challenges:
 
@@ -256,6 +265,8 @@ content supply and no single category contributes over 10% of the content.
 Below is an example of a variety of content that a user can choose from (the screenshot only displays the 40 of the 50+
 channels users can choose from):
 
+[![Toutiao 5-1](images/3x-the-hidden-forces-behind-china-s-content-king-toutiao/06de1a2b708a.png)](https://blog.ycombinator.com/wp-content/uploads/2017/10/Toutiao-5-1.png)
+
 **Larger and more relevant audience** than other platforms that directly translated to increasing brand presence for
 content contributors. Almost all contributors create and distribute content on all platforms. But for many contributors,
 they have the ability to attract more traffic from Toutiao due to the strong recommendation engine. One example is "
@@ -286,6 +297,8 @@ Toutiao has reached unprecedented scale in revenue in a short time frame (5 year
 began monetizing) and it is remarkable that they are doing it without leveraging any social graph or product purchase
 history. Toutiao is on target to hit more than 15B RMB (>$2.2B USD) in revenue this year - one of the fastest growing
 apps in terms of revenue in the history of the internet.
+
+![Toutiao Revenue Growth](images/3x-the-hidden-forces-behind-china-s-content-king-toutiao/c9b5f444afbe.png)
 
 Of the many things that Toutiao does, one element that is core to its model more than any other: it is good at
 identifying what its users want to see. It is fitting, then, that its business model maps perfectly to that strength.

@@ -30,6 +30,8 @@ ones.
 Here is a blunt fact that often makes founders uncomfortable: your company has little chance of success unless someone
 who worked on the original research is willing to leave their university role to start this company.
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.

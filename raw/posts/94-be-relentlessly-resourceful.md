@@ -5,6 +5,7 @@ type: post
 url: https://www.ycombinator.com/library/94-be-relentlessly-resourceful
 author: "Paul Graham"
 categories: []
+date: "2009-03"
 description: "Make something people want' is the destination, but 'be relentlessly resourceful' is how you get there."
 ---
 

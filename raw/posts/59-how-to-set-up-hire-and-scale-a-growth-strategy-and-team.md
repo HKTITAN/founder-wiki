@@ -34,6 +34,8 @@ The Y Combinator Continuity team gets a lot of questions from founders on formal
 understand when to hire their first dedicated growth product manager (PM), how to structure a growth team, and how to
 scale it over time.
 
+
+
 # What is Y Combinator?
 
 We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.
@@ -90,10 +92,10 @@ Metrics and Data You Need to See if You Have Good Retention
 
 | **To Do** | **Examples** |
 | --- | --- |
-| □ **Pick the right set of metrics**  Pick a leading indicator of revenue and repeat behavior. Don’t pick a vanity metric (like app downloads). If it’s a marketplace with two sides you need to have metrics for both the supply and the demand side. | **Demand side metrics:**   * “Rebook rate” - % of customers that rebook after the first booking * “Nights booked per user” - # of nights booked per user over time   **Supply side metrics:**   * “Active hosts” - % of hosts that are active (i.e. have a booking) * “Bookings per active host” - # of bookings per unique active host over time across cohorts   **Demand side metrics:**   * Rider retention - % of riders that ride after the first transaction * Trips per active rider - # of rides/active rider over time   **Supply side metrics:**   * Driver retention - % of drivers that drive after the first transaction * Trips per active driver - # of rides/active driver over time |
-| □ **Pick the right period for your cohort**  This will be typically be a day, a week, or a month depending on the business (shorter time periods typically make sense for younger businesses, and longer ones for more mature businesses). | In Airbnb’s case given the velocity of use is low, and people don’t travel often, the focus is on measuring retention on an annual basis  In Uber’s case, given the velocity of use is high and people use it often, the focus is on measuring retention on a monthly and weekly basis |
-| □ **Identify an intial user action within Period 1**  100% of the install base takes some action that is a leading indicator for revenue. | For Airbnb, this is booking a room for at least one night (only a portion of the install base “rebook” each year)  For Uber, this is equivalent to riding with Uber for the first time or driving with Uber for the first time |
-| □ **Identify a follow-on user action in Period 2**  Calculate the % of install base that is still engaging in that action at period 2 (the following day, week, month, or year) | In the case of Airbnb, % of the install base each year that rebooked since initial action  In the case of Uber, % of riders that ride with Uber every month since initial action |
+| □ **Pick the right set of metrics**  Pick a leading indicator of revenue and repeat behavior. Don’t pick a vanity metric (like app downloads). If it’s a marketplace with two sides you need to have metrics for both the supply and the demand side. | Airbnb Logo **Demand side metrics:**   * “Rebook rate” - % of customers that rebook after the first booking * “Nights booked per user” - # of nights booked per user over time   **Supply side metrics:**   * “Active hosts” - % of hosts that are active (i.e. have a booking) * “Bookings per active host” - # of bookings per unique active host over time across cohorts  Uber Logo **Demand side metrics:**   * Rider retention - % of riders that ride after the first transaction * Trips per active rider - # of rides/active rider over time   **Supply side metrics:**   * Driver retention - % of drivers that drive after the first transaction * Trips per active driver - # of rides/active driver over time |
+| □ **Pick the right period for your cohort**  This will be typically be a day, a week, or a month depending on the business (shorter time periods typically make sense for younger businesses, and longer ones for more mature businesses). | Airbnb Logo In Airbnb’s case given the velocity of use is low, and people don’t travel often, the focus is on measuring retention on an annual basis Uber Logo In Uber’s case, given the velocity of use is high and people use it often, the focus is on measuring retention on a monthly and weekly basis |
+| □ **Identify an intial user action within Period 1**  100% of the install base takes some action that is a leading indicator for revenue. | Airbnb Logo For Airbnb, this is booking a room for at least one night (only a portion of the install base “rebook” each year) Uber Logo For Uber, this is equivalent to riding with Uber for the first time or driving with Uber for the first time |
+| □ **Identify a follow-on user action in Period 2**  Calculate the % of install base that is still engaging in that action at period 2 (the following day, week, month, or year) | Airbnb Logo In the case of Airbnb, % of the install base each year that rebooked since initial action Uber Logo In the case of Uber, % of riders that ride with Uber every month since initial action |
 
 ### **Good** **Retention vs. Bad Retention**
 
@@ -120,6 +122,8 @@ Below is an example of how Airbnb has performed–which would qualify as *great*
 stable long-term retention. Each new cohort did better than the previous one. For example, year 2 and year 3 retention
 rates are better than the year 1 retention rate. Airbnb's long-term retention rate is better than the median retention
 from competitors in the same vertical.
+
+![Retention - Cohort Analysis](images/59-how-to-set-up-hire-and-scale-a-growth-strategy-and-team/f39d6a8e86db.png)
 
 It is important to benchmark your retention against companies in your specific vertical. Below, we have included average
 long-term retention targets for 5 business verticals.
@@ -176,6 +180,8 @@ Scientist traits highlighted by growth experts who built successful growth teams
 
 ### **The Ideal Growth PM Candidate**
 
+![GrowthPM](images/59-how-to-set-up-hire-and-scale-a-growth-strategy-and-team/67757b1854f6.png)
+
 1. **Data-oriented:** The ideal candidate is intensely data-driven and inquisitive. All of the experts we spoke with
    said this is a must-have. You want someone in this role who will constantly ask "Why?" - even when growth numbers
    are up. One of the experts we spoke to said, "The scariest day is when numbers are down, the second scariest day is
@@ -197,6 +203,8 @@ Scientist traits highlighted by growth experts who built successful growth teams
 
 **The Ideal Growth Engineer Candidate**
 
+![GrowthEng](images/59-how-to-set-up-hire-and-scale-a-growth-strategy-and-team/6a573f3c9879.png)
+
 1. **Self-starter:** Since a big chunk of the work involves running experiments to determine what really works, the
    engineer should be proactive about coming up with their own hypotheses and experiments and iterating. Similar to the
    growth PM, they should have infinite curiosity and constantly ask “Why?” to uncover hidden insights.
@@ -212,6 +220,8 @@ experience that may train toward rigid requirements and roadmaps.
 * design, copywriting, data, etc.
 
 **The Ideal Data Scientist Candidate**
+
+![GrowthDataScientist](images/59-how-to-set-up-hire-and-scale-a-growth-strategy-and-team/83ea113922fe.png)
 
 Lastly, a data scientist is a vital hire for a well-rounded growth team. Data scientists are in such demand that [Airbnb
 announced](https://techcrunch.com/2017/05/24/airbnb-is-running-its-own-internal-university-to-teach-data-science/)
@@ -336,6 +346,8 @@ and](http://airbnb.io/projects/superset/) [Chartio](https://chartio.com) to trac
 
 Here's a screenshot of Airbnb's internal experiment dashboard:
 
+![Airbnb built its own dashboard to manage the growth team's experiments](images/59-how-to-set-up-hire-and-scale-a-growth-strategy-and-team/978181f5f54d.png)
+
 It can take several iterations to formalize the experiment dashboard. For example - one of the experts cited that the
 experiment dashboard was formalized after several iterations only after they had ~25 to 30 growth engineers on the
 team.
@@ -382,6 +394,8 @@ While the above roadmap items will help set the foundation for a strong growth p
 and systems will evolve at scale.
 
 ## **Where Should the Growth Team Sit?**
+
+![GrowthTeamSitToday](images/59-how-to-set-up-hire-and-scale-a-growth-strategy-and-team/6d1500af5185.png)
 
 This has been the biggest source of debate among companies. Facebook pioneered the concept of a separate growth team
 (meaning: Growth is essentially a department within the company). The rationale behind it was if they didn't assign sole

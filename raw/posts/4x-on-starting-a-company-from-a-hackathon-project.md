@@ -12,6 +12,8 @@ A couple years ago, [Athelas](https://athelas.com/) (YC S16) started as a proof-
 [YC Hacks 2014](https://ychacks.devpost.com/submissions/25781-athelas). This month we started shipping our first devices
 to patients and hospitals around the country. We learned a lot in the process and wanted to share a few thoughts here.
 
+[![athelas-1](images/4x-on-starting-a-company-from-a-hackathon-project/dc4f11da762d.png)](https://blog.ycombinator.com/wp-content/uploads/2017/01/athelas-1.png)
+
 The device is a low-cost imager that enables rapid blood diagnostics through computer vision instead of traditional
 lab-based techniques. Going from a hacked together hardware prototype to shippable product (especially in the medical
 field) was a progression in dimensionality at every stage, and it’s quite interesting now to look back at day 1.
@@ -23,16 +25,26 @@ microscope](https://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek) (considered o
 built) which was used to see microorganisms for the first time in human history. There were a few examples of this
 setup, and I spent the first couple hours of the hackathon getting it to work consistently on my phone.
 
+[![athelas-2](images/4x-on-starting-a-company-from-a-hackathon-project/21b8f50e25a9.png)](https://blog.ycombinator.com/wp-content/uploads/2017/01/athelas-2.png)
+
+[![athelas-4](images/4x-on-starting-a-company-from-a-hackathon-project/393ab971f08b.png)](https://blog.ycombinator.com/wp-content/uploads/2017/01/athelas-4.png)
+
+[![athelas-5](images/4x-on-starting-a-company-from-a-hackathon-project/df9dcd053523.png)](https://blog.ycombinator.com/wp-content/uploads/2017/01/athelas-5.png)
+
 *Above: A few excerpts from a writeup I did on Athelas a few months after the hackathon.*
 
 The real focus of the hack was writing segmentation and template matching approaches, combined with a fast random forest
 model implementation that learned to classify extracted versions of the Red Blood Cells (RBCs). Cell boundaries would be
 recognized, then fed into the classier to identify whether a parasitical cell (like Malaria or Trypanosoma) was present.
 
+[![athelas-6](images/4x-on-starting-a-company-from-a-hackathon-project/eb2bd58bdaed.png)](https://blog.ycombinator.com/wp-content/uploads/2017/01/athelas-6.png)
+
 This made for a fun demo, where a sample slide would have malaria tagged in it, but a normal person’s blood would not.
 While functioning and a neat trick, someone needed to be physically holding the camera in place, the slide had to be
 moved around, with the lighting often being hard to fix. At the end of the day it was a nice experimental toy you might
 see someone post as a video on Facebook.
+
+
 
 # What is Y Combinator?
 
@@ -53,6 +65,10 @@ compound, and observing empirically the quality of cell rendering. The other sid
 strip could easily be compressed to create a ‘monolayer’, or single layer of cells that enables statistically
 representative imaging.
 
+[![athelas-7](images/4x-on-starting-a-company-from-a-hackathon-project/d27965e1b0d8.png)](https://blog.ycombinator.com/wp-content/uploads/2017/01/athelas-7.png)
+
+[![athelas-8](images/4x-on-starting-a-company-from-a-hackathon-project/4daccd321fda.png)](https://blog.ycombinator.com/wp-content/uploads/2017/01/athelas-8.png)
+
 *Above: An excerpt from “The marching velocity of the capillary meniscus in a microchannel”, a sample of work we
 referenced when attempting to model the flow in our channel to generate a monolayer. This capillary design was
 eventually shelved for a future iteration.*
@@ -62,10 +78,14 @@ such, we could focus on monitoring more prevalent cell-types like Leukocytes and
 heart of it was an actuation system, coupled with gaussian edge autofocusing algorithms to ensure that our cells were
 being captured in a consistent fashion. Here’s a prototype midway through:
 
+[![athelas-9](images/4x-on-starting-a-company-from-a-hackathon-project/589d97587bdb.png)](https://blog.ycombinator.com/wp-content/uploads/2017/01/athelas-9.png)
+
 Furthermore, we started assembling a training set of data from public CDC images, blood smears collected from
 researchers at Stanford and UCSF - often hand labeled by me or a pathologist. From there, we were able to employ
 traditional computer vision and deep learning approaches to recognize and classify cell types based on previous,
 human-guided examples.
+
+[![athelas-10](images/4x-on-starting-a-company-from-a-hackathon-project/cc00fd36794d.png)](https://blog.ycombinator.com/wp-content/uploads/2017/01/athelas-10.png)
 
 *Cell body extraction post hough transform, first pass, pre-segmentation and classification*
 
@@ -81,11 +101,15 @@ aspect first: White Blood Cell counts. By grabbing images of samples on our stri
 showed how our counts were correlating with high accuracy to the gold standard Beckman Counter across 350 patients,
 combined with [a set of bench precision studies](http://athelas.com/data).
 
+[![athelas-11](images/4x-on-starting-a-company-from-a-hackathon-project/b3e0d53f8dc8.png)](https://blog.ycombinator.com/wp-content/uploads/2017/01/athelas-11.png)
+
 An interesting aspect was showing how our drop to drop precision [(something of much recent
 interest)](https://www.jci.org/articles/view/86318) was clinically acceptable versus other systems operating on drops.
 Coulter counters (traditional cell counting systems) work by flowing particles through a jeweled aperture a few microns
 in diameter, and recording impedance to register particle size - and as a result, particle classification. At the crux
 of it, [higher impedance = larger particle size](http://www.cyto.purdue.edu/cdroms/cyto2/6/coulter/ss000103.htm).
+
+[![athelas-12](images/4x-on-starting-a-company-from-a-hackathon-project/77ee486b6611.png)](https://blog.ycombinator.com/wp-content/uploads/2017/01/athelas-12.png)
 
 Coulter Counting Principle diagram source: [cyto.purdue.edu](http://cyto.purdue.edu)
 
@@ -94,9 +118,15 @@ particulate matter or lymph that can often confuse a Coulter system (especially 
 classified by the vision as a non-leukocyte cellular body (not a white blood cell, but some other, un-classified
 artifact in the blood sample).
 
+[![athelas-13](images/4x-on-starting-a-company-from-a-hackathon-project/6ae9b7460c81.png)](https://blog.ycombinator.com/wp-content/uploads/2017/01/athelas-13.png)
+
 The trial showed high inter-rater agreement (100% 5-class inter rater agreement) between the two systems, we submitted
 our data off to the FDA for Class 2 510k approval, and are now distributing our Class 1 version of the system for rapid
 White Blood Cell monitoring. See more at [athelas.com](http://athelas.com).
+
+[![athelas-14](images/4x-on-starting-a-company-from-a-hackathon-project/104f634a1e0c.png)](https://blog.ycombinator.com/wp-content/uploads/2017/01/athelas-14.png)
+
+[![athelas-15](images/4x-on-starting-a-company-from-a-hackathon-project/e9768e42baba.png)](https://blog.ycombinator.com/wp-content/uploads/2017/01/athelas-15.png)
 
 As we integrate new blood tests into the system over the coming months (concussion monitoring, inflammation tracking,
 urinary tract infection, platelets, more cell counts), our key growing challenge will be working with the existing
