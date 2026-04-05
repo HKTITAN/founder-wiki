@@ -23,9 +23,9 @@ Caldwell frames the key question: "We're all living in this society where these 
 
 Three realities founders must internalize [1]:
 
-**Everything you post is forever.** Even if you believe you deleted it, bots and scrapers cache content. Every AI company has been trained on Reddit posts, Twitter posts, and blog posts. "Even if you think you delete it, there's real scrapers looking for stuff. And even if it gets deleted, it's in the database" [1].
+**Everything you post is forever.** Seibel states the principle; Caldwell explains the mechanism. Every AI company has been trained on Reddit posts, Twitter posts, and blog posts. Caldwell: "Even if you think you delete it, there's real scrapers looking for stuff. And even if it gets deleted, it's in the database" [1].
 
-**De-anonymization tools are improving.** Language patterns, time-of-day posting, and other signals can identify anonymous posters. This will only become more powerful over time [1].
+**De-anonymization tools are improving.** Seibel raises this point, and Caldwell elaborates: language patterns, time-of-day posting, and other signals can identify anonymous posters. Seibel goes further: "You should be careful about your thoughts" -- not just your photos. Caldwell agrees: "Your thoughts can be used against you" [1].
 
 **Your internet persona and your real-life persona are not separate.** Caldwell recalls thinking it was weird when Twitter first launched and people he met in person knew him from the internet. The split between "internet life" and "real life" is collapsing: "Things on the internet are real" [1].
 
@@ -37,7 +37,7 @@ The permanent record is a double-edged coin [1]. If used strategically, it becom
 
 - **Build a corpus of quality work.** Thoughtful writing, essays, or code posted over time becomes discoverable and memorable. Caldwell cites [[Paul Graham]]'s essays as an example: written years ago, "he's still changing people's lives by his writings" [1].
 
-- **GitHub as career infrastructure.** "If you just keep posting good code to GitHub over a long amount of time, it's going to pay huge dividends for you in your career as a programmer." Recruiters already scrape GitHub to find engineering talent [1].
+- **GitHub as career infrastructure.** Seibel points out that "if you just keep posting good code to GitHub over a long amount of time, it's going to pay huge dividends for you in your career as a programmer." Recruiters already scrape GitHub to find engineering talent [1].
 
 - **Meet interesting people.** Putting quality content on the internet -- anonymously or not -- can lead to connections that benefit your career and life [1].
 

@@ -11,9 +11,9 @@ speakers_referenced: ["Dalton Caldwell", "Michael Seibel", "Patrick Collison"]
 
 # Investor Advice Pitfalls
 
-Investors -- including YC -- cannot fix a startup. [[Dalton Caldwell]] and [[Michael Seibel]] argue that founders who seek salvation from investors are looking for something that does not exist [1]. Seibel compares the realization to learning Santa Claus is not real: "For some folks, they're like, 'Hey, we finally get some time with you. No one wants our product. What should we do?' And I have to tell them the unfortunate news, which is I have no idea" [1].
+Investors -- including YC -- cannot fix a startup. [[Michael Seibel]] frames this as the central message, comparing the realization to learning Santa Claus is not real: "For some folks, they're like, 'Hey, we finally get some time with you. No one wants our product. What should we do?' And I have to tell them the unfortunate news, which is I have no idea" [1]. Seibel draws on his own experience: "I really believed that once I raised from the top investors, they would tell me whatever secrets they were holding out on the world" [1].
 
-The problem is not that investors are unhelpful. The problem is that each type of investor brings systematic biases rooted in their background, and founders who follow advice blindly often end up in predictable failure modes.
+The problem is not that investors are unhelpful. [[Dalton Caldwell]] and Seibel argue that each type of investor brings systematic biases rooted in their background, and founders who follow advice blindly often end up in predictable failure modes.
 
 ## The Seven Investor Types
 
@@ -23,9 +23,9 @@ The problem is not that investors are unhelpful. The problem is that each type o
 
 **Systematic bias**: When all you have is a hammer, everything looks like a nail. Solutions involve money: raising more, spending more, throwing money at problems [1].
 
-**Common bad advice**: Asking pre-product-market-fit startups for five-year financial projections. Seibel recalls: "To even ask me if I had financial projections, I was like, 'What's a financial projection?'" He resisted learning what a balance sheet was for years, telling his co-founder Kevin: "You know what's important for us to learn? How not to lose money every month before we die" [1].
+**Common bad advice**: Asking pre-product-market-fit startups for five-year financial projections. Caldwell asks Seibel: "You're pre-product market fit. Do you have five-year financial projections?" Seibel recalls: "To even ask me if I had financial projections, I was like, 'What's a financial projection?'" He resisted learning what a balance sheet was for years, telling his co-founder Kevin: "You know what's important for us to learn? How not to lose money every month before we die" [1].
 
-**Failure mode**: Scaling negative unit economics, spending on advertising with no payback period, getting founders to work on things that are not making the product good. Patrick Collison (Stripe founder) addressed this at YC: "Too many founders treat product as an afterthought. They're basically trying to do financial engineering and the product is delegated" [1].
+**Failure mode**: Caldwell identifies the concrete results: scaling negative unit economics, spending on advertising with no payback period, getting founders to work on things that are not making the product good. Seibel cites Patrick Collison (Stripe founder), who addressed this at YC: "Too many founders treat product as an afterthought. They're basically trying to do financial engineering and the product is delegated" [1].
 
 **The nuance**: This strategy is not always wrong. For successful companies, there is usually a point where deploying capital is the right move. The problem is giving this advice universally, including to pre-PMF startups [1].
 
@@ -33,23 +33,23 @@ The problem is not that investors are unhelpful. The problem is that each type o
 
 **Background**: employee number 100-1000+ at a major tech company.
 
-**Systematic bias**: Excellent at scaling a successful product further. Very different from getting the first 100 users [1]. Paul Buchheit, Google employee #18, was described as "the king of dirty hacks." The tactics of employee 1000 are fundamentally different from those of the first 20 [1].
+**Systematic bias**: Excellent at scaling a successful product further. Very different from getting the first 100 users [1]. Seibel references Paul Buchheit, Google employee #18, who was "the king of dirty hacks." The tactics of employee 1000 are fundamentally different from those of the first 20 [1].
 
-**Common bad advice**: Hire executives before product-market fit. "You need a marketing executive. The engineering team isn't productive enough -- we need a VP of engineering." Pre-PMF, the mistake is usually that the wrong person is in the company, not that there aren't enough people [1].
+**Common bad advice**: Seibel describes the pattern: hiring executives before product-market fit. "You need a marketing executive. The engineering team isn't productive enough -- we need a VP of engineering." Pre-PMF, the mistake is usually that the wrong person is in the company, not that there aren't enough people [1].
 
 **Failure mode**: Building org charts for a company that has zero real customers. Seibel notes: "What failure usually looks like for a lot of our companies is they get zero real customers. Not that the failure was they couldn't get a Series A. They just bombed, like complete disaster" [1].
 
-**The nuance**: The first five employees of YouTube before acquisition were fundamentally different from the team that scaled it post-acquisition. Both groups are valuable. But there are far more people with experience scaling products than creating them from zero. "There's just a lot. So there's lots of folks that have lots of experience scaling products, and you just don't meet as many that did the zero-to-one" [1].
+**The nuance**: Seibel contrasts the first five employees of YouTube before acquisition with the team that scaled it post-acquisition. Both groups are valuable. Caldwell adds that there is a supply-demand imbalance: "There's so many more people that helped scale Instagram than there are people that founded Instagram" [1].
 
 ### 3. The Non-Tech Industry Entrepreneur
 
 **Background**: Made their money in real estate, franchises, or other non-tech industries.
 
-**Systematic bias**: They treat the startup investment like a Subway franchise -- calling to yell when things go wrong, demanding onerous control terms, and being "really stressed out all the time that you're going to lose their money" [1].
+**Systematic bias**: Caldwell introduces this category as especially common internationally. Seibel describes the behavior: they treat the startup investment like a Subway franchise -- calling to yell when things go wrong, demanding onerous control terms, and being "really stressed out all the time that you're going to lose their money" [1].
 
 **Common bad advice**: Asking for franchise-style terms: more control, more reporting, terms that would make sense for a strip mall investment but are toxic for a tech startup [1].
 
-**The nuance**: These investors are among the most forgivable. They are successful people applying principles that worked for them. "You can't be mad at them. They're just taking the principles that they learned to make their money and applying them to a different industry" [1].
+**The nuance**: Seibel notes these investors are among the most forgivable. They are successful people applying principles that worked for them. "You can't be mad at them. They're just taking the principles that they learned to make their money and applying them to a different industry" [1].
 
 ### 4. The Junior Investor
 
@@ -91,9 +91,9 @@ Seibel compares it to how founders sometimes "watch movies about how founders ar
 
 ## YC's Own Failure Modes
 
-Caldwell and Seibel acknowledge that YC partners give bad advice too. The most common failure: overweighting the lean startup playbook. "Sometimes it works right out of the gate and sometimes you can spend two years building a product in a cave and never talk to a single user and it's perfect and you immediately get product market fit" [1].
+Seibel raises this candidly. Caldwell acknowledges that YC partners give bad advice too. The most common failure: overweighting the lean startup playbook. Caldwell states: "Sometimes it works right out of the gate and sometimes you can spend two years building a product in a cave and never talk to a single user and it's perfect and you immediately get product market fit" [1].
 
-YC has enough data points of this succeeding that they cannot claim it never works. But statistically, recommending the build-in-a-cave strategy would be "insane." The best partners are "very careful with how forcefully we give the YC advice because the longer you're here, the longer you have a running record of the time I told someone to do it like this and the opposite worked" [1].
+YC has enough data points of this succeeding that they cannot claim it never works. But statistically, recommending the build-in-a-cave strategy would be "insane." Seibel adds: "The best YC partners are very careful with how forcefully we give the YC advice because the longer you're here, the longer you have a running record of the time I told someone to do it like this and the opposite worked" [1].
 
 ## The Best Investor Advice
 
@@ -105,9 +105,9 @@ Seibel notes the key enabler: Gideon had no interest in investing. "You can get 
 
 ## The Meta-Lesson: Founder Accountability
 
-The overarching message is that the founder is ultimately responsible. Caldwell states it as: "The founders that made it work believed in themselves and they knew that we couldn't fix it. They took bits and pieces. They took information from the outside world, but they took personal accountability that they're the ones who are gonna have to make it work" [1].
+The overarching message is that the founder is ultimately responsible. Seibel states it as: "The founders that made it work believed in themselves and they knew that we couldn't fix it. They took bits and pieces. They took information from the outside world, but they took personal accountability that they're the ones who are gonna have to make it work" [1].
 
-At YC's kickoff, the partners open with this message: "We're experts in failure. We know a lot of paths to not take. But if you want us to sit next to you at your desk and tell you everything to do to win, to become a billion-dollar company, we can't do it" [1]. They even offer to return equity to any founder who wants to leave after hearing this.
+Seibel describes the YC kickoff: "The first thing we say is that we're experts in failure. We know a lot of paths to not take. But if you want us to sit next to you at your desk and tell you everything to do to win, to become a billion-dollar company, we can't do it" [1]. They even offer to return equity to any founder who wants to leave after hearing this.
 
 Seibel frames the success attribution: "You're going to be able to deserve 99.9% of the credit if you figure it out because you figured it out. All the rest of the people around who helped you, they didn't figure it out" [1].
 

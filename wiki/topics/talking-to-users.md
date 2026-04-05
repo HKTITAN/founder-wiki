@@ -15,9 +15,9 @@ speakers_referenced: ["Dalton Caldwell", "Michael Seibel", "Gustaf Alstromer"]
 
 ## Why Founders Avoid It
 
-[[Dalton Caldwell]] and [[Michael Seibel]] identify the core reason founders resist talking to users: ego protection [1]. Founders do not want to be rejected. They do not want to learn that the thing they spent months building is irrelevant to the people they built it for. Caldwell describes the feeling: "There's nothing more humbling. There's nothing that makes you feel shittier than seeing real people using this thing that you built, that you spent a bunch of time on, and just like ripping it to shreds and not understanding it or like using none of the features" [1].
+Caldwell describes the core feeling founders are avoiding: "There's nothing more humbling. There's nothing that makes you feel shittier than seeing real people using this thing that you built, that you spent a bunch of time on, and just like ripping it to shreds and not understanding it or like using none of the features" [1]. Talking to users is "the inoculation against spending inordinate amounts of time doing something that is completely irrelevant to your end users" [1].
 
-The avoidance manifests in many forms -- running surveys instead of having conversations, building more features instead of showing the product to anyone, surrounding yourself with friends who validate your vision. But when Seibel and Caldwell drill down with founders at YC, the root cause is always the same: "The really core thing going on is ego protection and nothing else" [1].
+The avoidance manifests in many forms -- running surveys instead of having conversations, building more features instead of showing the product to anyone, surrounding yourself with friends who validate your vision. Seibel identifies the root cause: "The really core thing going on is ego protection and nothing else" [1].
 
 Seibel draws a contrast between being a founder and being an employee. At Google or Apple, "you got 15 layers protecting you from external world feedback that you don't want." Managers filter bad news. If things fail, it is someone else's fault. As a founder, "there is no filter. You're just out there dangling in the wind and every breeze that comes your way you're gonna feel" [1]. The founder is the filter, not the person being filtered to.
 
@@ -29,7 +29,7 @@ The problem with surveys is twofold. First, the bar is too low. "Think about how
 
 ## The Three Capitals Test
 
-A YC founder contributed a framework that Seibel and Caldwell endorse: "A potential customer's opinion is not valuable unless they're willing to pay you or use the product regularly or share the product with their friends" [1]. These represent three forms of capital:
+A YC founder contributed a framework that Caldwell introduces and elaborates on: "A potential customer's opinion is not valuable unless they're willing to pay you or use the product regularly or share the product with their friends" [1]. These represent three forms of capital:
 
 1. **Financial capital** -- they pay you money
 2. **Time capital** -- they use the product regularly
@@ -124,21 +124,21 @@ Caldwell extends this into a practical technique: "Every sales call should start
 
 ## Recognizing False Positives
 
-A YC founder submitted the warning sign: "When the customer you're pitching says, 'We really love your tech, but we can't pick it up today because X, but we want to use it in our next project, and we'll be in touch soon.' This is a rejection. They don't want your tech. They just said they loved it. They just want you out of their office. This is a 'don't call me, I'll call you'" [1].
+Caldwell reads a warning sign submitted by a YC founder: "When the customer you're pitching says, 'We really love your tech, but we can't pick it up today because X, but we want to use it in our next project, and we'll be in touch soon.' This is a rejection. They don't want your tech. They just said they loved it. They just want you out of their office. This is a 'don't call me, I'll call you'" [1]. He calls this the "terrorist user" -- the user that the founder loves more than the user loves the founder [1].
 
-Seibel argues that a scientist would process this dispassionately and move on. Founders get trapped because they have never been taught what sales really is. They interpret "no" as a signal to explain better, when the correct interpretation is that this person is not their customer [1].
+Seibel argues that a scientist would process this dispassionately and move on. Founders get trapped because they have never been taught what sales really is. Seibel reframes: most founders think sales is like lawyering -- convincing a jury. But the best salespeople focus on two things: "learning and filtering." They interpret "no" as a gift, not a signal to explain better [1].
 
 ## The Scientist Mindset
 
-Seibel repeatedly returns to the analogy of founders as scientists [1]. A scientist designs experiments that test the actual hypothesis. Many founders design experiments that avoid testing the critical variable -- because if the hypothesis is wrong, "my ego shatters, or my investors will hate me, or my co-founders will leave" [1].
+Seibel repeatedly returns to the analogy of founders as scientists [1]. A scientist designs experiments that test the actual hypothesis. Seibel observes that many founders design experiments that avoid testing the critical variable -- because if the hypothesis is wrong, "my ego shatters, or my investors will hate me, or my co-founders will leave" [1].
 
-The Stripe founders exemplify the correct approach. They hypothesized that startups had a problem accepting credit cards and that existing products were too hard to use. Their test: they built something easier and charged more than the competition. "Any scientist would say, 'Okay, well, if we're trying to test this variable -- charging more -- to figure out whether startups would use this thing, it seems like a great, just logical test'" [1].
+Seibel cites the Stripe founders as the correct approach. They hypothesized that startups had a problem accepting credit cards and that existing products were too hard to use. Their test: they built something easier and charged more than the competition. "Any scientist would say, 'Okay, well, if we're trying to test this variable -- charging more -- to figure out whether startups would use this thing, it seems like a great, just logical test'" [1].
 
 ## The Airbnb Photography Story
 
-The canonical Airbnb story illustrates the full value chain of talking to users [1]. In the early days, the founders offered hosts free digital photographs to improve their listings. Instead of hiring photographers, they went out with cameras themselves. During one visit, a host invited them for coffee and revealed a notebook containing a decade of notes on every rental platform he had ever used -- what each did well and what each did badly [1].
+Caldwell tells the canonical Airbnb story to illustrate the full value chain of talking to users [1]. In the early days, the founders offered hosts free digital photographs to improve their listings. Instead of hiring photographers, they went out with cameras themselves. During one visit, a host invited them for coffee and revealed a notebook containing a decade of notes on every rental platform he had ever used -- what each did well and what each did badly [1].
 
-In the alternative scenario -- sending an email survey asking "How do you like Airbnb?" -- they would have received checkbox responses. In the real scenario, they received a comprehensive product roadmap from their most experienced user. Seibel argues the information gap is not merely a difference in quantity: "It could be negative" for surveys, because they can create false confidence that leads founders away from the truth [1].
+Caldwell contrasts this with the alternative scenario -- sending an email survey asking "How do you like Airbnb?" -- which would have produced checkbox responses. In the real scenario, they received a comprehensive product roadmap from their most experienced user. Seibel argues the information gap is not merely a difference in quantity: "It could be negative" for surveys, because they can create false confidence that leads founders away from the truth [1].
 
 ## References
 

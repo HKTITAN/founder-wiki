@@ -15,27 +15,27 @@ speakers_referenced: ["Dalton Caldwell", "Michael Seibel"]
 
 ## The Basic Equation
 
-The examples are straightforward [1]:
+Seibel provides the examples [1]:
 
 **Google Ads**: When Google first launched ads, buyers paid per click and could sell products for far more than the click cost. "Very straightforward. Makes sense" [1].
 
-**Microsoft Office**: Word and Excel made office and financial workers literally 10 to 100 times more productive. A computer costing five or ten thousand dollars was still massively positive ROI because spreadsheets were that transformative [1].
+**Microsoft Office**: Seibel notes that Word and Excel made office and financial workers literally 10 to 100 times more productive. Caldwell adds that a computer costing five or ten thousand dollars was still massively positive ROI because spreadsheets were that transformative [1].
 
 ## The Common Failure Mode
 
-Many founders build products that deliver no or minimal value to the user. The pattern: the founder believes the most important thing is to grow in order to raise money, so they build something that "doesn't solve anyone's problem and just try to get money for it" [1].
+Seibel describes the common failure mode: many founders build products that deliver no or minimal value to the user. The pattern: the founder believes the most important thing is to grow in order to raise money, so they build something that "doesn't solve anyone's problem and just try to get money for it" [1].
 
 Caldwell calls this "make something VCs want" -- a perversion of the YC motto. "Superficially this resembles a software product that superficially people pay for" but the specifics of what it does are treated as details [1].
 
 ## The Fear of Being a Consultant
 
-Beyond building bad products, founders resist deeply understanding customer problems because of a fear of becoming a consultant [1].
+Caldwell identifies a deeper failure: founders resist deeply understanding customer problems because of a fear of becoming a consultant [1].
 
-When a user describes their specific problem, the founder fears: what if this user is different from every other user? What if I have to build something just for them? Every founder is thinking about when they can reach "blitzscale" and raise the big round. If they are not building a simple thing everyone uses, it will not scale [1].
+When a user describes their specific problem, the founder fears: what if this user is different from every other user? What if I have to build something just for them? Caldwell notes that every founder, "in the back of their head, thank you Reid Hoffman, is thinking, when can I get to blitzscale?" If they are not building a simple thing everyone uses, it will not scale [1].
 
-Caldwell argues this fear is "exactly wrong when you're early" [1]. Before you deeply understand the customer's problems, your assumptions about how their business works may be mistaken. The counter-advice: "Forget your fear about being a consultant early. Dig in with some customers. Actually solve their problem" [1].
+Seibel agrees there is a kernel of truth in the fear. But Caldwell argues it is "exactly wrong when you're early" [1]. Before you deeply understand the customer's problems, your assumptions about how their business works may be mistaken. Caldwell's counter-advice: "Forget your fear about being a consultant early. Dig in with some customers. Actually solve their problem" [1].
 
-In the process, you will learn about the actual problem, develop insights about what is generalizable, and understand the levers in their business that drive economic value. "You can even say: how can this help you make more money? Sometimes founders are afraid of asking the dumb question, but that's a worthwhile question to ask" [1].
+In the process, you will learn about the actual problem, develop insights about what is generalizable, and understand the levers in their business that drive economic value. Caldwell adds: "You can even say: how can this help you make more money? Sometimes founders are afraid of asking the dumb question, but that's a worthwhile question to ask" [1].
 
 ## Give Value in Outreach, Not Just Products
 
@@ -45,7 +45,7 @@ One YC company found a better approach: they recorded videos analyzing each pros
 
 ## The History of Generosity in Tech
 
-Seibel places value creation in historical context. The history of computing involves giving away enormous amounts of value for free [1]:
+Caldwell provides the historical context. The history of computing involves giving away enormous amounts of value for free [1]:
 
 - The original business model of computer companies was to sell hardware; software was given away free to make the hardware useful
 - Bill Gates pioneered proprietary software in the late 1970s

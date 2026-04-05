@@ -17,7 +17,7 @@ Seed fundraising is the process by which startup founders raise initial outside 
 
 Investors write checks when three conditions align: the idea is compelling, the founding team appears capable of executing, and the opportunity is real and sufficiently large [1]. For most founders, this requires having a product with measurable traction. Ralston specifies that a growth rate of 10% per week for several weeks is "impressive" and sufficient to attract investor interest [1].
 
-[[Dalton Caldwell]] and [[Michael Seibel]] reinforce this: "In 97 percent of the time, the demo, the product, the MVP, the MVP with customers gives you so much more leverage when fundraising" [4]. Founders who fundraise before having metrics are often engaged in fear-based decision-making -- they secretly believe their product is bad and want to raise before the world figures it out [4]. See [[Fundraising Mistakes]] for the full treatment.
+Seibel quantifies this: "In 97 percent of the time, the demo, the product, the MVP, the MVP with customers gives you so much more leverage when fundraising" [4]. Founders who fundraise before having metrics are often engaged in what Seibel identifies as fear-based decision-making -- they secretly believe their product is bad and want to raise before the world figures it out [4]. See [[Fundraising Mistakes]] for the full treatment.
 
 ## Where to Raise
 
@@ -27,7 +27,7 @@ Location matters. [[Michael Seibel]] explains that Bay Area investors behave dif
 
 The ideal amount is enough to reach profitability [1]. When that is not realistic, the target should be enough to reach the next "fundable" milestone, typically 12 to 18 months away [1].
 
-Caldwell and Seibel warn against raising too much. Brian Chesky (Airbnb) reframes the relationship: "Maybe money's more like food. You definitely need food to survive, but people are dying from too much food as opposed to too little food" [4]. Companies that raise less tend to have founders who own more at exit and are more innovative because constraint forces creativity [4]. See [[Fundraising Mistakes]] for case studies of Facebook and Google's leverage-based approach.
+Caldwell relays Brian Chesky's (Airbnb) reframe: "Maybe money's more like food. You definitely need food to survive, but people are dying from too much food as opposed to too little food" [4]. Caldwell observes that companies that raise less tend to have founders who own more at exit and are more innovative because constraint forces creativity [4]. See [[Fundraising Mistakes]] for case studies of Facebook and Google's leverage-based approach.
 
 ## How to Reach Investors
 

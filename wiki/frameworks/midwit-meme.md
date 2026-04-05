@@ -21,13 +21,13 @@ Caldwell explains why this maps to startup life: founders feel lost, have no bos
 
 ## Elon Musk as the Canonical Example
 
-Seibel and Caldwell use Elon Musk to illustrate that the "idiot" approach and the "genius" approach are often indistinguishable [1]:
+Seibel introduces Elon Musk as the central example, with Caldwell extending it, to illustrate that the "idiot" approach and the "genius" approach are often indistinguishable [1]:
 
-- **SpaceX**: Musk went to Russia to buy rockets. The Russian government could not tell if he was brilliant or insane. "Is that genius or stupid? I can't tell" [1].
-- **Tesla**: The simple version: "Electric cars are good." The midwit version: no one has successfully started a car company since the 1950s, the infrastructure does not exist, every prior attempt failed. The genius version: "Electric cars are good" [1].
-- **The Boring Company**: "Traffic is bad. What if we dug a hole under the ground?" The midwit response involves bus system optimization and transportation theory. "Drill tunnel to avoid traffic is certainly at the extremes" [1].
+- **SpaceX**: Seibel describes Musk going to Russia to buy rockets. The Russian government could not tell if he was brilliant or insane. Seibel: "Is that genius or stupid? I can't tell" [1].
+- **Tesla**: Caldwell frames the midwit analysis. The simple version: "Electric cars are good." The midwit version: no one has successfully started a car company since the 1950s, the infrastructure does not exist, every prior attempt failed. The genius version: "Electric cars are good" [1].
+- **The Boring Company**: Seibel presents this as the funniest example: "Traffic is bad. What if we dug a hole under the ground?" The midwit response involves bus system optimization and transportation theory. "Drill tunnel to avoid traffic is certainly at the extremes" [1].
 
-The key insight: "If he was an overthinker, he would rule all this stuff out. All this stuff is obviously a bad idea. And anyone in the midwit territory would rule out all these ideas" [1]. The hard work is in the implementation, but the initial idea is simple.
+Seibel draws the key insight: "If he was an overthinker, he would rule all this stuff out. All this stuff is obviously a bad idea. And anyone in the midwit territory would rule out all these ideas" [1]. The hard work is in the implementation, but the initial idea is simple.
 
 ## Applied to Startup Decisions
 
@@ -53,9 +53,9 @@ Extremes: fill out the application and submit it. The midwit spends months on ap
 
 ## Beginner's Mind
 
-Seibel connects the midwit meme to the Zen concept of beginner's mind: "What would an idiot do?" is actually how you divine the genius approach. "Everyone can reach for the idiot approach. Everyone has the intellectual capacity to reach for it" [1].
+Seibel connects the midwit meme to the Zen concept of beginner's mind. At the close of the conversation, Seibel states: "What would an idiot do? That's actually how you can divine the genius approach. Everyone can reach for the idiot approach" [1].
 
-The advantage of youth maps to this: young founders "think everything is easy and none of the innumerable reasons why something might be hard even occurs to them" [1]. The worst position is knowing just enough to be afraid: "You know just enough to know why the things you're trying are hard and the odds are stacked against you. And that freaks you out" [1].
+Seibel describes the advantage of youth: young founders "think everything is easy and none of the innumerable reasons why something might be hard even occurs to them" [1]. Caldwell identifies the worst position as knowing just enough to be afraid: "You know just enough to know why the things you're trying are hard and the odds are stacked against you. And that freaks you out" [1].
 
 ## Trap Door Decisions: When to Overthink
 
@@ -70,7 +70,7 @@ The framework is not "never think." It is: most of the work is not in optimizing
 
 ## Why Brains Reject Simplicity
 
-Caldwell argues that unless you have personally witnessed a successful startup from the inside, "your brain rejects the idea" that the beginning was silly and simple. "It had to be lots of strategy meetings and whiteboarding, flow charts, Gartner Magic Quadrants" [1]. The reality of how big companies actually got built is hard to believe for people who have not seen it firsthand.
+Caldwell argues that unless you have personally witnessed a successful startup from the inside, "your brain rejects the idea" that the beginning was silly and simple. Seibel adds: "It had to be lots of strategy meetings and whiteboarding, flow charts, Gartner Magic Quadrants" [1]. The reality of how big companies actually got built is hard to believe for people who have not seen it firsthand.
 
 ## References
 

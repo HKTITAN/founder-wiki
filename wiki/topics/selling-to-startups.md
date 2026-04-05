@@ -6,7 +6,7 @@ last_updated: 2026-04-05
 aliases: ["selling to startups", "startup customers", "B2B startup sales", "bottoms-up sales", "startup churn", "enterprise vs startup customers"]
 related: ["[[Enterprise Sales]]", "[[Growth]]", "[[Product-Market Fit]]", "[[Startup Ideas]]", "[[Harj Taggar]]", "[[Michael Seibel]]"]
 sources: ["J5-inside-the-group-partner-lounge-the-ideal-customer"]
-speakers_referenced: ["Harj Taggar", "Michael Seibel", "Brad Flora"]
+speakers_referenced: ["Harj Taggar", "Michael Seibel", "[[Brad Flora]]"]
 ---
 
 # Selling to Startups
@@ -17,7 +17,7 @@ Selling to startups has been a formula for success at YC. Stripe started as a pa
 
 ### The Long Sales Cycle Escape
 
-The most common mistake: a product naturally belongs in large enterprises, but the sales cycle seems long, so the founder sells to startups instead [1]. Brad Flora describes the pattern: a founder who spent four years at a large company, saw a problem only large companies have, was funded because of that enterprise insight, and then in the first office hours says "I'm going to sell this enterprise-grade DevTools system to startups for $100 a month" [1].
+The most common mistake: a product naturally belongs in large enterprises, but the sales cycle seems long, so the founder sells to startups instead [1]. [[Brad Flora]] describes the pattern: a founder who spent four years at a large company, saw a problem only large companies have, was funded because of that enterprise insight, and then in the first office hours says "I'm going to sell this enterprise-grade DevTools system to startups for $100 a month" [1].
 
 Snowflake only makes sense with massive data volumes. Workday's early customers were doing six and seven-figure deals because comprehensive HR suites are only needed with hundreds of employees. Trying to sell either product to startups would have been a waste [1].
 
@@ -34,9 +34,9 @@ The most dangerous assumption: that customers acquired as startups will stay as 
 - **HR tools**: Almost every early-stage HR product gets churned as customers scale
 - **Heroku-type products**: Customers churn once engineering teams outgrow simplified platforms
 - **CRM**: Startups pick lightweight CRM tools, then switch to Salesforce the moment a VP of Sales wants to scale to 500 people
-- **Triplebyte's experience**: The product was built for engineers screening engineers, but every company eventually hires a recruiting team with completely different needs, requiring a brand new product [1]
+- **Triplebyte's experience** ([[Harj Taggar]]'s company): The product was built for engineers screening engineers, but every company eventually hires a recruiting team with completely different needs, requiring a brand new product [1]
 
-The underlying pattern: when a product scales with people rather than revenue, the buyer changes as the company grows. The CTO or technical founder who evaluated the tool is replaced by a non-technical department head with entirely different requirements [1].
+Flora illustrates this with Perfect Audience, his own startup: early on they could sell to startups because the buyer was a founder or a single marketing person, but as the customer grew into a full marketing team, the requirements changed completely [1]. The underlying pattern: when a product scales with people rather than revenue, the buyer changes as the company grows. The CTO or technical founder who evaluated the tool is replaced by a non-technical department head with entirely different requirements [1].
 
 ### When Churn Does Not Happen
 
@@ -66,10 +66,10 @@ The key caveat: bottoms-up adoption is a booster, not a replacement for enterpri
 
 ## Know Which Game You Are Playing
 
-The biggest-picture takeaway: founders must know which strategy they are executing and how selling to startups fits into it [1]. The Stripe game (grow with customers forever), the Gusto game (use startups as training wheels for SMB), and the AWS game (bottoms-up into enterprise) are all viable. "The game of 'I'm gonna sell to big companies by first selling to people that have nothing in common with big companies' -- that's not a good game" [1].
+Seibel frames the biggest-picture takeaway: founders must know which strategy they are executing and how selling to startups fits into it [1]. The Stripe game (grow with customers forever), the Gusto game (use startups as training wheels for SMB), and the AWS game (bottoms-up into enterprise) are all viable. "The game of 'I'm gonna sell to big companies by first selling to people that have nothing in common with big companies' -- that's not a good game" [1].
 
-These strategies are well-documented. Founders do not need to invent them -- they can study Gusto, AWS, and Stripe directly. "You don't have to learn all the hard mistakes that they did. You can learn from them" [1].
+These strategies are well-documented. Seibel advises founders to study the companies that have nailed each path directly. "You don't have to learn all the hard mistakes that they did. You can learn from them" [1].
 
 ## References
 
-1. [Inside the Group Partner Lounge: The Ideal Customer](https://ycombinator.com/library/J5-inside-the-group-partner-lounge-the-ideal-customer) — [[Harj Taggar]], [[Michael Seibel]], Brad Flora (2021)
+1. [Inside the Group Partner Lounge: The Ideal Customer](https://ycombinator.com/library/J5-inside-the-group-partner-lounge-the-ideal-customer) — [[Harj Taggar]], [[Michael Seibel]], [[Brad Flora]] (2021)

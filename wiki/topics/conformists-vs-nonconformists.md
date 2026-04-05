@@ -17,7 +17,7 @@ speakers_referenced: ["Dalton Caldwell", "Michael Seibel"]
 
 When Caldwell and Seibel were in college (early to mid-2000s), tech was deeply uncool. Seibel graduated from Yale in 2005; his class produced 10 CS majors out of 1,200 students [1]. Caldwell attended Stanford during the post-dot-com crash -- "you'd have to be a real idiot to intentionally get into the wreckage of the dot-com crash" [1].
 
-The people who entered startups were "people that just liked computers" [1]. Financial gains came from management consulting, finance, law, and medicine. These paths had familiar structure: clear application processes, predictable steps, and opportunities to brag about offers and signing bonuses [1].
+Caldwell describes the people who entered startups as "people that just liked computers" [1]. Seibel recalls that financial gains came from management consulting, finance, law, and medicine. These paths had familiar structure: clear application processes, predictable steps, and opportunities to brag about offers and signing bonuses [1].
 
 The early employees at companies like iMeem and Justin.tv were non-conformists by definition. "A conformist would not be caught dead working at an early-stage startup" because there was no structure, no status, and no guarantee of anything [1].
 
@@ -33,27 +33,27 @@ At the MIT career fair, most people who talked to Seibel wanted to know how to g
 
 The highest-status job in the early-stage world is now investor. Conformists entering startups often orient their behavior around investor approval rather than customer value [1].
 
-Caldwell describes the pattern: these founders "want an idea an investor is going to like. They want to act the way an investor is going to like. They want to have their resume investors are going to like. And their questions are: 'Tell me the secret to get investors to like me.' That's what they hope we will tell them -- the secret words to whisper to an investor to get approval" [1].
+Seibel describes the pattern: these founders "want an idea an investor is going to like. They want to act the way an investor is going to like. They want to have their resume investors are going to like. And their questions are: 'Tell me the secret to get investors to like me.' That's what they hope we will tell them -- the secret words to whisper to an investor to get approval" [1].
 
 ## Signs of Non-Conformist Founders
 
-Caldwell and Seibel identify several signals that a founder is a genuine non-conformist [1]:
+Seibel and Caldwell identify several signals that a founder is a genuine non-conformist [1]:
 
-**They think the $500K might be enough.** These founders approach YC quietly, almost apologetically: "I know I'm not supposed to say this, but I think $500K might be all the money we need to hit $50K MRR or get profitable." They are not optimizing for fundraising narrative but for building a business [1].
+**They think the $500K might be enough.** Seibel describes these founders approaching him quietly, almost apologetically: "I know I'm not supposed to say this, but I think $500K might be all the money we need to hit $50K MRR or get profitable." They are not optimizing for fundraising narrative but for building a business [1].
 
-**They do not know the tech Twitter celebrities.** Non-conformist founders have no idea who the celebrity of the moment is or what debate is trending. "When folks are obsessed with the startup scene as opposed to their own thing and solving customer problems, that's usually a sign of conformity" [1].
+**They do not know the tech Twitter celebrities.** Caldwell observes that non-conformist founders have no idea who the celebrity of the moment is or what debate is trending. "When folks are obsessed with the startup scene as opposed to their own thing and solving customer problems, that's usually a sign of conformity" [1].
 
-**They are excited that it is harder than expected.** "I'm excited that this is harder than I thought it would be. This is forcing me to raise my bar." They do not want a gold star or a promotion. They want to be tested [1].
+**They are excited that it is harder than expected.** Seibel describes these founders: "I'm excited that this is harder than I thought it would be. This is forcing me to raise my bar." They do not want a gold star or a promotion. They want to be tested [1].
 
-**They want to be above the peer group, not in it.** Non-conformists look at their batch-mates and think "I'm going to try way harder and learn way faster than them." Conformists want to fit in with the pack [1].
+**They want to be above the peer group, not in it.** Seibel notes that non-conformists look at their batch-mates and think "I'm going to try way harder and learn way faster than them." Conformists want to fit in with the pack [1].
 
-**They bet on themselves.** They believe in their own growth curve -- not based on skills they have today, but on their assumption that they can learn whatever needs to be learned. Seibel cites Kyle Vogt (co-founder of Cruise): "There was never a technical challenge where Kyle's first thought was not, 'Well, I'm sure I can figure this out.' Full stop" [1].
+**They bet on themselves.** Caldwell describes the pattern: "The really hardcore non-conformists I funded that have done great, they'll be like, 'Yeah, I don't get what all these other people are doing, but this is what I'm doing, and it's going great.'" Seibel cites Kyle Vogt (co-founder of Cruise): "There was never a technical challenge where Kyle's first thought was not, 'Well, I'm sure I can figure this out.' Full stop" [1].
 
 ## Practical Advice
 
-For non-conformists who have not yet started a company: join an early-stage startup as one of the first 10 employees rather than joining big tech. "Being the first 10 employees somewhere is going to be weird, and the people that tend to like working at the first 10 employees tend to be non-conformists, because there's no structure. It's chaos" [1].
+Caldwell advises non-conformists who have not yet started a company: join an early-stage startup as one of the first 10 employees rather than joining big tech. "Being the first 10 employees somewhere is going to be weird, and the people that tend to like working at the first 10 employees tend to be non-conformists, because there's no structure. It's chaos" [1].
 
-Do not play status games in startups. If you need status games, play them inside big tech where the structure exists to support them [1].
+Caldwell adds: do not play status games in startups. If you need status games, play them inside big tech where the structure exists to support them [1].
 
 Find your people. "You're going to be so much happier when you're surrounding yourself with other people like you" [1]. Seibel describes his own YC experience: the batch was full of non-conformists who all thought they were amazing, which created a competitive drive that made everyone better.
 

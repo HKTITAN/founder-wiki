@@ -6,7 +6,7 @@ last_updated: 2026-04-05
 aliases: ["Friedman", "Jared Friedman"]
 related: ["[[University Spinouts]]", "[[Equity Split]]", "[[Hard Tech Startups]]"]
 sources: [8G-advice-for-hard-tech-and-biotech-founders, 8f-how-to-spin-your-scientific-research-out-of-a-university-and-into-a-startup,
-  8g-how-to-get-startup-ideas, Iy-yc-s-group-partners-share-their-favorite-pivot-stories,
+  8g-how-to-get-startup-ideas, Iy-yc-s-group-partners-share-their-favorite-pivot-stories, Lm-you-don-t-have-to-be-a-billionaire-to-launch-satellites,
   JT-yc-s-group-partners-share-their-worst-investor-meetings, Kb-the-truth-about-building-ai-startups-today-lightcone-podcast-ep-1,
   Kq-inside-the-hard-tech-startups-turning-sci-fi-into-reality-lightcone-podcast-ep-5,
   L2-consumer-is-back-what-s-getting-funded-now-the-vibes-immaculate-lightcone-podcast-ep-6,

@@ -6,12 +6,12 @@ last_updated: 2026-04-05
 aliases: ["pricing", "monetization", "charging users", "when to charge", "freemium", "free vs paid", "startup pricing", "how to price", "turning users into customers"]
 related: ["[[Product-Market Fit]]", "[[Growth]]", "[[Startup Essentials]]", "[[Enterprise Sales]]", "[[Doing Things That Don't Scale]]"]
 sources: ["J3-inside-the-group-partner-lounge-turning-users-into-paid-customers"]
-speakers_referenced: ["Michael Seibel", "Harj Taggar", "Brad Flora"]
+speakers_referenced: ["Michael Seibel", "Harj Taggar", "[[Brad Flora]]"]
 ---
 
 # Pricing and Monetization
 
-Every batch, Y Combinator group partners find themselves repeating the same advice: start charging. [[Michael Seibel]], [[Harj Taggar]], and Brad Flora discuss why founders resist charging, why they should charge anyway, and the narrow exceptions where free is legitimate [1].
+Every batch, Y Combinator group partners find themselves repeating the same advice: start charging. [[Michael Seibel]], [[Harj Taggar]], and [[Brad Flora]] discuss why founders resist charging, why they should charge anyway, and the narrow exceptions where free is legitimate [1].
 
 ## Why Founders Resist Charging
 
@@ -23,7 +23,7 @@ The partners identify several common reasons founders talk themselves out of cha
 
 **Fear of losing the deal.** Founders selling to enterprises sometimes argue that charging will make it harder to close. They fail to realize the anti-signal of not charging: the enterprise customer wonders "Is this going to work? Are they going to be able to support us?" Putting a price on it removes those objections [1].
 
-**The no-redos fallacy.** Founders believe they will never be able to change the price after setting one. Brad Flora points out that you can always grandfather existing users into their current plan and raise prices for new users. "If you're confident and if things go well, the users you have today should hopefully represent a small fraction of the users you have in six months or a year" [1].
+**The no-redos fallacy.** Founders believe they will never be able to change the price after setting one. [[Brad Flora]] points out that you can always grandfather existing users into their current plan and raise prices for new users. "If you're confident and if things go well, the users you have today should hopefully represent a small fraction of the users you have in six months or a year" [1].
 
 ## Just Pick a Number
 
@@ -67,4 +67,4 @@ Flora summarizes: it is acceptable to be free in certain cases where there is a 
 
 ## References
 
-1. [Inside the Group Partner Lounge: Turning Users Into Paid Customers](https://www.ycombinator.com/library/J3-inside-the-group-partner-lounge-turning-users-into-paid-customers) — [[Harj Taggar]], [[Michael Seibel]], Brad Flora (2021)
+1. [Inside the Group Partner Lounge: Turning Users Into Paid Customers](https://www.ycombinator.com/library/J3-inside-the-group-partner-lounge-turning-users-into-paid-customers) — [[Harj Taggar]], [[Michael Seibel]], [[Brad Flora]] (2021)

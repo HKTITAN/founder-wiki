@@ -21,11 +21,11 @@ Seibel quantifies this: "In 97 percent of the time, the demo, the product, the M
 
 ### The Fear-Based Decision
 
-Caldwell and Seibel identify a specific psychological trap. If a founder secretly believes their product is bad, it makes rational sense to fundraise before the world figures it out. "You know that no one wants the thing you're making in your heart, right? And so rather than go and try to sell it and get what you're expecting to be really hard to sell -- hey, let's just raise before we go try to do it" [1]. This is fear-based decision-making, and it is "not the best play" [1].
+Seibel identifies a specific psychological trap. If a founder secretly believes their product is bad, it makes rational sense to fundraise before the world figures it out. "You know that no one wants the thing you're making in your heart, right? And so rather than go and try to sell it and get what you're expecting to be really hard to sell -- hey, let's just raise before we go try to do it" [1]. This is fear-based decision-making, and it is "not the best play" [1].
 
 ## Mistake 2: Treating Investors as Authority Figures
 
-A common failure pattern: founders put the investor at the center of the game instead of the customer. They treat the investor like a teacher, and their job through a pitch or deck is "to get an A from the teacher, and the A's money" [1].
+A common failure pattern: founders put the investor at the center of the game instead of the customer. Seibel describes founders who treat the investor like a teacher, where "their job through a pitch or a deck is to get an A from the teacher, and the A's money" [1].
 
 Caldwell explains the psychological root: "If you've been an employee or you've gone to school your whole lives, a lot of the way you get ahead in life is to figure out who the authority figure is that you need to please" [1]. For what to do when investors say no, see [[Handling Investor Rejection]]. Founders pattern-match from school and corporate life. But in startups, the authority figure is the customer, not the investor.
 
@@ -45,27 +45,27 @@ Seibel extends this: really successful companies get their oxygen from revenue a
 
 ### The Ownership Advantage
 
-Companies that raise less tend to have founders who own more of the company at exit. These founders tend to be happier and more innovative: "If you don't have as much money, you've got to innovate. You've got to do things better or different than your competitors" [1].
+Caldwell observes that companies that raise less tend to have founders who own more of the company at exit. These founders tend to be happier and more innovative: "If you don't have as much money, you've got to innovate. You've got to do things better or different than your competitors" [1].
 
 ## Leverage Is Everything
 
-The single biggest variable in whether founders retain ownership is how desperate they were at any point in the company's history to raise money [1]. Seibel provides two case studies:
+The single biggest variable in whether founders retain ownership is how desperate they were at any point in the company's history to raise money [1].
 
 ### Facebook Was Always Profitable
 
-"Facebook was apparently always profitable. Even when it was a tiny college social network, they had these ads on the site way back in the day that made them profitable" [1]. There was never a round where Facebook was in trouble or raised on poor terms. This is why Zuckerberg owns so much of the company at exit [1].
+Seibel notes: "Facebook was apparently always profitable. Even when it was a tiny college social network, they had these ads on the site way back in the day that made them profitable" [1]. There was never a round where Facebook was in trouble or raised on poor terms. This is why Zuckerberg owns so much of the company at exit [1].
 
 ### Google Had Incredible Traction
 
-Google was "a really popular search engine before they raised a single dollar." Caldwell used Google when it was at google.stanford.edu. Because the founders built it as grad students and had massive traction, their first money was raised on very good terms. Every subsequent round reinforced their leverage [1].
+Caldwell provides the Google case: he personally used Google when it was at google.stanford.edu. It was "a really popular search engine before they raised a single dollar." Because the founders built it as grad students and had massive traction, their first money was raised on very good terms. Every subsequent round reinforced their leverage [1].
 
-"If you look at why the Google founders are the Google founders and still have all this control over their company, you can look all the way back in time to the moment of the earliest fundraisers. They were not desperate for cash and had leverage" [1].
+Seibel draws the lesson: "If you look at why the Google founders are the Google founders and still have all this control over their company, you can look all the way back in time to the moment of the earliest fundraisers. They were not desperate for cash and had leverage" [1].
 
 ## Choose Your Role Models Carefully
 
 Seibel argues that who you compare yourself to matters. "If you're trying to hit a grand slam home run with your startup, compare yourself to the people who have hit grand slam home runs instead of comparing yourself with a local peer group or the company that just raised at a unicorn valuation" [1].
 
-Caldwell pushes this further: "At a minimum, if you're looking for heroes to emulate, can you copy companies that have at least 100 million in revenue and preferably a billion?" [1]. The lesson from Google and Facebook is more valuable than the lesson from the latest unicorn-valuation fundraise, because the goal is to build a successful multi-billion revenue company, not to achieve a high valuation [1].
+Caldwell pushes this further: "At a minimum, if you're looking for heroes to emulate, can you copy companies that have at least 100 million in revenue and preferably a billion?" [1]. Seibel adds: "Choosing your peers and choosing who you want to be like is one of the most powerful things you can do if you're an ambitious person" [1]. The lesson from Google and Facebook is more valuable than the lesson from the latest unicorn-valuation fundraise, because the goal is to build a successful multi-billion revenue company, not to achieve a high valuation [1].
 
 ## References
 

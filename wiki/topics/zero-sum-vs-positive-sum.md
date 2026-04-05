@@ -17,7 +17,7 @@ speakers_referenced: ["Dalton Caldwell", "Michael Seibel"]
 
 A **zero-sum game** is one where the upside comes directly from the other player. If two people bet $20, the winner's gain equals the loser's loss. No new value is created [1].
 
-A **positive-sum game** is one where activity produces lasting value. Caldwell uses the example of building a house: labor creates something that persists, generates income, and adds to the world's stock of useful things [1].
+A **positive-sum game** is one where activity produces lasting value. Seibel uses the example of building a house: labor creates something that persists, generates income, and adds to the world's stock of useful things [1].
 
 ## The Gambling Analogy
 
@@ -29,19 +29,19 @@ The skills that make someone good at poker -- bluffing, manipulating others into
 
 ## How Zero-Sum Thinking Infects Startups
 
-During periods when "stocks only go up," zero-sum games feel indistinguishable from positive-sum ones. Everyone appears to be winning. The distinction only becomes clear during downturns: "When everything's going up it's easy to think you're the smart person. When things start going down you start realizing who the real smart people are. And it turns out they're playing the zero-sum game ten times better than you, and they start taking money from you" [1].
+Caldwell observes that during periods when "stocks only go up," zero-sum games feel indistinguishable from positive-sum ones. Everyone appears to be winning. Seibel describes the distinction becoming clear only during downturns: "When everything's going up it's easy to think you're the smart person. When things start going down you start realizing who the real smart people are. And it turns out they're playing the zero-sum game ten times better than you, and they start taking money from you" [1].
 
 Seibel observes that society progresses because positive-sum players create excess value. Zero-sum players harvest that excess. "As long as the positive-sum game folks stay ahead, society progresses. But in times where the zero-sum game folks get too far ahead -- we lived through one of those, the last financial crisis -- the world literally goes to shit" [1].
 
 ## The Diagnostic
 
-Caldwell's test for whether your startup is playing a positive-sum game: "Look for external validation that you're building something of value that's enduring for people. Be able to articulate in a very simple way what the leave-behind value is. Am I winning because someone else is losing? Or is something real?" [1].
+Caldwell offers a test for whether your startup is playing a positive-sum game: "Look for external validation that you're building something of value that's enduring for people. Be able to articulate in a very simple way what the leave-behind value is. Am I winning because someone else is losing? Or is something real?" [1]. Seibel states it more bluntly: "I don't think people are confused whether they're gambling or building houses. I think they know" [1].
 
 Companies solving real problems survive market downturns. "A lot of our startups -- okay, it's hard out there, we can't raise, whatever. But our startup's still running. They're still growing. The stuff happening in the external world is noise" [1]. Versus: "The people where immediately the music stopped -- that's rough. If you're that sensitive to market conditions that you don't have a company anymore the minute the markets drop" [1].
 
 ## Legacy and the Rich-But-Unhappy Problem
 
-Caldwell and Seibel observe that many wealthy people are unhappy because "they realize that making money and making impact aren't one and the same" [1]. Money cannot generate a sense of legacy. People who made their money by taking it from others "look back and they're really concerned. And you kind of can't wash that off yourself very easily" [1].
+Seibel observes that many wealthy people are unhappy because "they realize that making money and making impact aren't one and the same" [1]. Money cannot generate a sense of legacy. Caldwell adds that people who made their money by taking it from others "look back and they're really concerned. And you kind of can't wash that off yourself very easily" [1].
 
 The framework applies beyond startups: "Whether it's a startup, whether it's a job, even if it's a relationship -- is this a zero-sum situation or positive-sum? In a relationship, imagine if you make each other better. One plus one equals three. That's positive-sum" [1].
 

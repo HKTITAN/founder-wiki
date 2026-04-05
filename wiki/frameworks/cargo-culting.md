@@ -26,7 +26,7 @@ In the 2000s, Google was the archetypal startup. The cargo cult copies [1]:
 - Cute company names with dropped vowels (started by Flickr)
 - Logos with primary colors and lens flares
 
-The reality: Google's hiring strategy worked because they were solving a genuinely hard technical problem (search was not a commodity despite conventional wisdom). They hired during the post-dot-com crash when great talent was available cheaply. These contextual factors did not transfer to the average startup copying Google's office layout [1].
+Seibel explains why these tactics worked for Google: they were solving a genuinely hard technical problem (the conventional wisdom pre-Google was that search was a commodity and Yahoo was good enough). They hired during the post-dot-com crash when great talent was available cheaply. These contextual factors did not transfer to the average startup copying Google's office layout [1].
 
 ### Facebook Cargo Culting
 
@@ -36,7 +36,7 @@ Facebook's influence produced [1]:
 - Share buttons on everything
 - Ignoring privacy concerns
 
-The reality: going viral is a viable strategy when users spend two hours a day on your product. Facebook's ad business worked because of unprecedented scale and engagement. "Not clear that every business should be an ads business" [1]. Seibel notes: "The second Facebook-style profile you had was delivering infinitely less value than the first one" [1].
+Seibel explains why this worked for Facebook: going viral is a viable strategy when users spend two hours a day on your product. Facebook's ad business worked because of unprecedented scale and engagement. Caldwell adds: "Not clear that every business should be an ads business" [1]. Seibel notes: "The second Facebook-style profile you had was delivering infinitely less value than the first one" [1].
 
 ### Uber Cargo Culting
 
@@ -47,15 +47,15 @@ The Uber cargo cult was distinctive because many of the beliefs about Uber were 
 - Ignore laws
 - "Blitzscale" (a book was written about it)
 
-The reality: investors funding Uber were looking at markets where Uber had excellent unit economics, then funding rapid expansion into those proven markets. "It wasn't people looking at Uber serving no markets well, burning money left and right" [1]. Uber was immediately and obviously valuable when it launched in San Francisco. "Superficially copying Uber and pretending that you're Travis doesn't work. It's just like wearing a black turtleneck does not make you Steve Jobs" [1].
+Caldwell explains the reality: investors funding Uber were looking at markets where Uber had excellent unit economics, then funding rapid expansion into those proven markets. "It wasn't people looking at Uber serving no markets well, burning money left and right" [1]. Caldwell recalls: "The first time you took Uber, it was a huge moment. It was immediately successful in San Francisco." Seibel draws the conclusion: "Superficially copying Uber and pretending that you're Travis doesn't work. It's just like wearing a black turtleneck does not make you Steve Jobs" [1].
 
 ## Modern Cargo Culting: Copying Unproven Companies
 
 The second level is more dangerous because the company being copied has not succeeded. A founder bases their strategy on a fundraising announcement and a podcast interview, with no knowledge of the target company's revenue [1].
 
-Caldwell describes the pattern: "You're the CEO of a company. The strategy you're betting the farm on is based on you read a fundraising announcement and you have no other context?" [1].
+Seibel describes the pattern: "You're the CEO of a company. The strategy you're betting the farm on is based on you read a fundraising announcement and you have no other context?" [1].
 
-WeWork and Zume Pizza (robotic pizza making) are examples of companies that attracted cargo cult followers based on high valuations, not business results. Both eventually flamed out, taking their imitators with them [1].
+Seibel provides examples: WeWork and Zume Pizza (robotic pizza making) attracted cargo cult followers based on high valuations, not business results. Both eventually flamed out, taking their imitators with them [1].
 
 ## Super-Modern Cargo Culting: Copying Struggling Startups
 
@@ -77,7 +77,7 @@ Modern cargo culting also manifests as imitating what a startup "should look lik
 
 Caldwell draws an analogy to academic writing: plagiarizing a paper by copy-pasting from three sources without understanding them is not original work. Reading many sources, digesting the information, and synthesizing it into your own original work with cited sources is [1].
 
-The same applies to music: ripping off someone's song is plagiarism; being influenced by sounds and integrating them into new music is how the industry works. "Everyone's being influenced by everyone else" [1].
+Seibel extends the analogy to music: ripping off someone's song is plagiarism; being influenced by sounds and integrating them into new music is how the industry works. "Everyone's being influenced by everyone else" [1].
 
 The key distinction: copying completely without thought versus being influenced and borrowing good ideas to integrate into your own thing [1].
 

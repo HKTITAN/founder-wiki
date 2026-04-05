@@ -6,7 +6,7 @@ last_updated: 2026-04-05
 aliases: ["CoinTracker", "CoinTracker case study", "crypto boom bust", "surviving crypto winter", "Chandan Lodha"]
 related: ["[[Runway Management]]", "[[Product-Market Fit]]", "[[Founder Mindset]]", "[[Co-Founders]]"]
 sources: ["Km-how-to-survive-the-crypto-boom-bust-cycle"]
-speakers_referenced: ["Chandan Lodha"]
+speakers_referenced: ["Chandan Lodha", "Garry Tan"]
 ---
 
 # CoinTracker: Surviving Crypto's Boom-Bust Cycles
@@ -63,4 +63,4 @@ Lodha's core advice [1]:
 
 ## References
 
-1. [How to Survive the Crypto Boom & Bust Cycle](https://www.ycombinator.com/library/Km-how-to-survive-the-crypto-boom-bust-cycle) — Chandan Lodha (2024)
+1. [How to Survive the Crypto Boom & Bust Cycle](https://www.ycombinator.com/library/Km-how-to-survive-the-crypto-boom-bust-cycle) — Chandan Lodha, [[Garry Tan]] (2024)

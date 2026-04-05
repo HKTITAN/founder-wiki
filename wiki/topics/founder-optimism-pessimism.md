@@ -19,11 +19,11 @@ The stereotypical too-pessimistic founder: one painful experience -- a bad custo
 
 ### Diagnostic Signs
 
-**Giving up after bad outreach.** Caldwell describes a common YC pattern: a founder sends a badly written, impersonal email to 100 potential customers at midnight with typos and a call to action like "would you like to join me for a six-hour phone call to discuss this further?" Five people reply. The founder concludes the startup does not work. "We get this like every batch, and we have to be like, 'It's going to be fine, folks'" [1].
+**Giving up after bad outreach.** Seibel describes a common YC pattern: a founder sends a badly written, impersonal email to 100 potential customers at midnight with typos and a call to action like "would you like to join me for a six-hour phone call to discuss this further?" Five people reply. The founder concludes the startup does not work. "We get this like every batch, and we have to be like, 'It's going to be fine, folks'" [1].
 
-**Ascribing godlike predictive power to one negative opinion.** A friend, investor, or customer says the idea will not work, and the founder treats it as definitive. Seibel lists the reality check: "Your friends are idiots and don't know anything, especially if they would never use your product. Investors are close seconds as idiots, especially if they never use your product, don't invest in your space, aren't good investors" [1].
+**Ascribing godlike predictive power to one negative opinion.** A friend, investor, or customer says the idea will not work, and the founder treats it as definitive. Caldwell lists the reality check: "Your friends are idiots and don't know anything, especially if they would never use your product. Investors are close seconds as idiots, especially if they never use your product, don't invest in your space, aren't good investors" [1].
 
-**Treating missed goals as proof of failure.** YC sets aggressive goals (the "demo day goal") specifically to create urgency and speed. Founders who do not hit the goal sometimes conclude their company is dead. Caldwell writes this explicitly in batch guidance, but founders still miss the point: "Setting the aggressive goal, the purpose was to get you to move fast. If you learned a bunch pursuing that goal, you got value even if you didn't accomplish it" [1].
+**Treating missed goals as proof of failure.** YC sets aggressive goals (the "demo day goal") specifically to create urgency and speed. Founders who do not hit the goal sometimes conclude their company is dead. Seibel writes this explicitly in batch guidance, but founders still miss the point: "Setting the aggressive goal, the purpose was to get you to move fast. If you learned a bunch pursuing that goal, you got value even if you didn't accomplish it" [1].
 
 **Draining energy from everyone around them.** Caldwell identifies the energy test: "You want to talk to someone and get energy when they're telling you about their company. If talking to you is deflating, that's a sign you're too pessimistic" [1].
 
@@ -48,25 +48,25 @@ The too-optimistic leader loses credibility in two interactions. Once trust erod
 
 Seibel uses the term **magical thinking** -- borrowed from psychology -- to describe founders who believe they live in a world with magical causes and effects [1].
 
-**The airport pitch fantasy**: "If I saw Michael in the airport and pitched my startup, he would immediately see what a brilliant idea I have, get out his checkbook and fly me away from my life." Some founders extend this belief to how all companies get funded. They think that is how the world works and attempt to replicate it, without studying how fundraising actually works [1].
+**The airport pitch fantasy**: Seibel provides the example: "If I saw Michael in the airport and pitched my startup, he would immediately see what a brilliant idea I have, get out his checkbook and fly me away from my life." Caldwell adds that some founders extend this belief to how all companies get funded. They think that is how the world works and attempt to replicate it, without studying how fundraising actually works [1].
 
-**The romantic comedy delusion**: founders who "think their life is a movie, and they're the main character" and that a dramatic, showy act will produce success because that is what happens in movies [1].
+**The romantic comedy delusion**: Seibel describes founders who "think their life is a movie, and they're the main character" and that a dramatic, showy act will produce success because that is what happens in movies [1].
 
-The practical version: "Hey, the way you meet Michael is you apply to YC on the website. And then we're just normal people. It's actually pretty straightforward" [1].
+Seibel offers the practical version: "Hey, the way you meet Michael is you apply to YC on the website. And then we're just normal people. It's actually pretty straightforward" [1].
 
 ### Diagnostic Signs of Too Much Optimism
 
-**Always having excuses.** Every question about why they cannot grow or get customers produces "a very complicated answer and excuse." The startup is great; external parties are at fault. "They're telling a story where they're the main character, they're the hero, and if it weren't for all these danged external parties doing bad things, it would be working" [1].
+**Always having excuses.** Seibel describes the pattern: every question about why they cannot grow or get customers produces "a very complicated answer and excuse." The startup is great; external parties are at fault. "They're telling a story where they're the main character, they're the hero, and if it weren't for all these danged external parties doing bad things, it would be working" [1].
 
-**Believing money will solve everything.** "If only I had money like everyone else, I'd be able to do this." The belief that one break separates them from zero to a hundred [1].
+**Believing money will solve everything.** Caldwell identifies this pattern: "If only I had money like everyone else, I'd be able to do this." The belief that one break separates them from zero to a hundred [1].
 
-**Having no working product but high confidence.** Founders who describe an elaborate social network that does not exist and have no code. They are frustrated that Caldwell and Seibel are not excited. "They don't understand that the deck, that the idea has inherent value as opposed to the implementation of it" [1].
+**Having no working product but high confidence.** Caldwell describes founders who present an elaborate social network that does not exist and have no code. They are frustrated that the YC partners are not excited. Seibel adds: "They don't understand that the deck, that the idea has inherent value as opposed to the implementation of it" [1].
 
-**Believing fundraising solves all problems.** "Just because you raise a bunch of money from important, famous people does not mean all problems no longer exist." Some founders "turn off their brain once they raised money" [1].
+**Believing fundraising solves all problems.** Caldwell warns: "Just because you raise a bunch of money from important, famous people does not mean all problems no longer exist." Some founders "turn off their brain once they raised money" [1].
 
-**Believing hiring solves pre-PMF problems.** "We have this really big, hairy problem we don't understand well. But if we just hire a marketing person, a sales person, they will figure out what the product should do." Pre-PMF, the problem is almost never that there are not enough people [1].
+**Believing hiring solves pre-PMF problems.** Caldwell describes the pattern: "We have this really big, hairy problem we don't understand well. But if we just hire a marketing person, a sales person, they will figure out what the product should do." Pre-PMF, the problem is almost never that there are not enough people [1].
 
-**Chasing hot trends.** Working on something because it is the cool, trending thing that investors are discussing on Twitter. Caldwell notes: "How many remote startups and video conferencing startups did we see the second that COVID hit?" Zoom had been working for years before COVID. Starting from scratch after the trend peaks means optimizing for something that happens post-trend, not during it [1]. The pattern: "When something has jumped the shark -- when it is one of the more common ideas people apply with -- that's when you knew it was over. Remember chatbots?" [1].
+**Chasing hot trends.** Seibel describes founders working on something because it is the cool, trending thing that investors are discussing on Twitter: "How many remote startups and video conferencing startups did we see the second that COVID hit?" Zoom had been working for years before COVID. Starting from scratch after the trend peaks means optimizing for something that happens post-trend, not during it [1]. Seibel adds: "When something has jumped the shark -- when it is one of the more common ideas people apply with -- that's when you knew it was over. Remember chatbots?" [1].
 
 ## The Sweet Spot: Cognitive Dissonance
 
@@ -78,7 +78,7 @@ He describes the daily reality: "My star employee just quit and says my startup 
 
 The founders who fail "resolve the dissonance by going too far in one of the directions, either freaking out at the bad things or losing contact with reality." The founders who succeed "figure out how to thrive in that environment. The risk and danger in some ways sharpens them" [1].
 
-Caldwell and Seibel also observe that founders often do not bring their A-game until the situation is bad. The back-against-the-wall effect produces better decisions, more focus, and more productive work. The challenge is finding that intensity without the crisis [1].
+Seibel also observes that founders often do not bring their A-game until the situation is bad. The back-against-the-wall effect produces better decisions, more focus, and more productive work. The challenge is finding that intensity without the crisis [1].
 
 ## The Summary
 

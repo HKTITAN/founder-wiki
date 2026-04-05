@@ -51,7 +51,7 @@ The best test: having worked with someone under real stress previously. Working 
 
 ### Relationship Quality Over Skill Complementarity
 
-Caldwell has never seen a co-founder breakup caused by a skills mismatch. "You'd rather work with someone you really like and learn together than work with someone you don't know at all and get into fights and then break up" [4].
+Caldwell observes that the biggest error is founders looking for someone with a skill match versus someone they actually have a deep relationship with. He has never seen a co-founder breakup caused by a skills mismatch: "You'd rather work with someone you really like and learn together than work with someone you don't know at all and get into fights and then break up" [4]. Seibel reinforces this: co-founder breakups are never "My co-founder is excellent, A-plus, they just don't have the skills that we need" -- they are always "My co-founder is a living nightmare and I can't take it anymore" [4].
 
 ### Shared High-Level Goals
 
@@ -92,11 +92,11 @@ Caldwell recommends finding a co-founder before coming up with an idea or raisin
 
 Caldwell describes a pattern he sees repeatedly: founders who spend eight or twelve hours a day together but have not had a real conversation in a week, a month, or even a year. Once things get that bad, the relationship is likely beyond repair. The CEO's job shifts from trying to fix the relationship to managing the separation "in the most effective and least destructive way" [4].
 
-Seibel adds that founders in this situation typically know the right thing to do -- separate -- but cannot bring themselves to do it because it feels bad [4].
+Seibel adds that founders in this situation typically know the right thing to do -- separate -- but cannot bring themselves to do it because it feels bad. "They're willing to go through years of pain or actually reduce the chance the startup's going to work than to face that head-on" [4]. Caldwell warns that delay makes it worse: "The longer this relationship persists in this way before there's a breakup, the worse the breakup is going to be" -- vested stock, litigation, and a damaged cap table [4].
 
 ### The Do-Over Illusion
 
-Caldwell warns against the temptation to abandon a co-founder relationship and start fresh. A year or two later, founders find it extremely hard to get back to where they were [4].
+Caldwell warns against the temptation to abandon a co-founder relationship and start fresh: "It's so easy to start a new company. And then you speak to them a year or two later, and it's really hard to get back to where they were in the moment" [4]. Seibel emphasizes that the co-founder relationship is "one of the most important things you're doing in the beginning of the company" and cautions against investing only fifty percent effort [4].
 
 ### Multiple People Wanting to Be CEO
 
@@ -108,7 +108,7 @@ One founder wants to work all the time; the other wants work-life balance. These
 
 ## Equity and Deadlock Prevention
 
-Caldwell advises keeping equity as close to equal as possible. However, a straight fifty-fifty split creates a deadlock problem. His recommendation: the CEO holds one extra share so that ownership is effectively equal but there is a tiebreaker vote [4]. See [[Equity Split]] for full guidance.
+Seibel raises the question of how to structure equity so co-founder fights are not fatal. Caldwell advises keeping equity as close to equal as possible. However, a straight fifty-fifty split creates a deadlock problem. His recommendation: the CEO holds one extra share so that ownership is effectively equal but there is a tiebreaker vote [4]. See [[Equity Split]] for full guidance.
 
 Taggar's default: split equity equally. "If this startup is successful, you will end up working on it for the next 10 years or more. Even if someone's been thinking about the idea for a little bit longer or done a little bit more work, that will be quite insignificant over the long term" [7].
 

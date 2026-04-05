@@ -61,7 +61,19 @@ Seibel's advice is grounded in a belief that startups are primarily execution pr
 
 **Equity as motivation tool.** On [[Equity Split]], Seibel argues that the primary purpose of the equity split is to maximize long-term co-founder motivation, not to reward past contributions [9]. He advocates equal or near-equal splits as the default, using vesting and a one-year cliff as the safety mechanism [9].
 
-**Fundraising is about leverage, not persuasion.** Across multiple videos, Seibel returns to the theme that the best fundraising strategy is to have a product customers want. He distinguishes between Silicon Valley investors (who have learned humility by passing on successes) and investors elsewhere (who may have been right every time they said no) [7]. His advice on [[Cold Emailing Investors]] focuses on brevity and substance: get the investor to reply, not to invest, in the first exchange [8].
+**Fundraising is about leverage, not persuasion.** Across multiple videos, Seibel returns to the theme that the best fundraising strategy is to have a product customers want. He distinguishes between Silicon Valley investors (who have learned humility by passing on successes) and investors elsewhere (who may have been right every time they said no) [7]. His advice on [[Cold Emailing Investors]] focuses on brevity and substance: get the investor to reply, not to invest, in the first exchange [8]. He identifies fear-based decision-making in fundraising: founders who secretly believe their product is bad will raise before metrics exist [11].
+
+**The founder as unfiltered node.** Seibel draws a sharp contrast between being a founder and being an employee. At a big company, "you got 15 layers protecting you from external world feedback." As a founder, "there is no filter. You're just out there dangling in the wind" [12]. The founder is the filter, not the person being filtered to. This insight runs through his advice on [[Talking to Users]], [[Hard Conversations]], and co-founder dynamics.
+
+**Ego protection as the root of user avoidance.** While Caldwell diagnoses the cognitive traps, Seibel names the emotional core: "The really core thing going on is ego protection and nothing else" [12]. He reframes sales as learning and filtering rather than convincing: "The best salespeople are spending a lot of their time doing two things: learning and filtering" [12].
+
+**The Twitch story as personal case study.** Seibel draws on his own experience at Justin.tv/Twitch across multiple videos. He recounts how Emmett Shear and Kevin Lin started calling streamers one by one after five years of building features no one asked for [14]. The core learning: "If you could help these streamers make money and they could quit their job and stream the content that they love, they will make stuff that millions of people want to watch" [14]. He also uses Twitch to illustrate passion through traction -- the team was not passionate about live video, but 30 million monthly visitors kept them going [13].
+
+**Intrinsic vs. extrinsic motivation.** Seibel provides the definitive framing: "95 percent of your friends doing startups are extrinsically motivated, and their startups are gonna die in the next two or three years." The intrinsically motivated founder -- the one "everyone thinks is a little too weird, not working on the normal thing" -- disproportionately survives [13].
+
+**Investor types as diagnostic.** Seibel provides the taxonomy of seven investor types in [[Investor Advice Pitfalls]], each with distinct biases: finance background, big company exec, non-tech entrepreneur, junior investor, influencer, other founders, and extremely young investors [15]. He admits his own autobiographical bias as a founder-turned-advisor: "A lot of my advice was heavily based on my personal experience, and it took years to break out of that trap" [15].
+
+**Discipline over genius.** Seibel argues that "genius is mistaken for discipline" -- successful founders are not smarter but are better at focused work. "If you looked at their calendar, if you shadowed them, the folks that are really good at this are just better at doing focused work. There's kind of nothing else" [16].
 
 ## Distinct Perspective
 
@@ -69,7 +81,9 @@ Compared to other YC advisors, Seibel's advice tends to be more operational and 
 
 Seibel is also unusually direct about the costs of different career paths. His [[Becoming a Founder|three paths framework]] (founder, executive, employee) presents each with explicit pros and cons [5].
 
-On fundraising, Seibel frequently partners with [[Dalton Caldwell]] to diagnose common mistakes. Their joint analysis of [[Fundraising Mistakes]] combines Seibel's operational lens with Caldwell's psychological analysis [11].
+In the D&M series with [[Dalton Caldwell]], Seibel tends to provide the Twitch/Justin.tv case studies and operational diagnostics (the 80/90% rule, the scientist mindset, the investor taxonomy), while Caldwell provides the psychological frameworks and named mental models. Their complementary styles are visible across all 12 of their joint conversations covered in this wiki.
+
+On fundraising, Seibel frequently partners with Caldwell to diagnose common mistakes. Their joint analysis of [[Fundraising Mistakes]] combines Seibel's operational lens with Caldwell's psychological analysis [11].
 
 ## Key Frameworks
 
@@ -80,6 +94,13 @@ On fundraising, Seibel frequently partners with [[Dalton Caldwell]] to diagnose 
 - **Founder Prerequisites**: Teammates with technical skills, financial plan, passionate problem, and an idea (in roughly that order of importance) [5].
 - **The 80/90% Rule**: If 80-90% of your waking hours are spent talking to customers and building product, you are doing it right. If it is 20%, something is very wrong [11].
 - **60-Second Email Rule**: Cold investor emails should be readable in 60 seconds or less. The goal is a reply, not a check [8].
+- **Googleitis**: The pattern of looking at companies as they exist today and not understanding what they looked like at the beginning [16].
+- **Boiling the Ocean**: Trying to build a complete, elaborate product before getting a single user -- attempting something basically impossible [16].
+- **Sales as Learning and Filtering**: The best salespeople are not convincing -- they are learning about customer problems and filtering out non-customers as fast as possible [12].
+- **The Scientist Mindset**: Founders should design experiments that test the critical variable, like the Stripe founders who charged more than the competition to test whether ease of use mattered more than price [12].
+- **Intrinsic vs. Extrinsic Motivation**: Extrinsic motivators (money, status, approval) are "great for getting to a good high school or a good college, not so good for the startup game" [13].
+- **The Founder as Filter**: Unlike employees who are protected by layers of management, founders are the filter -- they absorb unfiltered reality and must process it for their team [12].
+- **Seven Investor Types**: Taxonomy of investor biases based on background: finance, big company exec, non-tech entrepreneur, junior investor, influencer, other founders, extremely young investors [15].
 
 ## References
 
@@ -94,3 +115,8 @@ On fundraising, Seibel frequently partners with [[Dalton Caldwell]] to diagnose 
 9. [How to Split Equity Among Co-Founders](https://www.ycombinator.com/library/5x-how-to-split-equity-among-co-founders) -- Michael Seibel (n.d.)
 10. [How to Get and Test Ideas](https://www.ycombinator.com/library/7x-how-to-get-and-test-ideas) -- Michael Seibel (n.d.)
 11. [YC Founders Made These Fundraising Mistakes](https://www.ycombinator.com/library/DY-dalton-michael-yc-founders-made-these-fundraising-mistakes) -- [[Dalton Caldwell]], Michael Seibel (n.d.)
+12. [Successful Founders Are OK with Rejection](https://ycombinator.com/library/DV-dalton-michael-successful-founders-are-ok-with-rejection) -- [[Dalton Caldwell]], Michael Seibel (2022)
+13. [Should You Follow Your Passion?](https://ycombinator.com/library/DW-dalton-michael-should-you-follow-your-passion) -- [[Dalton Caldwell]], Michael Seibel (2022)
+14. [Secrets You Can Learn From Your Customers](https://ycombinator.com/library/IP-dalton-michael-secrets-you-can-learn-from-your-customers) -- [[Dalton Caldwell]], Michael Seibel (2023)
+15. [Why Investors Can't Fix Your Company](https://ycombinator.com/library/IT-dalton-michael-why-investors-can-t-fix-your-company) -- [[Dalton Caldwell]], Michael Seibel (n.d.)
+16. [Simple Products That Became Big Companies](https://ycombinator.com/library/DT-dalton-michael-simple-products-that-became-big-companies) -- [[Dalton Caldwell]], Michael Seibel (2022)

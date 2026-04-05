@@ -6,12 +6,12 @@ last_updated: 2026-04-05
 aliases: ["early stage hiring", "pre-PMF hiring", "startup hiring mistakes", "when to hire", "don't hire", "overhiring at startups", "hiring before product market fit"]
 related: ["[[Hiring Engineers]]", "[[Financial Survival]]", "[[Default Alive or Default Dead]]", "[[Product-Market Fit]]", "[[Scaling and Later-Stage Operations]]", "[[Co-Founders]]", "[[Company Culture]]"]
 sources: ["J2-inside-the-group-partner-lounge-don-t-make-these-hiring-mistakes", "KF-how-to-not-get-screwed-over-as-a-software-engineer"]
-speakers_referenced: ["Harj Taggar", "Michael Seibel", "Brad Flora", "Dalton Caldwell"]
+speakers_referenced: ["Harj Taggar", "Michael Seibel", "[[Brad Flora]]", "Dalton Caldwell"]
 ---
 
 # Hiring at Early Stage
 
-One of the most common things founders tell YC they need to do during a batch is hire. One of the most common pieces of advice YC gives back is: do not hire. [[Harj Taggar]], [[Michael Seibel]], and Brad Flora describe this tension as a recurring source of friction, because the advice runs counter to the visible signal that successful companies have thousands of employees [1].
+One of the most common things founders tell YC they need to do during a batch is hire. One of the most common pieces of advice YC gives back is: do not hire. [[Harj Taggar]], [[Michael Seibel]], and [[Brad Flora]] describe this tension as a recurring source of friction, because the advice runs counter to the visible signal that successful companies have thousands of employees [1].
 
 The distinction that resolves the tension is [[Product-Market Fit]]. Almost all hiring advice written online is for post-PMF companies scaling a product users already love. Most startups applying to YC are pre-PMF. "If you apply that advice to your pre-product market company, you might accelerate your death" [1].
 
@@ -63,11 +63,11 @@ The cultural insight from successful founders: "Every hire should increase the a
 
 ## Protecting Technical Co-Founders
 
-[[Dalton Caldwell]] and Seibel address a parallel problem: technical co-founders and early technical employees being exploited [2]. The pattern is visible in YC applications: a non-technical "business" founder holds 90 percent equity while the technical person who builds everything holds 10 percent or less [2].
+[[Dalton Caldwell]] and Seibel address a parallel problem: technical co-founders and early technical employees being exploited [2]. Caldwell describes how the pattern is visible in YC applications: a non-technical "business" founder holds 90 percent equity while the technical person who builds everything holds 10 percent or less [2].
 
 ### Signs of Exploitation
 
-Caldwell and Seibel provide a self-diagnosis checklist [2]:
+Caldwell provides a self-diagnosis checklist [2]:
 
 - **Equity:** Does your equity make sense based on what you bring and your actual responsibilities? Equal or near-equal equity is the YC default recommendation for co-founders.
 - **Decision-making:** Do you have a seat at the table, or are all decisions made in meetings you are not invited to?
@@ -85,9 +85,11 @@ Caldwell and Seibel provide a self-diagnosis checklist [2]:
 
 ### Fixing a Bad Situation
 
-Sometimes the fix is simple. "Often sometimes it'll just be, hey, have you all thought about maybe going equal? People are like, okay, yeah, fine. It's actually not that hard to fix. Sometimes shockingly, it's just they've never had the conversation" [2]. Technical people must exercise their agency rather than passively expecting the business person to be fair.
+Sometimes the fix is simple. Caldwell notes: "Often sometimes it'll just be, hey, have you all thought about maybe going equal? People are like, okay, yeah, fine. It's actually not that hard to fix. Sometimes shockingly, it's just they've never had the conversation" [2]. Technical people must exercise their agency rather than passively expecting the business person to be fair.
 
 Seibel shares the story of Tim at Justin.tv, who was disgruntled but chose to take ownership -- coming up with ideas, pointing out problems, creating fixes. "As he took ownership, he was given ownership" [2].
+
+Seibel's closing advice to technical people: "Know your worth. And if you're a really nice person, those are the people that tend to get ripped off the most. Find a place where you're appreciated and valued the way you should be, because you have this amazing rare skill" [2].
 
 ## The Summary Rule
 
@@ -95,5 +97,5 @@ Seibel shares the story of Tim at Justin.tv, who was disgruntled but chose to ta
 
 ## References
 
-1. [Inside the Group Partner Lounge: Don't Make These Hiring Mistakes](https://ycombinator.com/library/J2-inside-the-group-partner-lounge-don-t-make-these-hiring-mistakes) -- [[Harj Taggar]], [[Michael Seibel]], Brad Flora (2022)
+1. [Inside the Group Partner Lounge: Don't Make These Hiring Mistakes](https://ycombinator.com/library/J2-inside-the-group-partner-lounge-don-t-make-these-hiring-mistakes) -- [[Harj Taggar]], [[Michael Seibel]], [[Brad Flora]] (2022)
 2. [How To NOT Get Screwed Over As A Software Engineer](https://ycombinator.com/library/KF-how-to-not-get-screwed-over-as-a-software-engineer) -- [[Dalton Caldwell]], [[Michael Seibel]] (2023)

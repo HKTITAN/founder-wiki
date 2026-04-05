@@ -35,25 +35,25 @@ Seibel describes co-founder disputes as uniquely destabilizing: "That's your hom
 
 YC encourages founding with friends precisely because of the inevitability of conflict. The reasoning: "If you don't have a strong relationship with this person when things go bad, it's guaranteed to break. At least if you have a friendship, there's a fighting chance" [1].
 
-External pressure accelerates internal tensions. Caldwell describes the dynamic: "My co-founders are reading TechCrunch, watching idiots raise tens of millions of dollars every day and then looking at me as the fundraiser being like, 'Hey, Mike, what's going on?'" [1]. The visible success of others -- often undeserved or exaggerated -- creates friction between co-founders about whether the fundraiser is underperforming.
+External pressure accelerates internal tensions. Seibel describes the dynamic from personal experience: "My co-founders are reading TechCrunch, watching idiots raise tens of millions of dollars every day and then looking at me as the fundraiser being like, 'Hey, Mike, what's going on?'" [1]. The visible success of others -- often undeserved or exaggerated -- creates friction between co-founders about whether the fundraiser is underperforming.
 
 ### The Magical Deal
 
-Both partners warn about "the magical deal" -- the one partnership, contract, or customer that founders convince themselves will save the company [1].
+Caldwell introduces the concept of "the magical deal" -- the one partnership, contract, or customer that founders convince themselves will save the company [1].
 
 Seibel shares his own experience: a six-figure advertising contract with Microsoft that was supposed to break open Justin.tv's monetization. It required redesigning the entire site, flying to LA, and producing a live television show. They lost far more than the contract was worth, wasted three months, and the show was not very good. "At the moment we were like, these are the deals that will save the company" [1].
 
-Caldwell identifies the underlying pattern: "You reduce your entire startup to you just need one thing to happen and then you're on easy street." He pictures movie credits rolling -- the founder imagines one event will end the struggle. "What's funny, working with a lot of startups, is sometimes you'd get the deal and the credits don't roll. You're like, oh, now what?" [1].
+Seibel identifies the underlying pattern: "You reduce your entire startup to you just need one thing to happen and then you're on easy street." He pictures movie credits rolling -- the founder imagines one event will end the struggle. "What's funny, working with a lot of startups, is sometimes you'd get the deal and the credits don't roll. You're like, oh, now what?" [1].
 
-This applies even to getting into YC. The partners regularly have to explain to newly accepted founders: "It's still hard" [1]. Caldwell talks to alums eight to ten years into "ridiculously successful companies" who still experience constant setbacks with no sense of having arrived [1].
+This applies even to getting into YC. The partners regularly have to explain to newly accepted founders: "It's still hard" [1]. Seibel talks to alums eight to ten years into "ridiculously successful companies" who still experience constant setbacks with no sense of having arrived [1].
 
 ### Launches That Flop
 
-Founders expect launches to play out like movie premieres -- press, excitement, mass adoption. Reality is the opposite. "No one cares. And sometimes they care a little and sometimes they care but in a bad way" [1].
+Caldwell describes founders expecting launches to play out like movie premieres -- press, excitement, mass adoption. Reality is the opposite. "No one cares. And sometimes they care a little and sometimes they care but in a bad way" [1].
 
 Seibel describes two levels of bad: "Bad is no one cares. Worse is everyone hates you. People on Hacker News are like, 'You should be ashamed of yourself and you're bad and all of your ideas are bad and I could have built this in three days'" [1].
 
-The benefit of launching quickly is flushing out the fantasy: "You just get, you flush this out of your system. Here in real life you put out a launch and most people don't care most of the time" [1].
+Seibel identifies the benefit of launching quickly: flushing out the fantasy. "You just get, you flush this out of your system. Here in real life you put out a launch and most people don't care most of the time" [1].
 
 Caldwell draws a structural contrast: a movie premiere generates enormous attention that fades over weeks. A startup is "a whole bunch of nobody gives a shit for a really long time. And then some point 10 years from now everyone really cares" [1]. The actual time-lapse of early Facebook would be "people sitting at their keyboard typing all day, not talking" -- punctuated by small victories like launching at a new school. "Movies hurt us here. They're good because they inspire us but I think movies mess people up a lot of what they think normal is" [1].
 
@@ -65,7 +65,7 @@ His reaction when YC founders report being sued: "Welcome to running a business.
 
 ## How to React: The Worst-Case Inventory
 
-Seibel's tactical framework for processing setbacks is what he calls **the worst-case analysis** [1]:
+Seibel's tactical framework for processing setbacks is what he calls **the worst-case analysis**. He walks through the inventory checklist [1]:
 
 1. "Are we running out of money?"
 2. "Do we still have a product?"
@@ -74,7 +74,7 @@ Seibel's tactical framework for processing setbacks is what he calls **the worst
 
 The inventory serves a reboot function. Most of the time, founders discover the situation is survivable. "You're like, 'Okay, well, we have three years of runway and we can do that. Okay, this isn't bad'" [1].
 
-A related technique: list the five things you are most afraid of after the setback. Saying them out loud often defuses them. "When we say them out loud, do they just sound less scary because they didn't happen?" [1]. "All of our customers are going to leave" -- have any of them actually emailed saying they want to leave? Usually not.
+A related technique Seibel uses: list the five things you are most afraid of after the setback. Saying them out loud often defuses them. "When we say them out loud, do they just sound less scary because they didn't happen?" [1]. "All of our customers are going to leave" -- have any of them actually emailed saying they want to leave? Usually not.
 
 ## The Silver Linings
 
@@ -84,9 +84,9 @@ Caldwell states: "Every single person you respect who's done something hard has 
 
 ### You Can Get Better at It
 
-Resilience is a trainable skill. "You can get good at dealing with these setbacks. You can actually get better over time. You can learn how to take a punch" [1]. Founders cannot control whether setbacks occur, but they can control their reaction. The options include anger, fear, bargaining, and denial -- but all of these are choices, not inevitabilities [1].
+Resilience is a trainable skill. Seibel states: "You can get good at dealing with these setbacks. You can actually get better over time. You can learn how to take a punch" [1]. Founders cannot control whether setbacks occur, but they can control their reaction.
 
-Caldwell compares it to athletes, musicians, and filmmakers who develop the ability to process criticism and indifference. The skill of productive response to setbacks transfers to every domain [1].
+Caldwell extends this: the options include anger, fear, bargaining, and denial -- but all of these are choices, not inevitabilities. He compares it to athletes, musicians, and filmmakers who develop the ability to process criticism and indifference. The skill of productive response to setbacks transfers to every domain [1].
 
 ### Your Reaction Sets the Standard
 
@@ -94,11 +94,11 @@ How the founder reacts to setbacks determines how the entire organization reacts
 
 Seibel describes the multiplicative effect: "One day you're gonna have a large organization and you're not gonna be there to cover everyone. And they will have learned from you. They'll learn the good from you or the bad from you, but they'll learn from you" [1].
 
-He describes his own practice: when people around him are panicking, he responds with "Oh, it's gonna be fine." The effect: "It turns out freaking out doesn't help anyone. And it turns out if someone in the room's like, 'It's gonna be fine,' everyone pauses for a moment" [1].
+Seibel describes his own practice: when people around him are panicking, he responds with "Oh, it's gonna be fine." The effect: "It turns out freaking out doesn't help anyone. And it turns out if someone in the room's like, 'It's gonna be fine,' everyone pauses for a moment" [1]. He offers a tactical approach: do an inventory -- "Are we running out of money? Do we still have a product? Are we in legal trouble?" -- and then list the five things you are most afraid of. Saying them out loud usually defuses them [1].
 
 ### Resilience as a Transferable Superpower
 
-Even if the company fails, the ability to absorb setbacks and respond productively is permanently valuable. Caldwell calls it a superpower: "This is a great person to have in your family. This is a great person to have in your friend group. Someone that's a rock" [1]. The person who listens, assesses, and responds calmly is valuable in every context, not just startups [1].
+Even if the company fails, the ability to absorb setbacks and respond productively is permanently valuable. Caldwell calls it a superpower: "This is a great person to have in your family. This is a great person to have in your friend group. Someone that's a rock" [1]. Seibel adds that the person who listens, assesses, and responds calmly -- "Oh, something's bad. Let me listen. Let me assess the situation" -- is valuable in every context, not just startups [1].
 
 ## References
 

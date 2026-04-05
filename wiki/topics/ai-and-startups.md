@@ -6,7 +6,7 @@ last_updated: 2026-04-05
 aliases: ["AI startups", "OpenAI", "LLMs and startups", "AI hype", "platform shifts", "will AI kill startups", "cargo culting AI", "AI opportunity", "using AI", "LLMs in startups", "AI pivot", "vibe coding", "AI tools for founders", "AI coding", "AI for startups", "AI in Startups"]
 related: ["[[Startup Ideas]]", "[[Growth]]", "[[Hard Tech Startups]]", "[[Founder Mindset]]", "[[Dalton Caldwell]]", "[[Michael Seibel]]", "[[Product Development]]", "[[Founder Productivity]]", "[[Tom Blomfield]]"]
 sources: ["Ie-dalton-michael-will-openai-kill-all-startups", "M3-how-to-use-ai-in-your-startup", "MN-how-to-get-the-most-out-of-vibe-coding"]
-speakers_referenced: ["Dalton Caldwell", "Michael Seibel", "Brad Flora", "Gustaf Alstromer", "Pete Koomen", "Tom Blomfield"]
+speakers_referenced: ["Dalton Caldwell", "Michael Seibel", "[[Brad Flora]]", "Gustaf Alstromer", "Pete Koomen", "Tom Blomfield"]
 ---
 
 # AI and Startups
@@ -28,17 +28,17 @@ What can be discussed is how major technological changes have historically affec
 
 If history repeats, someone looking at LLM tools today and thinking "real problems can be solved right now that couldn't be solved six to twelve months ago" is in the right position [1].
 
-Brad Flora compares the current AI moment to the mobile wave he witnessed firsthand. He arrived at YC in 2007, the same week Steve Jobs announced the iPhone. The apps did not come until the following summer, and the permissions needed did not arrive until 2009. But the following five years produced most of the mobile companies people use today [2].
+[[Brad Flora]] compares the current AI moment to the mobile wave he witnessed firsthand. He arrived at YC in 2007, the same week Steve Jobs announced the iPhone. The apps did not come until the following summer, and the permissions needed did not arrive until 2009. But the following five years produced most of the mobile companies people use today [2].
 
 The pattern: "Big companies generally are preceded by big technology shifts" [2]. Gustaf Alstromer extends the analogy to cloud migration in the early 2010s: "There were just a lot of good ideas lying around because you had the opportunity to replace some legacy piece of software that was on-prem." He cites a conversation with the CEO of Workday, who saw the same pattern when PeopleSoft's on-prem model was vulnerable to cloud-native replacements. "Similar moment now for a lot of companies" [2].
 
 ## Cargo Culting vs. Real Value
 
-Caldwell draws a sharp distinction [1]:
+Seibel introduces the distinction, with Caldwell elaborating [1]:
 
-**Cargo culting AI**: Adding "AI" to a product description when it is tangential to what the product does. The AI does not help customers, does not improve the product, and exists primarily to help raise money.
+**Cargo culting AI**: Caldwell defines this as adding "AI" to a product description when it is tangential to what the product does. The AI does not help customers, does not improve the product, and exists primarily to help raise money.
 
-**Real AI value**: Adding AI features that dramatically increase retention, increase product quality, or make it much easier to charge. "That stuff is real. That is not hype" [1].
+**Real AI value**: Seibel describes seeing companies add AI features that dramatically increase retention, increase product quality, or make it much easier to charge. "That stuff is real. That is not hype" [1].
 
 The analogy is to when the App Store launched. There was a hype cycle around apps and many companies cargo-culted the label. But building a high-quality mobile app that increased user retention was genuinely transformative. Facebook almost died because it did not move to mobile fast enough [1].
 
@@ -58,13 +58,13 @@ Pete Koomen draws the analogy to cloud: "If you are building a cloud company, ob
 
 ## Who Is Starting AI Companies
 
-Caldwell and Seibel identify two groups of founders who are well-positioned [1]:
+Seibel identifies two groups of founders who are well-positioned [1]:
 
 **Domain experts in ML**: People who have been doing machine learning for years and now see "all of the things I imagined were going to happen are starting to happen. I can predict the future" [1].
 
-**Enthusiastic early adopters**: People who love using LLMs and are learning deeply about them while most people know nothing. This group is analogous to the teenagers who jailbroke iPhones when the App Store was new -- the Brex founders were among them [1].
+**Enthusiastic early adopters**: People who love using LLMs and are learning deeply about them while most people know nothing. Caldwell notes this group is analogous to the teenagers who jailbroke iPhones when the App Store was new -- the Brex founders were among them [1].
 
-A third group is not well-positioned: people who are not excited about LLMs and have no ML experience but want to make money fast. "Those people are not being attracted to this," which Caldwell and Seibel see as a positive signal for the quality of companies being built [1].
+Caldwell identifies a third group that is not well-positioned: people who are not excited about LLMs and have no ML experience but want to make money fast. "Those people are not being attracted to this," which Caldwell sees as a positive signal for the quality of companies being built [1].
 
 ## Where AI Ideas Come From
 
@@ -163,5 +163,5 @@ Unless short-term AGI is imminent, OpenAI is not going to kill all startups. The
 ## References
 
 1. [Will OpenAI Kill All Startups?](https://www.ycombinator.com/library/Ie-dalton-michael-will-openai-kill-all-startups) -- [[Dalton Caldwell]], [[Michael Seibel]] (2023)
-2. [How To Use AI In Your Startup](https://ycombinator.com/library/M3-how-to-use-ai-in-your-startup) -- Brad Flora, Pete Koomen, Gustaf Alstromer (2025)
+2. [How To Use AI In Your Startup](https://ycombinator.com/library/M3-how-to-use-ai-in-your-startup) -- [[Brad Flora]], Pete Koomen, Gustaf Alstromer (2025)
 3. [How To Get The Most Out Of Vibe Coding](https://ycombinator.com/library/MN-how-to-get-the-most-out-of-vibe-coding) -- [[Tom Blomfield]] (2025)

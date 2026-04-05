@@ -6,12 +6,12 @@ last_updated: 2026-04-05
 aliases: ["investor rejection", "investors said no", "believe the no", "fundraising rejection", "investor feedback", "why investors say no"]
 related: ["[[Convincing Investors]]", "[[Seed Fundraising]]", "[[Series A Fundraising]]", "[[Founder Mindset]]", "[[Michael Seibel]]", "[[Harj Taggar]]"]
 sources: ["J1-inside-the-group-partner-lounge-investors-said-no-now-what"]
-speakers_referenced: ["Michael Seibel", "Harj Taggar", "Brad Flora"]
+speakers_referenced: ["Michael Seibel", "Harj Taggar", "[[Brad Flora]]"]
 ---
 
 # Handling Investor Rejection
 
-YC group partners [[Michael Seibel]], [[Harj Taggar]], and Brad Flora state that one of their most common activities is "pumping belief back into founders who have had their confidence shaken by investor rejections" [1]. The YC mantra for handling rejection is: **"Believe the no. Don't believe the why."**
+YC group partners [[Michael Seibel]], [[Harj Taggar]], and [[Brad Flora]] state that one of their most common activities is "pumping belief back into founders who have had their confidence shaken by investor rejections" [1]. The YC mantra for handling rejection is: **"Believe the no. Don't believe the why."**
 
 ## Why Founders Overweight Investor Feedback
 
@@ -33,7 +33,7 @@ Seibel describes a worse scenario: a founder comes to YC saying an investor sugg
 
 ## When the Same Feedback Comes from Everyone
 
-When 23 out of 25 investors give the same reason for rejection, the advice remains nuanced. Flora: "The takeaway still isn't 'believe that.' It's 'think about it. Assess it. Dig into it'" [1]. Do not take it at face value, but do not ignore it either. Write it down. But "don't internalize it and absorb it into your mindset for the company. You should know about it, but not soak it in" [1].
+When 23 out of 25 investors give the same reason for rejection, the advice remains nuanced. Seibel: "The takeaway still isn't 'believe that.' It's 'think about it. Assess it. Dig into it'" [1]. Do not take it at face value, but do not ignore it either. Write it down. But "don't internalize it and absorb it into your mindset for the company. You should know about it, but not soak it in" [1].
 
 Taggar describes his personal algorithm: "The first time they tell me there's a rejection and a why, I ignore it completely. If they've gotten 15, 20, 25 rejections, I then ask, 'Are the whys consistent?' And only if then the whys are consistent do I even think this is a data point to be considered at all" [1]. This requires pitching many investors -- one or two rejections produce no useful signal.
 
@@ -65,4 +65,4 @@ Flora frames it as the secret behind YC's model: "With multiple applications, we
 
 ## References
 
-1. [Investors Said No, Now What?](https://www.ycombinator.com/library/J1-inside-the-group-partner-lounge-investors-said-no-now-what) -- [[Harj Taggar]], [[Michael Seibel]], Brad Flora (2021)
+1. [Investors Said No, Now What?](https://www.ycombinator.com/library/J1-inside-the-group-partner-lounge-investors-said-no-now-what) -- [[Harj Taggar]], [[Michael Seibel]], [[Brad Flora]] (2021)

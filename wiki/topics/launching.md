@@ -6,22 +6,22 @@ last_updated: 2026-04-05
 aliases: ["launching", "when to launch", "launch strategy", "launching early", "launch timing", "MVP launch", "startup launch", "how to launch", "launch early", "launch often", "first launch", "product launch"]
 related: ["[[Growth]]", "[[Doing Things That Don't Scale]]", "[[Product-Market Fit]]", "[[Startup Essentials]]", "[[Harj Taggar]]", "[[Michael Seibel]]", "[[Getting Press]]", "[[Talking to Users]]"]
 sources: ["J0-inside-the-group-partner-lounge-when-to-launch-your-startup", "LG-why-startup-founders-should-launch-companies-sooner-than-they-think", "Ir-the-best-way-to-launch-your-startup"]
-speakers_referenced: ["Harj Taggar", "Michael Seibel", "Brad Flora", "Diana Hu", "Gustaf Alstromer", "Tom Blomfield", "Kat Manalac", "Garry Tan", "Aaron Epstein"]
+speakers_referenced: ["Harj Taggar", "Michael Seibel", "Brad Flora", "Diana Hu", "Gustaf Alstromer", "Tom Blomfield", "Kat Manalac", "Garry Tan", "Aaron Epstein", "Pete Koomen", "Serby"]
 ---
 
 # Launching
 
-Launching is one of the most consistently misunderstood activities in early-stage startups. Founders treat it as a singular, high-stakes event -- the YC canon treats it as a continuous process. [[Michael Seibel]], [[Harj Taggar]], Kat Manalac, and multiple YC group partners argue that the single biggest mistake founders make around launching is waiting too long, and that the correct approach is to launch early, launch often, and treat every launch as a learning opportunity [1] [2] [3].
+Launching is one of the most consistently misunderstood activities in early-stage startups. Founders treat it as a singular, high-stakes event -- the YC canon treats it as a continuous process. [[Michael Seibel]], [[Harj Taggar]], Kat Manalac, and multiple YC group partners argue that the single biggest mistake founders make around launching is waiting too long, and that the correct approach is to launch early, launch often, and treat every launch as a learning opportunity [1][2][3].
 
 ## The Pop Culture Myth
 
-Seibel identifies the root cause of delayed launches as "pop culture knowledge" -- beliefs that are false but widely held [2]. Two myths dominate:
+[[Michael Seibel]] identifies the root cause of delayed launches as "pop culture knowledge" -- beliefs that are false but widely held [2]. Two myths dominate:
 
 1. **"Your launch is important and you only get one."** Seibel challenges founders to remember the launch of any product they use daily: Uber, DoorDash, Google. "If launches are so important, wouldn't you know about the launches of the most important companies in the world?" [2]
 
-2. **"If people try your product once and they don't like it, they'll never try it again."** Diana Hu calls this equally false. "No one ever says, 'I will never go to this website ever again because this was bad.' That never happens" [2].
+2. **"If people try your product once and they don't like it, they'll never try it again."** Diana Hu calls this equally false [2]. Gustaf Alstromer reinforces the point: "No one ever says, 'I will never go to this website ever again because this was bad.' That never happens" [2].
 
-The myth persists because many founders worked at large companies where launches are high-production events with multi-year timelines. Apple's launch process makes sense for Apple. Applied to a startup, it produces death by anonymity [2].
+The myth persists because many founders worked at large companies where launches are high-production events with multi-year timelines. Seibel and Hu trace this to the employee mindset: Seibel explains that founders at Apple worked on multi-year product cycles with one-shot launches, then assume their startup needs the same process. Hu adds that big companies use launches as "a bit of a forcing function to get people to move," but "that's a myth for startups. Does not apply" [2].
 
 ## Why Founders Resist Launching
 
@@ -31,15 +31,17 @@ Taggar observes that founders often think they are moving fast because they are 
 
 ### The Perfect Launch Fantasy
 
-Brad Flora identifies perfectionism as a root cause. Founders imagine the launch as a singular, Oscar-ceremony-level event. They worry about looking bad, so they keep polishing. The reality: "Often no one cares. You launch, there's no one there" [1].
+[[Brad Flora]] identifies perfectionism as a root cause. Founders imagine the launch as a singular, Oscar-ceremony-level event. They worry about looking bad, so they keep polishing. The reality: "Often no one cares. You launch, there's no one there" [1].
 
 The word itself embeds a fallacy. "The launch" implies it is a singular thing. In practice, you launch over and over. It is not a precious thing [1].
 
 ### Existential Fear
 
-The underlying fear is existential. If nobody shows up, what have the founders been spending the last six months on? "I think they're scared that nobody shows up. Nobody's actually going to watch their video, go to their website, or try their product. And that's kind of an existential risk for them" [2].
+The underlying fear is existential. Seibel describes it: "I think they're scared that nobody shows up. Nobody's actually going to watch their video, go to their website, or try their product. And that's kind of an existential risk for them." Hu adds the identity layer: "If nobody shows up, I'm dumb. Or if nobody shows up, I'm wrong" [2].
 
-For technical founders specifically, the avoidance has a comfortable alternative: writing code. Gustaf Alstromer and [[Tom Blomfield]] describe programmers who spend twelve hours a day coding and call it productivity. "But actually, no. It's doing the thing that's uncomfortable: out of the building, talking to customers, getting detailed feedback" [2].
+Seibel also identifies a liberation effect: once founders have launched once, even unsuccessfully, the fear dissipates. "Once you've launched once, and then even if it doesn't go well -- like, what's the worst case? You launch again. One week later, everything's okay" [2].
+
+For technical founders specifically, the avoidance has a comfortable alternative: writing code. Gustaf Alstromer and [[Tom Blomfield]] describe programmers who spend twelve hours a day coding and call it productivity. "But actually, no. It's doing the thing that's uncomfortable: out of the building, talking to customers, getting detailed feedback" [2]. Alstromer explains why: programmers are "very comfortable sitting behind a computer writing code" solving "discrete, well-defined problems" where "the code compiles or the code does not compile." Customer feedback is ambiguous by comparison, and criticism feels personal [2]. Blomfield reframes the sting: "In reality, what you think about is that they're just not your customer" [2].
 
 ### The Waitlist Contortion
 
@@ -54,6 +56,30 @@ The partners share examples of what launched products actually looked like at YC
 **Brex**: The opposite of Instacart. When they entered YC, there was no UI at all. They could give you a virtual credit card and it worked, but you could not see what you spent money on. "All they knew was that you had a card and it worked" [1].
 
 **Magic**: When they came up with the idea, they launched two days later. The product was just a website with a phone number that said "text us and we'll do whatever you like." Flora calls this "the right spirit" [1].
+
+## The Batch as Forcing Function
+
+Seibel describes how the YC batch creates a natural forcing function through peer pressure: "You see left and right. It's like, 'Oh, this person next to me launched and I haven't yet.'" Founders who go through office hours with nothing to show feel the gap viscerally. Hu adds that "looking good to your fellow founders that you respect" provides the internal motivation to overcome the fear of launching. "This is how YC companies have a higher chance of success. They don't shoot themselves in the foot by dying of being anonymous" [2].
+
+## Filtering, Not Convincing
+
+[[Tom Blomfield]] and Gustaf Alstromer reframe the purpose of launching for B2B founders. Blomfield argues that early-stage sales is not about convincing a hundred signups that they want the product. It is about "filtering down those hundred into the five or six who actually have the problem you're addressing. Who have such a hair-on-fire problem they might use your janky MVP solution" [2]. Alstromer adds that the other ninety-five are not lost: "We'll come back in six months. Here's our feature roadmap" [2].
+
+## The Launch-to-Learn Mindset
+
+Aaron Epstein proposes a reframe that neutralizes launch anxiety: if the goal of the launch is to learn rather than to hit a revenue target, "then I can't fail." Even harsh feedback becomes progress: "If somebody says, 'This product's stupid. I hate it,' you've learned something. And that's progress. So now you can get to the right direction faster" [2].
+
+Serby (Darius Contractor) reinforces this with the Brex example: the credit card for startups did not have user account creation at launch. "You just emailed them your password and that's how they set up the account for you." They had no dashboard. The founders decided: "We don't need that. We just want the core thing." The value of launching before you are ready is that "it's the best way to test if somebody really wants it. If you give somebody a janky product and they still use it, then that speaks volumes about how important that problem is that you're solving" [2].
+
+Serby also shares a personal story: at Creative Market (formerly Color Lovers), they planned a big press event with reporters and batchmates for a major product relaunch. The site went down because Google started re-indexing them aggressively. "And at the end of the day, nobody cared in either direction." The lesson: "The problem was we put so many eggs in that basket of the launch being successful" [2].
+
+## What to Do When No One Uses Your Product
+
+Harj Taggar and Pete Koomen address the post-launch scenario where nobody shows up [2]. Taggar says the best founders "view everything like they're learning. They're sponges. They just treat this as a problem they need to diagnose." Koomen recommends treating it as an analytical problem: tweak one variable at a time -- messaging copy, target audience, company size. "Week by week, you're like, 'Okay, I'm going to tweak one variable'" [2].
+
+On knowing when to pivot versus persevere, Koomen acknowledges it is "more art than science" but offers a prompt: "Something isn't working. Which one of your assumptions was wrong?" It does not mean the idea is bad. It means "you've made a bad assumption and you need to figure out what that is and develop a new hypothesis about the world" [2].
+
+[[Garry Tan]] closes the video with the summary principle: "Launch early, launch often. The best founders use launches to diagnose problems, find their early adopters, iterate on the product based on customer feedback, and then they launch again" [2].
 
 ## The Airbnb Counter-Example
 
@@ -108,6 +134,6 @@ Manalac explicitly sets aside press as a launch strategy for early-stage compani
 
 ## References
 
-1. [Inside the Group Partner Lounge: When to Launch Your Startup](https://www.ycombinator.com/library/J0-inside-the-group-partner-lounge-when-to-launch-your-startup) -- [[Harj Taggar]], [[Michael Seibel]], Brad Flora (2021)
-2. [Why Startup Founders Should Launch Companies Sooner Than They Think](https://ycombinator.com/library/LG-why-startup-founders-should-launch-companies-sooner-than-they-think) -- Y Combinator (2023)
+1. [Inside the Group Partner Lounge: When to Launch Your Startup](https://www.ycombinator.com/library/J0-inside-the-group-partner-lounge-when-to-launch-your-startup) -- [[Harj Taggar]], [[Michael Seibel]], [[Brad Flora]] (2021)
+2. [Why Startup Founders Should Launch Companies Sooner Than They Think](https://ycombinator.com/library/LG-why-startup-founders-should-launch-companies-sooner-than-they-think) -- [[Michael Seibel]], Diana Hu, Gustaf Alstromer, [[Tom Blomfield]], [[Harj Taggar]], Pete Koomen, Aaron Epstein, Serby, [[Garry Tan]] (2023)
 3. [The Best Way to Launch Your Startup](https://ycombinator.com/library/Ir-the-best-way-to-launch-your-startup) -- Kat Manalac (2020)

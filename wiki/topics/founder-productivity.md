@@ -15,9 +15,9 @@ YC Group Partners collectively argue that founder productivity is not about tool
 
 ## Priority, Not Productivity
 
-"When we say productivity, often what we're actually saying is priority" [1]. The foundational questions are simple: What is my goal? What is the number one thing I am trying to do? Are the things I am doing actually aligned with that? These "stupid simple questions" yield 80% of the benefit [1].
+"When we say productivity, often what we're actually saying is priority" [1]. Aaron Epstein frames the foundational questions: What is my goal? What is the number one thing I am trying to do? Are the things I am doing actually aligned with that? These "stupid simple questions" yield 80% of the benefit [1].
 
-The method: identify your main KPI (usually revenue), determine why it is not growing faster, figure out which activities would make it grow faster, then audit your calendar to ensure those activities occupy the bulk of your time [1].
+Epstein's method: identify your main KPI (usually revenue), determine why it is not growing faster, figure out which activities would make it grow faster, then audit your calendar to ensure those activities occupy the bulk of your time [1].
 
 ## Maker Schedule vs. Manager Schedule
 
@@ -65,7 +65,7 @@ The exception: when social media is where the customers are. For open source pro
 
 ### Collecting Mentors and Credentials
 
-"Three different accelerators and an idea lab. An advisory board. Why do you think founders are attracted to that versus just building something and launching it?" Seibel answers: "It smells like you're doing successful startup stuff." But it is a bottomless pit. "You could be in that bottomless pit for years and be a startup founder that's never built a product and has never gotten a single customer" [2].
+Caldwell raises the question: "Three different accelerators and an idea lab. An advisory board. Why do you think founders are attracted to that versus just building something and launching it?" Seibel answers: "It smells like you're doing successful startup stuff." But it is a bottomless pit. "You could be in that bottomless pit for years and be a startup founder that's never built a product and has never gotten a single customer" [2]. Caldwell adds an analogy: "It's like going to Hollywood and getting acting lessons. You're in acting lessons mode for years, and you're like, 'Yeah, I'm an actor,' but you're not" [2].
 
 ### Hedging
 
@@ -77,11 +77,11 @@ A Group Partner learned from an early board member to stack rank every project. 
 
 ## Manager Mode Productivity
 
-When in manager mode, Seibel prioritizes [2]:
+Caldwell and Seibel each contribute manager mode practices [2]:
 
-1. **To-do list first.** Start with the to-do list, not the inbox. If work is inbox-driven, "other people are in control of your time."
-2. **Write everything down.** "The worst thing is when you have to have another meeting because people didn't write the sh*t down from the first meeting."
-3. **Know your metrics cold.** Seibel had his analytics dashboard visible at all times. "People that know their stats well talk about their stats so differently. They don't round off numbers to the nearest zero" [2].
+1. **To-do list first.** Caldwell insists on starting with the to-do list, not the inbox. If work is inbox-driven, "other people are in control of your time."
+2. **Write everything down.** Both emphasize this. "The worst thing is when you have to have another meeting because people didn't write the sh*t down from the first meeting."
+3. **Know your metrics cold.** Seibel had his analytics dashboard visible at all times and memorized key internal stats. Caldwell observes: "People that know their stats well talk about their stats so differently. They don't round off numbers to the nearest zero" [2].
 
 ## Two Sets of Tools
 
@@ -106,5 +106,5 @@ Graham designed YC to maximize maker time [2]. There are few events -- no all-da
 
 ## References
 
-1. [YC's Group Partners Share Productivity Tips and Advice on Actually Getting Things Done](https://ycombinator.com/library/K5-yc-s-group-partners-share-productivity-tips-and-advice-on-actually-getting-things-done) -- YC Group Partners (2022)
+1. [YC's Group Partners Share Productivity Tips and Advice on Actually Getting Things Done](https://ycombinator.com/library/K5-yc-s-group-partners-share-productivity-tips-and-advice-on-actually-getting-things-done) -- [[Garry Tan]] (host), Aaron Epstein, and other YC Group Partners (2022). Note: transcript lacks individual speaker labels beyond "Host" and "Speaker"; per-speaker attribution is limited to cases where a speaker is named in the dialogue itself.
 2. [Dalton & Michael: How Future Billionaires Get Sh*t Done](https://ycombinator.com/library/Ik-dalton-michael-how-future-billionaires-get-sh-t-done) -- [[Dalton Caldwell]], [[Michael Seibel]] (2022)

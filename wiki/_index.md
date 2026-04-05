@@ -39,7 +39,7 @@
   Culture is rarely the most imminent risk of death for a startup. It will not kill you this week. But Kathryn Minshew, co-founder of The Muse (YC W12), argues it is one of the most important things ... [1 sources]
 
 - [[Competing with Big Companies]] (competing with big companies, competition, startup competition, competing with Google, competing with Amazon)
-  YC group partners [[Michael Seibel]], [[Harj Taggar]], and Brad Flora observe that one of the most common failure modes among founders doing well is psyching themselves out about competitors [1]. F... [1 sources]
+  YC group partners [[Michael Seibel]], [[Harj Taggar]], and [[Brad Flora]] observe that one of the most common failure modes among founders doing well is psyching themselves out about competitors [1]. F... [1 sources]
 
 - [[Conformists vs. Non-Conformists]] (conformists, non-conformists, nonconformists, startup conformity, status seeking)
   When Caldwell and Seibel were in college (early to mid-2000s), tech was deeply uncool. Seibel graduated from Yale in 2005; his class produced 10 CS majors out of 1,200 students [1]. Caldwell attend... [1 sources]
@@ -102,7 +102,7 @@
   Growth is the defining characteristic of a startup. [[Paul Graham]] argues that a startup is not merely a newly founded company or one that works on technology -- it is a company designed to grow f... [7 sources]
 
 - [[Handling Investor Rejection]] (investor rejection, investors said no, believe the no, fundraising rejection, investor feedback)
-  YC group partners [[Michael Seibel]], [[Harj Taggar]], and Brad Flora state that one of their most common activities is "pumping belief back into founders who have had their confidence shaken by in... [1 sources]
+  YC group partners [[Michael Seibel]], [[Harj Taggar]], and [[Brad Flora]] state that one of their most common activities is "pumping belief back into founders who have had their confidence shaken by in... [1 sources]
 
 - [[Hard Conversations]] (hard conversations, difficult conversations, founder honesty, co-founder conflict, startup communication)
   Caldwell defines it by inversion: "If it's a conversation you're looking forward to having, it is not a hard conversation." A hard conversation involves high stakes, vulnerability, saying something... [1 sources]
@@ -147,7 +147,7 @@
   A pivot is changing what your startup works on. YC group partners define it simply: "If you're not making something people want, you usually need to change your idea or your startup will fail" [1].... [1 sources]
 
 - [[Pricing and Monetization]] (pricing, monetization, charging users, when to charge, freemium)
-  Every batch, Y Combinator group partners find themselves repeating the same advice: start charging. [[Michael Seibel]], [[Harj Taggar]], and Brad Flora discuss why founders resist charging, why the... [1 sources]
+  Every batch, Y Combinator group partners find themselves repeating the same advice: start charging. [[Michael Seibel]], [[Harj Taggar]], and [[Brad Flora]] discuss why founders resist charging, why the... [1 sources]
 
 - [[Product Development]] (product development, dev cycle, product process, building product, feature prioritization)
   This guide assumes the company has already shipped an MVP and is figuring out what to do next, which is where most startups spend most of their time [1]. [1 sources]
@@ -253,6 +253,9 @@
 
 - [[Blake Scholl]] (Scholl, Blake Scholl)
   Blake Scholl is the founder and CEO of [Boom Technology](http://boomsupersonic.com/) (YC W16), a company building supersonic passenger airplanes. He holds a background in computer science and previ... [1 sources]
+
+- [[Brad Flora]] (Brad Flora, Flora)
+  Brad Flora is a YC Group Partner and founder of Color Lovers, Creative Market, and Perfect Audience. A recurring panelist in the Group Partner Lounge series alongside Harj Taggar and Michael Seibel, his advice centers on KPI clarity, sales avoidance, and the practical realities of competitive dynamics. [11 sources]
 
 - [[Dalton Caldwell]] (Dalton Caldwell, Caldwell, Dalton)
   Dalton Caldwell is Managing Director and Group Partner at Y Combinator, where he has worked since 2013. Before YC, he founded iMeem (a social media music platform acquired by MySpace in 2009) and A... [34 sources]

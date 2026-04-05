@@ -15,7 +15,7 @@ A pivot is changing what your startup works on. YC group partners define it simp
 
 ## Pivoting Is Normal, Not a Failure
 
-Multiple YC group partners independently reinforce that pivoting is not a sign of weakness. [[Harj Taggar]], [[Dalton Caldwell]], [[Michael Seibel]], [[Jared Friedman]], Gustaf Alstromer, [[Tom Blomfield]], Brad Flora, and Aaron Epstein all share pivot stories from billion-dollar YC companies [1]. The message: many of the biggest YC successes started as completely different companies.
+Multiple YC group partners independently reinforce that pivoting is not a sign of weakness. [[Harj Taggar]], [[Dalton Caldwell]], [[Michael Seibel]], [[Jared Friedman]], Gustaf Alstromer, [[Tom Blomfield]], [[Brad Flora]], and Aaron Epstein all share pivot stories from billion-dollar YC companies [1]. The message: many of the biggest YC successes started as completely different companies.
 
 ## Pivot Stories from Billion-Dollar Companies
 
@@ -57,7 +57,7 @@ Diana (co-founder of Azure Reality) describes starting with AR technology and no
 
 ### Creative Market: Design Community to Design Marketplace
 
-Brad Flora describes pivoting from Color Lovers, a creative design community with over a million members, to Creative Market, a marketplace for graphic design assets. For a year and a half after YC, they tried multiple monetization approaches (software sales, ads, contests) without a clear primary KPI. "The reason it took so long was because we didn't have a main KPI that we were focused on" [1].
+[[Brad Flora]] describes pivoting from Color Lovers, a creative design community with over a million members, to Creative Market, a marketplace for graphic design assets. For a year and a half after YC, they tried multiple monetization approaches (software sales, ads, contests) without a clear primary KPI. "The reason it took so long was because we didn't have a main KPI that we were focused on" [1].
 
 Once they pivoted to a marketplace, the KPI became obvious: are people buying? "I became obsessed with it. I was like refreshing it every 15 minutes" [1].
 
@@ -100,4 +100,4 @@ Alstromer adds: "One of the big awesome questions that founders should always as
 
 ## References
 
-1. [YC's Group Partners Share Their Favorite Pivot Stories](https://www.ycombinator.com/library/Iy-yc-s-group-partners-share-their-favorite-pivot-stories) -- [[Harj Taggar]], [[Dalton Caldwell]], [[Michael Seibel]], [[Jared Friedman]], Gustaf Alstromer, [[Tom Blomfield]], Brad Flora, Aaron Epstein (n.d.)
+1. [YC's Group Partners Share Their Favorite Pivot Stories](https://www.ycombinator.com/library/Iy-yc-s-group-partners-share-their-favorite-pivot-stories) -- [[Harj Taggar]], [[Dalton Caldwell]], [[Michael Seibel]], [[Jared Friedman]], Gustaf Alstromer, [[Tom Blomfield]], [[Brad Flora]], Aaron Epstein (n.d.)

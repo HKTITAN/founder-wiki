@@ -19,13 +19,13 @@ Caldwell and Seibel identify four assumptions that potential founders treat as f
 
 ### "I'll work on the hardest technical problems at the largest scale"
 
-Caldwell calls this "quoting the recruiter." Most employees at large tech companies, when honest, describe working on ad servers, one pixel of one corner of one product, or projects that will be killed. The minority who work on core search infrastructure or other genuinely hard problems may find this claim accurate. For the majority, "it's been presented in brand to them, branded to them, as a very cool thing" when the actual work is unremarkable [1]. The way to find out is to talk to someone doing the job, not the recruiter, whose compensation depends on you signing [1].
+Seibel calls this "quoting the recruiter." Most employees at large tech companies, when honest, describe working on ad servers, one pixel of one corner of one product, or projects that will be killed. The minority who work on core search infrastructure or other genuinely hard problems may find this claim accurate. For the majority, "it's been presented in brand to them, branded to them, as a very cool thing" when the actual work is unremarkable [1]. Caldwell adds that the way to find out is to talk to someone doing the job, not the recruiter, whose compensation depends on you signing [1].
 
 ### "I'll learn lessons I can apply to my startup"
 
-Seibel reports that many founders tell him "nothing they did in their job translates at all to their startup. Like, could not be less relevant versus their college coursework was more relevant" [1]. The reason: large companies provide proprietary tooling -- Bigtable, BigQuery, internal code review systems, deployment infrastructure. Founders learn to depend on those tools. When starting a company with none of it, "you're like, 'Wait, what happened to all those tools I was used to using?'" [1].
+Caldwell reports that many founders tell him "nothing they did in their job translates at all to their startup. Like, could not be less relevant versus their college coursework was more relevant" [1]. The reason: large companies provide proprietary tooling -- Bigtable, BigQuery, internal code review systems, deployment infrastructure. Founders learn to depend on those tools. When starting a company with none of it, "you're like, 'Wait, what happened to all those tools I was used to using?'" [1].
 
-Caldwell adds that FAANG experience creates things founders must actively unlearn. Google engineers' standards for shipping to beta are ten times what an MVP requires. "I've had to fight with founders on that where it's like, 'Oh, well, this would never see the light of day at Google.' And it's like, 'Yeah, that's not the standard'" [1].
+Seibel adds that FAANG experience creates things founders must actively unlearn. Google engineers' standards for shipping to beta are ten times what an MVP requires. "I've had to fight with founders on that where it's like, 'Oh, well, this would never see the light of day at Google.' And it's like, 'Yeah, that's not the standard'" [1].
 
 ### "VCs fund Google engineers easily"
 
@@ -39,7 +39,7 @@ The most dangerous assumption. Most FAANG recruiter messaging is written for peo
 
 ## The Retention Trap
 
-Seibel describes the retention mechanism as an engineered system, iterated over a decade or more, designed to prevent departure [1]. The core mechanism is equity vesting:
+Caldwell describes the retention mechanism as an engineered system, iterated over a decade or more, designed to prevent departure [1]. The core mechanism is equity vesting:
 
 1. **Initial equity package** vests over four years. Leaving at any point means forfeiting unvested stock.
 2. **Refresh grants** arrive every six to twelve months, also vesting over four years. The result: at any point, the amount of unvested equity ahead is disproportionately larger than what has already vested, creating a constant pull to stay "a little bit longer."
@@ -47,11 +47,11 @@ Seibel describes the retention mechanism as an engineered system, iterated over 
 
 The social environment amplifies the trap. Colleagues are optimizing for employee or manager careers, not founder careers. They spend their salaries on lifestyle upgrades -- nicer apartments, cars, vacations. If the founder-aspirant follows suit, they never build the savings needed to start a company. "If they can keep you spending your entire salary and they can keep the money that you have invested yet larger than the amount of money that you have in your savings by like two to three X, you never leave" [1].
 
-Seibel compares the gamification to a video game: "Oh, I can get my next level. I want to get my next level upgrade and then I unlock my booster pack." It is the same behavioral design these companies apply to retain users on their products [1].
+Caldwell compares the gamification to a video game: "Oh, I can get my next level. I want to get my next level upgrade and then I unlock my booster pack." It is the same behavioral design these companies apply to retain users on their products [1].
 
 ## Warehouse Talent
 
-Caldwell identifies a darker dynamic: large tech companies sometimes warehouse talented people to prevent competitors from using them. The engineer works on "speculative science projects that get axed and that never ship." Facebook built a chip and never shipped it. PayPal had a research lab and laid everyone off. "If you're not on the core thing, you have no promises that your work will ever turn into anything" [1].
+Seibel identifies a darker dynamic: large tech companies sometimes warehouse talented people to prevent competitors from using them. The engineer works on "speculative science projects that get axed and that never ship." Facebook built a chip and never shipped it. PayPal had a research lab and laid everyone off. "If you're not on the core thing, you have no promises that your work will ever turn into anything" [1].
 
 Often the speculative project was what attracted the person in the first place. "That was the moonshot. So if you're getting trapped, it was the moonshot that was the bait" [1].
 

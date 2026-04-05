@@ -9,7 +9,7 @@ sources: [7G-design-for-startups-part-1, 7H-design-for-startups-part-2, Iv-criti
   J7-garry-tan-s-tips-for-applying-to-yc, JG-the-main-function-how-to-go-from-startup-dream-to-reality,
   JT-yc-s-group-partners-share-their-worst-investor-meetings, Je-garry-s-channel-stop-chasing-money-chase-wealth,
   Jh-garry-s-channel-my-200-million-startup-mistake, Jk-garry-s-channel-coinbase-ceo-brian-armstrong-on-cryptocurrency-and-the-future-of-decentralization,
-  Kb-the-truth-about-building-ai-startups-today-lightcone-podcast-ep-1, Kd-apple-vision-pro-startup-platform-of-the-future-lightcone-podcast-ep-2,
+  Kb-the-truth-about-building-ai-startups-today-lightcone-podcast-ep-1, Km-how-to-survive-the-crypto-boom-bust-cycle, Kd-apple-vision-pro-startup-platform-of-the-future-lightcone-podcast-ep-2,
   Kq-inside-the-hard-tech-startups-turning-sci-fi-into-reality-lightcone-podcast-ep-5,
   L2-consumer-is-back-what-s-getting-funded-now-the-vibes-immaculate-lightcone-podcast-ep-6,
   L5-why-this-is-the-perfect-time-to-start-a-startup-lightcone-podcast-live, L9-better-ai-models-better-startups-lightcone-podcast-ep-7,

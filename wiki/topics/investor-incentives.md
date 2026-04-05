@@ -29,11 +29,11 @@ Investors who have funded billion-dollar companies optimize for the founder buil
 
 ### The "Find a Lead" Soft No
 
-One of the most common soft rejections: "This is great. We love it. When you find a lead, come back." Caldwell and Seibel explain why this actually means no [1]:
+One of the most common soft rejections: "This is great. We love it. When you find a lead, come back." Seibel explains the investor's reasoning, and Caldwell underscores why it means no [1]:
 
 If the founder did have a lead investor, the lead would typically want to put in the entire amount to hit their ownership target. Other investors would want to invest alongside. The "come back when you find a lead" line gives the investor a free option: if someone impressive invests, they can jump in; if not, they have politely passed while appearing supportive [1].
 
-Seibel offers a job analogy: "It's like you apply to a job at Facebook and they're like, 'This is great. Come back to us with your job offer from Google and Apple.' That's not a job offer" [1].
+Caldwell offers a job analogy: "It's like you apply to a job at Facebook and they're like, 'This is great. Come back to us with your job offer from Google and Apple.' That's not a job offer" [1]. Seibel adds: "It's almost as if they have to do this because this is their job. It's almost as if they get to run this game every day with multiple companies and all you're trying to do is raise money and get back to work. Of course they're going to be better at it" [1].
 
 ### The "Take More Money" Incentive
 
@@ -45,7 +45,7 @@ Seibel observes that as the seed funding world has professionalized, seed funds 
 
 Caldwell notes that for companies investors have already funded, there is pressure to grow fast because investors want huge outcomes. This manifests as "You should be growing faster. Your revenue looks flat. You should be spending more on sales and marketing" [1].
 
-The worst scenario for an investor is a portfolio company that is profitable but not growing fast enough. For a founder, profitability without hypergrowth "ain't so bad" [1]. This is a fundamental misalignment that founders must understand. See [[Startup Outcomes and Optionality]] for more on the airplane vs. spaceship dynamic.
+The worst scenario for an investor is a portfolio company that is profitable but not growing fast enough. Caldwell observes that for a founder, profitability without hypergrowth "ain't so bad" [1]. Seibel adds context: the professionalization of seed funds has created new misalignments. Ten years ago, smaller funds and angels had interests more aligned with founders. As seed funds have grown, they have obligations to LPs and internal ownership targets that can diverge from what is best for the company [1]. This is a fundamental misalignment that founders must understand. See [[Startup Outcomes and Optionality]] for more on the airplane vs. spaceship dynamic.
 
 ## Why Top Investors Secretly Love YC
 
@@ -53,32 +53,32 @@ Caldwell and Seibel reveal a gap between how investors talk about YC publicly an
 
 ### The Numbers
 
-The top venture firms invest heavily in YC companies [2]:
+Seibel presents the numbers showing top venture firms invest heavily in YC companies [2]:
 - Andreessen Horowitz: 234 investments in YC companies
 - Sequoia: 139 investments
 - Founders Fund: 104 investments
 
-Looking at the YC top companies list, "it's all the biggest investors" [2].
+Caldwell adds: looking at the YC top companies list, "it's all the biggest investors" [2].
 
 ### The Service YC Provides to VCs
 
-The average VC does one or two deals per year. Most startups that approach them are "too early" -- not enough signal to justify investment. YC provides a filtering service: taking 20,000+ applications and reducing them to roughly 200 companies. The companies are financed (they do not just run out of money), advised on pivots, and helped with sales and pitching [2].
+Caldwell explains the VC filtering problem: the average VC does one or two deals per year. Most startups that approach them are "too early" -- not enough signal to justify investment. YC provides a filtering service: taking 20,000+ applications and reducing them to roughly 200 companies. The companies are financed (they do not just run out of money), advised on pivots, and helped with sales and pitching [2].
 
-Many of the companies on YC's top 100 list pivoted during YC. "That's a value-added service we're providing to the investor market" [2].
+Caldwell notes that many of the companies on YC's top 100 list pivoted during YC. "That's a value-added service we're providing to the investor market" [2].
 
 Seibel offers an analogy: the best VC firms are like high-end restaurants. They give the impression that the chef personally farms the ingredients. In reality, most ingredients come from purveyors who identify, prepare, and deliver them in a nice package [2].
 
 ### Why the Love Is Secret
 
-VCs want to be the first check. If a company does YC, the VC will not be the first check. YC also encourages founders to talk to many investors in parallel rather than one at a time -- "not their favorite thing" [2].
+Caldwell explains: VCs want to be the first check. If a company does YC, the VC will not be the first check. YC also encourages founders to talk to many investors in parallel rather than one at a time -- "not their favorite thing" [2].
 
-The ideal scenario for a VC: meet every company, have the founder love them exclusively, think all other investors are bad, and come back every six months to pitch again with updated metrics [2]. YC companies are less likely to do any of those things [2].
+Caldwell describes the ideal scenario for a VC: meet every company, have the founder love them exclusively, think all other investors are bad, and come back every six months to pitch again with updated metrics [2]. YC companies are less likely to do any of those things [2].
 
 ### Seed Fund Dynamics
 
-Seed funds face a more zero-sum situation. Their primary opportunity is the first round, and they know they will be diluted from that round forward. Outside of YC, they might invest at a $5-10 million valuation. After Demo Day, the same company costs $15-25 million [2].
+Seibel explains the seed fund perspective: these funds face a more zero-sum situation. Their primary opportunity is the first round, and they know they will be diluted from that round forward. Outside of YC, they might invest at a $5-10 million valuation. After Demo Day, the same company costs $15-25 million [2].
 
-"You can't blame seed funds for saying we don't want you to do YC" from their perspective. But as a founder, understanding these dynamics is essential to evaluating advice [2].
+Caldwell adds: "You can't blame seed funds for saying we don't want you to do YC" from their perspective. But as a founder, understanding these dynamics is essential to evaluating advice [2].
 
 ### The Key Signal: Are They Investing?
 

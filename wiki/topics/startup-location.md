@@ -25,9 +25,9 @@ The core argument is network effects. Caldwell draws the analogy to the products
 
 The critical property of network effects: "If you're not benefiting from them, you don't know what you are missing" [1]. Seibel elaborates: "It's all the people that you won't meet, all the chance encounters you won't have, all the employees you won't have, all these surface area for luck" [1].
 
-Both observed that people who left the Bay Area during COVID all came back. Seibel: "All of them said the same thing, which was basically like, 'I missed the community.' But I never really understood that I was consuming the community. I thought I was working all the time, but I actually was consuming a community of people who are really into startups. And when I moved to Seattle or Austin or New York, that community wasn't as strong, and I missed it" [1].
+Seibel observes that people who left the Bay Area during COVID all came back: "All of them said the same thing, which was basically like, 'I missed the community.' But I never really understood that I was consuming the community. I thought I was working all the time, but I actually was consuming a community of people who are really into startups. And when I moved to Seattle or Austin or New York, that community wasn't as strong, and I missed it" [1].
 
-Caldwell adds: "And they also don't say that as publicly" -- the return is quieter than the departure [1].
+Caldwell adds: "And they also don't say that as publicly" -- the return is quieter than the departure [1]. He also notes a subtlety: "People here sometimes don't understand the network effects they're consuming" -- even people benefiting from the Bay Area's startup network may not recognize it until they leave [1].
 
 ## The Industry Analogy
 
@@ -42,7 +42,7 @@ Caldwell identifies several sources of misleading discourse [1]:
 - **Social media flamewars** using photos of San Francisco's problems to generate engagement
 - **Founders not in the Bay Area** who read Twitter and assume Bay Area = living in the Tenderloin
 
-The smartest founders "look past all these stupid debates" and recognize the network effect [1].
+Caldwell observes that the smartest founders "look past all these stupid debates" and recognize the network effect [1].
 
 ## The Odds Argument
 
@@ -54,9 +54,9 @@ Seibel adds the sports parallel: "The average NBA player was the best basketball
 
 ## Anecdotes vs. Numbers
 
-Seibel anticipates the counterarguments: Shopify in Ottawa, MongoDB in New York. "The anecdotes are true: you can do a startup outside the Bay Area, of course. And maybe there's a really good reason you want to do that -- health reasons or family. Great, of course. But if all you want to do is play the odds and optimize for success, I can't really understand why you wouldn't want to be here" [1].
+Caldwell anticipates the counterarguments: Shopify in Ottawa, MongoDB in New York. "The anecdotes are true: you can do a startup outside the Bay Area, of course. And maybe there's a really good reason you want to do that -- health reasons or family. Great, of course. But if all you want to do is play the odds and optimize for success, I can't really understand why you wouldn't want to be here" [1].
 
-Caldwell emphasizes: "That's not anecdotes, that's numbers" [1].
+Seibel emphasizes: "That's not anecdotes, that's numbers" [1].
 
 ## References
 

@@ -6,12 +6,12 @@ last_updated: 2026-04-05
 aliases: ["first-time founder", "first time founder", "repeat founder", "second-time founder", "first startup", "advantages of inexperience", "beginner's advantage"]
 related: ["[[Founder Mindset]]", "[[Startup Ideas]]", "[[Convincing Investors]]", "[[Product-Market Fit]]", "[[Becoming a Founder]]", "[[Michael Seibel]]", "[[Harj Taggar]]"]
 sources: ["J6-inside-the-group-partner-lounge-advantages-of-a-first-time-founder"]
-speakers_referenced: ["Michael Seibel", "Harj Taggar", "Brad Flora"]
+speakers_referenced: ["Michael Seibel", "Harj Taggar", "[[Brad Flora]]"]
 ---
 
 # First-Time Founders
 
-First-time founders consume media coverage of repeat founders -- people who have sold companies, IPO'd, built enormous successes -- and feel outmatched. [[Michael Seibel]], [[Harj Taggar]], and Brad Flora argue that the advantages of being a first-time founder are underestimated, while the advantages of repeat founders come with significant hidden costs [1].
+First-time founders consume media coverage of repeat founders -- people who have sold companies, IPO'd, built enormous successes -- and feel outmatched. [[Michael Seibel]], [[Harj Taggar]], and [[Brad Flora]] argue that the advantages of being a first-time founder are underestimated, while the advantages of repeat founders come with significant hidden costs [1].
 
 ## Advantages of First-Time Founders
 
@@ -23,7 +23,7 @@ Seibel identifies the critical distinction: those smart startup friends are not 
 
 For a second-time founder, talking to experts is 10x easier than talking to users. By extension, "it's even harder to talk to your users" because the easy expert conversations crowd out the harder but more valuable user conversations [1].
 
-Brad Flora describes testing an idea with 10 people at a Camp YC event. All 10 said it was terrible. He did not work on it. "But had I gone and talked to actual customers, maybe they could have helped me find a better version of that idea" [1].
+[[Brad Flora]] describes testing an idea with 10 people at a Camp YC event. All 10 said it was terrible. He did not work on it. "But had I gone and talked to actual customers, maybe they could have helped me find a better version of that idea" [1].
 
 ### Freedom to Pick Unconventional Ideas
 
@@ -94,4 +94,4 @@ Flora adds the historical perspective: "Some of the biggest companies ever -- Go
 
 ## References
 
-1. [Inside the Group Partner Lounge: Advantages of a First-Time Founder](https://www.ycombinator.com/library/J6-inside-the-group-partner-lounge-advantages-of-a-first-time-founder) -- [[Michael Seibel]], [[Harj Taggar]], Brad Flora (n.d.)
+1. [Inside the Group Partner Lounge: Advantages of a First-Time Founder](https://www.ycombinator.com/library/J6-inside-the-group-partner-lounge-advantages-of-a-first-time-founder) -- [[Michael Seibel]], [[Harj Taggar]], [[Brad Flora]] (n.d.)

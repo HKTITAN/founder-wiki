@@ -6,7 +6,7 @@ last_updated: 2026-04-05
 aliases: ["StarCloud", "Lumen Orbit", "orbital data center", "data centers in space", "space computing"]
 related: ["[[Hard Tech Startups]]", "[[Sam Altman]]", "[[Founder Mindset]]"]
 sources: ["N6-inside-the-startup-launching-ai-into-space"]
-speakers_referenced: ["Philip Johnston"]
+speakers_referenced: ["Philip Johnston", "Aaron Epstein"]
 ---
 
 # StarCloud
@@ -58,4 +58,4 @@ Johnston acknowledges they may be "a decade plus away from their grand vision of
 
 ## References
 
-1. [Inside The Startup Launching AI Into Space](https://www.ycombinator.com/library/N6-inside-the-startup-launching-ai-into-space) -- Philip Johnston (2025)
+1. [Inside The Startup Launching AI Into Space](https://www.ycombinator.com/library/N6-inside-the-startup-launching-ai-into-space) -- Philip Johnston, Aaron Epstein (2025)

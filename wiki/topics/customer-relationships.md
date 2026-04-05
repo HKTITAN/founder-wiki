@@ -21,7 +21,7 @@ The question matters because if a founder does not like their users, they defaul
 
 ## Why Big Companies Fail at This
 
-Seibel and Caldwell use Comcast and Facebook as examples of companies that actively dislike their customers [1]. Comcast's entire customer experience "was designed with the implicit assumption that they don't like their customers, and their customers are bad" [1]. Facebook's customer is ambiguous -- users do not pay, advertisers get unreliable metrics, and the company employs dark patterns [1].
+Caldwell uses Comcast as an example of a company that actively dislikes its customers. Caldwell describes the experience: "the whole thing was designed with the implicit assumption that they don't like their customers, and their customers are bad" [1]. Seibel introduces Facebook as a second example, noting that the customer is ambiguous -- users do not pay, advertisers get unreliable metrics, and the company employs dark patterns [1].
 
 The critical insight for founders: these large companies got away with this because of structural advantages (Comcast's monopoly, Facebook's network effects). Early-stage startups have no such protection [1]. But the flip side is that big companies' indifference to customers creates an opportunity for startups. "Caring about your customer is a superpower" [1].
 
@@ -41,33 +41,33 @@ The opposite approach is what works. Seibel notes: "Something incredibly powerfu
 
 Seibel recounts being an early Stripe customer. His customer experience was Patrick Collison personally, via Google Talk chat. When Stripe overcharged his customers due to a bug, Patrick DM'd him, explained what happened, confirmed it was fixed, and apologized. "Do you think that I like Stripe more or less after that experience, even though they messed up?" [1]. The answer is obviously more.
 
-Caldwell shares a similar story about AWS in its early beta days. When Justin.tv was growing too fast to buy and rack servers, they tweeted asking for help. Jeff Barr from Amazon responded personally, "hooked us up and saved our company." Years later, Caldwell still tells the story [1].
+Caldwell shares a similar story about AWS in its early beta days. When Justin.tv was growing too fast to buy and rack servers, they tweeted asking for help. Jeff Barr from Amazon responded personally, "hooked us up and saved our company." Years later, Caldwell still tells the story. Seibel notes the lesson: "If you can create that experience for customers -- if you can blow people away by how much you go the extra mile to care and solve their problems -- you're giving away your power if you don't do that" [1].
 
 ## Learning Through Caring: Three Case Studies
 
 ### Airbnb: The Coffee Moment
 
-The Airbnb founders emailed hosts with poor photographs and offered to come to their homes and take better photos -- losing money on the transaction, knowing the hosts would use those photos on competing platforms [2]. They did it anyway because they had empathy for the hosts [2].
+Caldwell tells the story: the Airbnb founders emailed hosts with poor photographs and offered to come to their homes and take better photos -- losing money on the transaction, knowing the hosts would use those photos on competing platforms [2]. They did it anyway because they had empathy for the hosts [2].
 
-After one photo session, a host invited Joe Gebbia for coffee. Caldwell notes that "a lot of founders would have said no" -- they would have been eager to move to the next item on the list [2]. Gebbia accepted. Over coffee, the host revealed he had been renting out his apartment for ten years and had kept a notebook of detailed notes on the experience. He offered those notes to Gebbia [2].
+After one photo session, a host invited Joe Gebbia for coffee. Caldwell notes that "a lot of founders would have said no" -- they would have been eager to move to the next item on the list [2]. Seibel agrees: "A lot of founders would have been like, 'I have someone else on the list. I'm just doing this to try to make my website better'" [2]. Gebbia accepted. Over coffee, the host revealed he had been renting out his apartment for ten years and had kept a notebook of detailed notes. Caldwell recounts: "He was like, 'Hey, do you want my notes on being a host for the last ten years? Would you like a gold mine?'" [2].
 
-Caldwell draws the lesson: "He probably couldn't have learned if he had talked to a hundred hosts casually. He got it by caring about one host" [2]. The Airbnb founders remember the names and life stories of their first customers to this day [2].
+Caldwell draws the lesson: "He probably couldn't have learned if he had talked to a hundred hosts casually. He got it by caring about one host" [2]. He adds that the Airbnb founders remember the names and life stories of their first customers to this day: "When they tell the story, it's a story about people. They know all their names" [2].
 
 ### Brex: Caring About Peers in the YC Batch
 
-Brex's founders pivoted from a VR headset idea -- "DOA, a complete mess" -- to fintech [2]. What made the pivot work was that they understood their customers personally: other founders in the YC batch. They could walk down the hall and ask: "Do you have a credit card? You don't? Do you want to use our thing?" [2].
+Seibel tells the Brex story: the founders pivoted from a VR headset idea -- "DOA, a complete mess" -- to fintech [2]. What made the pivot work was that they understood their customers personally: other founders in the YC batch. They could walk down the hall and ask: "Do you have a credit card? You don't? Do you want to use our thing?" [2].
 
-Their customers were people being actively rejected by incumbent financial services. Under 25? No credit card. Not American? No credit card. "The alternative was nothing" [2]. Brex did not need an amazing product to start -- they just needed to care more than the banks, which meant caring more than zero [2].
+Seibel describes the customers: people being actively rejected by incumbent financial services. Under 25? No credit card. Not American? No credit card. "The alternative was nothing" [2]. Caldwell adds that Brex did not need an amazing product to start -- they just needed to care more than the banks, which meant caring more than zero: "All they had to do was care more than that. More than no" [2].
 
 ### Twitch: Calling the Streamers
 
-At Justin.tv, the founders had a troubled relationship with users for years -- many were streaming copyrighted content, creating legal liability [2]. The breakthrough came when Emmett Shear and Kevin Lin started personally calling StarCraft 2 streamers [2].
+Seibel recounts the Justin.tv story from personal experience: the founders had a troubled relationship with users for years -- many were streaming copyrighted content (soccer, sports, movies, boxing), creating legal liability [2]. The breakthrough came when Emmett Shear and Kevin Lin started personally calling StarCraft 2 streamers [2].
 
-Seibel describes the approach: "Not sending a mass email to all streamers. He literally reached out one by one" [2]. The streamers were surprised that a CEO was calling them personally. When asked what they needed, the first requests were embarrassingly simple: higher resolution streaming. Changing the bit rate was trivial for Justin.tv's engineering team -- "it was like a number, like setting a byte" [2]. The response loop was immediate: the streamers asked, the founders built it, and two days later called back to say it was done [2].
+Seibel describes the approach: "Not sending a mass email to all streamers. He literally reached out one by one" [2]. Caldwell adds that the streamers were surprised that a CEO was calling them personally. When asked what they needed, the first requests were embarrassingly simple: higher resolution streaming. Caldwell recounts talking to Emmett and Kevin: "They thought that people would be asking for really hard stuff. And what they asked for was embarrassing because it was so obvious and easy to implement" [2]. Changing the bit rate was trivial -- Seibel notes "it was like a number, like setting a byte" [2]. Two days later, the feature was live.
 
-Then the streamers asked to make money. Even $20 per month was "amazing" to them. Kevin Lin hand-wrote and mailed the checks [2].
+Seibel describes the next request: streamers asked to make money. Caldwell recalls Emmett saying: "Really? Any money?" They did the math and could send checks for $20 per month. Kevin Lin hand-wrote and mailed the checks [2].
 
-The core insight that became Twitch emerged from these calls: "If you could help these streamers make money and they could quit their job and stream the content that they love, they will make stuff that millions of people want to watch" [2]. This insight could not have come from surveys, data science reports, or PM recommendations. It came from founders who personally cared enough to get on the phone [2].
+The core insight that became Twitch emerged from these calls. Seibel states the learning: "If you could help these streamers make money and they could quit their job and stream the content that they love, they will make stuff that millions of people want to watch" [2]. This insight could not have come from surveys, data science reports, or PM recommendations. It came from founders who personally cared enough to get on the phone [2].
 
 ## Money Can Be an Obstacle to Learning
 
