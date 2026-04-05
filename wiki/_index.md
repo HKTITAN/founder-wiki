@@ -7,27 +7,32 @@
 1. Scan the sections below for your query — check aliases in parentheses
 2. Follow [[wikilinks]] in articles for related content
 3. Check _backlinks.json for high-connectivity articles
-4. Speaker pages list everything a person has discussed
 
 ## Topics by Stage
 
 ### Idea Stage
-- [[Startup Ideas]] (idea generation, finding ideas, what to build, idea validation, bad ideas, good ideas, schlep filter)
+- [[Startup Ideas]] (idea generation, finding ideas, what to build, idea validation, bad ideas, schlep filter, sitcom ideas)
+- [[Cofounders]] (co-founders, finding a cofounder, cofounder matching, solo founder, cofounder conflict, equity split)
 
 ### Building (Pre-PMF)
-- [[Early-Stage Tactics]] (do things that don't scale, unscalable things, first users, user acquisition, launch strategy, 0 to 1)
-- [[Product Development]] (building product, feature prioritization, MVP, product process, iteration, shipping)
+- [[Early-Stage Tactics]] (do things that don't scale, first users, user acquisition, launch strategy, 0 to 1, Collison installation)
+- [[Product Development]] (building product, feature prioritization, MVP, iteration, shipping, two-week cycles)
 
-### Fundraising
-- [[Fundraising]] (raising money, seed round, Series A, investors, venture capital, pitching, pitch deck, convincing investors, SAFEs)
-- [[Financial Survival]] (default alive, default dead, runway, burn rate, cash burn, staying alive, running out of money)
+### Growth & Distribution
+- [[Growth]] (startup growth, growth rate, weekly growth, compound growth, scaling, S-curve)
+- [[Sales and Distribution]] (enterprise sales, B2B sales, PR, press, getting press, go-to-market, GTM)
 
-### Hiring & Team
-- [[Hiring]] (first hires, recruiting, hiring engineers, team building, first engineer, talent)
-- [[Management]] (managing people, first-time manager, delegation, leadership, new manager, maker to manager)
+### Fundraising & Finance
+- [[Fundraising]] (raising money, seed round, Series A, investors, venture capital, pitching, pitch deck, SAFEs, convincing investors)
+- [[Financial Survival]] (default alive, default dead, runway, burn rate, cash burn, staying alive)
+- [[Board Governance]] (board of directors, board meetings, board management, term sheet, board control)
+
+### People & Organization
+- [[Hiring]] (first hires, recruiting, hiring engineers, team building, talent, overhiring)
+- [[Management]] (managing people, first-time manager, delegation, leadership, maker to manager)
 
 ### Founder
-- [[Founder Mindset]] (founder psychology, determination, resilience, relentlessly resourceful, founder character, founder traits)
+- [[Founder Mindset]] (founder psychology, determination, resilience, relentlessly resourceful, founder character)
 
 ## Frameworks
 
@@ -36,7 +41,8 @@
 
 ## Stats
 
-- Topic articles: 8
+- Topic articles: 11
 - Framework articles: 2
-- Sources absorbed: 17 posts (of 68 total blog posts)
+- Total wiki articles: 13
+- Blog posts absorbed: 47 substantial + 21 stubs (of 68 total)
 - Last updated: 2026-04-05
