@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Founder Wiki</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    background: #f6f6f6;
+    color: #202122;
+    line-height: 1.6;
+  }
+
+  /* Wikipedia-style layout */
+  .site-header {
+    background: #fff;
+    border-bottom: 1px solid #a7d7f9;
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .site-logo {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .site-logo span { color: #36c; }
+
+  .site-tagline {
+    font-size: 12px;
+    color: #54595d;
+    font-style: italic;
+  }
+
+  .search-bar {
+    margin-left: auto;
+    position: relative;
+  }
+
+  .search-bar input {
+    padding: 6px 12px;
+    border: 1px solid #a2a9b1;
+    border-radius: 2px;
+    font-size: 14px;
+    width: 280px;
+    outline: none;
+  }
+
+  .search-bar input:focus { border-color: #36c; }
+
+  .search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border: 1px solid #a2a9b1;
+    border-top: none;
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 100;
+    display: none;
+  }
+
+  .search-results.active { display: block; }
+
+  .search-result-item {
+    padding: 8px 12px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+  }
+
+  .search-result-item:hover { background: #eaf3ff; }
+  .search-result-item .title { font-weight: 600; font-size: 14px; }
+  .search-result-item .aliases { font-size: 12px; color: #72777d; }
+
+  .layout {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Sidebar */
+  .sidebar {
+    width: 220px;
+    min-width: 220px;
+    background: #fff;
+    border-right: 1px solid #ddd;
+    min-height: calc(100vh - 50px);
+    padding: 16px 0;
+  }
+
+  .sidebar h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #72777d;
+    padding: 8px 16px 4px;
+    margin-top: 8px;
+  }
+
+  .sidebar a {
+    display: block;
+    padding: 4px 16px;
+    color: #36c;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .sidebar a:hover { background: #eaf3ff; }
+  .sidebar a.active { background: #eaf3ff; font-weight: 600; }
+
+  /* Main content */
+  .content {
+    flex: 1;
+    background: #fff;
+    padding: 24px 32px;
+    min-height: calc(100vh - 50px);
+  }
+
+  .content h1 {
+    font-size: 28px;
+    font-weight: 400;
+    border-bottom: 1px solid #a2a9b1;
+    padding-bottom: 4px;
+    margin-bottom: 16px;
+    font-family: 'Linux Libertine', 'Georgia', serif;
+  }
+
+  .content h2 {
+    font-size: 20px;
+    font-weight: 400;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 2px;
+    margin: 24px 0 12px;
+    font-family: 'Linux Libertine', 'Georgia', serif;
+  }
+
+  .content h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 16px 0 8px;
+  }
+
+  .content p { margin-bottom: 12px; }
+
+  .content a {
+    color: #36c;
+    text-decoration: none;
+  }
+
+  .content a:hover { text-decoration: underline; }
+
+  .content table {
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 14px;
+  }
+
+  .content th, .content td {
+    border: 1px solid #a2a9b1;
+    padding: 6px 10px;
+    text-align: left;
+  }
+
+  .content th { background: #eaecf0; }
+
+  .content strong { font-weight: 600; }
+
+  /* Article metadata */
+  .article-meta {
+    background: #f8f9fa;
+    border: 1px solid #eaecf0;
+    padding: 12px 16px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    border-radius: 2px;
+  }
+
+  .article-meta .type-badge {
+    display: inline-block;
+    background: #36c;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 2px;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-right: 8px;
+  }
+
+  .article-meta .speakers { color: #54595d; }
+
+  /* Home page */
+  .home-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+  }
+
+  .home-card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    background: #fff;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+  }
+
+  .home-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+  .home-card h3 { font-size: 16px; margin-bottom: 6px; color: #36c; }
+  .home-card p { font-size: 13px; color: #54595d; }
+
+  .stats-bar {
+    background: #eaf3ff;
+    border: 1px solid #a7d7f9;
+    padding: 12px 16px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    border-radius: 2px;
+  }
+
+  .stats-bar span { margin-right: 24px; }
+
+  /* TOC */
+  .toc {
+    background: #f8f9fa;
+    border: 1px solid #eaecf0;
+    padding: 12px 16px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    float: right;
+    max-width: 260px;
+    margin-left: 20px;
+  }
+
+  .toc h4 { margin-bottom: 6px; font-size: 13px; }
+  .toc a { display: block; color: #36c; text-decoration: none; padding: 2px 0; }
+  .toc a:hover { text-decoration: underline; }
+
+  @media (max-width: 768px) {
+    .sidebar { display: none; }
+    .search-bar input { width: 180px; }
+    .toc { float: none; max-width: 100%; margin-left: 0; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <a class="site-logo" onclick="showHome()">founder<span>wiki</span></a>
+  <span class="site-tagline">The compiled startup knowledge base</span>
+  <div class="search-bar">
+    <input type="text" id="search" placeholder="Search founder wiki..." oninput="onSearch(this.value)" onfocus="onSearch(this.value)">
+    <div class="search-results" id="searchResults"></div>
+  </div>
+</header>
+
+<div class="layout">
+  <nav class="sidebar" id="sidebar"></nav>
+  <main class="content" id="content"></main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+const ARTICLES = {};
+const ARTICLE_LIST = [];
+
+// Parse frontmatter from markdown
+function parseFrontmatter(md) {
+  const match = md.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+  if (!match) return { meta: {}, body: md };
+  const meta = {};
+  match[1].split('\n').forEach(line => {
+    const m = line.match(/^(\w+):\s*(.+)$/);
+    if (m) {
+      let val = m[2].trim();
+      if (val.startsWith('[')) try { val = JSON.parse(val.replace(/'/g, '"')); } catch(e) {}
+      if (val.startsWith('"') && val.endsWith('"')) val = val.slice(1, -1);
+      meta[m[1]] = val;
+    }
+  });
+  return { meta, body: match[2] };
+}
+
+// Convert wikilinks to clickable links
+function processWikilinks(html) {
+  return html.replace(/\[\[([^\]]+)\]\]/g, (match, name) => {
+    const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    return `<a href="#" onclick="navigateTo('${slug}'); return false;">${name}</a>`;
+  });
+}
+
+// Load all markdown files
+async function loadArticles() {
+  const files = WIKI_FILES; // injected by build or hardcoded
+  for (const f of files) {
+    try {
+      const resp = await fetch(f.path);
+      const text = await resp.text();
+      const { meta, body } = parseFrontmatter(text);
+      const slug = (meta.title || f.name).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+      const article = { ...meta, body, slug, path: f.path, dir: f.dir };
+      ARTICLES[slug] = article;
+      ARTICLE_LIST.push(article);
+    } catch(e) { console.warn('Failed to load', f.path, e); }
+  }
+  buildSidebar();
+  showHome();
+}
+
+function buildSidebar() {
+  const sidebar = document.getElementById('sidebar');
+  const groups = {};
+  ARTICLE_LIST.forEach(a => {
+    const dir = a.dir || 'other';
+    if (!groups[dir]) groups[dir] = [];
+    groups[dir].push(a);
+  });
+
+  const order = ['topics', 'frameworks'];
+  let html = '';
+  order.forEach(dir => {
+    if (!groups[dir]) return;
+    html += `<h3>${dir}</h3>`;
+    groups[dir].sort((a,b) => (a.title||'').localeCompare(b.title||'')).forEach(a => {
+      html += `<a href="#" onclick="navigateTo('${a.slug}'); return false;">${a.title}</a>`;
+    });
+  });
+  sidebar.innerHTML = html;
+}
+
+function showHome() {
+  const content = document.getElementById('content');
+  const topics = ARTICLE_LIST.filter(a => a.dir === 'topics');
+  const frameworks = ARTICLE_LIST.filter(a => a.dir === 'frameworks');
+
+  let html = `
+    <h1>Founder Wiki</h1>
+    <div class="stats-bar">
+      <span><strong>${ARTICLE_LIST.length}</strong> articles</span>
+      <span><strong>${topics.length}</strong> topics</span>
+      <span><strong>${frameworks.length}</strong> frameworks</span>
+      <span>Source: YC Library (47 blog posts absorbed)</span>
+    </div>
+    <p>A compiled, queryable knowledge base of startup and founder wisdom. Built using the <a href="https://x.com/karpathy/status/2039805659525644595" target="_blank">LLM Knowledge Base pattern</a>.</p>
+    <h2>Topics</h2>
+    <div class="home-grid">
+  `;
+  topics.sort((a,b) => (a.title||'').localeCompare(b.title||'')).forEach(a => {
+    const aliases = Array.isArray(a.aliases) ? a.aliases.slice(0, 3).join(', ') : '';
+    const sources = Array.isArray(a.sources) ? a.sources.length : 0;
+    html += `<div class="home-card" onclick="navigateTo('${a.slug}')">
+      <h3>${a.title}</h3>
+      <p>${aliases}</p>
+      <p style="color:#72777d; font-size:12px;">${sources} sources</p>
+    </div>`;
+  });
+  html += '</div>';
+
+  if (frameworks.length) {
+    html += '<h2>Frameworks</h2><div class="home-grid">';
+    frameworks.forEach(a => {
+      html += `<div class="home-card" onclick="navigateTo('${a.slug}')">
+        <h3>${a.title}</h3>
+        <p>${a.originated_by ? 'by ' + a.originated_by : ''}</p>
+      </div>`;
+    });
+    html += '</div>';
+  }
+  content.innerHTML = html;
+  document.querySelectorAll('.sidebar a').forEach(a => a.classList.remove('active'));
+}
+
+function navigateTo(slug) {
+  const article = ARTICLES[slug];
+  if (!article) { console.warn('Article not found:', slug); return; }
+
+  // Build TOC from h2 headers
+  const h2s = article.body.match(/^## .+$/gm) || [];
+  let toc = '';
+  if (h2s.length > 2) {
+    toc = '<div class="toc"><h4>Contents</h4>';
+    h2s.forEach(h => {
+      const text = h.replace('## ', '');
+      const id = text.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+      toc += `<a href="#${id}">${text}</a>`;
+    });
+    toc += '</div>';
+  }
+
+  // Metadata bar
+  let meta = '<div class="article-meta">';
+  if (article.type) meta += `<span class="type-badge">${article.type}</span>`;
+  if (article.speakers_referenced) {
+    const speakers = Array.isArray(article.speakers_referenced) ? article.speakers_referenced : [article.speakers_referenced];
+    meta += `<span class="speakers">Speakers: ${speakers.join(', ')}</span>`;
+  }
+  if (article.originated_by) meta += `<span class="speakers">Originated by: ${article.originated_by}</span>`;
+  meta += '</div>';
+
+  // Render markdown
+  let rendered = marked.parse(article.body);
+  rendered = processWikilinks(rendered);
+
+  // Add IDs to h2 for TOC linking
+  rendered = rendered.replace(/<h2>(.*?)<\/h2>/g, (m, text) => {
+    const id = text.replace(/<[^>]+>/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    return `<h2 id="${id}">${text}</h2>`;
+  });
+
+  document.getElementById('content').innerHTML = meta + toc + rendered;
+
+  // Highlight active sidebar item
+  document.querySelectorAll('.sidebar a').forEach(a => {
+    a.classList.toggle('active', a.textContent === article.title);
+  });
+
+  // Close search
+  document.getElementById('searchResults').classList.remove('active');
+  document.getElementById('search').value = '';
+  window.scrollTo(0, 0);
+}
+
+function onSearch(query) {
+  const results = document.getElementById('searchResults');
+  if (!query || query.length < 2) { results.classList.remove('active'); return; }
+
+  const q = query.toLowerCase();
+  const matches = ARTICLE_LIST.filter(a => {
+    if ((a.title || '').toLowerCase().includes(q)) return true;
+    const aliases = Array.isArray(a.aliases) ? a.aliases : [];
+    return aliases.some(al => al.toLowerCase().includes(q));
+  });
+
+  if (!matches.length) { results.classList.remove('active'); return; }
+
+  results.innerHTML = matches.map(a => {
+    const aliases = Array.isArray(a.aliases) ? a.aliases.slice(0, 3).join(', ') : '';
+    return `<div class="search-result-item" onclick="navigateTo('${a.slug}')">
+      <div class="title">${a.title}</div>
+      <div class="aliases">${aliases}</div>
+    </div>`;
+  }).join('');
+  results.classList.add('active');
+}
+
+// Close search on click outside
+document.addEventListener('click', e => {
+  if (!e.target.closest('.search-bar')) {
+    document.getElementById('searchResults').classList.remove('active');
+  }
+});
+
+// File list — hardcoded for simplicity (no build step needed)
+const WIKI_FILES = [
+  { path: '../wiki/topics/startup-ideas.md', dir: 'topics', name: 'startup-ideas' },
+  { path: '../wiki/topics/growth.md', dir: 'topics', name: 'growth' },
+  { path: '../wiki/topics/early-stage-tactics.md', dir: 'topics', name: 'early-stage-tactics' },
+  { path: '../wiki/topics/fundraising.md', dir: 'topics', name: 'fundraising' },
+  { path: '../wiki/topics/financial-survival.md', dir: 'topics', name: 'financial-survival' },
+  { path: '../wiki/topics/hiring.md', dir: 'topics', name: 'hiring' },
+  { path: '../wiki/topics/management.md', dir: 'topics', name: 'management' },
+  { path: '../wiki/topics/product-development.md', dir: 'topics', name: 'product-development' },
+  { path: '../wiki/topics/founder-mindset.md', dir: 'topics', name: 'founder-mindset' },
+  { path: '../wiki/topics/cofounders.md', dir: 'topics', name: 'cofounders' },
+  { path: '../wiki/topics/sales-and-distribution.md', dir: 'topics', name: 'sales-and-distribution' },
+  { path: '../wiki/topics/board-governance.md', dir: 'topics', name: 'board-governance' },
+  { path: '../wiki/frameworks/do-things-that-dont-scale.md', dir: 'frameworks', name: 'do-things-that-dont-scale' },
+  { path: '../wiki/frameworks/default-alive-or-dead.md', dir: 'frameworks', name: 'default-alive-or-dead' },
+];
+
+loadArticles();
+</script>
+</body>
+</html>
