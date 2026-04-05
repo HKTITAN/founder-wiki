@@ -8,24 +8,28 @@ categories: ["Fundraising + Investors", "Fundraising", "Fundraising Docs", "Seri
 description: "YC has seen thousands of Series A term sheets, and we know what good terms look like. This is what a Series A term sheet looks like with standard and clean terms from a good Silicon Valley VC."
 ---
 
-Let's imagine that you are the founder of a company that has successfully raised an angel or institutional round and are
-currently in a situation where you have 12 months or less of runway.
+While working with companies in YC’s Series A program, we’ve noticed a common problem: founders don’t know what “good”
+looks like in a term sheet. This makes sense, because it is often, literally, the first time in their careers that
+they’ve seen one. This puts founders at a significant disadvantage because VCs see term sheets all the time and know
+what to expect. Because we’ve invested in so many founders over the years and have seen hundreds of Series A term
+sheets, we know what “good” looks like. We work with our founders to understand where terms diverge from “good”, what
+they can do about that divergence, and when and how it makes sense to negotiate.
 
-The hardest part of dealing with a low runway situation is managing your own psychology. You have to simultaneously
-manage your own anxiety to not be overly negative about your prospects, but also not be irrationally positive. It's a
-delicate balance.
+Below is what a Series A term sheet looks like with standard and clean terms from a good Silicon Valley VC. Bracketed
+items (besides the names of the company and lead investor) are always or frequently negotiated. Items not in brackets
+are sometimes negotiated, but this has more to do with the idiosyncratic features of the company or the situation, and
+generally aren’t terms that parties intend to heavily bargain over during the negotiation.
 
-The first step is to understand exactly how much cash and runway you have. **Before reading further, make sure you have
-read both [The Fatal Pinch](http://paulgraham.com/pinch.html) and [Default Alive or Default
-Dead](http://paulgraham.com/aord.html)**.
+One of the critical things you’ll notice is that we didn’t put in standard pricing. While the lead in a Series A round
+generally wants 20% of the company, pricing can flex up and down depending on the leverage held by each side. We think
+price is an important term, but too specific to each raise to try to create a standard. We’re more concerned with terms
+around control and structure that are less familiar to founders, and therefore more prone to cause confusion and
+trouble.
 
-If you are Default Dead then it is your responsibility as a founder to immediately take actions to become Default Alive.
-The mechanisms by which you can move from Default Dead to Default Alive are straightforward: Either you need to grow
-revenue more quickly, cut costs, or both.
+Note: this term sheet doesn’t belong to any particular VC -- we drafted it -- but it does substantively reflect what we
+see most often. Founders with a lot of negotiating leverage can sometimes do better, and the converse is true too.
 
-**Counter-productive ideas**
-
-Founders can get caught in a thought cycle which causes inaction and an inability to fix the situation they are in.
+[You can also download the Word version of the doc from this page.](https://www.ycombinator.com/series_a_term_sheet/)
 
 # What is Y Combinator?
 
@@ -33,71 +37,87 @@ We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, D
 
 [Apply](/apply)
 
-Here are some common counter-productive ideas:
+It may be surprising to see everything covered in a single page.[1](#footnote1) This wasn’t always the case, but became
+common over the last decade as some investors decided to make their term sheets more user friendly by shortening the
+legalese as if to say, “We aren’t going to get bogged down in the minutiae. We’re going to make this easy, friendly,
+standard and fast.”
 
-* [The Fatal Pinch](http://paulgraham.com/pinch.html) does not apply to me
-* Investors will continue to fund my company if I run out of money
-* If I fail at fundraising I can just sell the company
-* My conversations with potential acquirers or investors are very far along and likely to happen
-* Acquirers won’t buy us if I cut costs
-* My employee morale will plummet if I cut costs
-* New investors won’t fund us if I cut costs
+This leads us to the most important thing to understand about the term sheet: it’s another way in which your Series A
+investor might be telling you something. A contract allocates risks between the parties, so the terms the investor
+insists on can sometimes say a lot about the investor’s perceived risks. These perceived risks show up in a couple of
+ways.
 
-Don't let these ideas be the justification(s) for why you choose to remain Default Dead.
+The first way relates to control terms. We don’t mean the set of investor vetoes in the “Voting Rights” section, which
+are pretty standard fare,[2](#footnote2) but rather issues of board composition and the investor’s ability to block or
+dictate operational decisions made by the board. The board structure in this term sheet is founder-friendly because the
+founders retain board control 2-1.[3](#footnote3) The way in which founders most often lose control at the Series A is
+with a 2-2-1 board structure, i.e. 2 founders, 2 investors and an independent board member. The loss of board control is
+most significant because it means the founders can be fired from their own company.[4](#footnote4) Another way in which
+founders lose some control is a term that doesn’t appear in the standard example above, which is a separate provision
+that says the investor director’s approval is required for operational decisions like setting the annual budget,
+hiring/firing executives, pivoting the business, adding new lines of business, etc. When boards are set up to take power
+away from founders, the investor’s outward justification will frequently be reasons of governance or accountability. But
+the more power that’s taken away, the more it’s undeniable that the investor is attempting to structure away a perceived
+risk. So when an investor says that they’re committed to partnering with you for the long-term - or that they’re betting
+everything on you - but then tells you something else with the terms that they insist on, believe the terms.
 
-**Understand your leverage in a negotiation**
+The other way perceived risks manifest is if a term sheet includes non-standard or “dirty” economic terms. Here, the
+term sheet example is instructive not for what it contains but what it *doesn’t*. Examples of such terms would be:
 
-What can we learn from the above graph?
+* Liquidation preference greater than 1x -- the investor gets back more than its invested capital first.
+* Participating preferred -- the investor double-dips by getting its money back plus its pro rata portion of exit
+  proceeds, rather than choosing between the two.
+* Cumulative dividends -- the investor compounds its liquidation preference every year by X%, which increases the
+  economic hurdle that has to be cleared before founders and employees see any value.
+* Warrant coverage -- the investor gets extra fully diluted ownership without paying for it at the agreed upon
+  valuation.
 
-* Delaying taking action to reduce burn is a bad strategy. Make changes to become Default Alive **now**.
-* From a game theory perspective, an investor or acquirer is best served to stall and drag you along until you have no
-  leverage at all. An opportunistic acquirer or investor is unlikely to say "no" outright, and will keep their options
-  open as you become increasingly desperate.
-* If things looks bleak now and you take no corrective action, it is overwhelmingly likely the situation will get
-  worse, not better.
+These are all ways of adding structure to reduce typical venture risk, either directly by boosting the investor’s
+downside economics, or indirectly by juicing the upside outcomes. The investor is essentially saying, “I’m sort of
+afraid of losing my money.” It can also foreshadow how they might behave when things aren’t going well, such as pushing
+you to sell when you don’t want to, or dial back risk when it’s important to take it. Good investors would rather
+address economic risks by negotiating valuation, and are otherwise happy to give standard terms because they know that
+the real money in venture is not made with structure, but by building long-term value, which they are confident in their
+ability to help you do.
 
-**Some tips on reducing burn**
+The last thing to remember is that your Series A documents are a foundation and precedent for the terms of future
+rounds. Good foundations make the next term sheet and financing round fast and simple, as future investors just step
+into the same straightforward terms. Doing the opposite complicates future fundraises, such as future investors asking
+for the same structure-heavy terms, existing investors refusing to drop terms that subsequent investors want removed as
+a precondition of investing, etc. Unwinding bad terms is difficult, and oftentimes impossible.
 
-If you want to reduce burn, the least painful thing to do is make a lot more money immediately. Hopefully you have been
-trying to do this anyway.
+That said, the point is to get a clean deal, not to cycle a lot to get the perfect deal. No one ever built an enduring
+company just by winning their Series A negotiation. Also, even if you can’t get everything right or the way you want it,
+you always have the power to execute. If you do that, the value you build can outrun suboptimal terms or establish
+leverage to renegotiate later. So don’t lose sight of the ultimate goal: closing fast and getting back to work.
 
-But what if immediately dramatically increasing revenue to become Default Alive is not possible? You must cut costs.
+**Notes**
 
-Real estate/lease costs are binding agreements and very difficult to get out of. Real estate obligations are a common
-cause of death for later stage companies.
+**1.** Some great investors still send longer term sheets, but this has more to do with their preference for going a bit
+deeper into the details at this stage, rather than deferring this until the definitive documents. The definitive
+documents are derived from the term sheet and are the much longer (100+ pages) binding contracts that everyone signs and
+closes on. It’s common to negotiate a few additional points at this stage, though deviation from anything explicitly
+addressed in the term sheet is definitely re-trading. Also, in a few places, this term sheet refers to certain terms as
+being “standard.” That may seem vague and circular, but term sheets frequently do describe certain terms that way. What
+that really means is that there’s an accepted practice of what appears in the docs for these terms among the lawyers who
+specialize in startups and venture deals, so make sure your lawyer (and the investor’s lawyer) fit that
+description.[↩](#footnoteid1)
 
-Payroll costs are the most likely source of high burn scenario. As mentioned in [The Fatal
-Pinch](http://paulgraham.com/pinch.html), over-hiring is usually the root cause of high burn. If you do choose to reduce
-staff it is imperative to treat your former employees well. You should also be transparent with your remaining
-employees. Remember: You should always treat your staff as you would want to be treated.
+**2.** The two most impactful investor vetoes in this section are the veto on a financing, which is covered by clauses
+(ii) and (iii), and the veto on a sale of the company, which is in clause (vii). We point these out because the concrete
+implications of these clauses aren’t facially obvious, and because most term sheets use similar technical jargon for
+these vetoes.[↩](#footnoteid2)
 
-The easiest things to cut are things like PR and marketing expenses, as well as random incidental spending on
-perks/parties. Don't blow your money on this stuff.
+**3.** The founders implicitly control those 2 seats because they’re designated by a majority of common, and founders
+generally control a majority of common for a long time. In even more founder-friendly term sheets, those 2 seats may be
+designated by the founders themselves (as individuals).[↩](#footnoteid3)
 
-**The point of no return**
+**4.** Whether being fired from the company as an employee also triggers the removal of the founder from the board is a
+separate question and depends on what was negotiated in the financing documents. Sometimes a founder’s right to vote her
+shares to appoint a director will be conditioned on the founder being currently employed by the company. Whenever
+conditions are attached to your rights to vote on anything, make sure to ask your lawyer to walk you through the various
+scenarios in which those conditions matter and how they can hurt you.[↩](#footnoteid4)
 
-So what happens if you have less than three months of cash? It's important to face the issue head on and account for
-your liabilities and the scenario of shutting down your company.
+*This is not legal advice.*
 
-In many cases, *<2 months is the point of no return*. If you are in this state it is immediately necessary to lay off
-your employees and give them severance, pay down your obligations, and use your remaining cash for shutdown costs. If
-you don't do this and instead end up with zero cash and outstanding payroll, tax or other obligations, things will get
-Very Bad.
-
-Some things to consider at this stage:
-
-* When you hit the point of no return, you should shut down your company.
-* Do not become insolvent. Pay your debts. You must pay your tax and payroll obligations.
-* In especially messy scenarios you can end up with personal liability. Consult with your lawyers regarding how to do
-  an orderly shutdown.
-* Don’t drag things out and end up in a no upside situation: no upside for you, for your employees, for your
-  investors, or for your customers.
-* Even if things go poorly, behave in a way you would be proud of.
-
-  It's tough to be a founder in a low runway situation. Get support and advice where you can get it. Mentors and
-  advisors can help you navigate through these times. Often the toughest thing for a founder that has made it this far
-  is to "admit defeat." If you are worried about your reputation, keep reminding yourself that it's just as important
-  to handle situations well when things go poorly as it is when they are going great.
-
-  In closing, if you remember nothing else, remember these two things: 1) don't lie to yourself and 2) act quickly and
-  decisively.
+*Thanks to Carolynn Levy, Jon Levy, and Nicole Cadman for their comments on this.*

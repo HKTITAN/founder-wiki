@@ -8,331 +8,476 @@ categories: ["Fundraising + Investors", "Fundraising", "Seed Round", "Investors"
 description: "The most comprehensive guide on why, when, and how to raise money for your startup."
 ---
 
-*The* *original* *version* *of* *this* *essay* *is* *available* *at*
-[*http://www.paulgraham.com/ds.html*](http://www.paulgraham.com/ds.html)
-
-July 2013
-
-One of the most common types of advice we give at Y Combinator is to do things that don't scale. A lot of would-be
-founders believe that startups either take off or don't. You build something, make it available, and if you've made a
-better mousetrap, people beat a path to your door as promised. Or they don't, in which case the market must not exist.
-[1]
-
-Actually startups take off because the founders make them take off. There may be a handful that just grew by themselves,
-but usually it takes some sort of push to get them going. A good metaphor would be the cranks that car engines had
-before they got electric starters. Once the engine was going, it would keep going, but there was a separate and
-laborious process to get it going.
-
-### Recruit
-
-The most common unscalable thing founders have to do at the start is to recruit users manually. Nearly all startups have
-to. You can't wait for users to come to you. You have to go out and get them.
-
-Stripe is one of the most successful startups we've funded, and the problem they solved was an urgent one. If anyone
-could have sat back and waited for users, it was Stripe. But in fact they're famous within YC for aggressive early user
-acquisition.
-
-Startups building things for other startups have a big pool of potential users in the other companies we've funded, and
-none took better advantage of it than Stripe. At YC we use the term "Collison installation" for the technique they
-invented. More diffident founders ask "Will you try our beta?" and if the answer is yes, they say "Great, we'll send you
-a link." But the Collison brothers weren't going to wait. When anyone agreed to try Stripe they'd say "Right then, give
-me your laptop" and set them up on the spot.
-
-There are two reasons founders resist going out and recruiting users individually. One is a combination of shyness and
-laziness. They'd rather sit at home writing code than go out and talk to a bunch of strangers and probably be rejected
-by most of them. But for a startup to succeed, at least one founder (usually the CEO) will have to spend a lot of time
-on sales and marketing. [2]
-
-The other reason founders ignore this path is that the absolute numbers seem so small at first. This can't be how the
-big, famous startups got started, they think. The mistake they make is to underestimate the power of compound growth. We
-encourage every startup to measure their progress by weekly [growth rate](http://www.paulgraham.com/growth.html). If you
-have 100 users, you need to get 10 more next week to grow 10% a week. And while 110 may not seem much better than 100,
-if you keep growing at 10% a week you'll be surprised how big the numbers get. After a year you'll have 14,000 users,
-and after 2 years you'll have 2 million.
-
-You'll be doing different things when you're acquiring users a thousand at a time, and growth has to slow down
-eventually. But if the market exists you can usually start by recruiting users manually and then gradually switch to
-less manual methods. [3]
-
-Airbnb is a classic example of this technique. Marketplaces are so hard to get rolling that you should expect to take
-heroic measures at first. In Airbnb's case, these consisted of going door to door in New York, recruiting new users and
-helping existing ones improve their listings. When I remember the Airbnbs during YC, I picture them with rolly bags,
-because when they showed up for tuesday dinners they'd always just flown back from somewhere.
-
-### **Fragile**
-
-Airbnb now seems like an unstoppable juggernaut, but early on it was so fragile that about 30 days of going out and
-engaging in person with users made the difference between success and failure.
-
-That initial fragility was not a unique feature of Airbnb. Almost all startups are fragile initially. And that's one of
-the biggest things inexperienced founders and investors (and reporters and know-it-alls on forums) get wrong about them.
-They unconsciously judge larval startups by the standards of established ones. They're like someone looking at a newborn
-baby and concluding "there's no way this tiny creature could ever accomplish anything."
-
-It's harmless if reporters and know-it-alls dismiss your startup. They always get things wrong. It's even ok if
-investors dismiss your startup; they'll change their minds when they see growth. The big danger is that you'll dismiss
-your startup yourself. I've seen it happen. I often have to encourage founders who don't see the full potential of what
-they're building. Even Bill Gates made that mistake. He returned to Harvard for the fall semester after starting
-Microsoft. He didn't stay long, but he wouldn't have returned at all if he'd realized Microsoft was going to be even a
-fraction of the size it turned out to be. [4]
-
-The question to ask about an early stage startup is not "is this company taking over the world?" but "how big could this
-company get if the founders did the right things?" And the right things often seem both laborious and inconsequential at
-the time. Microsoft can't have seemed very impressive when it was just a couple guys in Albuquerque writing Basic
-interpreters for a market of a few thousand hobbyists (as they were then called), but in retrospect that was the optimal
-path to dominating microcomputer software. And I know Brian Chesky and Joe Gebbia didn't feel like they were en route to
-the big time as they were taking "professional" photos of their first hosts' apartments. They were just trying to
-survive. But in retrospect that too was the optimal path to dominating a big market.
-
-How do you find users to recruit manually? If you build something to solve [your own
-problems](http://www.paulgraham.com/startupideas.html), then you only have to find your peers, which is usually
-straightforward. Otherwise you'll have to make a more deliberate effort to locate the most promising vein of users. The
-usual way to do that is to get some initial set of users by doing a comparatively untargeted launch, and then to observe
-which kind seem most enthusiastic, and seek out more like them. For example, Ben Silbermann noticed that a lot of the
-earliest Pinterest users were interested in design, so he went to a conference of design bloggers to recruit users, and
-that worked well. [5]
-
-### **Delight**
-
-You should take extraordinary measures not just to acquire users, but also to make them happy. For as long as they could
-(which turned out to be surprisingly long), Wufoo sent each new user a hand-written thank you note. Your first users
-should feel that signing up with you was one of the best choices they ever made. And you in turn should be racking your
-brains to think of new ways to delight them.
-
-Why do we have to teach startups this? Why is it counterintuitive for founders? Three reasons, I think.
-
-One is that a lot of startup founders are trained as engineers, and customer service is not part of the training of
-engineers. You're supposed to build things that are robust and elegant, not be slavishly attentive to individual users
-like some kind of salesperson. Ironically, part of the reason engineering is traditionally averse to handholding is that
-its traditions date from a time when engineers were less powerful — when they were only in charge of their narrow domain
-of building things, rather than running the whole show. You can be ornery when you're Scotty, but not when you're Kirk.
-
-Another reason founders don't focus enough on individual customers is that they worry it won't scale. But when founders
-of larval startups worry about this, I point out that in their current state they have nothing to lose. Maybe if they go
-out of their way to make existing users super happy, they'll one day have too many to do so much for. That would be a
-great problem to have. See if you can make it happen. And incidentally, when it does, you'll find that delighting
-customers scales better than you expected. Partly because you can usually find ways to make anything scale more than you
-would have predicted, and partly because delighting customers will by then have permeated your culture.
-
-I have never once seen a startup lured down a blind alley by trying too hard to make their initial users happy.
-
-But perhaps the biggest thing preventing founders from realizing how attentive they could be to their users is that
-they've never experienced such attention themselves. Their standards for customer service have been set by the companies
-they've been customers of, which are mostly big ones. Tim Cook doesn't send you a hand-written note after you buy a
-laptop. He can't. But you can. That's one advantage of being small: you can provide a level of service no big company
-can. [6]
-
-Once you realize that existing conventions are not the upper bound on user experience, it's interesting in a very
-pleasant way to think about how far you could go to delight your users.
-
-### **Experience**
-
-I was trying to think of a phrase to convey how extreme your attention to users should be, and I realized Steve Jobs had
-already done it: insanely great. Steve wasn't just using "insanely" as a synonym for "very." He meant it more literally
-— that one should focus on quality of execution to a degree that in everyday life would be considered pathological.
-
-All the most successful startups we've funded have, and that probably doesn't surprise would-be founders. What novice
-founders don't get is what insanely great translates to in a larval startup. When Steve Jobs started using that phrase,
-Apple was already an established company. He meant the Mac (and its documentation and even packaging — such is the
-nature of obsession) should be insanely well designed and manufactured. That's not hard for engineers to grasp. It's
-just a more extreme version of designing a robust and elegant product.
-
-What founders have a hard time grasping (and Steve himself might have had a hard time grasping) is what insanely great
-morphs into as you roll the time slider back to the first couple months of a startup's life. It's not the product that
-should be insanely great, but the experience of being your user. The product is just one component of that. For a big
-company it's necessarily the dominant one. But you can and should give users an insanely great experience with an early,
-incomplete, buggy product, if you make up the difference with attentiveness.
-
-Can, perhaps, but should? Yes. Over-engaging with early users is not just a permissible technique for getting growth
-rolling. For most successful startups it's a necessary part of the feedback loop that makes the product good. Making a
-better mousetrap is not an atomic operation. Even if you start the way most successful startups have, by building
-something you yourself need, the first thing you build is never quite right. And except in domains with big penalties
-for making mistakes, it's often better not to aim for perfection initially. In software, especially, it usually works
-best to get something in front of users as soon as it has a quantum of utility, and then see what they do with it.
-Perfectionism is often an excuse for procrastination, and in any case your initial model of users is always inaccurate,
-even if you're one of them. [7]
-
-The feedback you get from engaging directly with your earliest users will be the best you ever get. When you're so big
-you have to resort to focus groups, you'll wish you could go over to your users' homes and offices and watch them use
-your stuff like you did when there were only a handful of them.
-
-### **Fire**
-
-Sometimes the right unscalable trick is to focus on a deliberately narrow market. It's like keeping a fire contained at
-first to get it really hot before adding more logs.
-
-That's what Facebook did. At first it was just for Harvard students. In that form it only had a potential market of a
-few thousand people, but because they felt it was really for them, a critical mass of them signed up. After Facebook
-stopped being for Harvard students, it remained for students at specific colleges for quite a while. When I interviewed
-Mark Zuckerberg at Startup School, he said that while it was a lot of work creating course lists for each school, doing
-that made students feel the site was their natural home.
-
-Any startup that could be described as a marketplace usually has to start in a subset of the market, but this can work
-for other startups as well. It's always worth asking if there's a subset of the market in which you can get a critical
-mass of users quickly. [8]
-
-Most startups that use the contained fire strategy do it unconsciously. They build something for themselves and their
-friends, who happen to be the early adopters, and only realize later that they could offer it to a broader market. The
-strategy works just as well if you do it unconsciously. The biggest danger of not being consciously aware of this
-pattern is for those who naively discard part of it. E.g. if you don't build something for yourself and your friends, or
-even if you do, but you come from the corporate world and your friends are not early adopters, you'll no longer have a
-perfect initial market handed to you on a platter.
-
-Among companies, the best early adopters are usually other startups. They're more open to new things both by nature and
-because, having just been started, they haven't made all their choices yet. Plus when they succeed they grow fast, and
-you with them. It was one of many unforeseen advantages of the YC model (and specifically of making YC big) that B2B
-startups now have an instant market of hundreds of other startups ready at hand.
-
-### **Meraki**
-
-For [hardware startups](http://www.paulgraham.com/hw.html) there's a variant of doing things that don't scale that we
-call "pulling a Meraki." Although we didn't fund Meraki, the founders were Robert Morris's grad students, so we know
-their history. They got started by doing something that really doesn't scale: assembling their routers themselves.
-
-Hardware startups face an obstacle that software startups don't. The minimum order for a factory production run is
-usually several hundred thousand dollars. Which can put you in a catch-22: without a product you can't generate the
-growth you need to raise the money to manufacture your product. Back when hardware startups had to rely on investors for
-money, you had to be pretty convincing to overcome this. The arrival of crowdfunding (or more precisely, preorders) has
-helped a lot. But even so I'd advise startups to pull a Meraki initially if they can. That's what Pebble did. The
-Pebbles [assembled](https://sep.turbifycdn.com/ty/cdn/paulgraham/eric.jpg?t=1688221954&) the first several hundred
-watches themselves. If they hadn't gone through that phase, they probably wouldn't have sold $10 million worth of
-watches when they did go on Kickstarter.
-
-Like paying excessive attention to early customers, fabricating things yourself turns out to be valuable for hardware
-startups. You can tweak the design faster when you're the factory, and you learn things you'd never have known
-otherwise. Eric Migicovsky of Pebble said one of the things he learned was "how valuable it was to source good screws."
-Who knew?
-
-### **Consult**
-
-Sometimes we advise founders of B2B startups to take over-engagement to an extreme, and to pick a single user and act as
-if they were consultants building something just for that one user. The initial user serves as the form for your mold;
-keep tweaking till you fit their needs perfectly, and you'll usually find you've made something other users want too.
-Even if there aren't many of them, there are probably adjacent territories that have more. As long as you can find just
-one user who really needs something and can act on that need, you've got a toehold in making something people want, and
-that's as much as any startup needs initially. [9]
-
-Consulting is the canonical example of work that doesn't scale. But (like other ways of bestowing one's favors
-liberally) it's safe to do it so long as you're not being paid to. That's where companies cross the line. So long as
-you're a product company that's merely being extra attentive to a customer, they're very grateful even if you don't
-solve all their problems. But when they start paying you specifically for that attentiveness — when they start paying
-you by the hour — they expect you to do everything.
-
-Another consulting-like technique for recruiting initially lukewarm users is to use your software yourselves on their
-behalf. We did that at Viaweb. When we approached merchants asking if they wanted to use our software to make online
-stores, some said no, but they'd let us make one for them. Since we would do anything to get users, we did. We felt
-pretty lame at the time. Instead of organizing big strategic e-commerce partnerships, we were trying to sell luggage and
-pens and men's shirts. But in retrospect it was exactly the right thing to do, because it taught us how it would feel to
-merchants to use our software. Sometimes the feedback loop was near instantaneous: in the middle of building some
-merchant's site I'd find I needed a feature we didn't have, so I'd spend a couple hours implementing it and then resume
-building the site.
-
-### **Manual**
-
-There's a more extreme variant where you don't just use your software, but are your software. When you only have a small
-number of users, you can sometimes get away with doing by hand things that you plan to automate later. This lets you
-launch faster, and when you do finally automate yourself out of the loop, you'll know exactly what to build because
-you'll have muscle memory from doing it yourself.
-
-When manual components look to the user like software, this technique starts to have aspects of a practical joke. For
-example, the way Stripe delivered "instant" merchant accounts to its first users was that the founders manually signed
-them up for traditional merchant accounts behind the scenes.
-
-Some startups could be entirely manual at first. If you can find someone with a problem that needs solving and you can
-solve it manually, go ahead and do that for as long as you can, and then gradually automate the bottlenecks. It would be
-a little frightening to be solving users' problems in a way that wasn't yet automatic, but less frightening than the far
-more common case of having something automatic that doesn't yet solve anyone's problems.
-
-### **Big**
-
-I should mention one sort of initial tactic that usually doesn't work: the Big Launch. I occasionally meet founders who
-seem to believe startups are projectiles rather than powered aircraft, and that they'll make it big if and only if
-they're launched with sufficient initial velocity. They want to launch simultaneously in 8 different publications, with
-embargoes. And on a tuesday, of course, since they read somewhere that's the optimum day to launch something.
-
-It's easy to see how little launches matter. Think of some successful startups. How many of their launches do you
-remember? All you need from a launch is some initial core of users. How well you're doing a few months later will depend
-more on how happy you made those users than how many there were of them. [10]
-
-So why do founders think launches matter? A combination of solipsism and laziness. They think what they're building is
-so great that everyone who hears about it will immediately sign up. Plus it would be so much less work if you could get
-users merely by broadcasting your existence, rather than recruiting them one at a time. But even if what you're building
-really is great, getting users will always be a gradual process — partly because great things are usually also novel,
-but mainly because users have other things to think about.
-
-Partnerships too usually don't work. They don't work for startups in general, but they especially don't work as a way to
-get growth started. It's a common mistake among inexperienced founders to believe that a partnership with a big company
-will be their big break. Six months later they're all saying the same thing: that was way more work than we expected,
-and we ended up getting practically nothing out of it. [11]
-
-It's not enough just to do something extraordinary initially. You have to make an extraordinary *effort* initially. Any
-strategy that omits the effort — whether it's expecting a big launch to get you users, or a big partner — is ipso facto
-suspect.
-
-### **Vector**
-
-The need to do something unscalably laborious to get started is so nearly universal that it might be a good idea to stop
-thinking of startup ideas as scalars. Instead we should try thinking of them as pairs of what you're going to build,
-plus the unscalable thing(s) you're going to do initially to get the company going.
-
-It could be interesting to start viewing startup ideas this way, because now that there are two components you can try
-to be imaginative about the second as well as the first. But in most cases the second component will be what it usually
-is — recruit users manually and give them an overwhelmingly good experience — and the main benefit of treating startups
-as vectors will be to remind founders they need to work hard in two dimensions. [12]
-
-In the best case, both components of the vector contribute to your company's DNA: the unscalable things you have to do
-to get started are not merely a necessary evil, but change the company permanently for the better. If you have to be
-aggressive about user acquisition when you're small, you'll probably still be aggressive when you're big. If you have to
-manufacture your own hardware, or use your software on users's behalf, you'll learn things you couldn't have learned
-otherwise. And most importantly, if you have to work hard to delight users when you only have a handful of them, you'll
-keep doing it when you have a lot.
-
-### **Notes**
-
-[1] Actually Emerson never mentioned mousetraps specifically. He wrote "If a man has good corn or wood, or boards, or
-pigs, to sell, or can make better chairs or knives, crucibles or church organs, than anybody else, you will find a broad
-hard-beaten road to his house, though it be in the woods."
-
-[2] Thanks to Sam Altman for suggesting I make this explicit. And no, you can't avoid doing sales by hiring someone to
-do it for you. You have to do sales yourself initially. Later you can hire a real salesperson to replace you.
-
-[3] The reason this works is that as you get bigger, your size helps you grow. Patrick Collison wrote "At some point,
-there was a very noticeable change in how Stripe felt. It tipped from being this boulder we had to push to being a train
-car that in fact had its own momentum."
-
-[4] One of the more subtle ways in which YC can help founders is by calibrating their ambitions, because we know
-exactly how a lot of successful startups looked when they were just getting started.
-
-[5] If you're building something for which you can't easily get a small set of users to observe — e.g. enterprise
-software — and in a domain where you have no connections, you'll have to rely on cold calls and introductions. But
-should you even be working on such an idea?
-
-[6] Garry Tan pointed out an interesting trap founders fall into in the beginning. They want so much to seem big that
-they imitate even the flaws of big companies, like indifference to individual users. This seems to them more
-"professional." Actually it's better to embrace the fact that you're small and use whatever advantages that brings.
-
-[7] Your user model almost couldn't be perfectly accurate, because users' needs often change in response to what you
-build for them. Build them a microcomputer, and suddenly they need to run spreadsheets on it, because the arrival of
-your new microcomputer causes someone to invent the spreadsheet.
-
-[8] If you have to choose between the subset that will sign up quickest and those that will pay the most, it's usually
-best to pick the former, because those are probably the early adopters. They'll have a better influence on your product,
-and they won't make you expend as much effort on sales. And though they have less money, you don't need that much to
-maintain your target growth rate early on.
-
-[9] Yes, I can imagine cases where you could end up making something that was really only useful for one user. But
-those are usually obvious, even to inexperienced founders. So if it's not obvious you'd be making something for a market
-of one, don't worry about that danger.
-
-[10] There may even be an inverse correlation between launch magnitude and success. The only launches I remember are
-famous flops like the Segway and Google Wave. Wave is a particularly alarming example, because I think it was actually a
-great idea that was killed partly by its overdone launch.
-
-[11] Google grew big on the back of Yahoo, but that wasn't a partnership. Yahoo was their customer.
-
-[12] It will also remind founders that an idea where the second component is empty — an idea where there is nothing
-you can do to get going, e.g. because you have no way to find users to recruit manually — is probably a bad idea, at
-least for those founders.
-
-**Thanks** to Sam Altman, Paul Buchheit, Patrick Collison, Kevin Hale, Steven Levy, Jessica Livingston, Geoff Ralston,
-and Garry Tan for reading drafts of this.
+### Introduction
+
+Startup companies need to purchase equipment, rent offices, and hire staff. More importantly, they need to grow. In
+almost every case they will require outside capital to do these things.
+
+The initial capital raised by a company is typically called “seed” capital. This brief guide is a summary of what
+startup founders need to know about raising the seed funds critical to getting their company off the ground.
+
+This is not intended to be a complete guide to fundraising. It includes only the basic knowledge most founders will
+need. The information comes from my experiences working at startups, investing in startups, and advising startups at Y
+Combinator and Imagine K12. YC partners naturally gain a lot of fundraising experience and YC founder Paul Graham (PG)
+has written extensively on the topic [1](#e1), [2](#e2), [3](#e3), [4](#e4). His essays cover in more detail much of
+what is contained in this guide and are highly recommended reading.
+
+### Why Raise Money?
+
+Without startup funding the vast majority of startups will die. The amount of money needed to take a startup to
+profitability is usually well beyond the ability of founders and their friends and family to finance. A startup here
+means a company that is built to grow fast [12](#e12). High growth companies almost always need to burn capital to
+sustain their growth prior to achieving profitability. A few startup companies do successfully bootstrap (self-fund)
+themselves, but they are the exception. Of course, there are lots of great companies that aren’t startups. Managing
+capital needs for such companies is not covered herein.
+
+# What is Y Combinator?
+
+We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, Doordash — at their earliest stages. Starting a company? Even if it feels early, 40% of our companies joined with just an idea.
+
+[Apply](/apply)
+
+Cash not only allows startups to live and grow, a war chest is also almost always a competitive advantage in all ways
+that matter: hiring key staff, public relations, marketing, and sales. Thus, most startups will almost certainly want to
+raise money. The good news is that there are lots of investors hoping to give the right startup money. The bad news is,
+“Fundraising is brutal” [1](#e1). The process of raising that money is often long, arduous, complex, and ego
+deflating. Nevertheless, it is a path almost all companies and founders must walk, but when is the time right to raise?
+
+### When to Raise Money
+
+Investors write checks when the idea they hear is compelling, when they are persuaded that the team of founders can
+realize its vision, and that the opportunity described is real and sufficiently large. When founders are ready to tell
+this story, they can raise money. And usually when you can raise money, you should.
+
+For some founders it is enough to have a story and a reputation. However, for most it will require an idea, a product,
+and some amount of customer adoption, a.k.a. traction. Luckily, the software development ecosystem today is such that a
+sophisticated web or mobile product can be built and delivered in a remarkably short period of time at very low cost.
+Even hardware can be rapidly prototyped and tested.
+
+But investors also need persuading. Usually a product they can see, use, or touch will not be enough. They will want to
+know that there is product market fit and that the product is experiencing actual growth.
+
+Therefore, founders should raise money when they have figured out what the market opportunity is and who the customer
+is, and when they have delivered a product that matches their needs and is being adopted at an interestingly rapid rate.
+How rapid is interesting? This depends, but a rate of 10% per week for several weeks is impressive. And to raise money
+founders need to impress. For founders who can convince investors without these things, congratulations. For everyone
+else, work on your product and talk to your users.
+
+### How Much to Raise?
+
+Ideally, you should raise as much money as you need to reach profitability, so that you’ll never have to raise money
+again. If you succeed in this, not only will you find it easier to raise money in the future, you’ll be able to survive
+without new funding if the funding environment gets tight. That said, certain kinds of startups will need a follow-on
+round, such as those building hardware. Their goal should be to raise as much money as needed to get to their next
+“fundable” milestone, which will usually be 12 to 18 months later.
+
+In choosing how much to raise you are trading off several variables, including how much progress that amount of money
+will purchase, credibility with investors, and dilution. If you can manage to give up as little as 10% of your company
+in your seed round, that is wonderful, but most rounds will require up to 20% dilution and you should try to avoid more
+than 25%. In any event, the amount you are asking for must be tied to a believable plan. That plan will buy you the
+credibility necessary to persuade investors that their money will have a chance to grow. It is usually a good idea to
+create multiple plans assuming different amounts raised and to carefully articulate your belief that the company will be
+successful whether you raise the full or some lesser amount. The difference will be how fast you can grow.
+
+One way to look at the optimal amount to raise in your first round is to decide how many months of operation you want to
+fund. A rule of thumb is that an engineer (the most common early employee for Silicon Valley startups) costs all-in
+about $15k per month. So, if you would like to be funded for 18 months of operations with an average of five engineers,
+then you will need about 15k x 5 x 18 = $1.35mm. What if you are planning to hire for other positions as well? Don’t
+worry about it! This is just an estimate and will be accurate enough for whatever mix you hire. And here you have a
+great answer to the question: “How much are you raising?” Simply answer that you are raising for N months
+(usually 12-18) and will thus need $X, where X will usually be between $500k and $1.5 million. As noted above, you
+should give multiple versions of N and a range for X, giving different possible growth scenarios based on how much you
+successfully raise.
+
+There is enormous variation in the amount of money raised by companies. Here we are concerned with early raises, which
+usually range from a few hundreds of thousands of dollars up to two million dollars. Most first rounds seem to cluster
+around six hundred thousand dollars, but largely thanks to increased interest from investors in seed, these rounds have
+been increasing in size over the last several years.
+
+### Financing Options
+
+Startup founders must understand the basic concepts behind venture financing. It would be nice if this was all very
+simple and could be explained in a single paragraph. Unfortunately, as with most legal matters, that’s not possible.
+Here is a very high level summary, but it is worth your time to read more about the details and pros and cons of various
+types of financing and, importantly, the key terms of such deals that you need to be aware of, from preferences to
+option pools. The articles below are a decent start.
+
+* [Venture Hacks / Babk Nivi: Should I Raise Debt or Equity](http://venturehacks.com/articles/debt-or-equity)
+* [Fred Wilson: Financing Options](http://www.avc.com/a_vc/2011/07/financing-options-convertible-debt.html)
+* [Mark Suster on Convertible
+  Debt](https://bothsidesofthetable.com/the-truth-about-convertible-debt-at-startups-and-the-hidden-terms-you-didn-t-understand-9fccf6854dee#.z63i0cy5g)
+* [Announcing the Safe](https://blog.ycombinator.com/announcing-the-safe-a-replacement-for-convertible-notes)
+
+  Venture financing usually takes place in “rounds,” which have traditionally had names and a specific order. First
+  comes a seed round, then a Series A, then a Series B, then a Series C, and so on to acquisition or IPO. None of
+  these rounds are required and, for example, sometimes companies will start with a Series A financing (almost always
+  an “equity round” as defined below). Recall that we are focusing here exclusively on seed, that very first venture
+  round.
+
+  Most seed rounds, at least in Silicon Valley, are now structured as either convertible debt or simple agreements for
+  future equity (safes) [17](#e17). Some early rounds are still done with equity, but in Silicon Valley they are now
+  the exception.
+
+  ### Convertible Debt
+
+  Convertible debt is a loan an investor makes to a company using an instrument called a convertible note. That loan
+  will have a principal amount (the amount of the investment), an interest rate (usually a minimum rate of 2% or so),
+  and a maturity date (when the principal and interest must be repaid). The intention of this note is that it converts
+  to equity (thus, “convertible”) when the company does an equity financing. These notes will also usually have a
+  “Cap” or “Target Valuation” and / or a discount. A Cap is the maximum effective valuation that the owner of the
+  note will pay, regardless of the valuation of the round in which the note converts. The effect of the cap is that
+  convertible note investors usually pay a lower price per share compared to other investors in the equity round.
+  Similarly, a discount defines a lower effective valuation via a percentage off the round valuation. Investors see
+  these as their seed “premium” and both of these terms are negotiable. Convertible debt may be called at maturity, at
+  which time it must be repaid with earned interest, although investors are often willing to extend the maturity dates
+  on notes.
+
+  ### Safe
+
+  Convertible debt has been almost completely replaced by the safe at YC and Imagine K12. A safe acts like convertible
+  debt without the interest rate, maturity, and repayment requirement. The negotiable terms of a safe will almost
+  always be simply the amount, the cap, and the discount, if any. There is a bit more complexity to any convertible
+  security, and much of that is driven by what happens when conversion occurs. I strongly encourage you to read the
+  safe primer [18](#e18), which is available on [YC’s site](http://www.ycombinator.com/documents/). The primer has
+  several examples of what happens when a safe converts, which go a long way toward explaining how both convertible
+  debt and safes work in practice.
+
+  ### Equity
+
+  An equity round means setting a valuation for your company (generally, the cap on the safes or notes is considered
+  as a company’s notional valuation, although notes and safes can also be uncapped) and thus a per-share price, and
+  then issuing and selling new shares of the company to investors. This is always more complicated, expensive, and
+  time consuming than a safe or convertible note and explains their popularity for early rounds. It is also why you
+  will always want to hire a lawyer when planning to issue equity.
+
+  To understand what happens when new equity is issued, a simple example helps. Say you raise $1,000,000 on a
+  $5,000,000 pre-money valuation. If you also have 10,000,000 shares outstanding then you are selling the shares at:
+
+1. **$5,000,000 / 10,000,000 = 50 cents per share**  
+   and you will thus sell...
+2. **2,000,000 shares**  
+   resulting in a new share total of...
+3. **10,000,000 + 2,000,000 = 12,000,000 shares**  
+   and a post-money valuation of...
+4. **$0.50 \* 12,000,000 = $6,000,000**  
+   and dilution of...
+5. **2,000,000 / 12,000,000 = 16.7%**  
+   Not 20%!
+
+   There are several important components of an equity round with which you must become familiar when your company does
+   a priced round, including equity incentive plans (option pools), liquidation preferences, anti-dilution rights,
+   protective provisions, and more. These components are all negotiable, but it is usually the case that if you have
+   agreed upon a valuation with your investors (next section), then you are not too far apart, and there is a deal to
+   be done. I won’t say more about equity rounds, since they are so uncommon for seed rounds.
+
+   One final note: whatever form of financing you do, it is always best to use well-known financing documents like YC's
+   safe. These documents are well understood by the investor community, and have been drafted to be fair, yet founder
+   friendly.
+
+   ### Valuation: What is my company worth?
+
+   You are two hackers with an idea, a few months of hacking’s worth of software, and several thousand users. What is
+   your company worth? It should be obvious that no formula will give you an answer. There can only be the most
+   notional sort of justification for any value at all. So, how do you set a value when talking to a potential
+   investor? Why do some companies seem to be worth $20mm and some $4mm? Because investors were convinced that was what
+   they were (or will be in the near future) worth. It is that simple. Therefore, it is best to let the market set your
+   price and to find an investor to set the price or cap. The more investor interest your company generates, the higher
+   your value will trend.
+
+   Still, it can be difficult in some circumstances to find an investor to tell you what you are worth. In this case
+   you can choose a valuation, usually by looking at comparable companies who have valuations. Please remember that the
+   important thing in choosing your valuation is not to over-optimize. The objective is to find a valuation with which
+   you are comfortable, that will allow you to raise the amount you need to achieve your goals with acceptable
+   dilution, and that investors will find reasonable and attractive enough to write you a check. Seed valuations tend
+   to range from $2mm-$10mm, but keep in mind that the goal is not to achieve the best valuation, nor does a high
+   valuation increase your likelihood of success.
+
+   ### Investors: Angels & Venture Capitalists
+
+   The difference between an angel and a VC is that angels are amateurs and VCs are pros. VCs invest other people’s
+   money and angels invest their own on their own terms. Although some angels are quite rigorous and act very much like
+   the pros, for the most part they are much more like hobbyists. Their decision making process is usually much
+   faster--they can make the call all on their own--and there is almost always a much larger component of emotion that
+   goes into that decision.
+
+   VCs will usually require more time, more meetings, and will have multiple partners involved in the final decision.
+   And remember, VCs see LOTS of deals and invest in very few, so you will have to stand out from a crowd.
+
+   The ecosystem for seed (early) financing is far more complex now than it was even five years ago. There are many new
+   VC firms, sometimes called “super-angels,” or “micro-VC’s”, which explicitly target brand new, very early stage
+   companies. There are also several traditional VCs that will invest in seed rounds. And there are a large number of
+   independent angels who will invest anywhere from $25k to $100k or more in individual companies. New fundraising
+   options have also arisen. For example, [AngelList Syndicates](https://angel.co/syndicates) lets angels pool their
+   resources and follow a single lead angel. [FundersClub](http://www.fundersclub.com/founders) invests selectively
+   like a traditional VC, but lets angels become LPs in their VC funds to expand connections available to its founders.
+
+   How does one meet and encourage the interest of investors? If you are about to present at a demo day, you are going
+   to meet lots of investors. There are few such opportunities to meet a concentrated and motivated group of seed
+   investors. Besides a demo day, by far the best way to meet a venture capitalist or an angel is via a warm
+   introduction. Angels will also often introduce interesting companies to their own networks. Otherwise, find someone
+   in your network to make an introduction to an angel or VC. If you have no other options, do research on VCs and
+   angels and send as many as you can a **brief**, but compelling summary of your business and opportunity (see
+   [Documents You Need](#part12) below).
+
+   ### Crowdfunding
+
+   There are a growing number of new vehicles to raise money, such as [AngelList](https://angel.co/), Kickstarter,
+   and Wefunder. These crowdfunding sites can be used to launch a product, run a pre-sales campaign, or find
+   venture funding. In exceptional cases, founders have used these sites as their dominant fundraising source, or as
+   clear evidence of demand. They usually are used to fill in rounds that are largely complete or, at times, to
+   reanimate a round that is having difficulty getting off the ground. The ecosystem around investing is changing
+   rapidly, but when and how to use these new sources of funds will usually be determined by your success raising
+   through more traditional means.
+
+   ### Meeting Investors
+
+   If you are meeting investors at an investor day, remember that your goal is not to close--it is to get the next
+   meeting. Investors will seldom choose to commit the first day they hear your pitch, regardless of how brilliant it
+   is. So book lots of meetings. Keep in mind that the hardest part is to get the first money in the company. In other
+   words, meet as many investors as possible but focus on those most likely to close. Always optimize for getting money
+   soonest (in other words, be greedy) [2](#e2).
+
+   There are a few simple rules to follow when preparing to meet with investors. First, make sure you know your
+   audience--do research on what they like to invest in and try to figure out why. Second, simplify your pitch to the
+   essential--why this is a great product (demos are almost a requirement nowadays), why you are precisely the right
+   team to build it, and why together you should all dream about creating the next gigantic company. Next make sure you
+   listen carefully to what the investor has to say. If you can get the investor to talk more than you, your
+   probability of a deal skyrockets. In the same vein, do what you can to connect with the investor. This is one of the
+   main reasons to do research. An investment in a company is a long term commitment and most investors see lots of
+   deals. Unless they like you and feel connected to your outcome, they will most certainly not write a check.
+
+   Who you are and how well you tell your story are most important when trying to convince investors to write that
+   check. Investors are looking for compelling founders who have a believable dream and as much evidence as possible
+   documenting the reality of that dream. Find a style that works for you, and then work as hard as necessary to get
+   the pitch perfect. Pitching is difficult and often unnatural for founders, especially technical founders who are
+   more comfortable in front of a screen than a crowd. But anyone will improve with practice, and there is no
+   substitute for an extraordinary amount of practice. Incidentally, this is true whether you are preparing for a demo
+   day or an investor meeting.
+
+   During your meeting, try to strike a balance between confidence and humility. Never cross over into arrogance, avoid
+   defensiveness, but also don’t be a pushover. Be open to intelligent counterpoints, but stand up for what you believe
+   and whether or not you persuade the investor just then, you’ll have made a good impression and will probably get
+   another shot.
+
+   Lastly, make sure you don’t leave an investor meeting without an attempted close or at very minimum absolute clarity
+   on next steps. Do not just walk out leaving things ambiguous.
+
+   ### Negotiating and Closing the Deal
+
+   A seed investment can usually be closed rapidly. As noted above, it is an advantage to use standard documents with
+   consistent terms, such as YC’s safe. Negotiation, and often there is none at all, can then proceed on one or two
+   variables, such as the valuation/cap and possibly a discount.
+
+   Deals have momentum and there is no recipe towards building momentum behind your deal other than by telling a great
+   story, persistence, and legwork. You may have to meet with dozens of investors before you get that close. But to get
+   started you just need to convince [5](#e5) one of them. Once the first money is in, each subsequent close will get
+   faster and easier [6](#e6).
+
+   Once an investor says that they are in, you are almost done. This is where you should rapidly close using a
+   handshake protocol [19](#e19). If you fail at negotiating from this point on, it is probably your fault.
+
+   ### Negotiations
+
+   When you enter into a negotiation with a VC or an angel, remember that they are usually more experienced at it than
+   you are, so it is almost always better not to try to negotiate in real-time. Take requests away with you, and get
+   help from YC or Imagine K12 partners, advisors, or legal counsel. But also remember that although certain requested
+   terms can be egregious, the majority of things credible VCs and angels will ask for tend to be reasonable. Do not
+   hesitate to ask them to explain precisely what they are asking for and why. If the negotiation is around valuation
+   (or cap) there are, naturally, plenty of considerations, e.g. other deals you have already closed. However, it is
+   important to remember that the valuation you choose at this early round will seldom matter to the success or failure
+   of the company. Get the best deal you can get--but get the deal! Finally, once you get to yes, don’t wait around.
+   Get the investor’s signature and cash as soon as possible. One reason safes are popular is because the closing
+   mechanics are as simple as signing a document and then transferring funds. Once an investor has decided to invest,
+   it should take no longer than a few minutes to exchange signed documents online (for example via
+   [Clerky](https://www.clerky.com/) or [Ironclad](https://ironclad.ai/)) and execute a wire or send a check.
+
+   ### Documents You Need
+
+   Do not spend too much time developing diligence documents for a seed round. If an investor is asking for too much
+   due diligence or financials, they are almost certainly someone to avoid. You will probably want an executive summary
+   and a slide deck you can walk investors through and, potentially, leave behind so VCs can show to other partners.
+
+   The executive summary should be one or two pages (one is better) and should include vision, product, team (location,
+   contact info), traction, market size, and minimum financials (revenue, if any, and fundraising prior and current).
+
+   Generally make sure the slide deck is a coherent leave-behind. Graphics, charts, screenshots are more powerful than
+   lots of words. Consider it a framework around which you will hang a more detailed version of your story. There is no
+   fixed format or order, but the following parts are usually present. Create the pitch that matches you, how you
+   present, and how you want to represent your company. Also note that like the executive summary, there are lots of
+   similar templates online if you don’t like this one.
+
+1. **Your company / Logo / Tag Line**
+
+2. **Your Vision** - Your most expansive take on why your new company exists.
+
+3. **The Problem** - What are you solving for the customer--where is their pain?
+
+4. **The Customer** - Who are they and perhaps how will you reach them?
+
+5. **The Solution** - What you have created and why now is the right time.
+
+6. **The (huge) Market you are addressing** - Total Available Market (TAM) >$1B if possible. Include the most
+persuasive evidence you have that this is real.
+
+7. **Market Landscape** - including competition, macro trends, etc. Is there any insight you have that others do not?
+
+8. **Current Traction** - list key stats / plans for scaling and future customer acquisition.
+
+9. **Business model** - how users translate to revenue. Actuals, plans, hopes.
+
+10. **Team** - who you are, where you come from and why you have what it takes to succeed. Pics and bios okay. Specify
+roles.
+
+11. **Summary** - 3-5 key takeaways (market size, key product insight, traction)
+
+12. **Fundraising** - Include what you have already raised and what you are planning to raise now. Any financial
+projections may go here as well. You can optionally include a summary product roadmap (6 quarters max) indicating what
+an investment buys.
+
+### Next
+
+It is worth pointing out that startup investing is rapidly evolving and it is likely that certain elements of this guide
+will at some point become obsolete, so make sure to check for updates or future posts. There is now an extraordinary
+amount of information available on raising venture money. Several sources are referenced and more are listed at the end
+of this document.
+
+Fundraising is a necessary, and sometimes painful task most startups must periodically endure. A founder’s goal should
+always be to raise as quickly as possible and this guide will hopefully help founders successfully raise their first
+round of venture financing. Often that will seem like a nearly impossible task and when it is complete, it will feel as
+though you have climbed a very steep mountain. But you have been distracted by the brutality of fundraising and once you
+turn your attention back to the future you will realize it was only a small foothill on the real climb in front of you.
+It is time to get back to work building your company.
+
+*Many thanks to those whose knowledge or work have contributed to this document. Of course, any errors are all mine.
+Please send any comments or questions to *[*(redacted)*](founder_link?slug=4A-a-guide-to-seed-fundraising)*.*
+
+### Appendix
+
+**Fundraising Rules to Follow**
+
+* Get fundraising over as soon as possible, and get back to building your product and company, but also…
+* Don’t stop raising money too soon. If fundraising is difficult, keep fighting and stay alive.
+* When raising, be “greedy”: breadth-first search weighted by expected value
+  [2](http://www.themacro.com/articles/2016/01/how-to-raise-a-seed-round/#e2). This means talk to as many people as
+  you can, prioritizing the ones that are likely to close.
+* Once someone says yes, don’t delay. Get docs signed and the money in the bank as soon as possible.
+* Always hustle for leads. If you are the hottest deal of the hour, that’s great, but everyone else needs to work like
+  crazy to get angels and other venture investors interested.
+* Never screw anyone over. Hold yourself and others on your team to the highest ethical standards. The Valley is a
+  very small place, and a bad reputation is difficult to repair. Play it straight and you will never regret it. You’ll
+  feel better for it, too.
+* Investors have a lot of different ways to say no. The hardest thing for an entrepreneur is understanding when they
+  are being turned down and being okay with it. PG likes to say, “If the soda is empty, stop making that awful sucking
+  sound with the straw.” But remember that they might be a “yes” another time, so part on the best possible terms.
+* Develop a style that fits you and your company.
+* Stay organized. Co-founders should split tasks where possible. If necessary, use software like Asana to keep track
+  of deals.
+* Have a thick skin but strike the right balance between confidence and humility. And never be arrogant.
+
+**What Not to Do While Communicating with Investors**
+
+**DON'T:**
+
+* Be dishonest in any way
+* Be arrogant or unfriendly
+* Be overly aggressive
+* Seem indecisive - although it is okay to say you don’t know yet.
+* Talk so much they cannot get a word in edgewise
+* Be slow to follow-up or close a deal
+* Break an agreement, verbal or written
+* Create detailed financials
+* Use ridiculous / silly market size numbers without clear justification
+* Claim you know something that you don’t or be afraid to say you don’t know
+* Spend time on the obvious
+* Get caught up in unimportant minutiae - don’t let the meeting get away from you
+* Ask for an NDA
+* Try to play investors off each other when you are not a fundraising ninja
+* Try to negotiate in real-time
+* Over-optimize your valuation or worry too much about dilution
+* Take a “No” personally
+
+## A Brief Glossary of Key Terms
+
+The term you are looking for is not here? Disagree with the definition? Go to
+[Investopedia](http://www.investopedia.com/) for a more authoritative source.
+
+* **Angel Investor** - A (usually) wealthy private investor in startup companies.
+* **Cap / Target Valuation** - The maximum effective valuation for an investor in a convertible note.
+* **Convertible Note** - This is a debt instrument that will convert into stock; usually preferred stock but sometimes
+  common stock.
+* **Common Stock** - Capital stock typically issued to founders and employees, having the fewest, or no, rights,
+  privileges and preferences.
+* **Dilution** - The percentage an ownership share is decreased via the issuance of new shares.
+* **Discount** - A percentage discount from the pre-money valuation to give safe or note holders an effectively
+  lower price.
+* **Equity Round** - A financing round in which the investor purchases equity (stock) in the company.
+* **Fully Diluted Shares** - The total number of issued and outstanding shares of capital stock in the company,
+  including outstanding warrants, option grants and other convertible securities.
+* **IPO** - Initial Public Offering - the first sale of stock by a private company to the public.
+* **Lead Investor** - Usually the first and largest investor in a round who brings others into the round.
+* **Liquidation Preference** - A legal provision in a company’s charter that allows stockholders with preferred stock
+  to get their money out of a company before the holders of common stock in the event of an exit.
+* **Maturity Date** - The date at which a promissory note becomes due (or at which it will automatically convert to
+  stock in the case of a convertible note)
+* **Equity Incentive Plan / Option Pool** - The shares allocated and set aside for grants to employees
+  and consultants.
+* **Preferred Stock** - Capital stock issued in a company that have specific rights, privileges and preferences
+  compared to the common stock. Convertible into common stock, either automatically (e.g., in an IPO) or at the option
+  of the preferred stockholder (e.g., an acquisition).
+* **Pre-money Valuation** - The value of a company prior to when investor money is added.
+* **Pro-rata rights (aka pre-emptive rights)** - Contractual rights that allow the holder to maintain their percentage
+  ownership in subsequent financing rounds.
+* **Protective Provisions** - Provisions in a company’s charter that give exclusive voting rights to holders of
+  preferred stock. For example, the approval of these stockholders, voting separately from other stockholders, may be
+  required for an acquisition.
+* **Safe** - Simple Agreement for Future Equity - Y Combinator’s replacement for convertible debt.
+* **TAM** - Total Available Market. In pitches, this is the estimated total revenue available for the product(s) you
+  are selling.
+* **Venture Capitalist** - A professional investor in companies, investing limited partners’ funds.
+
+## Sources
+
+1. [A Fundraising Survival Guide](http://www.paulgraham.com/fundraising.html), **Paul Graham**  
+   Techniques for surviving and succeeding at fundraising
+2. [How To Raise Money](http://paulgraham.com/fr.html), **Paul Graham**  
+   Detailed thoughts on fundraising. A must read.
+3. [The Equity Equation](http://paulgraham.com/equity.html), **Paul Graham**  
+   How to decide if you should accept an offer from an investor
+4. [The Future of Startup Funding](http://paulgraham.com/future.html), **Paul Graham**  
+   How startup funding is evolving
+5. [How to Convince Investors](http://paulgraham.com/convince.html), **Paul Graham**  
+   How to convince investors to invest in you
+6. [Investor Herd Dynamics](http://paulgraham.com/herd.html), **Paul Graham**  
+   How investors think about investing in early stage companies
+7. [“Venture Deals”](http://www.amazon.com/Venture-Deals-Smarter-Lawyer-Capitalist/dp/1118443616), **Feld and
+   Mendelson**  
+   Essential elements of a venture deal (book)
+8. [Raising Money for a
+   Startup](http://www.khanacademy.org/finance-economics/venture-capital-and-capital-markets/v/raising-money-for-a-startup),
+   **Sal Khan**  
+   Startup Fundraising from Sal Khan
+9. [Venture Hacks: Debt or Equity,](http://venturehacks.com/articles/debt-or-equity) **Babak Nivi**  
+   Discussion on debt vs. equity
+10. [Venture Hacks: First Time](http://venturehacks.com/articles/first-time), **Babak Nivi**  
+    Advice for first time fundraisers.
+11. [How Much Money To Raise](http://www.avc.com/a_vc/2011/07/how-much-money-to-raise.html), **Fred Wilson**  
+    Advice on how much money to raise.
+12. [“Startup = Growth”](http://www.paulgraham.com/growth.html), **Paul Graham**  
+    Description of a startup.
+13. [Venture Hacks / Babk Nivi: Should I Raise Debt or Equity](http://venturehacks.com/articles/debt-or-equity)  
+    Discussion of whether raising debt or equity is the best answer.
+14. [Fred Wilson: Financing Options](http://www.avc.com/a_vc/2011/07/financing-options-convertible-debt.html)  
+    Another discussion of debt vs. equity
+15. [Mark Suster on Convertible
+    Debt](http://www.bothsidesofthetable.com/2012/09/05/the-truth-about-convertible-debt-at-startups-and-the-hidden-terms-you-didnt-understand/)
+
+    An analysis of problems with convertible debt
+16. [Clerky Guide](https://www.clerky.com/transaction_templates/24)  
+    Clerky docs and guides. A great place to start.
+17. [Announcing the Safe](https://blog.ycombinator.com/announcing-the-safe-a-replacement-for-convertible-notes), **Paul
+    Graham**  
+    The simple agreement for future equity. A replacement for convertible notes.
+18. [The Safe Primer](http://www.ycombinator.com/documents/), **Carolynn Levy**  
+    Lots of detailed information on the safe and examples as to how it works in various cases.
+19. [The Handshake Deal Protocol](https://www.ycombinator.com/handshake/), **Paul Graham**  
+    A standard protocol to help ensure that verbal commitments turn into transactions.

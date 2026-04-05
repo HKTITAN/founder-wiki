@@ -8,28 +8,31 @@ categories: ["Founder Stories"]
 description: "Athelas (YC S16) makes low cost devices that enable rapid blood diagnostics. Here's the story of how Athelas began as a small hardware prototype at a YC Hackathon and grew into a real shippable product."
 ---
 
-Back when YC was getting started about 10 years ago, Paul Graham wrote
-[some](http://www.paulgraham.com/webstartups.html) [essays](http://www.paulgraham.com/future.html) that predicted the
-way startup fundraising would change in the next decade - accurately, it turns out. Paul Graham predicted that there
-would be way more startups, that they’d be cheaper to start, that new kinds of investors would fund them, that founders
-would be more technical, and that founders would keep control of their companies. All of those seem to have come true.
+A couple years ago, [Athelas](https://athelas.com/) (YC S16) started as a proof-of-concept project built overnight at
+[YC Hacks 2014](https://ychacks.devpost.com/submissions/25781-athelas). This month we started shipping our first devices
+to patients and hospitals around the country. We learned a lot in the process and wanted to share a few thoughts here.
 
-I've noticed that raising money for a biotech or other life
-science[1](#footnote1) company in 2019 looks a lot like raising money for a tech
-company 10 years ago. Since then, fundamental forces caused fundraising for tech companies to change dramatically. I see
-those same forces that Paul Graham wrote about happening with biotech companies now. And I believe that they are going
-to change biotech fundraising very much the way they changed tech company fundraising.
+The device is a low-cost imager that enables rapid blood diagnostics through computer vision instead of traditional
+lab-based techniques. Going from a hacked together hardware prototype to shippable product (especially in the medical
+field) was a progression in dimensionality at every stage, and it’s quite interesting now to look back at day 1.
 
-### How tech startup fundraising changed from 2005 to now
+The first version that began at the hackathon used a rubber piece and spherical magnifier attached to a smartphone
+camera. A blood sample would be held (by a toilet paper roll) underneath, the camera would take a couple images, then
+produce the computer vision rendered malaria cell counts. In design this is quite similar to a [van Leeuwenhoek
+microscope](https://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek) (considered one of the earliest microscopes ever
+built) which was used to see microorganisms for the first time in human history. There were a few examples of this
+setup, and I spent the first couple hours of the hackathon getting it to work consistently on my phone.
 
-In 2005, when Y Combinator started, there was already a well developed ecosystem of venture capital firms in Silicon
-Valley and Boston. But access to those venture capital firms was limited.
+*Above: A few excerpts from a writeup I did on Athelas a few months after the hackathon.*
 
-VCs preferred to fund companies that already seemed like a sure bet - in other words, were far along. They also
-preferred to fund MBAs with previous executive experience and shied away from unproven teams with technical founders.
-Because they had a lock on the funding market, they asked for onerous financial terms and often replaced founders with
-favored executives. The only model of institutional seed funding was the “business incubator” model, where VC firms
-would fund well-connected founders they knew and incubate them in their office.
+The real focus of the hack was writing segmentation and template matching approaches, combined with a fast random forest
+model implementation that learned to classify extracted versions of the Red Blood Cells (RBCs). Cell boundaries would be
+recognized, then fed into the classier to identify whether a parasitical cell (like Malaria or Trypanosoma) was present.
+
+This made for a fun demo, where a sample slide would have malaria tagged in it, but a normal person’s blood would not.
+While functioning and a neat trick, someone needed to be physically holding the camera in place, the slide had to be
+moved around, with the lighting often being hard to fix. At the end of the day it was a nice experimental toy you might
+see someone post as a video on Facebook.
 
 # What is Y Combinator?
 
@@ -37,106 +40,68 @@ We're an accelerator that funds startups — like Coinbase, Instacart, Reddit, D
 
 [Apply](/apply)
 
-Then, the cost to start a tech company plummeted. It plummeted because new infrastructure was created: a combination of
-open source software, modern web frameworks, SaaS developer tools, cloud hosting, and better distribution channels. This
-meant that a lot of technical founders, who couldn't raise money from VCs off a PowerPoint, were able to launch a
-product and get users with minimal funding. Once they had proven that their idea had merit, they could use their
-traction to raise funding.
+But we were sure it could be more. The core idea was - if we made it broad-ranging and easy enough for anyone to use -
+why not have a simple blood screen in every doctor’s office, nursing facility, or even home? After heading back to
+school, this idea consumed us and we decided to continue it - but as a product - not just a demo. That meant creating an
+automated blood processing mechanism to generate a stained peripheral smear, a more robust computer vision approach for
+different cell types, automated mechanisms to image the whole sample without holding the slide in place, and most
+importantly - clinical validation.
 
-Companies like this now only needed a small amount of money to get started, but there wasn’t any place to get it,
-because institutional investors didn’t make small investments. This was the key insight that led to the creation of YC,
-and also to the hundreds of institutional seed funds that sprung up to take advantage of the new opportunity. Easy
-access to flexible, institutional seed funding led to an explosion of tech startups, and today this is the default path
-for tech startups to get started.
+Deepika (my cofounder) worked to perfect the fast staining mechanism and come up with a way to coat them on plastic
+strips that could be ready to use out of the box. She worked mostly in-lab, synthesizing dozens of versions of the stain
+compound, and observing empirically the quality of cell rendering. The other side of this problem was ensuring that the
+strip could easily be compressed to create a ‘monolayer’, or single layer of cells that enables statistically
+representative imaging.
 
-Because these companies wouldn’t raise VC until they were much further along and had leverage, the balance of power
-shifted. Founders increasingly retained control of their company. Investors lost the power to fire founders and bring in
-favored executives. And when they did, they realized something surprising: despite their inexperience, the founders were
-often the right people to run the company.[2](#footnote2)
+*Above: An excerpt from “The marching velocity of the capillary meniscus in a microchannel”, a sample of work we
+referenced when attempting to model the flow in our channel to generate a monolayer. This capillary design was
+eventually shelved for a future iteration.*
 
-### What’s happening now with biotech companies
+In the meantime, I focused on building a higher resolution optical set up in a still cheap, but stand-alone device. As
+such, we could focus on monitoring more prevalent cell-types like Leukocytes and Platelets (beyond just malaria). The
+heart of it was an actuation system, coupled with gaussian edge autofocusing algorithms to ensure that our cells were
+being captured in a consistent fashion. Here’s a prototype midway through:
 
-Today, early stage biotech funding is dominated by the “venture creation model”. In the venture creation model, the VC
-firm creates the company. They have an initial idea and put together a team of favored executives, often from their pool
-of entrepreneurs-in-residence, to run it. The startup is typically incubated out of the VC’s offices. The VC invests a
-large amount of money upfront and takes a controlling ownership stake.
+Furthermore, we started assembling a training set of data from public CDC images, blood smears collected from
+researchers at Stanford and UCSF - often hand labeled by me or a pathologist. From there, we were able to employ
+traditional computer vision and deep learning approaches to recognize and classify cell types based on previous,
+human-guided examples.
 
-Just as VC-incubated tech companies made sense when tech companies were expensive to start, this model made sense when
-the cost to start a biotech company was high. Until recently, no one could get anything done before a VC wrote a $10M
-check, so this was the only way to get started.
+*Cell body extraction post hough transform, first pass, pre-segmentation and classification*
 
-But that’s no longer the case. Just like new infrastructure brought down the cost to start a tech company, new
-infrastructure has brought down the cost of doing biology dramatically. Today, founders can make real progress proving a
-concept for a biotech company for much less, often as little as $100K. There are [low](http://wuxibiologics.com)
-[cost](http://evotec.com) [CROs](http://chempartner.com) that will do scientific work for a fee. Companies like [Science
-Exchange](https://www.scienceexchange.com/) make access to CROs and scientific supplies instantaneous and cost effective
-to small companies. It’s easy to rent [fully equipped](https://mbcbiolabs.com/) [lab
-space](http://www.berkeleybiolabs.com/) by the bench, and there are [companies](https://www.quartzy.com/) to help you
-[stock it](https://www.happilabs.org/). Affordable lab robots from companies like [OpenTrons](https://opentrons.com/)
-make it possible to automate batch experiments, and computational drug discovery from companies like
-[Atomwise](https://www.atomwise.com/) allows some experiments to be done completely in silico. Companies like [Cognition
-IP](https://www.cognitionip.com/) are bringing down the cost of filing patents, and companies like
-[Enzyme](https://www.enzyme.com/) are streamlining FDA submission.
+The first set of progress was slow. College workload at Stanford + rising costs of our hardware iterations often made it
+difficult for us to operate with the iteration speeds a normal product needs. Finals often meant days going by without
+any tangible progress whatsoever. But we put together a tangible, usable v1, that could grab images of a stained blood
+sample, and process. [See the demo here](https://www.youtube.com/watch?v=fEcx3hx-398).
 
-Because of this infrastructure, bio companies routinely clear major scientific hurdles during YC’s short program. Often
-therapeutics companies are able to show that their concept is effective in animal models. Diagnostic companies can show
-success with human samples. Synthetic biology companies successfully engineer cell lines.
+Then this summer, things came full circle to that orange building in Mountain View, as we joined the summer batch at Y
+Combinator. Our time (now full time on the project) was focused on our clinical validation locally and at the FEMAP
+family hospital, to run a first set of usages within a hospital system. The goal was proving the system on just one
+aspect first: White Blood Cell counts. By grabbing images of samples on our strip, and then running the algorithms we
+showed how our counts were correlating with high accuracy to the gold standard Beckman Counter across 350 patients,
+combined with [a set of bench precision studies](http://athelas.com/data).
 
-I’ll give a couple of examples from recent YC companies.
+An interesting aspect was showing how our drop to drop precision [(something of much recent
+interest)](https://www.jci.org/articles/view/86318) was clinically acceptable versus other systems operating on drops.
+Coulter counters (traditional cell counting systems) work by flowing particles through a jeweled aperture a few microns
+in diameter, and recording impedance to register particle size - and as a result, particle classification. At the crux
+of it, [higher impedance = larger particle size](http://www.cyto.purdue.edu/cdroms/cyto2/6/coulter/ss000103.htm).
 
-In 2015, Jose Mejia Oneto was an MD/PhD who left orthopaedic surgery residency to pursue an idea for a way to localize
-the delivery of chemotherapy. When Jose applied to YC, he had developed the technique in academia but hadn't yet tried
-applying it to therapeutics in animals. When he was admitted to YC, he founded [Shasqi](http://www.shasqi.com/). Using
-just the funding from YC, he was able to show in less than three months in a breast cancer mouse model that his
-localized delivery outperformed conventional chemo.
+Coulter Counting Principle diagram source: [cyto.purdue.edu](http://cyto.purdue.edu)
 
-[Athelas](https://athelas.com/) makes a device that does at-home blood tests for oncology patients, using a new computer
-vision based technique. The founders Tanay and Deepika started the company while still in college and were able to make
-a working prototype with just $40K in investment. During YC they were able to run a 350 patient initial study that
-showed very good results. Their device is now FDA cleared, and they’re serving thousands of
-patients.[3](#footnote3)
+Athelas’s computer vision approach, however, focuses wholly on the image and nucleation patterns. As such, the
+particulate matter or lymph that can often confuse a Coulter system (especially in diluted quantities), is simply
+classified by the vision as a non-leukocyte cellular body (not a white blood cell, but some other, un-classified
+artifact in the blood sample).
 
-Of course, running clinical trials for drugs remains very
-expensive[4](#footnote4), and biotech companies will ultimately need to raise
-tons of money to deliver on their initial promise. But this is not too different from tech companies. The biggest YC
-(software) companies have each raised over $1B. The important part is that these companies were able to *get started*
-with less than $100K and to de-risk their idea enough to raise more money later.
+The trial showed high inter-rater agreement (100% 5-class inter rater agreement) between the two systems, we submitted
+our data off to the FDA for Class 2 510k approval, and are now distributing our Class 1 version of the system for rapid
+White Blood Cell monitoring. See more at [athelas.com](http://athelas.com).
 
-### Predictions for the future
+As we integrate new blood tests into the system over the coming months (concussion monitoring, inflammation tracking,
+urinary tract infection, platelets, more cell counts), our key growing challenge will be working with the existing
+clinical and medical community to help guide adoption and usage. These coming months will focus on getting our $250
+devices into as many point-of-care locations, homes, and clinical settings as possible.
 
-Because you can start cheaply, it’s now possible to start a biotech company the way people start a tech company. By
-raising money incrementally, rather than a giant amount upfront, you can keep control of your company. And you can work
-on your own idea, not just ideas that VCs come up with.
-
-This new path has drawn a new kind of biotech founder. Many of the biotech founders we see at YC are grad students or
-postdocs[5](#footnote5). Previously their career options were to stay in academia
-or to join a big pharma company. Starting their own company is now a viable third option.
-
-If this plays out the way it did in 2005, we'll see an explosion in the funding options for biotech companies. Many
-traditional biotech investors are still looking for the controlling legal terms that went out of vogue in tech in the
-early 2000's. But just like what happened with tech investing, a new crop of biotech and tech/biotech crossover funds
-have created a vibrant new bio seed investor ecosystem. As a result, YC bio companies now typically raise $1-5M seed
-rounds after each batch.
-
-Even more exciting, this would mean we're still at the beginning of an explosion in the number of biotech companies. And
-more of these companies will look like tech companies: instead of being run by VCs and hired execs, they’ll be run by
-the founders who care about their ideas, and who will sustain that passion building companies they love and that change
-the world for the better.
-
-**Notes**  
-**1.** It’s common to use the word “biotech” to describe specifically therapeutics companies. I use it
-this way as well, but most of this post applies to all life science companies - anything related to
-biology.[↩](#footnoteid1)  
-**2.** Actually, this trend started with top VCs earlier, basically for the reasons Ben Horowitz
-[wrote about](https://a16z.com/2010/04/28/why-we-prefer-founding-ceos/) in 2010. But I think the rise of institutional
-seed funding accelerated it.[↩](#footnoteid2)  
-**3.** The point here is not that these companies will ultimately succeed—we don't know that yet. My
-point is that with just a seed investment and a few months, they managed to go as far along the curve as companies that
-had to raise millions of dollars before.[↩](#footnoteid3)  
-**4.** Though companies like YC’s [Curebase](https://www.curebase.com/) and
-[Nucleus](https://biocomcro.org/cro/nucleus-network/) in Australia are chipping away at that.[↩](#footnoteid4)  
-**5.** Certainly not all of them. We’ve also backed many founders who came out of industry, along with
-MD’s and faculty.[↩](#footnoteid5)
-
-*Thanks to Dan Gackle, Abe Heifets, Elizabeth Iorns, Stephanie Simon, Geoff Ralston, Diego Rey, Uri Lopatin, Ethan
-Perlstein, Joe Betts-Lacroix, Jose Mejia Oneto, Tanay Tandon, and Thomas Folliard for reading drafts of this.*
+We’re always looking for awesome people to meet and hackers to join our growing team, so shoot me an email if you want
+to chat about anything: tanay [at] [getathelas.com](http://getathelas.com)
