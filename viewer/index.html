@@ -18,14 +18,21 @@
   a { color: #36c; text-decoration: none; }
   a:hover { text-decoration: underline; }
 
-  /* Header */
+  /* Header — aligned with content width */
   .site-header {
     background: #fff;
     border-bottom: 1px solid #a7d7f9;
-    padding: 6px 20px;
+    padding: 6px 0;
     display: flex;
     align-items: center;
     gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .site-header-bg {
+    background: #fff;
+    border-bottom: 1px solid #a7d7f9;
   }
 
   .site-logo {
@@ -100,40 +107,42 @@
   .content blockquote { border-left: 3px solid #c8ccd1; padding: 4px 12px; margin: 8px 0; color: #54595d; }
   .content strong { font-weight: 600; }
 
-  /* Images — Wikipedia-style constrained sizing */
+  /* Images — Wikipedia-style thumbnail */
   .content img {
-    max-width: 400px;
-    max-height: 350px;
-    width: auto;
+    max-width: 220px;
     height: auto;
     border: 1px solid #c8ccd1;
-    padding: 3px;
+    padding: 2px;
     background: #fff;
-    display: block;
-    margin: 8px 0;
   }
 
-  /* Wikipedia-style image thumbnail float (applied via JS) */
   .wiki-thumb {
     float: right;
     clear: right;
-    margin: 0 0 12px 16px;
-    max-width: 300px;
+    margin: 4px 0 8px 16px;
+    max-width: 240px;
     background: #f8f9fa;
     border: 1px solid #c8ccd1;
     padding: 4px;
+    font-size: 12px;
+  }
+  .wiki-thumb.thumb-left {
+    float: left;
+    margin: 4px 16px 8px 0;
   }
   .wiki-thumb img {
     max-width: 100%;
+    height: auto;
     border: none;
     padding: 0;
     margin: 0;
+    display: block;
   }
   .wiki-thumb .thumb-caption {
-    font-size: 12px;
+    font-size: 11px;
     color: #54595d;
-    padding: 4px 4px 2px;
-    line-height: 1.4;
+    padding: 3px 2px 1px;
+    line-height: 1.3;
   }
 
   /* Tables — Wikipedia style */
@@ -229,6 +238,7 @@
 </head>
 <body>
 
+<div class="site-header-bg">
 <header class="site-header">
   <a class="site-logo" onclick="showHome()">Founder<span>Wiki</span></a>
   <span class="site-tagline">The compiled startup knowledge base</span>
@@ -237,6 +247,7 @@
     <div class="search-results" id="searchResults"></div>
   </div>
 </header>
+</div>
 
 <div class="layout">
   <nav class="sidebar" id="sidebar"></nav>
@@ -327,7 +338,9 @@ function buildSidebar() {
 
 function showHome(fromPopState) {
   if (!fromPopState) {
-    history.pushState({}, 'Founder Wiki', '#');
+    const url = new URL(window.location);
+    url.searchParams.delete('article');
+    history.pushState({}, 'Founder Wiki', url.toString());
   }
   document.title = 'Founder Wiki';
   const content = document.getElementById('content');
@@ -402,11 +415,12 @@ function showHome(fromPopState) {
   document.querySelectorAll('.sidebar a').forEach(a => a.classList.remove('active'));
 }
 
-// Handle initial load from URL hash
+// Handle initial load from URL query param
 function handleInitialRoute() {
-  const hash = window.location.hash.slice(1);
-  if (hash && ARTICLES[hash]) {
-    navigateTo(hash);
+  const params = new URLSearchParams(window.location.search);
+  const slug = params.get('article');
+  if (slug && ARTICLES[slug]) {
+    navigateTo(slug);
   }
 }
 
@@ -414,9 +428,11 @@ function navigateTo(slug, fromPopState) {
   const article = ARTICLES[slug];
   if (!article) { console.warn('Article not found:', slug); return; }
 
-  // Push browser history (unless triggered by back/forward)
+  // Push browser history with query param (works with real page reload)
   if (!fromPopState) {
-    history.pushState({ slug }, article.title, `#${slug}`);
+    const url = new URL(window.location);
+    url.searchParams.set('article', slug);
+    history.pushState({ slug }, article.title, url.toString());
   }
   document.title = `${article.title} — Founder Wiki`;
 
@@ -428,10 +444,13 @@ function navigateTo(slug, fromPopState) {
     metaLine += `Contributors: ${speakers.join(', ')}`;
   }
   if (article.originated_by) metaLine += `Originated by: ${article.originated_by}`;
-  // Last edited timestamp
+  // Last edited timestamp with GitHub version history link
   const lastUpdated = article.last_updated || article.created || '';
   if (lastUpdated) {
-    metaLine += `<span style="float:right; font-size:11px; color:#72777d;">Last edited: ${lastUpdated}</span>`;
+    // Construct the GitHub history URL for this article's file
+    const filePath = `wiki/${article.dir}/${article.slug}.md`;
+    const ghHistoryUrl = `https://github.com/VishalRohra/founder-wiki/commits/main/${filePath}`;
+    metaLine += `<span style="float:right; font-size:11px; color:#72777d;">Last edited: <a href="${ghHistoryUrl}" target="_blank" style="color:#72777d;">${lastUpdated}</a></span>`;
   }
   metaLine += '</div>';
 
@@ -495,28 +514,20 @@ function navigateTo(slug, fromPopState) {
     blHtml += '</div>';
   }
 
-  // Wrap images in Wikipedia-style thumb containers, alternating left/right
-  // Only do this for images that aren't already in a special context
+  // Wrap images in Wikipedia-style thumb containers (float right, like Wikipedia)
   const tempDiv = document.createElement('div');
   tempDiv.innerHTML = metaLine + toc + rendered + blHtml;
   const imgs = tempDiv.querySelectorAll('img');
-  let imgSide = 'right'; // start on right
-  imgs.forEach((img, i) => {
+  imgs.forEach((img) => {
     const alt = img.getAttribute('alt') || '';
     const wrapper = document.createElement('div');
     wrapper.className = 'wiki-thumb';
-    wrapper.style.float = imgSide;
-    if (imgSide === 'left') {
-      wrapper.style.margin = '0 16px 12px 0';
-    }
     const caption = document.createElement('div');
     caption.className = 'thumb-caption';
     caption.textContent = alt;
     img.parentNode.insertBefore(wrapper, img);
     wrapper.appendChild(img);
     if (alt) wrapper.appendChild(caption);
-    // Alternate sides every 2 images
-    if ((i + 1) % 2 === 0) imgSide = imgSide === 'right' ? 'left' : 'right';
   });
 
   document.getElementById('content').innerHTML = tempDiv.innerHTML;
