@@ -1076,27 +1076,40 @@
   },
   "KV-do-technical-founders-need-a-business-co-founder": {
     "absorbed_date": "2026-04-05",
-    "articles_touched": ["wiki/topics/cofounders.md"]
+    "articles_touched": [
+      "wiki/topics/cofounders.md"
+    ]
   },
   "KZ-should-your-startup-bootstrap-or-raise-venture-capital": {
     "absorbed_date": "2026-04-05",
-    "articles_touched": ["wiki/topics/financial-survival.md"]
+    "articles_touched": [
+      "wiki/topics/financial-survival.md"
+    ]
   },
   "Kc-stop-innovating-on-the-wrong-things": {
     "absorbed_date": "2026-04-05",
-    "articles_touched": ["wiki/topics/founder-mindset.md"]
+    "articles_touched": [
+      "wiki/topics/founder-mindset.md"
+    ]
   },
   "Kg-building-confidence-in-yourself-and-your-ideas": {
     "absorbed_date": "2026-04-05",
-    "articles_touched": ["wiki/topics/founder-mindset.md", "wiki/topics/launching.md"]
+    "articles_touched": [
+      "wiki/topics/founder-mindset.md",
+      "wiki/topics/launching.md"
+    ]
   },
   "Kk-why-founders-shouldn-t-think-like-investors": {
     "absorbed_date": "2026-04-05",
-    "articles_touched": ["wiki/topics/founder-mindset.md"]
+    "articles_touched": [
+      "wiki/topics/founder-mindset.md"
+    ]
   },
   "Kw-when-should-you-trust-your-gut": {
     "absorbed_date": "2026-04-05",
-    "articles_touched": ["wiki/topics/founder-mindset.md"]
+    "articles_touched": [
+      "wiki/topics/founder-mindset.md"
+    ]
   },
   "L3-does-your-startup-website-pass-the-first-impression-test": {
     "absorbed_date": "2026-04-05",
@@ -1105,55 +1118,82 @@
   },
   "L7-how-new-technology-creates-new-businesses": {
     "absorbed_date": "2026-04-05",
-    "articles_touched": ["wiki/topics/ai-startups.md"]
+    "articles_touched": [
+      "wiki/topics/ai-startups.md"
+    ]
   },
   "L8-yc-s-group-partners-discuss-doing-things-that-don-t-scale": {
     "absorbed_date": "2026-04-05",
-    "articles_touched": ["wiki/frameworks/do-things-that-dont-scale.md"]
+    "articles_touched": [
+      "wiki/frameworks/do-things-that-dont-scale.md"
+    ]
   },
   "LF-enterprise-sales-for-founders": {
     "absorbed_date": "2026-04-05",
-    "articles_touched": ["wiki/topics/sales-and-distribution.md", "wiki/topics/pricing.md"]
+    "articles_touched": [
+      "wiki/topics/sales-and-distribution.md",
+      "wiki/topics/pricing.md"
+    ]
   },
   "LG-why-startup-founders-should-launch-companies-sooner-than-they-think": {
     "absorbed_date": "2026-04-05",
-    "articles_touched": ["wiki/topics/launching.md"]
+    "articles_touched": [
+      "wiki/topics/launching.md"
+    ]
   },
   "LH-tarpit-ideas-the-sequel": {
     "absorbed_date": "2026-04-05",
-    "articles_touched": ["wiki/topics/ai-startups.md"]
+    "articles_touched": [
+      "wiki/topics/ai-startups.md"
+    ]
   },
   "LI-how-to-price-for-b2b": {
     "absorbed_date": "2026-04-05",
-    "articles_touched": ["wiki/topics/pricing.md"]
+    "articles_touched": [
+      "wiki/topics/pricing.md"
+    ]
   },
   "LM-the-problem-with-startup-experts": {
     "absorbed_date": "2026-04-05",
-    "articles_touched": ["wiki/topics/founder-mindset.md"]
+    "articles_touched": [
+      "wiki/topics/founder-mindset.md"
+    ]
   },
   "LP-co-founder-equity-mistakes-to-avoid": {
     "absorbed_date": "2026-04-05",
-    "articles_touched": ["wiki/topics/cofounders.md"]
+    "articles_touched": [
+      "wiki/topics/cofounders.md"
+    ]
   },
   "LQ-how-to-influence-decision-makers": {
     "absorbed_date": "2026-04-05",
-    "articles_touched": ["wiki/topics/sales-and-distribution.md"]
+    "articles_touched": [
+      "wiki/topics/sales-and-distribution.md"
+    ]
   },
   "LV-how-to-improve-cohort-retention": {
     "absorbed_date": "2026-04-05",
-    "articles_touched": ["wiki/topics/growth.md"]
+    "articles_touched": [
+      "wiki/topics/growth.md"
+    ]
   },
   "LZ-how-to-convert-customers-with-cold-emails": {
     "absorbed_date": "2026-04-05",
-    "articles_touched": ["wiki/topics/sales-and-distribution.md"]
+    "articles_touched": [
+      "wiki/topics/sales-and-distribution.md"
+    ]
   },
   "Ld-how-to-find-a-co-founder": {
     "absorbed_date": "2026-04-05",
-    "articles_touched": ["wiki/topics/cofounders.md"]
+    "articles_touched": [
+      "wiki/topics/cofounders.md"
+    ]
   },
   "Li-how-do-billion-dollar-startups-start": {
     "absorbed_date": "2026-04-05",
-    "articles_touched": ["wiki/topics/founder-mindset.md"]
+    "articles_touched": [
+      "wiki/topics/founder-mindset.md"
+    ]
   },
   "Lk-starting-a-company-the-key-terms-you-should-know": {
     "absorbed_date": "2026-04-05",
@@ -1162,18 +1202,431 @@
   },
   "M3-how-to-use-ai-in-your-startup": {
     "absorbed_date": "2026-04-05",
-    "articles_touched": ["wiki/topics/ai-startups.md"]
+    "articles_touched": [
+      "wiki/topics/ai-startups.md"
+    ]
   },
   "M5-ai-revolution-why-this-is-the-best-time-to-start-a-startup": {
     "absorbed_date": "2026-04-05",
-    "articles_touched": ["wiki/topics/ai-startups.md"]
+    "articles_touched": [
+      "wiki/topics/ai-startups.md"
+    ]
   },
   "M8-how-to-get-ai-startup-ideas": {
     "absorbed_date": "2026-04-05",
-    "articles_touched": ["wiki/topics/ai-startups.md"]
+    "articles_touched": [
+      "wiki/topics/ai-startups.md"
+    ]
   },
   "M9-the-right-and-wrong-way-to-spend-money-at-your-startup": {
     "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/financial-survival.md"
+    ]
+  },
+  "IN-dalton-michael-does-your-startup-need-to-be-in-san-francisco": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/becoming-a-founder.md"
+    ]
+  },
+  "IO-dalton-michael-how-generosity-built-tech-giants": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/founder-mindset.md"
+    ]
+  },
+  "IR-dalton-michael-silicon-valley-s-cargo-culting-problem": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/company-culture.md"
+    ]
+  },
+  "IS-dalton-michael-y-combinator-is-back-in-person": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/becoming-a-founder.md"
+    ]
+  },
+  "IU-dalton-michael-the-truth-about-y-combinator": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/fundraising.md"
+    ]
+  },
+  "IW-dalton-michael-elon-musk-and-the-midwit-meme": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/founder-mindset.md"
+    ]
+  },
+  "IY-dalton-michael-the-cult-of-conformity-in-silicon-valley": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/becoming-a-founder.md"
+    ]
+  },
+  "IZ-dalton-michael-the-student-s-guide-to-becoming-a-successful-startup-founder": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/becoming-a-founder.md"
+    ]
+  },
+  "Ib-dalton-michael-what-basic-game-theory-teaches-us-about-startups": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/founder-mindset.md"
+    ]
+  },
+  "Id-dalton-michael-setting-smarter-goals": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/founder-mindset.md"
+    ]
+  },
+  "Ie-dalton-michael-will-openai-kill-all-startups": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/ai-startups.md"
+    ]
+  },
+  "Ih-dalton-michael-why-you-should-leave-your-faang-job": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/becoming-a-founder.md"
+    ]
+  },
+  "Ii-dalton-michael-most-important-lifestyle-habits-of-successful-founders": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/founder-mindset.md"
+    ]
+  },
+  "Je-garry-s-channel-stop-chasing-money-chase-wealth": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/becoming-a-founder.md"
+    ]
+  },
+  "Jf-garry-s-channel-how-i-turned-300k-into-2-billion": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/startup-ideas.md"
+    ]
+  },
+  "Jg-garry-s-channel-learn-earn-or-quit-my-job-career-advice": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/becoming-a-founder.md"
+    ]
+  },
+  "Jh-garry-s-channel-my-200-million-startup-mistake": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/becoming-a-founder.md"
+    ]
+  },
+  "Ji-garry-s-channel-billion-dollar-startup-ideas": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/startup-ideas.md"
+    ]
+  },
+  "Jl-garry-s-channel-6-skills-for-successful-startup-founders": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/becoming-a-founder.md"
+    ]
+  },
+  "Jn-garry-s-channel-billion-dollar-startups-are-better-faster-or-cheaper": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/startup-ideas.md"
+    ]
+  },
+  "Jq-garry-s-channel-should-you-be-the-ceo": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/cofounders.md"
+    ]
+  },
+  "Js-garry-s-channel-3-steps-for-billion-dollar-startups-how-airbnb-doordash-succeeded": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/startup-ideas.md"
+    ]
+  },
+  "Jt-garry-s-channel-why-now-the-key-to-million-dollar-startup-ideas": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/startup-ideas.md"
+    ]
+  },
+  "Kb-the-truth-about-building-ai-startups-today-lightcone-podcast-ep-1": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/ai-startups.md"
+    ]
+  },
+  "LD-10-people-ai-billion-dollar-company": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/ai-startups.md",
+      "wiki/topics/vibe-coding.md"
+    ]
+  },
+  "MB-how-ai-is-changing-enterprise": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/ai-startups.md"
+    ]
+  },
+  "MM-the-next-breakthrough-in-ai-agents-is-here": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/ai-startups.md"
+    ]
+  },
+  "MO-windsurf-ceo-betting-on-ai-agents-pivoting-in-48-hours-and-the-future-of-coding": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/ai-startups.md",
+      "wiki/topics/vibe-coding.md",
+      "wiki/topics/pivoting.md",
+      "wiki/topics/founder-mindset.md"
+    ]
+  },
+  "MP-how-ai-coding-agents-will-change-your-job": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/ai-startups.md",
+      "wiki/topics/vibe-coding.md",
+      "wiki/topics/design.md"
+    ]
+  },
+  "MR-ai-apps-are-broken-here-s-how-to-fix-them": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/ai-startups.md",
+      "wiki/topics/design.md"
+    ]
+  },
+  "ME-vibe-coding-is-the-future": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/vibe-coding.md"
+    ]
+  },
+  "Lq-now-anyone-can-code-how-ai-agents-can-build-your-whole-app": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/vibe-coding.md"
+    ]
+  },
+  "ML-how-zepto-became-india-s-fastest-growing-startup": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/ai-startups.md",
+      "wiki/topics/founder-mindset.md"
+    ]
+  },
+  "LO-how-nothing-founder-carl-pei-built-a-multi-million-dollar-smartphone-brand-in-just-2-years": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/design.md",
+      "wiki/topics/founder-mindset.md"
+    ]
+  },
+  "MU-cursor-ceo-going-beyond-code-superintelligent-ai-agents-and-why-taste-still-matters": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/ai-startups.md",
+      "wiki/topics/vibe-coding.md",
+      "wiki/topics/design.md",
+      "wiki/topics/pivoting.md",
+      "wiki/topics/founder-mindset.md"
+    ]
+  },
+  "Ms-michael-truell-building-cursor-at-23-taking-on-github-copilot-and-advice-to-engineering-students": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/vibe-coding.md"
+    ]
+  },
+  "Mq-how-this-25-year-old-built-a-675m-legal-ai-startup-with-no-legal-experience": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/ai-startups.md"
+    ]
+  },
+  "Mt-the-fde-playbook-for-ai-startups-with-bob-mcgrew": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/ai-startups.md"
+    ]
+  },
+  "N0-unpopular-ideas-that-became-billion-dollar-businesses": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/ai-startups.md"
+    ]
+  },
+  "NA-from-pivot-hell-to-1-4-billion-unicorn": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": [
+      "wiki/topics/pivoting.md"
+    ]
+  },
+  "6S-on-starting-and-scaling-dropbox-yc-w07": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/founder-mindset.md"]
+  },
+  "6Q-diane-greene-s-advice-for-founders": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/founder-mindset.md"]
+  },
+  "80-patrick-collison-on-effectively-running-a-startup": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/product-development.md", "wiki/topics/management.md", "wiki/topics/founder-mindset.md"]
+  },
+  "7a-how-to-build-a-product-with-whatsapp-co-founder-jan-koum": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/product-development.md"]
+  },
+  "7y-how-to-build-a-product-with-reddit-s-steve-huffman-and-twitch-s-emmett-shear": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/product-development.md"]
+  },
+  "7N-building-an-engineering-team": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/hiring.md"]
+  },
+  "7g-how-to-build-and-manage-teams": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/hiring.md", "wiki/topics/management.md"]
+  },
+  "CP-one-order-of-operations-for-starting-a-startup": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/startup-ideas.md"]
+  },
+  "7G-design-for-startups-part-1": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/design.md"]
+  },
+  "7H-design-for-startups-part-2": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/design.md"]
+  },
+  "7u-how-pitching-investors-is-different-than-pitching-customers": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/fundraising.md"]
+  },
+  "7R-startup-legal-mechanics": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/fundraising.md"]
+  },
+  "K5-yc-s-group-partners-share-productivity-tips-and-advice-on-actually-getting-things-done": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/founder-mindset.md"]
+  },
+  "Iz-inside-the-group-partner-lounge-how-to-compete-with-amazon-and-google": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/founder-mindset.md"]
+  },
+  "J0-inside-the-group-partner-lounge-when-to-launch-your-startup": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/launching.md"]
+  },
+  "J1-inside-the-group-partner-lounge-investors-said-no-now-what": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/fundraising.md"]
+  },
+  "Lj-why-design-matters-lessons-from-stripe-lyft-and-airbnb": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/design.md"]
+  },
+  "MH-customer-obsession-made-gusto-a-9-6-billion-company": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/product-development.md"]
+  },
+  "MJ-how-to-build-the-future-tony-xu": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/founder-mindset.md"]
+  },
+  "Ly-how-david-lieb-turned-a-failing-startup-into-google-photos": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/founder-mindset.md"]
+  },
+  "KJ-the-10-year-overnight-success-story-of-casetext": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/founder-mindset.md", "wiki/topics/ai-startups.md"]
+  },
+  "82-the-path-to-100b": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/founder-mindset.md", "wiki/topics/financial-survival.md"]
+  },
+  "9t-how-to-choose-a-startup-to-join": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/becoming-a-founder.md"]
+  },
+  "AQ-how-to-pick-which-startup-to-work-at": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/becoming-a-founder.md"]
+  },
+  "K0-sam-altman-on-how-to-pick-which-startup-to-work-at": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/becoming-a-founder.md"]
+  },
+  "KS-the-asymmetric-upside-of-being-positive": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/founder-mindset.md"]
+  },
+  "Ls-twitter-vs-x-product-lessons-for-startup-founders": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/design.md"]
+  },
+  "LC-what-is-zirp-and-how-did-it-poison-startups": {
+    "absorbed_date": "2026-04-05",
     "articles_touched": ["wiki/topics/financial-survival.md"]
+  },
+  "La-signs-your-company-is-recovering-from-zirp": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/financial-survival.md", "wiki/topics/becoming-a-founder.md"]
+  },
+  "Km-how-to-survive-the-crypto-boom-bust-cycle": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/founder-mindset.md"]
+  },
+  "JD-founder-faq-how-did-you-meet-your-co-founder": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/cofounders.md"]
+  },
+  "JG-the-main-function-how-to-go-from-startup-dream-to-reality": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/founder-mindset.md"]
+  },
+  "KG-from-underdog-to-undefeated-the-edrizio-de-la-cruz-founder-story": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/founder-mindset.md"]
+  },
+  "Jv-building-a-better-mobile-app": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/design.md"]
+  },
+  "MA-building-a-supersonic-plane-company-from-the-ground-up": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/biotech-and-deep-tech.md", "wiki/topics/founder-mindset.md"]
+  },
+  "MT-fusion-energy-is-tech-s-next-big-unlock": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/biotech-and-deep-tech.md"]
+  },
+  "Lm-you-don-t-have-to-be-a-billionaire-to-launch-satellites": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/biotech-and-deep-tech.md"]
+  },
+  "Mz-the-world-s-first-commercial-mobile-carbon-capture-device": {
+    "absorbed_date": "2026-04-05",
+    "articles_touched": ["wiki/topics/biotech-and-deep-tech.md"]
   }
 }

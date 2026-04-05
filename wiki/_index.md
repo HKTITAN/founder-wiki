@@ -11,7 +11,7 @@
 ## Topics by Stage
 
 ### Pre-Founding
-- [[Becoming a Founder]] (should I start a startup, students and startups, college and startups, career paths, too young to start, why start a startup)
+- [[Becoming a Founder]] (should I start a startup, students and startups, college and startups, career paths, too young to start, why start a startup, choosing a startup to join, working at a startup, ZIRP recovery)
 
 ### Idea Stage
 - [[Startup Ideas]] (idea generation, finding ideas, what to build, idea validation, bad ideas, schlep filter, sitcom ideas, SISP, founder/market fit, larval market)
@@ -32,7 +32,7 @@
 
 ### Fundraising & Finance
 - [[Fundraising]] (raising money, seed round, Series A, investors, venture capital, pitching, pitch deck, SAFEs, convincing investors)
-- [[Financial Survival]] (default alive, default dead, runway, burn rate, cash burn, staying alive, unit economics, capital efficiency)
+- [[Financial Survival]] (default alive, default dead, runway, burn rate, cash burn, staying alive, unit economics, capital efficiency, ZIRP, zero interest rate, free money poison)
 - [[Board Governance]] (board of directors, board meetings, board management, term sheet, board control)
 - [[Equity and Compensation]] (equity, stock options, equity equation, employee equity, refresher grants, compensation bands)
 
@@ -42,16 +42,16 @@
 - [[Company Culture]] (culture, startup culture, building culture, core values, cultural DNA)
 
 ### Founder
-- [[Founder Mindset]] (founder psychology, determination, resilience, relentlessly resourceful, founder character, persistence, burnout)
+- [[Founder Mindset]] (founder psychology, determination, resilience, relentlessly resourceful, founder character, persistence, burnout, optimism, conviction, confronting reality, perseverance, exponential growth, platform shifts)
 - [[Pivoting]] (pivot, changing ideas, when to pivot, how to pivot)
 
 ### Verticals
-- [[Biotech and Deep Tech]] (biotech, hard tech, hardware startups, science startups, university spin-out, tech transfer, aerospace)
+- [[Biotech and Deep Tech]] (biotech, hard tech, hardware startups, science startups, university spin-out, tech transfer, aerospace, satellites, fusion energy, carbon capture, supersonic)
 - [[AI Startups]] (AI companies, vertical AI, vertical AI agents, LLM startups, AI moats, AI defensibility, prompting, evals, forward deployed engineer)
 
 ### Tools & Practices
 - [[Vibe Coding]] (AI coding, AI-assisted coding, coding with AI, LLM coding, prompt-driven development)
-- [[Design]] (product design, startup design, design for founders, design taste, designer founders)
+- [[Design]] (product design, startup design, design for founders, design taste, designer founders, mobile app design, engagement trap, naming)
 
 ## Frameworks
 
@@ -71,5 +71,5 @@
 - Case study articles: 3
 - Total wiki articles: 30
 - Blog posts absorbed: 67 substantial + 21 stubs (of 88 total)
-- Video transcripts absorbed: ~143 (of ~350 total)
+- Video transcripts absorbed: ~221 (of ~350 total)
 - Last updated: 2026-04-05

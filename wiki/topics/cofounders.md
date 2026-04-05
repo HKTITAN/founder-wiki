@@ -5,7 +5,7 @@ created: 2026-04-05
 last_updated: 2026-04-05
 aliases: ["cofounders", "co-founders", "cofounder", "co-founder", "finding a cofounder", "cofounder matching", "cofounder conflict", "solo founder"]
 related: ["[[Hiring]]", "[[Founder Mindset]]", "[[Startup Ideas]]", "[[Management]]"]
-sources: ["Hj-10-questions-to-discuss-with-a-potential-co-founder", "Cq-does-co-founder-matching-work", "8t-the-18-mistakes-that-kill-startups", "93-a-student-s-guide-to-startups", "8x-why-to-not-not-start-a-startup", "KV-do-technical-founders-need-a-business-co-founder", "Ld-how-to-find-a-co-founder", "LP-co-founder-equity-mistakes-to-avoid", "MI-how-to-navigate-co-founder-disputes", "8h-how-to-find-the-right-co-founder", "5x-how-to-split-equity-among-co-founders", "GV-should-you-start-a-startup"]
+sources: ["Hj-10-questions-to-discuss-with-a-potential-co-founder", "Cq-does-co-founder-matching-work", "8t-the-18-mistakes-that-kill-startups", "93-a-student-s-guide-to-startups", "8x-why-to-not-not-start-a-startup", "KV-do-technical-founders-need-a-business-co-founder", "Ld-how-to-find-a-co-founder", "LP-co-founder-equity-mistakes-to-avoid", "MI-how-to-navigate-co-founder-disputes", "8h-how-to-find-the-right-co-founder", "5x-how-to-split-equity-among-co-founders", "GV-should-you-start-a-startup", "JD-founder-faq-how-did-you-meet-your-co-founder"]
 speakers_referenced: ["Paul Graham", "Catheryn Li", "Michael Seibel", "Dalton Caldwell", "Harj Taggar", "Gary Tan", "Diana Hu", "Jared Friedman"]
 ---
 
@@ -28,6 +28,8 @@ Graham and Seibel both argue that school is by far the best place to find cofoun
 Taggar offers a systematic framework for finding cofounders ([How to find a co-founder](https://www.ycombinator.com/library/Ld-how-to-find-a-co-founder)). The meta-advice: build a pool of potential cofounders long before you plan to start a startup. Work on side projects and weekend projects with people to learn what they are actually like under pressure. The single biggest blocker Taggar sees is founders assuming everyone they know is unavailable. "You have to always make the ask." If a person says no, ask who they would pick as their cofounder and request an introduction.
 
 Other channels include open source projects, hackathons, developer meetups, and YC's cofounder matching platform. Sequin and Kiwi Biosciences both met through the platform and were accepted into YC S21. Li describes a "trial project approach" where matched cofounders work together on a real project before committing ([Does co-founder matching work](https://www.ycombinator.com/library/Cq-does-co-founder-matching-work)). Taggar notes that the best matches on the platform are between people who "would probably have eventually met each other anyway" -- similar backgrounds, overlapping interests, comparable age.
+
+A survey of 50+ YC founders confirms the diversity of cofounder origin stories ([Founder FAQ: How did you meet your co-founder?](https://www.ycombinator.com/library/JD-founder-faq-how-did-you-meet-your-co-founder)). The most common channels reported: college or university (the largest cluster), former coworkers (Airbnb, Bolt, Project 44), childhood or high school friends, family (siblings, spouses), YC's cofounder matching platform, and serendipitous connections (mutual friends, ski trips, even a Tinder match used "like LinkedIn during COVID"). Several founders emphasize that complementary skills mattered less than trust built over years of shared experience -- one pair cited "twenty years of friendship" as the foundation of their working relationship.
 
 ## Evaluating Compatibility
 
@@ -52,6 +54,8 @@ Bad reasons for unequal splits include: "I came up with the idea" (ideas are a d
 All cofounder equity should include four-year vesting with a one-year cliff. Seibel is direct: "giving away founder equity is not something that you should be innovating on." Performance-based equity, dynamic equity agreements, and part-time founders are all patterns that YC advises against.
 
 Deciding who is CEO early prevents ambiguity. Taggar identifies CEO disputes as a top cause of breakups -- "it's basically saying, 'I'm the person that should really be in charge of this place, and I don't trust and respect the other co-founders to have that.'" YC advises treating cofounder selection with the same rigor as [[Hiring]] -- including reference calls on each other ([10 questions to discuss with a potential co-founder](https://www.ycombinator.com/library/Hj-10-questions-to-discuss-with-a-potential-co-founder)).
+
+Tan describes pitching Andreessen Horowitz with his Posterous co-founder. Ben Horowitz asked who the CEO was. They said "both." The meeting was effectively over ([Should you be the CEO?](https://www.ycombinator.com/library/Jq-garry-s-channel-should-you-be-the-ceo)). Horowitz later wrote: "Shared command always seems really attractive to the people at the top of the organization... It looks much less attractive to those who do all the work." Co-CEO slows every decision, which for a startup is fatal. Tan regrets not recognizing earlier that he needed the authority to fix things when they broke. His advice: "If you're going to be incredibly frustrated that you don't have the authority and can't fix it, then maybe you do need to be CEO."
 
 ## What Kills Cofounder Relationships
 
@@ -84,3 +88,5 @@ YC partners share personal experiences with cofounder dysfunction ([How to navig
 | [A student's guide to startups](https://www.ycombinator.com/library/93-a-student-s-guide-to-startups) | Paul Graham | School as the best cofounder-finding environment |
 | [Why to not not start a startup](https://www.ycombinator.com/library/8x-why-to-not-not-start-a-startup) | Paul Graham | Cofounders make the emotional burden bearable |
 | [How to navigate co-founder disputes](https://www.ycombinator.com/library/MI-how-to-navigate-co-founder-disputes) | Gary Tan, Harj Taggar, Diana Hu, Jared Friedman | Self-abandonment, mismatched conflict styles, authoritative leadership, NVC |
+| [Should you be the CEO?](https://www.ycombinator.com/library/Jq-garry-s-channel-should-you-be-the-ceo) | Garry Tan | Co-CEO kills speed; A16Z rejection; authority and agency |
+| [Founder FAQ: How did you meet your co-founder?](https://www.ycombinator.com/library/JD-founder-faq-how-did-you-meet-your-co-founder) | YC Founders | 50+ founders; school, coworkers, childhood friends, matching platform, serendipity |

@@ -5,8 +5,8 @@ created: 2026-04-05
 last_updated: 2026-04-05
 aliases: ["default alive", "default dead", "runway", "burn rate", "cash burn", "survival", "staying alive", "running out of money", "unit economics", "capital efficiency"]
 related: ["[[Fundraising]]", "[[Hiring]]", "[[Growth]]", "[[Equity and Compensation]]"]
-sources: ["95-default-alive-or-default-dead", "8t-the-18-mistakes-that-kill-startups", "3Z-advice-for-companies-with-less-than-1-year-of-runway", "4q-later-stage-advice-for-startups", "4s-navigating-success-for-your-startup", "Gu-snapdocs-aaron-king-on-navigating-market-cycles", "J4-inside-the-group-partner-lounge-top-ways-startups-waste-money", "M9-the-right-and-wrong-way-to-spend-money-at-your-startup", "KZ-should-your-startup-bootstrap-or-raise-venture-capital"]
-speakers_referenced: ["Paul Graham", "Sam Altman", "Aaron King", "Michael Seibel", "Brad Flora", "Harj Taggar", "Gustaf Alstromer", "Pete Koomen", "Dalton Caldwell"]
+sources: ["95-default-alive-or-default-dead", "8t-the-18-mistakes-that-kill-startups", "3Z-advice-for-companies-with-less-than-1-year-of-runway", "4q-later-stage-advice-for-startups", "4s-navigating-success-for-your-startup", "Gu-snapdocs-aaron-king-on-navigating-market-cycles", "J4-inside-the-group-partner-lounge-top-ways-startups-waste-money", "M9-the-right-and-wrong-way-to-spend-money-at-your-startup", "KZ-should-your-startup-bootstrap-or-raise-venture-capital", "LC-what-is-zirp-and-how-did-it-poison-startups", "La-signs-your-company-is-recovering-from-zirp", "82-the-path-to-100b"]
+speakers_referenced: ["Paul Graham", "Sam Altman", "Aaron King", "Michael Seibel", "Brad Flora", "Harj Taggar", "Gustaf Alstromer", "Pete Koomen", "Dalton Caldwell", "Paul Buchheit"]
 ---
 
 # Financial Survival
@@ -85,6 +85,32 @@ A dedicated YC Office Hours episode maps spending strategy to company stage ([Th
 
 Koomen warns against branding agencies ($50K rebrands for B2B companies), ads that substitute for organic growth, and offices that make the startup "feel bigger." A common trap: founders divide their raise by 24 months, derive a burn number, then spend to fill it. The correct approach is minimum spend to reach PMF, preserving remaining capital for the growth phase.
 
+## ZIRP and the Poison of Free Money
+
+Caldwell and Seibel describe the Zero Interest Rate Phenomenon (ZIRP) era as a case study in how excess capital destroys startups ([What is ZIRP and how did it poison startups?](https://www.ycombinator.com/library/LC-what-is-zirp-and-how-did-it-poison-startups)). When the Federal Reserve set interest rates near zero, banks searched for yield and poured money into VC funds. Investors who had never done startup investing before began deploying capital using public-market frameworks -- valuing million-dollar-revenue startups the same way they valued $500M-revenue public companies.
+
+The result: companies with $3M in revenue raised at billion-dollar valuations (350x revenue multiples). Founders stopped innovating because they could hire more people instead. Seibel uses the corn subsidy analogy: "America subsidized corn, and then suddenly everyone was motivated to figure out, what can we do with corn?" Substitute money for corn. "Do you not have product-market fit? What if we throw some money at it?"
+
+The downstream effects were pervasive. Lending startups appeared to have product-market fit because "money has product-market fit always." When interest rates rose, their cost of capital spiked and their businesses collapsed. Founders entering YC expected $10M seed rounds because "Y just raised a ten million seed." Unicorn valuations became marketing tools rather than indicators of business health.
+
+Caldwell and Seibel identify three types of investors during ZIRP: those who genuinely believed valuations were justified, those who knew it was irrational but participated anyway, and a small group who held back and were rewarded when the market corrected. The founders who survived were those who "took advantage of some of the stuff on offer" but "knew that this wasn't going to last, and they planned."
+
+Buchheit reinforces the underlying principle: the input-to-output ratio is what matters ([The path to $100B](https://www.ycombinator.com/library/82-the-path-to-100b)). "If you raise five million dollars, that doesn't mean you can create $150,000 worth of value and be happy. You have to create $50 million dollars worth of value." Juicero received $120M before talking to a customer. If they had gone through YC with $120K, they would have had to sell a $700 juice bag squeezer to an actual person -- and would have discovered the fatal flaw immediately.
+
+## Signs of ZIRP Recovery
+
+Caldwell and Seibel catalog the indicators that a company is recovering from ZIRP-era habits ([Signs your company is recovering from ZIRP](https://www.ycombinator.com/library/La-signs-your-company-is-recovering-from-zirp)):
+
+**Executive turnover.** "Big company" executives hired during ZIRP -- accustomed to infinite resources and little accountability -- are being replaced. Founders are re-engaging with product and operations rather than delegating to hired managers.
+
+**Return to office.** Returning to the office is a sign that "senior management has gotten real." The willingness to make an unpopular decision indicates the company is prioritizing results over comfort.
+
+**Vanity project elimination.** Projects that existed to justify promotions rather than serve customers are being cut. "The whole thing is a self-perpetuating 'I need resources to do things so that I can get more resources.'"
+
+**Increased work intensity.** "I have to work more is a sign your company's recovering from ZIRP." Startups cannot offer Google-level work-life balance because they are still making their product and company work.
+
+For employees at companies not recovering from ZIRP, Caldwell and Seibel suggest starting a startup: "If you are an ambitious person... you should be relieved" when your company starts making hard decisions, "because it's a sign your equity might be worth something."
+
 ## Bootstrap vs. Venture Capital
 
 Caldwell and Seibel argue the bootstrap-vs-VC debate is largely artificial ([Should your startup bootstrap or raise venture capital?](https://www.ycombinator.com/library/KZ-should-your-startup-bootstrap-or-raise-venture-capital)). The vast majority of businesses should not raise VC. Venture capital is specifically designed for investments that could return 100-1000X. "Trying to put that jet fuel into something that isn't going to grow to be big, everyone is going to be sad and lose."
@@ -102,4 +128,7 @@ Building a profitable non-venture-backed software business generating $30-50K/mo
 | 4s-navigating-success-for-your-startup | Sam Altman | Airplane vs. spaceship, valuation traps, acquisition positioning | https://www.ycombinator.com/library/4s-navigating-success-for-your-startup |
 | Gu-snapdocs-aaron-king-on-navigating-market-cycles | Aaron King | $1M seed to $5M revenue, capital efficiency, ruthless prioritization | https://www.ycombinator.com/library/Gu-snapdocs-aaron-king-on-navigating-market-cycles |
 | [The right and wrong way to spend money](https://www.ycombinator.com/library/M9-the-right-and-wrong-way-to-spend-money-at-your-startup) | YC Partners | Spending by stage, PMF before growth spend, ads are addictive | |
-| [Should your startup bootstrap or raise venture capital?](https://www.ycombinator.com/library/KZ-should-your-startup-bootstrap-or-raise-venture-capital) | Dalton Caldwell, Michael Seibel | VC for 100X+ businesses only; bootstrap is legitimate; decision is revisable | |
+| [Should your startup bootstrap or raise venture capital?](https://www.ycombinator.com/library/KZ-should-your-startup-bootstrap-or-raise-venture-capital) | Dalton Caldwell, Michael Seibel | VC for 100X+ businesses only; bootstrap is legitimate; decision is revisable |
+| [What is ZIRP and how did it poison startups?](https://www.ycombinator.com/library/LC-what-is-zirp-and-how-did-it-poison-startups) | Dalton Caldwell, Michael Seibel | Free money as poison; 350x revenue multiples; corn subsidy analogy |
+| [Signs your company is recovering from ZIRP](https://www.ycombinator.com/library/La-signs-your-company-is-recovering-from-zirp) | Dalton Caldwell, Michael Seibel | Executive turnover, return to office, vanity project cuts, increased intensity |
+| [The path to $100B](https://www.ycombinator.com/library/82-the-path-to-100b) | Paul Buchheit | Input-to-output ratio; too much money kills; Juicero as cautionary tale | |

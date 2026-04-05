@@ -37,6 +37,14 @@ Brady's six-step framework for early-stage culture-building ([Building culture](
 
 Seibel warns that many founders "cargo cult" the startup — prioritizing press, conferences, [[Hiring|hiring]], and investors over getting product to users. "You are pretending to be a startup, but the actual work of startups is pushing product, getting it in the users' hands, and seeing if they like it" ([Biggest mistakes first-time founders make](https://www.ycombinator.com/library/66-biggest-mistakes-first-time-founders-make)). This prioritization failure is itself a culture problem: what founders model in the early days becomes the implicit behavior of the company.
 
+## The Cargo Culting Problem
+
+Caldwell and Seibel dedicate an entire episode to cargo culting -- superficially copying successful companies without understanding why they did what they did ([Silicon Valley's cargo culting problem](https://www.ycombinator.com/library/IR-dalton-michael-silicon-valley-s-cargo-culting-problem)). Classic examples: copying Google's open offices, free snacks, and flat org structure without recognizing that Google hired brilliant engineers to solve a genuinely hard technical problem. Copying Facebook's "don't charge users, build an ads business" model without having a product people use two hours per day. Copying Uber's aggressive expansion without having unit economics working in a single city.
+
+They identify three levels of cargo culting. Classic: copying a successful company's surface features. Modern: copying a company that raised money but has not succeeded (copying WeWork or Zumi Robotics based on fundraising announcements). Super-modern: copying another struggling startup because they "look like a startup."
+
+Caldwell uses a plagiarism analogy: the difference between copying three papers into your report and reading broadly, digesting, and synthesizing original work. "The thing that sucks about startups is that you do have to think about a lot of things. There isn't just a checklist." The antidote is starting from the user's perspective: what do they actually care about? Users care that Google returns good search results, not about its logo styling. Users care that Uber arrives in five minutes, not how many cities it operates in.
+
 ## The Airbnb Approach
 
 Chesky describes how Airbnb wrote its core values before hiring a single employee -- a process that took roughly six months. The first engineer took four to five months to find because Chesky screened for cultural fit alongside technical ability. His reasoning: the first engineer is "like bringing in DNA to your company. There were going to be a thousand people just like him or her" ([Building company culture](https://www.ycombinator.com/library/JN-how-to-start-a-startup-building-company-culture-part-i)).
@@ -58,3 +66,4 @@ Chesky applies cultural thinking to strategic decisions. When the Samwer brother
 | [Building culture](https://www.ycombinator.com/library/6r-building-culture) | Tim Brady | Culture as behavior, first 20 as DNA, six-step framework |
 | [Biggest mistakes first-time founders make](https://www.ycombinator.com/library/66-biggest-mistakes-first-time-founders-make) | Michael Seibel | Cargo culting startup behaviors, prioritize product over sizzle |
 | [Building company culture](https://www.ycombinator.com/library/JN-how-to-start-a-startup-building-company-culture-part-i) | Brian Chesky, Alfred Lin | Values before first hire, core values interviewers, missionaries vs. mercenaries |
+| [Silicon Valley's cargo culting problem](https://www.ycombinator.com/library/IR-dalton-michael-silicon-valley-s-cargo-culting-problem) | Dalton Caldwell, Michael Seibel | Three levels of cargo culting; plagiarism analogy; start from the user |

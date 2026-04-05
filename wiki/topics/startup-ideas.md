@@ -5,8 +5,8 @@ created: 2026-04-05
 last_updated: 2026-04-05
 aliases: ["startup ideas", "idea generation", "finding ideas", "what to build", "idea validation", "bad ideas", "good ideas", "idea quality", "founder/market fit", "SISP", "solution in search of a problem"]
 related: ["[[Early-Stage Tactics]]", "[[Growth]]", "[[Founder Mindset]]", "[[Pivoting]]", "[[Product-Market Fit]]"]
-sources: ["8z-how-to-get-startup-ideas", "8t-the-18-mistakes-that-kill-startups", "8y-before-the-startup", "91-why-smart-people-have-bad-ideas", "8g-how-to-get-startup-ideas", "DU-dalton-michael-where-do-great-startup-ideas-come-from", "DT-dalton-michael-simple-products-that-became-big-companies", "DW-dalton-michael-should-you-follow-your-passion", "8B-how-to-start-a-startup-how-to-get-ideas-and-find-what-s-working", "7L-how-do-you-create-luck", "9M-billionaires-build"]
-speakers_referenced: ["Paul Graham", "Jared Friedman", "Dalton Caldwell", "Michael Seibel", "Stewart Butterfield"]
+sources: ["8z-how-to-get-startup-ideas", "8t-the-18-mistakes-that-kill-startups", "8y-before-the-startup", "91-why-smart-people-have-bad-ideas", "8g-how-to-get-startup-ideas", "DU-dalton-michael-where-do-great-startup-ideas-come-from", "DT-dalton-michael-simple-products-that-became-big-companies", "DW-dalton-michael-should-you-follow-your-passion", "8B-how-to-start-a-startup-how-to-get-ideas-and-find-what-s-working", "7L-how-do-you-create-luck", "9M-billionaires-build", "Ji-garry-s-channel-billion-dollar-startup-ideas", "Jn-garry-s-channel-billion-dollar-startups-are-better-faster-or-cheaper", "Jt-garry-s-channel-why-now-the-key-to-million-dollar-startup-ideas", "Js-garry-s-channel-3-steps-for-billion-dollar-startups-how-airbnb-doordash-succeeded", "Jf-garry-s-channel-how-i-turned-300k-into-2-billion", "CP-one-order-of-operations-for-starting-a-startup"]
+speakers_referenced: ["Paul Graham", "Jared Friedman", "Dalton Caldwell", "Michael Seibel", "Stewart Butterfield", "Garry Tan"]
 ---
 
 # Startup Ideas
@@ -71,11 +71,35 @@ Caldwell and Seibel reframe the common advice to "follow your passion." True pas
 
 Caldwell frames idea discovery as a function of speed ([How do you create luck](https://www.ycombinator.com/library/7L-how-do-you-create-luck)). Brex pivoted from VR headsets to credit cards for startups by iterating through half a dozen ideas in six weeks. Retool and Magic followed the same pattern. "The founders that get the luckiest are the founders that move the fastest to give themselves as much surface area as possible." Pre-company, the equivalent is making things constantly and showing them to people -- Zuckerberg was building prototypes and music plugins long before Facebook.
 
+## An Order of Operations
+
+Seibel provides a step-by-step framework for technical people who want to start a company but lack an idea ([One order of operations for starting a startup](https://www.ycombinator.com/library/CP-one-order-of-operations-for-starting-a-startup)). Step one: identify a problem you are passionate about. Step two: brainstorm solutions with friends. Step three: build and launch an MVP. Seibel filters problems through two questions: how frequent is it, and how intense is it? A problem that is neither frequent nor intense is a poor startup candidate. A problem that is both frequent and intense is ideal.
+
 ## Starting With Curiosity
 
 In "Before the Startup," Graham argues that the right preparation is not studying startup mechanics but becoming genuinely expert in a domain ([Before the Startup](https://www.ycombinator.com/library/8y-before-the-startup)). At age 20, the optimal strategy is "just learn" -- follow curiosity aggressively, because the breadth of knowledge compounds into unexpected startup ideas later. Friedman adds that working at an existing startup is particularly helpful -- many of YC's most successful companies came from ideas founders had while working at someone else's startup.
 
 Butterfield describes the Slack origin as an unconscious three-and-a-half-year design process where the team built internal tools for their own communication without realizing they were designing a product ([How to get ideas and find what's working](https://www.ycombinator.com/library/8B-how-to-start-a-startup-how-to-get-ideas-and-find-what-s-working)). The team underestimated the market by 100x. He favors execution over ideas but acknowledges both matter: "You can execute a lot on a terrible idea and then not get anywhere."
+
+## Why Now: Timing as a Filter
+
+Tan identifies three forces that create startup opportunities at specific moments: new technology, new human behavior, and new regulation ([Why now?](https://www.ycombinator.com/library/Jt-garry-s-channel-why-now-the-key-to-million-dollar-startup-ideas)). Instacart became viable when smartphone penetration crossed a threshold that enabled mobile workforces -- the same "why now" that powered Uber, Lyft, and DoorDash. Webvan attempted grocery delivery in 1997 and lost $800 million; Instacart succeeded 15 years later because the underlying technology had improved by orders of magnitude.
+
+General Magic attempted a smartphone in 1994: $1,400, 1 MB of RAM, 4,800 baud modem, $400/month data. The iPhone launched 13 years later at $499 with 16,000x the storage and 600x the network speed. Tan frames this as the key insight: "Look for the 10x. Look for the 100x." Kurzweil used the same thinking to time his work on OCR and speech recognition decades apart.
+
+Regulation creates a third type of timing window. Parker Conrad's Zenefits (and later Rippling) grew on the wave of Obamacare mandating small businesses to offer health insurance. Uber's survival depended on mobilizing 50,000 users in Washington DC to contact the city council when a bill threatened to outlaw it.
+
+## Better, Faster, or Cheaper
+
+Tan argues that you do not need to be first -- Snapchat was not the first messaging app, Facebook was not the first social network -- but you must be better, faster, or cheaper than alternatives ([Better, faster, or cheaper](https://www.ycombinator.com/library/Jn-garry-s-channel-billion-dollar-startups-are-better-faster-or-cheaper)). Google won through technical excellence (PageRank). Coinbase won by being better than the Mt. Gox experience. Discord focused on low CPU usage for gamers. Shopify was cheaper than running a Magento server. Amazon said "their margin is our opportunity." DoorDash achieved serenity -- accepting it could not outspend Uber in cities, it retreated to profitable suburbs and used those profits to win the capital war later ([3 steps for billion dollar startups](https://www.ycombinator.com/library/Js-garry-s-channel-3-steps-for-billion-dollar-startups-how-airbnb-doordash-succeeded)).
+
+## Unique Experience as Idea Source
+
+Tan cites Steve Jobs on the requirement for different experiences: "If you're going to make connections which are innovative, you have to not have the same bag of experiences as everyone else" ([Billion dollar startup ideas](https://www.ycombinator.com/library/Ji-garry-s-channel-billion-dollar-startup-ideas)). Flexport's Ryan Peterson imported motorbikes from China and lived there for two years -- his supply chain frustrations became a $3.2 billion company. Patreon's Jack Conti started a band, posted YouTube videos, and saw firsthand that creator monetization was broken. In each case, a personal and unusual experience provided an insight that someone with standard credentials would not have had.
+
+## Contrarian and Right
+
+Tan's investment in Coinbase illustrates the "contrarian and right" pattern ([How I turned $300K into $2 billion](https://www.ycombinator.com/library/Jf-garry-s-channel-how-i-turned-300k-into-2-billion)). In 2012, Bitcoin's total market cap was under $1 billion. Brian Armstrong sent Tan 0.05 BTC (worth $0.23). Nearly every investor said no. Tan said yes because he was "primed for the problem" (he had tried Mt. Gox and found it terrible) and "primed for the idea" (he had read "The Dollar Crisis" while working at Peter Thiel's hedge fund). "Chance only favors the prepared mind."
 
 ## Source Talks
 
@@ -92,3 +116,8 @@ Butterfield describes the Slack origin as an unconscious three-and-a-half-year d
 | [8y-before-the-startup](https://www.ycombinator.com/library/8y-before-the-startup) | Paul Graham | "Just learn," curiosity-first, domain expertise |
 | [91-why-smart-people-have-bad-ideas](https://www.ycombinator.com/library/91-why-smart-people-have-bad-ideas) | Paul Graham | Why smart people generate plausible but bad ideas |
 | [9M-billionaires-build](https://www.ycombinator.com/library/9M-billionaires-build) | Paul Graham | Larval markets, small but growable initial markets |
+| [Billion dollar startup ideas](https://www.ycombinator.com/library/Ji-garry-s-channel-billion-dollar-startup-ideas) | Garry Tan | Unique experiences, Steve Jobs on different connections, Flexport/Patreon origins |
+| [Better, faster, or cheaper](https://www.ycombinator.com/library/Jn-garry-s-channel-billion-dollar-startups-are-better-faster-or-cheaper) | Garry Tan | Google/Coinbase/Discord/Shopify/Amazon competitive positioning |
+| [Why now?](https://www.ycombinator.com/library/Jt-garry-s-channel-why-now-the-key-to-million-dollar-startup-ideas) | Garry Tan | Tech curves, behavior change, regulation as three "why now" drivers |
+| [3 steps for billion dollar startups](https://www.ycombinator.com/library/Js-garry-s-channel-3-steps-for-billion-dollar-startups-how-airbnb-doordash-succeeded) | Garry Tan | First principles: curiosity, empathy, serenity; DoorDash suburban strategy |
+| [How I turned $300K into $2 billion](https://www.ycombinator.com/library/Jf-garry-s-channel-how-i-turned-300k-into-2-billion) | Garry Tan | Coinbase investment; contrarian and right; primed for the problem |

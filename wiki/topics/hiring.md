@@ -5,8 +5,8 @@ created: 2026-04-05
 last_updated: 2026-04-05
 aliases: ["hiring", "first hires", "recruiting", "hiring engineers", "team building", "first engineer", "talent", "onboarding", "HR"]
 related: ["[[Management]]", "[[Financial Survival]]", "[[Early-Stage Tactics]]", "[[Cofounders]]", "[[Equity and Compensation]]", "[[Growth]]"]
-sources: ["4H-how-to-hire-your-first-engineer", "95-default-alive-or-default-dead", "8t-the-18-mistakes-that-kill-startups", "2s-advice-for-new-managers", "4G-convincing-engineers-to-join-your-team", "4q-later-stage-advice-for-startups", "59-how-to-set-up-hire-and-scale-a-growth-strategy-and-team", "Gu-snapdocs-aaron-king-on-navigating-market-cycles"]
-speakers_referenced: ["Harj Taggar", "Paul Graham", "Aaron Epstein", "Sam Altman", "Anu Hariharan", "Aaron King"]
+sources: ["4H-how-to-hire-your-first-engineer", "95-default-alive-or-default-dead", "8t-the-18-mistakes-that-kill-startups", "2s-advice-for-new-managers", "4G-convincing-engineers-to-join-your-team", "4q-later-stage-advice-for-startups", "59-how-to-set-up-hire-and-scale-a-growth-strategy-and-team", "Gu-snapdocs-aaron-king-on-navigating-market-cycles", "7N-building-an-engineering-team", "7g-how-to-build-and-manage-teams"]
+speakers_referenced: ["Harj Taggar", "Paul Graham", "Aaron Epstein", "Sam Altman", "Anu Hariharan", "Aaron King", "Ammon Bartram", "Vinod Khosla"]
 ---
 
 # Hiring
@@ -27,7 +27,9 @@ Taggar recommends focusing the first three engineering hires exclusively on pers
 
 He frames hiring as [[Sales and Distribution|sales]]: "Asking anyone to join as your first hire is asking for an order of magnitude greater commitment than pitching an investor to invest" ([Convincing engineers to join your team](https://www.ycombinator.com/library/4G-convincing-engineers-to-join-your-team)). The pitch to candidates is fundamentally different from the pitch to investors -- candidates care about [[Growth|growth]] opportunity, technical challenge, and the team they will work with, not market size.
 
-Taggar ranks hiring channels in order of effectiveness: personal networks, marketplaces (Triplebyte, AngelList), inbound applications, cold outreach, recruiters, meetups, agencies.
+Taggar ranks hiring channels in order of effectiveness: personal networks, marketplaces (Triplebyte, AngelList), inbound applications, cold outreach, recruiters, meetups, agencies. In a dedicated Startup School lecture on building engineering teams, he elaborates on the process: start by listing every good engineer you know (regardless of availability), meet with each, ask if they would join, and if they say no, ask who they would hire in their position. He recommends "sourcing parties" where the team brainstorms potential hires in a shared spreadsheet during a 30-45 minute session ([Building an engineering team](https://www.ycombinator.com/library/7N-building-an-engineering-team)).
+
+Bartram (Triplebyte co-founder) adds data on interview reliability: inter-rater agreement among technical interviewers across companies scored just over 0.1 on a 0-to-1 scale -- roughly the same rate at which Netflix viewers agree about which movies are best. This means technical interviews are far noisier than most hiring managers believe. His advice: use structured interviews with defined criteria rather than freeform conversations, hide candidate credentials from technical interviewers to reduce bias, and use multi-step coding problems rather than insight-dependent puzzles ([Building an engineering team](https://www.ycombinator.com/library/7N-building-an-engineering-team)).
 
 ## Hire for Hunger
 
@@ -57,6 +59,14 @@ Caldwell and Seibel argue that for any software startup, recruiting a technical 
 
 Hu reinforces from the technical side: at the MVP stage, hiring engineers is likely to slow you down. It takes over a month to find someone good, and that person will miss key product insights that come from founders building it themselves. Justin.tv launched with just four founders writing all the code ([Tips for technical founders](https://www.ycombinator.com/library/Is-tips-for-technical-startup-founders)).
 
+## Gene Pool Engineering
+
+Khosla introduces a framework he calls "gene pool engineering" for startups building their first team ([How to build and manage teams](https://www.ycombinator.com/library/7g-how-to-build-and-manage-teams)). The process: identify the top five risks in the business, list three to five companies whose employees have dealt with each risk, identify three names at each company, then recruit from that list. The result is fifteen targeted candidates per risk area -- far more precise than the platitude of "hire great people."
+
+Khosla argues that what you hire for while filling a functional role (VP of Engineering, VP of Marketing) matters more than the functional skill itself. The question to ask: "When I hire a VP of Engineering, how will it make my VP of Marketing better?" Functional hires who can only execute within their silo are less valuable than those who contribute to strategic brainstorming across the company. He recommends never hiring someone who has been at a large company (e.g., Cisco) for ten or more years into a startup -- their process-oriented thinking conflicts with the first-principles iteration startups require.
+
+On equity for early hires, Khosla advocates a radical split: founders take one-third of the common stock, their direct reports take one-third, and the remaining employees take one-third. This approach prevents early talent from leaving to start their own companies. Khosla frames hiring as the CEO's primary job: "I spent probably forty percent of my time recruiting. It's not coding."
+
 ## Hiring at Scale
 
 Altman addresses hiring for later-stage startups (12-24 months in) ([Later stage advice for startups](https://www.ycombinator.com/library/4q-later-stage-advice-for-startups)). Once product-market fit is achieved, hiring a full-time recruiter becomes important -- getting the best people is arguably the most important thing.
@@ -83,3 +93,5 @@ For hiring [[Growth|growth]] team members specifically, Hariharan and Alstromer 
 | 4q-later-stage-advice-for-startups | Sam Altman | Full-time recruiter, onboarding, internal offer announces, early employee paths | https://www.ycombinator.com/library/4q-later-stage-advice-for-startups |
 | 59-how-to-set-up-hire-and-scale-a-growth-strategy-and-team | Anu Hariharan | Growth PM traits, growth engineer traits, team composition | https://www.ycombinator.com/library/59-how-to-set-up-hire-and-scale-a-growth-strategy-and-team |
 | Gu-snapdocs-aaron-king-on-navigating-market-cycles | Aaron King | Hire only for painful need, be generous with equity, recruit boldly | https://www.ycombinator.com/library/Gu-snapdocs-aaron-king-on-navigating-market-cycles |
+| 7N-building-an-engineering-team | Harj Taggar, Ammon Bartram | Sourcing parties, interview noise data, structured interviews, credential hiding | https://www.ycombinator.com/library/7N-building-an-engineering-team |
+| 7g-how-to-build-and-manage-teams | Vinod Khosla | Gene pool engineering, risk-oriented hiring, founders as chief recruiting officers | https://www.ycombinator.com/library/7g-how-to-build-and-manage-teams |

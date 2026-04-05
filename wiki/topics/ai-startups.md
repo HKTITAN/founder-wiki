@@ -4,9 +4,9 @@ type: topic
 created: 2026-04-05
 last_updated: 2026-04-05
 aliases: ["AI startups", "AI companies", "vertical AI", "vertical AI agents", "AI agents", "LLM startups", "AI SaaS", "building with AI", "AI moats", "AI defensibility"]
-related: ["[[Startup Ideas]]", "[[Product-Market Fit]]", "[[Sales and Distribution]]", "[[Pricing]]", "[[Growth]]"]
-sources: ["Lt-vertical-ai-agents-could-be-10x-bigger-than-saas", "Lg-why-vertical-llm-agents-are-the-new-1-billion-saas-opportunities", "Mx-the-7-most-powerful-moats-for-ai-startup", "MQ-startup-ideas-you-can-now-build-with-ai", "My-every-ai-founder-should-be-asking-these-questions", "MS-state-of-the-art-prompting-for-ai-agents", "MW-andrej-karpathy-software-is-changing-again", "L7-how-new-technology-creates-new-businesses", "LH-tarpit-ideas-the-sequel", "M3-how-to-use-ai-in-your-startup", "M5-ai-revolution-why-this-is-the-best-time-to-start-a-startup", "M8-how-to-get-ai-startup-ideas"]
-speakers_referenced: ["Jared Friedman", "Gary Tan", "Harj Taggar", "Diana Hu", "Jake Heller", "Andrej Karpathy", "Jordan Fisher", "Tom Blomfield", "Dalton Caldwell", "Michael Seibel", "Paul Buchheit", "Gustaf Alstromer", "Pete Koomen", "Brad Flora"]
+related: ["[[Startup Ideas]]", "[[Product-Market Fit]]", "[[Sales and Distribution]]", "[[Pricing]]", "[[Growth]]", "[[Vibe Coding]]", "[[Design]]"]
+sources: ["Lt-vertical-ai-agents-could-be-10x-bigger-than-saas", "Lg-why-vertical-llm-agents-are-the-new-1-billion-saas-opportunities", "Mx-the-7-most-powerful-moats-for-ai-startup", "MQ-startup-ideas-you-can-now-build-with-ai", "My-every-ai-founder-should-be-asking-these-questions", "MS-state-of-the-art-prompting-for-ai-agents", "MW-andrej-karpathy-software-is-changing-again", "L7-how-new-technology-creates-new-businesses", "LH-tarpit-ideas-the-sequel", "M3-how-to-use-ai-in-your-startup", "M5-ai-revolution-why-this-is-the-best-time-to-start-a-startup", "M8-how-to-get-ai-startup-ideas", "Kb-the-truth-about-building-ai-startups-today-lightcone-podcast-ep-1", "LD-10-people-ai-billion-dollar-company", "MB-how-ai-is-changing-enterprise", "MM-the-next-breakthrough-in-ai-agents-is-here", "MO-windsurf-ceo-betting-on-ai-agents-pivoting-in-48-hours-and-the-future-of-coding", "MP-how-ai-coding-agents-will-change-your-job", "MR-ai-apps-are-broken-here-s-how-to-fix-them", "Mt-the-fde-playbook-for-ai-startups-with-bob-mcgrew", "MU-cursor-ceo-going-beyond-code-superintelligent-ai-agents-and-why-taste-still-matters", "Mq-how-this-25-year-old-built-a-675m-legal-ai-startup-with-no-legal-experience", "N0-unpopular-ideas-that-became-billion-dollar-businesses"]
+speakers_referenced: ["Jared Friedman", "Gary Tan", "Harj Taggar", "Diana Hu", "Jake Heller", "Andrej Karpathy", "Jordan Fisher", "Tom Blomfield", "Dalton Caldwell", "Michael Seibel", "Paul Buchheit", "Gustaf Alstromer", "Pete Koomen", "Brad Flora", "Aaron Levie", "Varun Mohan", "Michael Truell", "Bob McGrew", "Max Junestrand", "David Lieb", "Amjad Masad"]
 ---
 
 # AI Startups
@@ -69,9 +69,55 @@ Friedman, Hu, Taggar, and Tan share frameworks ([How to get AI startup ideas](ht
 
 Caldwell and Seibel note that classic [[Startup Ideas|tarpit ideas]] may no longer be tarpits if AI makes them newly solvable, but founders must explain why rather than ignoring prior failures ([Tarpit ideas: the sequel](https://www.ycombinator.com/library/LH-tarpit-ideas-the-sequel)).
 
+## AI Is Changing Enterprise
+
+Levie (CEO of Box) argues that enterprise customers do not want a model -- they want an outcome. Customer support conversations answered, healthcare transcription flowing into an EHR, automated contract workflows. The model getting more intelligent is a net positive for application builders because "what the customer actually wants to buy is software that will plug into my ERP system, that will power the workflow" ([How AI is changing enterprise](https://www.ycombinator.com/library/MB-how-ai-is-changing-enterprise)).
+
+He draws a direct parallel to cloud computing. On-prem software was a $50B market, but SaaS expanded TAMs by 10x because lower cost-to-try expanded the addressable customer base from ten thousand enterprises to millions of businesses. AI will repeat this pattern. The cost of intelligence converges toward the cost of bare metal; the value accrues to the software layer above it. Levie predicts the total software market could be five times larger in a decade because AI enables software to do work previously done by humans or not done at all -- translation, contract review, lead generation that companies never staffed for.
+
+Enterprise adoption as of early 2025 is roughly 10% for general chat assistants and 1% for anything resembling agents. The CEO of Goldman Sachs publicly described AI generating S-1 filings in minutes. Levie notes this is the opposite of cloud adoption where banking CEOs said "we'll never go to the cloud." AI adoption in enterprise is driven by competitive pressure: a non-AI-first company cannot hire the next AI-native generation, and competitors will produce more output.
+
+## The 10-Person Billion-Dollar Company
+
+Sam Altman predicted unicorns with ten or fewer employees. The Lightcone hosts debate this against the Jevons Paradox ([10 People + AI = Billion Dollar Company?](https://www.ycombinator.com/library/LD-10-people-ai-billion-dollar-company)). Historically, each wave of efficiency (open source, SaaS, cloud) did not reduce company size; it increased the number of companies by lowering the barrier to getting started. Taggar concludes: "Even if it means slightly more people can take their idea and turn it into something and get their first thousand users, the human capital will come, the actual financial capital will come, and we'll just get more of these things."
+
+The hosts argue that taste and craftsmanship requirements rise as building becomes easier. The baseline for YC admission is now much higher than a decade ago. Friedman argues that learning to code remains essential because "learning how to code will literally make you smarter" -- LLMs themselves learned to think logically by reading code on GitHub.
+
+## AI Tarpit Ideas and the Wrapper Debate
+
+The first Lightcone episode identifies AI tarpits: copilot-for-X platforms where customers sign up and pay but never actually use the product ([The truth about building AI startups today](https://www.ycombinator.com/library/Kb-the-truth-about-building-ai-startups-today-lightcone-podcast-ep-1)). Tan warns against chat interfaces that put the burden on users to know how to speak to a computer. The real value lies in packaging LLM capabilities into familiar UIs that do the knowledge work directly.
+
+The "GPT wrapper" meme is dismissed by both Levie and Tan. Levie draws the analogy: all SaaS software is a "database wrapper," but the business logic, workflow, and UX atop the database is where value accrues. Tan concurs from the Manus analysis: successful wrappers are distinguished by intuitive UI, proprietary evals, fine-tuning, and multi-agent orchestration -- not by building a foundation model ([The next breakthrough in AI agents is here](https://www.ycombinator.com/library/MM-the-next-breakthrough-in-ai-agents-is-here)).
+
+## AI-Native Application Design
+
+Koomen argues that most AI applications are "horseless carriages" -- they bolt AI into legacy interfaces rather than redesigning for what AI can do ([AI apps are broken -- here's how to fix them](https://www.ycombinator.com/library/MR-ai-apps-are-broken-here-s-how-to-fix-them)). The Gmail draft-writing feature illustrates the problem: the system prompt is hidden, generic, and produces output that sounds like no individual human. The fix is to expose and let users edit the system prompt -- shifting from one-size-fits-all software to user-programmable AI.
+
+Koomen frames this as a fundamental shift in software design. Traditional software required developers to synthesize all user needs into a common feature set. AI enables software the user can program using natural language. The developer's role shifts from writing all the business logic to building the tools (labeling, archiving, drafting, scheduling) that agents can call. See [[Design]] for more on the [[Vibe Coding]] implications.
+
+## The FDE Playbook for AI
+
+McGrew (former CRO of OpenAI, early Palantir executive) describes the forward-deployed engineer model as "doing things that don't scale at scale" ([The FDE playbook for AI startups](https://www.ycombinator.com/library/Mt-the-fde-playbook-for-ai-startups-with-bob-mcgrew)). At Palantir, FDEs went to customer sites and built gravel-road prototypes solving the customer's top-five priority problems. The product engineering team then paved those gravel roads into generalized product features.
+
+The model has two roles: Echo (embedded analyst with domain expertise who manages relationships and discovers use cases) and Delta (engineer who prototypes rapidly). McGrew emphasizes the Echo must be a "heretic" -- someone who knows the domain but recognizes its insufficiency. The Delta must be a rapid prototyper, not a craftsman. With AI agents, there is no incumbent product, which is why the FDE model is exploding: there is enormous product discovery to do. Over 100 YC startups now hire for "forward deployed engineer" roles, up from zero three years ago.
+
+## Will OpenAI Kill All Startups?
+
+Caldwell and Seibel address the fear that foundation model companies will capture all AI value ([Will OpenAI kill all startups?](https://www.ycombinator.com/library/Ie-dalton-michael-will-openai-kill-all-startups)). They dismiss the AGI debate as outside the scope of practical founder advice and instead draw on history: every major technology shift -- farming, electricity, the internet, mobile, cloud -- created more startup opportunities, not fewer. Startups are relatively advantaged versus incumbents during rapid shifts.
+
+They distinguish [[Company Culture|cargo culting]] AI (saying "we have AI" to raise money) from genuinely using AI to improve retention, quality, or willingness to pay. The latter is real and comparable to the mobile app shift that nearly killed Facebook when it moved too slowly. Seibel analogizes: "Uber was a consequence of the iPhone. Second-order effects like this from LLMs are going to be amazing."
+
+Two groups of founders are well-positioned: domain experts in ML who see predictions becoming reality, and tinkerers who embrace LLMs the way early iPhone jailbreakers embraced mobile. Founders motivated primarily by making money fast are not attracted to AI -- which Caldwell considers a positive signal. Until the large companies solve AGI (their primary goal), using existing tools to solve customer problems represents a vast opportunity they are not pursuing.
+
 ## Using AI Internally
 
 Every new startup should use LLMs internally regardless of whether AI is the product. An HOA management company in YC uses LLMs to make all operations more efficient ([How to use AI in your startup](https://www.ycombinator.com/library/M3-how-to-use-ai-in-your-startup)). Alstromer draws a parallel to the cloud migration of the early 2010s: legacy software rebuilt AI-native will be much better. Flora warns against superficial pivots: "Just switching your idea over to something that makes calls to OpenAI is not going to change your fate as a startup."
+
+Zepto (YC S21) illustrates AI-internal adoption at scale: the Indian quick-commerce company uses LLMs for automated customer support (over 50% of tickets resolved by generative chatbot), ad relevance engines trained on Llama, and supply chain forecasting -- all while the core product is grocery delivery, not AI ([How Zepto became India's fastest growing startup](https://www.ycombinator.com/library/ML-how-zepto-became-india-s-fastest-growing-startup)).
+
+## Contrarian Bets in AI
+
+The Lightcone hosts observe that the two-year window of obvious AI ideas is closing ([Unpopular ideas that became billion-dollar businesses](https://www.ycombinator.com/library/N0-unpopular-ideas-that-became-billion-dollar-businesses)). Taggar notes that finding vertical AI agent ideas is no longer as easy as "pick a workflow to automate" because multiple startups now compete in each vertical and no recent model release has created a step-function change. The next wave of winners will come from contrarian insights -- ideas that feel dangerous, seem to have a graveyard of predecessors, or require going deep into unsexy domains. DoorDash, Uber, and Coinbase all entered crowded, legally ambiguous spaces and won by making a contrarian bet the market rejected.
 
 ## Source Talks
 
@@ -89,3 +135,15 @@ Every new startup should use LLMs internally regardless of whether AI is the pro
 | [How to use AI in your startup](https://www.ycombinator.com/library/M3-how-to-use-ai-in-your-startup) | YC Partners | Every startup should use AI internally; cloud migration analogy |
 | [AI Revolution](https://www.ycombinator.com/library/M5-ai-revolution-why-this-is-the-best-time-to-start-a-startup) | YC Partners, Paul Buchheit | 10% week-on-week batch average; evals as moat; agency as force multiplier |
 | [How to get AI startup ideas](https://www.ycombinator.com/library/M8-how-to-get-ai-startup-ideas) | YC Partners | Look within, go undercover, follow outsourcing, shadow domain experts |
+| [The truth about building AI startups today](https://www.ycombinator.com/library/Kb-the-truth-about-building-ai-startups-today-lightcone-podcast-ep-1) | Lightcone hosts | AI tarpits, copilot-for-X trap, workflow automation as real opportunity |
+| [10 People + AI = Billion Dollar Company?](https://www.ycombinator.com/library/LD-10-people-ai-billion-dollar-company) | Lightcone hosts | Jevons Paradox; taste and craftsmanship matter more; learn to code |
+| [How AI is changing enterprise](https://www.ycombinator.com/library/MB-how-ai-is-changing-enterprise) | Aaron Levie | Enterprise wants outcomes not models; TAM expands 5x; intelligence cost to zero |
+| [The next breakthrough in AI agents is here](https://www.ycombinator.com/library/MM-the-next-breakthrough-in-ai-agents-is-here) | Gary Tan | Manus multi-agent system; wrapper debate; chain-of-thought injection |
+| [Windsurf CEO](https://www.ycombinator.com/library/MO-windsurf-ceo-betting-on-ai-agents-pivoting-in-48-hours-and-the-future-of-coding) | Varun Mohan | Weekend pivot; evals as hill to climb; moat as a verb |
+| [How AI coding agents will change your job](https://www.ycombinator.com/library/MP-how-ai-coding-agents-will-change-your-job) | Tom Blomfield, David Lieb | Software engineering jobs transform; best time to be a founder |
+| [AI apps are broken](https://www.ycombinator.com/library/MR-ai-apps-are-broken-here-s-how-to-fix-them) | Pete Koomen | Horseless carriage problem; expose system prompts; user-programmable AI |
+| [Cursor CEO](https://www.ycombinator.com/library/MU-cursor-ceo-going-beyond-code-superintelligent-ai-agents-and-why-taste-still-matters) | Michael Truell | Replace coding with something better; taste is irreplaceable; paid power users metric |
+| [The FDE playbook for AI startups](https://www.ycombinator.com/library/Mt-the-fde-playbook-for-ai-startups-with-bob-mcgrew) | Bob McGrew | FDE model from Palantir; Echo/Delta roles; doing things that don't scale at scale |
+| [How this 25-year-old built a $675M legal AI startup](https://www.ycombinator.com/library/Mq-how-this-25-year-old-built-a-675m-legal-ai-startup-with-no-legal-experience) | Max Junestrand | Legora: legal AI replacing fragmented point solutions; GPT-3.5 as catalyst |
+| [Unpopular ideas that became billion-dollar businesses](https://www.ycombinator.com/library/N0-unpopular-ideas-that-became-billion-dollar-businesses) | Lightcone hosts | Two-year window closing; contrarian bets required; DoorDash/Uber/Coinbase examples |
+| [Will OpenAI kill all startups?](https://www.ycombinator.com/library/Ie-dalton-michael-will-openai-kill-all-startups) | Dalton Caldwell, Michael Seibel | History of tech shifts; cargo culting vs. real AI; second-order effects |

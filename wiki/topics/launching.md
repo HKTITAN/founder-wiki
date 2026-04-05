@@ -5,7 +5,7 @@ created: 2026-04-05
 last_updated: 2026-04-05
 aliases: ["launching", "launch strategy", "how to launch", "launch again", "when to launch", "first launch"]
 related: ["[[Early-Stage Tactics]]", "[[Growth]]", "[[Product Development]]", "[[Product-Market Fit]]"]
-sources: ["6i-how-to-launch-again-and-again", "Ir-the-best-way-to-launch-your-startup", "6f-how-to-plan-an-mvp", "Is-tips-for-technical-startup-founders", "JL-how-to-start-a-startup-getting-started-getting-press-and-doing-things-that-don-t-scale", "J7-garry-tan-s-tips-for-applying-to-yc", "JE-founder-faq-how-did-you-get-your-first-customer", "LG-why-startup-founders-should-launch-companies-sooner-than-they-think", "Kg-building-confidence-in-yourself-and-your-ideas"]
+sources: ["6i-how-to-launch-again-and-again", "Ir-the-best-way-to-launch-your-startup", "6f-how-to-plan-an-mvp", "Is-tips-for-technical-startup-founders", "JL-how-to-start-a-startup-getting-started-getting-press-and-doing-things-that-don-t-scale", "J7-garry-tan-s-tips-for-applying-to-yc", "JE-founder-faq-how-did-you-get-your-first-customer", "LG-why-startup-founders-should-launch-companies-sooner-than-they-think", "Kg-building-confidence-in-yourself-and-your-ideas", "J0-inside-the-group-partner-lounge-when-to-launch-your-startup"]
 speakers_referenced: ["Kat Manalac", "Michael Seibel", "Diana Hu", "Stanley Tang", "Walker Williams", "Garry Tan", "Gustaf Alstromer", "Tom Blomfield", "Aaron Epstein", "Pete Koomen", "Dalton Caldwell"]
 ---
 
@@ -67,3 +67,4 @@ Garry Tan adds three rules: (1) show, don't tell -- mention real users, real pro
 | [Garry Tan's tips for applying to YC](https://www.ycombinator.com/library/J7-garry-tan-s-tips-for-applying-to-yc) | Garry Tan | Inverted pyramid; plain English; show don't tell |
 | [Why startup founders should launch sooner](https://www.ycombinator.com/library/LG-why-startup-founders-should-launch-companies-sooner-than-they-think) | YC Partners | Pop culture knowledge, launch to learn, peer pressure in YC batches |
 | [Building confidence in yourself and your ideas](https://www.ycombinator.com/library/Kg-building-confidence-in-yourself-and-your-ideas) | Dalton Caldwell, Michael Seibel | Low-effort pivots as non-launches, conviction building |
+| [When to launch your startup](https://www.ycombinator.com/library/J0-inside-the-group-partner-lounge-when-to-launch-your-startup) | Harj Taggar, Michael Seibel, Brad Flora | Founders optimize for imaginary Oscars; Instacart dirty MVP; waitlists are not launches |

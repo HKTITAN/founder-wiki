@@ -5,8 +5,8 @@ created: 2026-04-05
 last_updated: 2026-04-05
 aliases: ["pivoting", "pivot", "changing ideas", "when to pivot", "how to pivot"]
 related: ["[[Startup Ideas]]", "[[Product-Market Fit]]", "[[Founder Mindset]]", "[[Early-Stage Tactics]]"]
-sources: ["6p-all-about-pivoting", "8g-how-to-get-startup-ideas", "Iy-yc-s-group-partners-share-their-favorite-pivot-stories", "NA-from-pivot-hell-to-1-4-billion-unicorn", "M2-how-to-build-the-future-parker-conrad"]
-speakers_referenced: ["Dalton Caldwell", "Jared Friedman", "Harj Taggar", "Michael Seibel", "Gustaf Alstromer", "Tom Blomfield", "Brad Flora", "Aaron Epstein"]
+sources: ["6p-all-about-pivoting", "8g-how-to-get-startup-ideas", "Iy-yc-s-group-partners-share-their-favorite-pivot-stories", "NA-from-pivot-hell-to-1-4-billion-unicorn", "M2-how-to-build-the-future-parker-conrad", "MO-windsurf-ceo-betting-on-ai-agents-pivoting-in-48-hours-and-the-future-of-coding", "MU-cursor-ceo-going-beyond-code-superintelligent-ai-agents-and-why-taste-still-matters"]
+speakers_referenced: ["Dalton Caldwell", "Jared Friedman", "Harj Taggar", "Michael Seibel", "Gustaf Alstromer", "Tom Blomfield", "Brad Flora", "Aaron Epstein", "Varun Mohan", "Michael Truell"]
 ---
 
 # Pivoting
@@ -68,6 +68,16 @@ Friedman describes "pivot hell" -- changing to a completely new idea every singl
 
 Epstein frames the basketball-pivot analogy: "When you pivot you have to keep one foot stationary." You may change the audience or the product, but ideally you build on learnings from prior ideas rather than starting from zero each time.
 
+## AI-Era Pivots
+
+The AI era has produced several notable pivot stories with distinctive characteristics.
+
+**Windsurf.** Varun Mohan pivoted from GPU virtualization (Exofunction) to AI coding (Codium/Windsurf) over a single weekend with eight employees and $28M raised ([Windsurf CEO](https://www.ycombinator.com/library/MO-windsurf-ceo-betting-on-ai-agents-pivoting-in-48-hours-and-the-future-of-coding)). The company was making a few million in revenue and was free-cash-flow positive, but Mohan saw that the Transformer architecture would commoditize their GPU infrastructure business. He picked coding because the entire team was excited about it -- even though dev tools historically had poor outcomes. "When you have no other options, it's a very easy decision. You're going to be a zero with a high probability anyways." Mohan describes the mindset required: "irrational optimism" to pursue something new combined with "uncompromising realism" to recognize that the current path is dead.
+
+**Cursor.** Truell and co-founders pivoted from a CAD co-pilot to coding after nine months ([Cursor CEO](https://www.ycombinator.com/library/MU-cursor-ceo-going-beyond-code-superintelligent-ai-agents-and-why-taste-still-matters)). The CAD work was technically interesting but the science was not ready and they were not personally passionate about mechanical engineering. "Building a company's hard and so you may as well work on the thing that you're really excited about." The false start was not wasted: they learned model training at scale, inference infrastructure, and data scraping -- all of which became core Cursor capabilities.
+
+Both stories illustrate a pattern: prior technical work compounds into the new direction even when the product is entirely different.
+
 ## Source Talks
 
 | Source | Speaker | Key Point |
@@ -77,3 +87,5 @@ Epstein frames the basketball-pivot analogy: "When you pivot you have to keep on
 | [Pivot stories](https://www.ycombinator.com/library/Iy-yc-s-group-partners-share-their-favorite-pivot-stories) | Multiple GPs | Brex, GOAT, GoCardless, Clipboard Health, pivot hell |
 | [From pivot hell to $1.4 billion unicorn](https://www.ycombinator.com/library/NA-from-pivot-hell-to-1-4-billion-unicorn) | James Hawkins | Six months of pivots; PostHog born from pivot pain; full-gas execution |
 | [How to build the future: Parker Conrad](https://www.ycombinator.com/library/M2-how-to-build-the-future-parker-conrad) | Parker Conrad | Seven years of failure; if it's not working give up immediately |
+| [Windsurf CEO](https://www.ycombinator.com/library/MO-windsurf-ceo-betting-on-ai-agents-pivoting-in-48-hours-and-the-future-of-coding) | Varun Mohan | Weekend pivot; irrational optimism + uncompromising realism |
+| [Cursor CEO](https://www.ycombinator.com/library/MU-cursor-ceo-going-beyond-code-superintelligent-ai-agents-and-why-taste-still-matters) | Michael Truell | CAD to coding; prior work compounds; work on what excites you |
