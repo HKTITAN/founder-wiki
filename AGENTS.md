@@ -434,6 +434,7 @@ From feedback during build:
 - **Only one citation section per article.** Use `## References` with `[1]` footnotes. Never create a `## Source Talks` table alongside. If both exist, merge into References only.
 - **Every article must have a `last_updated` frontmatter field** set to the date of the most recent edit. The viewer uses this to show "Last edited" timestamps. This is updated every time the article is modified.
 - **Version history is tracked via git.** Every commit to wiki/ is a version. The viewer can reconstruct history from git log for any article path.
+- **Co-speakers share sources.** When a video features multiple speakers (e.g., "Dalton & Michael"), ALL speakers' pages must list that video in their sources. If Dalton's page has a D&M video, Michael's page must too. The Phase 3 propagation pass must check for this.
 - **Viewer must be fully dynamic** — no hardcoded article lists, categories, or slugs. Everything renders from the data. New articles automatically appear everywhere.
 
 ## Source Material
