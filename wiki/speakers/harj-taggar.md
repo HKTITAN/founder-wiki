@@ -38,13 +38,6 @@ His advice against exploding offers and for expiring signing bonuses as a softer
 - **Closing with the whole team**: Everyone who met the candidate sends follow-up emails with specific reasons; involve investors at early stage [1]
 - **Four arguments against big companies**: Learning, career progression, opportunity cost, mentorship [1]
 
-## Source Inventory
-
-| Source | Type | Key Contribution |
-|--------|------|-----------------|
-| [How to Hire Your First Engineer](https://www.ycombinator.com/library/4H-how-to-hire-your-first-engineer) | Post | Ranked hiring channels for early-stage startups |
-| [Convincing Engineers to Join Your Team](https://www.ycombinator.com/library/4G-convincing-engineers-to-join-your-team) | Post | Complete guide to offer presentation, closing, and competing with big companies |
-
 ## References
 
 1. [Convincing Engineers to Join Your Team](https://www.ycombinator.com/library/4G-convincing-engineers-to-join-your-team) — Harj Taggar (July 2018)

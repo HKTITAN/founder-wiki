@@ -38,12 +38,6 @@ Resist taking credit during up cycles. Message to the team: the industry works i
 
 King's perspective is shaped by building a company in the mortgage industry — a sector defined by dramatic cyclicality driven by interest rates and economic conditions. Most startup advice assumes continuous growth; King's experience provides a rare lens on how to build through contraction and expansion. His advice on hiring (be fearless about recruiting talented people into risky startups) and on transparency (share cash balance, growth rate, burn, and biggest challenges with the entire team) reflect someone who learned by doing rather than theorizing.
 
-## Source Inventory
-
-| Source | Key Contribution |
-|--------|-----------------|
-| [Snapdocs' Aaron King on Navigating Market Cycles](https://www.ycombinator.com/library/Gu-snapdocs-aaron-king-on-navigating-market-cycles) (2022) | Capital efficiency, hiring under constraints, navigating market cycles, COVID pivot, effectiveness vs. efficiency |
-
 ## References
 
 1. [Snapdocs' Aaron King on Navigating Market Cycles](https://www.ycombinator.com/library/Gu-snapdocs-aaron-king-on-navigating-market-cycles) — Aaron King, Lindsay Amos (2022)

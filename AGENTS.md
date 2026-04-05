@@ -52,7 +52,7 @@ People pages are not optional routing stubs. They are **first-class nodes in the
 - **Their distinct perspective**: how their advice differs from or complements others. What makes their lens unique.
 - **Key frameworks they use**: named models, recurring metaphors, diagnostic questions they teach.
 - **Backlinks**: auto-generated list of every wiki article that references them. This makes the person page a natural hub for "what has X said about everything?"
-- **Source inventory**: which raw entries feature this person as a speaker or author.
+- **References**: which raw entries feature this person as a speaker or author, in the standard numbered References format.
 
 People pages are enrichable over time — a person's background, career trajectory, external writing, and podcast appearances can all be layered in as new sources are added. The page is a living profile of how this person thinks about startups.
 
@@ -223,6 +223,20 @@ Audit and enrich existing articles:
 - Any stubs that should be enriched or merged?
 - Any people referenced in 3+ articles who lack a person page?
 
+### Lint
+
+Periodic maintenance pass that scans all articles for quality issues and fixes them. Run after every major absorption batch; can also be triggered manually.
+
+Checks and fixes:
+- **Duplicate citation sections** (Source Talks + References, or Source Inventory + References) -- merge into a single `## References` section
+- **Too many images** (>5 per article) -- curate down to 3-5 most informative
+- **Dead wikilinks** -- create stub pages if enough material exists, or rewrite as plain text
+- **Missing dates in References entries** -- fill in from raw source frontmatter or URL metadata
+- **Articles over 200 lines that should be split** -- identify natural sub-topics and extract into their own pages
+- **Orphan pages with no inbound links** -- add wikilinks from related articles or flag for review
+- **Speaker pages missing for people referenced in 3+ articles** -- create the page
+- **Stale `last_updated` timestamps** -- update to reflect the most recent actual edit date
+
 ### Breakdown
 
 Find and create missing articles:
@@ -280,11 +294,10 @@ speakers_referenced: ["Dalton Caldwell", "Michael Seibel"]
 
 ## Sections as needed
 
-## Source Talks
+## References
 
-| Source | Speaker | Key Point |
-|--------|---------|-----------|
-| source-slug | Speaker Name | One-line summary of what this source contributed |
+1. [Source Title](URL) — Speaker Name (Month Year)
+2. [Source Title](URL) — Speaker Name (Month Year)
 ```
 
 ### Key Principles
@@ -294,7 +307,7 @@ speakers_referenced: ["Dalton Caldwell", "Michael Seibel"]
 - Use **attributed synthesis**: weave multiple speakers' views into one coherent article. Don't just list "Speaker A says X, Speaker B says Y." Show how the perspectives build on, complement, or contradict each other.
 - Use `[[wikilinks]]` for all cross-references between articles — including person pages.
 - **Aliases in frontmatter are critical** — this is how queries match to articles.
-- Every article must have a Source Talks table listing which raw entries contributed.
+- Every article must have a References section listing which raw entries contributed.
 - Don't create one article per video/post. Synthesize across sources.
 
 ### Structure by Article Type
@@ -304,7 +317,7 @@ speakers_referenced: ["Dalton Caldwell", "Michael Seibel"]
 | topic | Thematic sections (definition, common mistakes, practical advice, related frameworks) |
 | framework | The model itself, how to apply it, examples, limitations |
 | stage | What to focus on, common mistakes, how to know you're ready to move on |
-| speaker | Worldview, distinct perspective, key frameworks, source inventory |
+| speaker | Worldview, distinct perspective, key frameworks, references |
 | series | What the series covers, structure, key topics touched |
 | (new types) | Whatever organization the data demands |
 

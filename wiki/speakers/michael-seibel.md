@@ -38,16 +38,6 @@ Seibel is also unusually direct about the costs of different career paths. His [
 - **Three Paths in Tech**: Founder, executive, and employee, each with distinct strategies and trade-offs [5].
 - **Founder Prerequisites**: Teammates with technical skills, financial plan, passionate problem, and an idea (in roughly that order of importance) [5].
 
-## Source Inventory
-
-| Source | Type | Key Contribution |
-|--------|------|-----------------|
-| [Guide to Product Development](https://www.ycombinator.com/library/4e-guide-to-product-development) | Post | Complete product development cycle process from Socialcam |
-| [Getting Press for Your Startup](https://www.ycombinator.com/library/4c-getting-press-for-your-startup) | Post | PR-as-biz-dev framework with four-step process |
-| [A Letter to College Students](https://www.ycombinator.com/library/4d-a-letter-to-college-students) | Post | Advice on preparing for entrepreneurship during college |
-| [Three Paths in the Tech Industry](https://www.ycombinator.com/library/4h-three-paths-in-the-tech-industry-founder-executive-or-employee) | Post | Career path framework with strategies for each |
-| [YC's Essential Startup Advice](https://www.ycombinator.com/library/4D-yc-s-essential-startup-advice) | Post | Referenced for customer selection and product-market fit insights |
-
 ## References
 
 1. [Guide to Product Development](https://www.ycombinator.com/library/4e-guide-to-product-development) — Michael Seibel (August 2016)
