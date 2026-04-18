@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Founder Wiki</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta property="og:title" content="Founder Wiki — The Compiled Startup Knowledge Base">
+<meta property="og:description" content="YC's entire library — videos, essays, founder interviews — compiled into a structured wiki any AI agent can query. Grounded, cited, and interlinked.">
+<meta property="og:image" content="og-image.svg">
+<meta property="og:url" content="https://founderwiki.co">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Founder Wiki — The Compiled Startup Knowledge Base">
+<meta name="twitter:description" content="YC's entire library — videos, essays, founder interviews — compiled into a structured wiki any AI agent can query.">
+<meta name="twitter:image" content="og-image.svg">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    background: #f6f6f6;
+    color: #202122;
+    line-height: 1.6;
+    font-size: 14px;
+  }
+
+  a { color: #36c; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* Header — aligned with content width */
+  .site-header {
+    background: #fff;
+    border-bottom: 1px solid #a7d7f9;
+    padding: 6px 0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .site-header-bg {
+    background: #fff;
+    border-bottom: 1px solid #a7d7f9;
+  }
+
+  .site-logo {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    cursor: pointer;
+    font-variant: small-caps;
+    letter-spacing: 0.5px;
+  }
+  .site-logo span { color: #36c; }
+  .site-tagline { font-size: 11px; color: #54595d; font-style: italic; }
+
+  .search-bar { margin-left: auto; position: relative; }
+  .search-bar input {
+    padding: 5px 10px;
+    border: 1px solid #a2a9b1;
+    border-radius: 2px;
+    font-size: 13px;
+    width: 260px;
+  }
+  .search-bar input:focus { border-color: #36c; outline: none; }
+
+  .search-results {
+    position: absolute; top: 100%; left: 0; right: 0;
+    background: #fff; border: 1px solid #a2a9b1; border-top: none;
+    max-height: 300px; overflow-y: auto; z-index: 100; display: none;
+  }
+  .search-results.active { display: block; }
+  .search-result-item { padding: 6px 10px; cursor: pointer; border-bottom: 1px solid #f0f0f0; }
+  .search-result-item:hover { background: #eaf3ff; }
+  .search-result-item .sr-title { font-weight: 600; font-size: 13px; }
+  .search-result-item .sr-aliases { font-size: 11px; color: #72777d; }
+
+  /* Layout */
+  .layout { display: flex; max-width: 1400px; margin: 0 auto; }
+
+  /* Sidebar */
+  .sidebar {
+    width: 200px; min-width: 200px;
+    background: #f8f9fa; border-right: 1px solid #eaecf0;
+    min-height: calc(100vh - 40px); padding: 12px 0; font-size: 13px;
+  }
+  .sidebar h3 {
+    font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;
+    color: #54595d; padding: 10px 14px 3px; margin-top: 4px; font-weight: 700;
+  }
+  .sidebar a {
+    display: block; padding: 2px 14px; color: #36c; font-size: 13px; line-height: 1.8;
+  }
+  .sidebar a:hover { background: #eaf3ff; text-decoration: none; }
+  .sidebar a.active { background: #eaf3ff; font-weight: 600; }
+  .sidebar .nav-label { display: block; padding: 10px 14px 3px; font-size: 11px; color: #72777d; font-weight: 700; text-transform: uppercase; }
+
+  /* Content */
+  .content {
+    flex: 1; background: #fff; padding: 20px 28px; min-height: calc(100vh - 40px);
+  }
+
+  .content h1 {
+    font-size: 26px; font-weight: 400; border-bottom: 1px solid #a2a9b1;
+    padding-bottom: 2px; margin-bottom: 12px; font-family: 'Linux Libertine', Georgia, serif;
+  }
+  .content h2 {
+    font-size: 19px; font-weight: 400; border-bottom: 1px solid #eaecf0;
+    padding-bottom: 2px; margin: 20px 0 8px; font-family: 'Linux Libertine', Georgia, serif;
+  }
+  .content h3 { font-size: 15px; font-weight: 600; margin: 14px 0 6px; }
+  .content p { margin-bottom: 10px; }
+  .content ul, .content ol { margin: 8px 0 12px 24px; }
+  .content li { margin-bottom: 4px; }
+  .content blockquote { border-left: 3px solid #c8ccd1; padding: 4px 12px; margin: 8px 0; color: #54595d; }
+  .content strong { font-weight: 600; }
+
+  /* Images — Wikipedia-style thumbnail */
+  .content img {
+    max-width: 220px;
+    height: auto;
+    border: 1px solid #c8ccd1;
+    padding: 2px;
+    background: #fff;
+  }
+
+  .wiki-thumb {
+    float: right;
+    clear: right;
+    margin: 4px 0 8px 16px;
+    max-width: 240px;
+    background: #f8f9fa;
+    border: 1px solid #c8ccd1;
+    padding: 4px;
+    font-size: 12px;
+  }
+  .wiki-thumb.thumb-left {
+    float: left;
+    margin: 4px 16px 8px 0;
+  }
+  .wiki-thumb img {
+    max-width: 100%;
+    height: auto;
+    border: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+  }
+  .wiki-thumb .thumb-caption {
+    font-size: 11px;
+    color: #54595d;
+    padding: 3px 2px 1px;
+    line-height: 1.3;
+  }
+
+  /* Tables — Wikipedia style */
+  .content table {
+    border-collapse: collapse; margin: 12px 0; font-size: 13px; width: 100%;
+  }
+  .content th {
+    background: #eaecf0; border: 1px solid #a2a9b1; padding: 6px 10px;
+    text-align: left; font-weight: 600;
+  }
+  .content td {
+    border: 1px solid #c8ccd1; padding: 6px 10px; vertical-align: top;
+  }
+  .content tr:nth-child(even) td { background: #f8f9fa; }
+
+  /* Article meta line */
+  .article-meta-line {
+    font-size: 12px; color: #72777d; margin-bottom: 12px; padding-bottom: 8px;
+    border-bottom: 1px solid #eaecf0;
+  }
+  .article-meta-line .meta-type {
+    background: #eaecf0; color: #202122; padding: 1px 6px; border-radius: 2px;
+    font-size: 11px; margin-right: 6px;
+  }
+
+  /* TOC — Wikipedia style */
+  .toc-box {
+    background: #f8f9fa; border: 1px solid #a2a9b1; padding: 10px 14px;
+    margin: 0 0 16px 0; display: inline-block; min-width: 200px; max-width: 320px;
+    font-size: 13px;
+  }
+  .toc-box .toc-title {
+    font-weight: 700; font-size: 13px; text-align: center; margin-bottom: 6px;
+  }
+  .toc-box ol { margin: 0; padding-left: 20px; }
+  .toc-box li { margin: 2px 0; }
+  .toc-box a { color: #36c; }
+
+  /* Backlinks section */
+  .backlinks {
+    background: #f8f9fa; border: 1px solid #eaecf0; padding: 10px 14px;
+    margin-top: 20px; font-size: 13px;
+  }
+  .backlinks h3 { font-size: 13px; margin-bottom: 6px; color: #54595d; border: none; }
+  .backlinks a { margin-right: 12px; }
+
+  /* Footnote superscripts */
+  .footnote-ref {
+    font-size: 0.75em;
+    vertical-align: super;
+    line-height: 0;
+    color: #36c;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .footnote-ref:hover { text-decoration: underline; }
+
+  /* Home page */
+  .home-welcome {
+    background: #f8f9fa; border: 1px solid #a2a9b1; padding: 16px 20px; margin-bottom: 20px;
+  }
+  .home-welcome h2 { border: none; margin: 0 0 8px; font-size: 20px; }
+  .home-welcome p { margin-bottom: 6px; font-size: 14px; }
+  .home-welcome .home-stats { font-size: 13px; color: #54595d; margin-top: 8px; }
+
+  .category-section { margin-bottom: 20px; }
+  .category-section h2 {
+    background: #dde8f0; padding: 6px 12px; margin: 0 0 1px;
+    font-size: 15px; font-weight: 600; border: 1px solid #a2a9b1; border-bottom: none;
+    font-family: -apple-system, sans-serif;
+  }
+  .category-list {
+    border: 1px solid #a2a9b1; padding: 10px 14px; background: #fff;
+  }
+  .category-list ul { list-style: none; padding: 0; margin: 0; }
+  .category-list li {
+    display: inline; font-size: 13px;
+  }
+  .category-list li:after { content: " · "; color: #a2a9b1; }
+  .category-list li:last-child:after { content: ""; }
+  .category-list .item-type { color: #72777d; font-size: 12px; }
+
+  .home-columns { display: flex; gap: 20px; }
+  .home-col { flex: 1; }
+
+  @media (max-width: 768px) {
+    .sidebar { display: none; }
+    .search-bar input { width: 160px; }
+    .home-columns { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+
+<div class="site-header-bg">
+<header class="site-header">
+  <a class="site-logo" onclick="showHome()">Founder<span>Wiki</span></a>
+  <span class="site-tagline">The compiled startup knowledge base</span>
+  <div class="search-bar">
+    <input type="text" id="search" placeholder="Search founder wiki..." oninput="onSearch(this.value)" onfocus="onSearch(this.value)">
+    <div class="search-results" id="searchResults"></div>
+  </div>
+</header>
+</div>
+
+<div class="layout">
+  <nav class="sidebar" id="sidebar"></nav>
+  <main class="content" id="content"></main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+const ARTICLES = {};
+const ARTICLE_LIST = [];
+
+// Wikilink handling — supports [[Name]] and [[Slug|Display Name]]
+function processWikilinks(html) {
+  return html.replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, (m, target, display) => {
+    const slug = target.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    return `<a href="#" onclick="navigateTo('${slug}'); return false;">${display}</a>`;
+  }).replace(/\[\[([^\]]+)\]\]/g, (m, name) => {
+    const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    return `<a href="#" onclick="navigateTo('${slug}'); return false;">${name}</a>`;
+  });
+}
+
+// Compute backlinks for an article
+function getBacklinks(slug) {
+  const links = [];
+  ARTICLE_LIST.forEach(a => {
+    if (a.slug === slug) return;
+    // Check if this article's body contains a wikilink to our article
+    const titlePattern = ARTICLES[slug]?.title;
+    if (!titlePattern) return;
+    const body = a.body || '';
+    if (body.includes(`[[${titlePattern}]]`) || body.includes(`[[${titlePattern}|`)) {
+      links.push(a);
+    }
+  });
+  return links;
+}
+
+async function loadArticles() {
+  try {
+    const resp = await fetch('articles.json');
+    const data = await resp.json();
+    data.forEach(a => { ARTICLES[a.slug] = a; ARTICLE_LIST.push(a); });
+  } catch(e) { console.error('Failed to load articles.json', e); }
+  buildSidebar();
+  showHome();
+  handleInitialRoute();
+}
+
+function buildSidebar() {
+  const sidebar = document.getElementById('sidebar');
+
+  // Fully dynamic — group by directory type
+  const dirLabels = {
+    'topics': 'Topics',
+    'frameworks': 'Frameworks',
+    'case-studies': 'Case Studies',
+    'speakers': 'People',
+    'industries': 'Industries',
+  };
+
+  const groups = {};
+  ARTICLE_LIST.forEach(a => {
+    const dir = a.dir || 'other';
+    if (!groups[dir]) groups[dir] = [];
+    groups[dir].push(a);
+  });
+
+  let html = '<span class="nav-label">Navigation</span>';
+  html += `<a href="#" onclick="showHome(); return false;">Main page</a>`;
+
+  const order = ['topics', 'frameworks', 'case-studies', 'speakers', 'industries'];
+  // Include any dirs not in the predefined order
+  Object.keys(groups).forEach(d => { if (!order.includes(d)) order.push(d); });
+
+  order.forEach(dir => {
+    if (!groups[dir] || !groups[dir].length) return;
+    const label = dirLabels[dir] || dir.charAt(0).toUpperCase() + dir.slice(1);
+    html += `<h3>${label}</h3>`;
+    groups[dir].sort((a,b) => (a.title||'').localeCompare(b.title||''));
+    groups[dir].forEach(a => {
+      html += `<a href="#" onclick="navigateTo('${a.slug}'); return false;">${a.title}</a>`;
+    });
+  });
+
+  sidebar.innerHTML = html;
+}
+
+function showHome(fromPopState) {
+  if (!fromPopState) {
+    const url = new URL(window.location);
+    url.searchParams.delete('article');
+    history.pushState({}, 'Founder Wiki', url.toString());
+  }
+  document.title = 'Founder Wiki';
+  const content = document.getElementById('content');
+
+  // Dynamically group ALL articles by directory
+  const groups = {};
+  ARTICLE_LIST.forEach(a => {
+    const dir = a.dir || 'other';
+    if (!groups[dir]) groups[dir] = [];
+    groups[dir].push(a);
+  });
+
+  const dirMeta = {
+    'topics': { label: 'Topics', desc: 'Core concepts synthesized from multiple sources' },
+    'frameworks': { label: 'Frameworks & Mental Models', desc: 'Named decision frameworks and mental models' },
+    'case-studies': { label: 'Case Studies', desc: 'Deep dives on specific companies and their strategies' },
+    'speakers': { label: 'People', desc: 'Key contributors and their distinct perspectives' },
+    'industries': { label: 'Industries', desc: 'Industry-specific guidance' },
+  };
+
+  const topics = groups['topics'] || [];
+  const speakers = groups['speakers'] || [];
+  const frameworks = groups['frameworks'] || [];
+  const caseStudies = groups['case-studies'] || [];
+
+  let html = `
+    <h1>Founder Wiki</h1>
+    <div class="home-welcome">
+      <h2>Welcome to Founder Wiki</h2>
+      <p>A compiled knowledge base of startup and founder wisdom, built from Y Combinator's library of essays, lectures, and founder stories using the <a href="https://x.com/karpathy/status/2039805659525644595" target="_blank">LLM Knowledge Base pattern</a>.</p>
+      <p>Articles synthesize advice from multiple sources into concept-centric pages with citations and cross-references. Every claim links back to its source.</p>
+      <div class="home-stats">
+        <span><strong>${ARTICLE_LIST.length}</strong> articles</span>
+        <span><strong>${topics.length}</strong> topics</span>
+        <span><strong>${speakers.length}</strong> people</span>
+        <span><strong>${frameworks.length}</strong> frameworks</span>
+        <span><strong>${caseStudies.length}</strong> case studies</span>
+      </div>
+    </div>
+  `;
+
+  // Render each directory group
+  const order = ['topics', 'frameworks', 'case-studies', 'speakers', 'industries'];
+  Object.keys(groups).forEach(d => { if (!order.includes(d)) order.push(d); });
+
+  html += '<div class="home-columns"><div class="home-col">';
+  let colSwitch = Math.ceil(order.filter(d => groups[d]?.length).length / 2);
+  let catCount = 0;
+
+  order.forEach(dir => {
+    if (!groups[dir] || !groups[dir].length) return;
+    catCount++;
+    if (catCount === colSwitch + 1) html += '</div><div class="home-col">';
+
+    const meta = dirMeta[dir] || { label: dir.charAt(0).toUpperCase() + dir.slice(1), desc: '' };
+    html += `<div class="category-section">`;
+    html += `<h2>${meta.label}</h2>`;
+    html += `<div class="category-list"><ul>`;
+
+    groups[dir].sort((a,b) => (a.title||'').localeCompare(b.title||''));
+    groups[dir].forEach(a => {
+      const srcCount = Array.isArray(a.sources) ? a.sources.length : 0;
+      const srcLabel = srcCount > 0 ? ` <span class="item-type">${srcCount} sources</span>` : '';
+      html += `<li><a href="#" onclick="navigateTo('${a.slug}'); return false;">${a.title}</a>${srcLabel}</li>`;
+    });
+
+    html += `</ul></div></div>`;
+  });
+
+  html += '</div></div>';
+  content.innerHTML = html;
+  document.querySelectorAll('.sidebar a').forEach(a => a.classList.remove('active'));
+}
+
+// Handle initial load from URL query param
+function handleInitialRoute() {
+  const params = new URLSearchParams(window.location.search);
+  const slug = params.get('article');
+  if (slug && ARTICLES[slug]) {
+    navigateTo(slug);
+  }
+}
+
+function navigateTo(slug, fromPopState) {
+  const article = ARTICLES[slug];
+  if (!article) { console.warn('Article not found:', slug); return; }
+
+  // Push browser history with query param (works with real page reload)
+  if (!fromPopState) {
+    const url = new URL(window.location);
+    url.searchParams.set('article', slug);
+    history.pushState({ slug }, article.title, url.toString());
+  }
+  document.title = `${article.title} — Founder Wiki`;
+
+  // Article meta line
+  let metaLine = '<div class="article-meta-line">';
+  if (article.type) metaLine += `<span class="meta-type">${article.type}</span>`;
+  if (article.speakers_referenced) {
+    const speakers = Array.isArray(article.speakers_referenced) ? article.speakers_referenced : [article.speakers_referenced];
+    metaLine += `Contributors: ${speakers.join(', ')}`;
+  }
+  if (article.originated_by) metaLine += `Originated by: ${article.originated_by}`;
+  // Last edited timestamp with GitHub version history link
+  const lastUpdated = article.last_updated || article.created || '';
+  if (lastUpdated) {
+    // Construct the GitHub history URL for this article's file
+    const filePath = `wiki/${article.dir}/${article.slug}.md`;
+    const ghHistoryUrl = `https://github.com/VishalRohra/founder-wiki/commits/main/${filePath}`;
+    metaLine += `<span style="float:right; font-size:11px; color:#72777d;">Last edited: <a href="${ghHistoryUrl}" target="_blank" style="color:#72777d;">${lastUpdated}</a></span>`;
+  }
+  metaLine += '</div>';
+
+  // Build TOC from h2 headers — Wikipedia style
+  const h2s = article.body.match(/^## .+$/gm) || [];
+  let toc = '';
+  if (h2s.length > 1) {
+    toc = '<div class="toc-box"><div class="toc-title">Contents</div><ol>';
+    h2s.forEach((h, i) => {
+      const text = h.replace('## ', '');
+      const id = text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+      toc += `<li><a href="#${id}">${text}</a></li>`;
+    });
+    toc += '</ol></div>';
+  }
+
+  // Render markdown
+  let rendered = marked.parse(article.body);
+  rendered = processWikilinks(rendered);
+
+  // Convert [1] footnote markers to superscript links (only in body, not in References section)
+  const refsSplit = rendered.split(/<h2[^>]*>References<\/h2>/i);
+  if (refsSplit.length === 2) {
+    let body = refsSplit[0];
+    let refs = refsSplit[1];
+    // Superscript footnotes in body only
+    body = body.replace(/\[(\d+)\]/g, (m, num) => {
+      return `<a class="footnote-ref" href="#ref-${num}" onclick="event.preventDefault(); document.getElementById('ref-${num}')?.scrollIntoView({behavior:'smooth', block:'center'})">[${num}]</a>`;
+    });
+    // Add anchor IDs to reference list items
+    refs = refs.replace(/<li>\s*(\d+)\./g, (m, num) => {
+      return `<li id="ref-${num}">${num}.`;
+    });
+    // Also handle <p>1. format (when marked renders as paragraphs not list)
+    refs = refs.replace(/<p>(\d+)\.\s/g, (m, num) => {
+      return `<p id="ref-${num}">${num}. `;
+    });
+    rendered = body + '<h2 id="references">References</h2>' + refs;
+  } else {
+    // No References section found — still convert footnotes
+    rendered = rendered.replace(/\[(\d+)\]/g, (m, num) => {
+      return `<a class="footnote-ref" href="#ref-${num}" onclick="event.preventDefault(); document.getElementById('ref-${num}')?.scrollIntoView({behavior:'smooth', block:'center'})">[${num}]</a>`;
+    });
+  }
+
+  // Add IDs to h2 for TOC linking
+  rendered = rendered.replace(/<h2>(.*?)<\/h2>/g, (m, text) => {
+    const cleanText = text.replace(/<[^>]+>/g, '');
+    const id = cleanText.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    return `<h2 id="${id}">${text}</h2>`;
+  });
+
+  // Backlinks
+  const backlinks = getBacklinks(slug);
+  let blHtml = '';
+  if (backlinks.length) {
+    blHtml = '<div class="backlinks"><h3>Pages that link here</h3>';
+    backlinks.forEach(b => {
+      blHtml += `<a href="#" onclick="navigateTo('${b.slug}'); return false;">${b.title}</a>`;
+    });
+    blHtml += '</div>';
+  }
+
+  // Wrap images in Wikipedia-style thumb containers (float right, like Wikipedia)
+  const tempDiv = document.createElement('div');
+  tempDiv.innerHTML = metaLine + toc + rendered + blHtml;
+  const imgs = tempDiv.querySelectorAll('img');
+  imgs.forEach((img) => {
+    const alt = img.getAttribute('alt') || '';
+    const wrapper = document.createElement('div');
+    wrapper.className = 'wiki-thumb';
+    const caption = document.createElement('div');
+    caption.className = 'thumb-caption';
+    caption.textContent = alt;
+    img.parentNode.insertBefore(wrapper, img);
+    wrapper.appendChild(img);
+    if (alt) wrapper.appendChild(caption);
+  });
+
+  document.getElementById('content').innerHTML = tempDiv.innerHTML;
+
+  // Highlight active sidebar item
+  document.querySelectorAll('.sidebar a').forEach(a => {
+    a.classList.toggle('active', a.textContent === article.title);
+  });
+
+  document.getElementById('searchResults').classList.remove('active');
+  document.getElementById('search').value = '';
+  window.scrollTo(0, 0);
+}
+
+function onSearch(query) {
+  const results = document.getElementById('searchResults');
+  if (!query || query.length < 2) { results.classList.remove('active'); return; }
+
+  const q = query.toLowerCase();
+  const matches = ARTICLE_LIST.filter(a => {
+    if ((a.title || '').toLowerCase().includes(q)) return true;
+    const aliases = Array.isArray(a.aliases) ? a.aliases : [];
+    if (aliases.some(al => al.toLowerCase().includes(q))) return true;
+    // Also search body text
+    if ((a.body || '').toLowerCase().includes(q)) return true;
+    return false;
+  });
+
+  if (!matches.length) { results.classList.remove('active'); return; }
+
+  results.innerHTML = matches.slice(0, 8).map(a => {
+    const aliases = Array.isArray(a.aliases) ? a.aliases.slice(0, 4).join(', ') : '';
+    return `<div class="search-result-item" onclick="navigateTo('${a.slug}')">
+      <div class="sr-title">${a.title}</div>
+      <div class="sr-aliases">${aliases}</div>
+    </div>`;
+  }).join('');
+  results.classList.add('active');
+}
+
+document.addEventListener('click', e => {
+  if (!e.target.closest('.search-bar')) {
+    document.getElementById('searchResults').classList.remove('active');
+  }
+});
+
+// Browser history support — back/forward buttons work
+window.addEventListener('popstate', (e) => {
+  if (e.state && e.state.slug) {
+    navigateTo(e.state.slug, true); // true = don't push state again
+  } else {
+    showHome(true);
+  }
+});
+
+loadArticles();
+</script>
+</body>
+</html>
