@@ -2,11 +2,11 @@
 title: Startup Leadership
 type: topic
 created: 2026-04-05
-last_updated: 2026-04-05
-aliases: ["leadership", "measuring leadership", "CEO leadership", "building trust", "leadership traits", "how to lead"]
-related: ["[[Three Traits of Great Leadership]]", "[[Mission-to-Metrics Framework]]", "[[Startup Management]]", "[[Board Management]]", "[[Ali Rowghani]]", "[[Diane Greene]]"]
-sources: ["3j-how-to-measure-leadership", "3k-the-second-job-of-a-startup-ceo", "6S-on-starting-and-scaling-dropbox-yc-w07", "6M-on-starting-and-scaling-indian-shopping-site-meesho", "6I-on-starting-and-scaling-recruiting-software-startup-lever", "M2-how-to-build-the-future-parker-conrad"]
-speakers_referenced: ["Ali Rowghani", "Ed Catmull", "Steve Jobs", "Jeff Bezos", "Tobi Lütke", "Patrick Collison", "David Rusenko", "Drew Houston", "Vidit Aatrey", "Sarah Nahm", "Parker Conrad"]
+last_updated: 2026-04-18
+aliases: ["leadership", "measuring leadership", "CEO leadership", "building trust", "leadership traits", "how to lead", "authentic leadership"]
+related: ["[[Three Traits of Great Leadership]]", "[[Mission-to-Metrics Framework]]", "[[Startup Management]]", "[[Board Management]]", "[[Ali Rowghani]]", "[[Diane Greene]]", "[[Founder Mindset]]", "[[Hiring at Early Stage]]", "[[Scaling and Later-Stage Operations]]"]
+sources: ["3j-how-to-measure-leadership", "3k-the-second-job-of-a-startup-ceo", "6S-on-starting-and-scaling-dropbox-yc-w07", "6M-on-starting-and-scaling-indian-shopping-site-meesho", "6I-on-starting-and-scaling-recruiting-software-startup-lever", "M2-how-to-build-the-future-parker-conrad", "JN-how-to-start-a-startup-building-company-culture-part-i", "JM-how-to-start-a-startup-raising-money-and-succeeding-long-term"]
+speakers_referenced: ["Ali Rowghani", "Ed Catmull", "Steve Jobs", "Jeff Bezos", "Tobi L\u00fctke", "Patrick Collison", "David Rusenko", "Drew Houston", "Vidit Aatrey", "Sarah Nahm", "Parker Conrad", "Brian Chesky"]
 ---
 
 # Startup Leadership
@@ -137,6 +137,72 @@ Having significant unscheduled time is "perhaps the clearest sign of success for
 
 [[Parker Conrad]] agrees that founders need to "go all the way to ground" when something is broken. But he warns: "You need really good executives, and you don't want to do the founder mode thing unless something's broken." It is a tool for fixing, not a management philosophy [6].
 
+## Ali Rowghani: Leadership at Stanford (2014)
+
+In an earlier version of his leadership framework delivered at Stanford's "How to Start a Startup" course, [[Ali Rowghani]] provides the biographical foundation for his later published frameworks. The 2014 lecture includes personal observations about Steve Jobs, Ed Catmull, John Lasseter, and Bob Iger that do not appear in his later YC Library articles [4].
+
+### There Is No Single Personality Type
+
+Rowghani's "first insight about leadership" emerged from working closely with four leaders at Pixar who "couldn't have been more different" [4]:
+
+**John Lasseter**: An extroverted artist. Boisterous, fun-loving, emotional, energetic. Loved toys (massive collection), wine, and good food. Gave everyone hugs. Wore Hawaiian shirts every day. Did not manage his time well and was always overcommitted [4].
+
+**Ed Catmull**: An introverted scientist. PhD in computer graphics (University of Utah, 1974). Quiet, thoughtful, exceptionally calm, never reactive. Hard to read. Health conscious. Primary hobby: week-long silent meditation retreats [4].
+
+**Steve Jobs**: College dropout. Magnetic presence. Intense, impatient, extraordinarily quick on his feet. Not prone to bonding or showing affection. Never seen giving anyone a hug at work. Could say pointed things. Always in a hurry to get to the answer [4].
+
+**Bob Iger**: Spent 30+ years at the same company before becoming Disney CEO. Diplomatic, genteel, patient, wise, calm. Exuded trustworthiness. Very high emotional intelligence [4].
+
+Rowghani's takeaway: "There's no single personality type for great leaders. This is actually really great news because it means people of varying personality types can all strive to be great leaders" [4]. The corollary: "You have to be yourself. You have to be authentic. You can't try to be someone else or copy someone else's personality and hope to be a great leader" [4]. Humans are "really highly evolved at detecting inauthenticity" [4].
+
+### Three Things All Great Leaders Do
+
+Despite their diversity, all four leaders excelled at three things [4]:
+
+#### 1. Think and Communicate Clearly
+
+"As a leader, you have to paint a compelling vision for the future that other people can understand and follow" [4]. Simplicity is vital.
+
+Rowghani describes Jobs's ability at Pixar: "It was like we were all sitting in darkness and there was one guy who had a lantern, and that was Steve. He could take the most complicated problem and simplify it to its core essence" [4].
+
+He cites Jeff Bezos's formulation for Amazon retail: only three things matter -- low prices, broad selection, fast delivery. "These three things were the only things that consumers cared about, and they would always care about those three things" [4]. Any employee action that improved one of those three areas was aligned with strategy.
+
+**Practical advice**: "Give yourself more time to think." Jobs told Rowghani that "when I'm at my best, half of my time -- half of my schedule -- was unscheduled." Even an hour a day or an hour every other day devoted to thinking (not email) helps. "Clarity of thought always precedes clarity of language" [4].
+
+#### 2. Show Great Judgment About People
+
+Who you hire and, more importantly, who you promote and give authority to determines whether you can grow as a leader. Rowghani advises: do not rush hiring, start with people you already know, evaluate values alignment alongside competence, spend 10-20-30 hours with a candidate before deciding [4].
+
+To develop judgment: meet people who are great at what they do, even if you cannot hire them, to calibrate your own sense of "what great is" [4].
+
+When hires do not work out, act quickly and reflect on lessons learned [4].
+
+#### 3. Have Exceptional Personal Integrity and Commitment
+
+Integrity means standing for something bigger than yourself. It means avoiding behaviors that erode trust: favoritism, conflicts of interest, inappropriate language or relationships [4].
+
+Rowghani's test: "If all of your communications -- all of your emails, all of your verbal communications -- if they were all transparent to everyone, would you be embarrassed by anything you've done or said?" [4].
+
+Commitment means making the startup a life mission in a way that inspires others. "When you see someone motivated by a big purpose and giving it their all, it's motivating in and of itself" [4].
+
+### Trust as the Ultimate Metric
+
+Rowghani concludes that "the most important success metric for a leader is trust" -- measured in a 360-degree sense across employees, investors, customers, and users [4].
+
+Trust has two components [4]:
+- **The science**: Being right about empirical questions (technology, product direction, partnerships) and making good people decisions. This is competence.
+- **The art**: Showing empathy, having good timing, choosing the right words, dealing with different people differently. This is about integrity, commitment, and striving for something bigger than yourself.
+
+**Parting advice**: "At every step, always try to optimize for trust. You're going to have hard decisions to make. Try to view every challenge as an opportunity to increase the trust that people have in you. Always ask: which path will generate more trust?" [4].
+
+### On Repairing Broken Trust
+
+When asked how to repair trust after mistakes, Rowghani advises acknowledgment: "Brushing it under the carpet or hoping people won't notice is a natural human instinct, but it's not the right thing to do." Admitting mistakes does not show weakness -- "It usually builds trust to see people be honest about mistakes" [4].
+
+### Different Motivations Behind Great Leaders
+
+When asked about the motivations of his four leaders, Rowghani observed that John Lasseter was motivated by making great films that would last forever and by squeezing joy out of life. Ed Catmull was motivated by understanding how to build an organization that could repeatedly produce creative success -- "an organizational thinker" who wanted to figure out "how to make Pixar continue its almost impossible streak" [4].
+
 ## References
 
 1. [How to Measure Leadership](https://www.ycombinator.com/library/3j-how-to-measure-leadership) — [[Ali Rowghani]] (n.d.)
@@ -145,3 +211,5 @@ Having significant unscheduled time is "perhaps the clearest sign of success for
 4. [On Starting and Scaling Indian Shopping Site Meesho](https://ycombinator.com/library/6M-on-starting-and-scaling-indian-shopping-site-meesho) -- [[Vidit Aatrey]], Adora Cheung (2019)
 5. [On Starting and Scaling Recruiting Software Startup Lever](https://ycombinator.com/library/6I-on-starting-and-scaling-recruiting-software-startup-lever) -- [[Sarah Nahm]], Holly Liu (2019)
 6. [How To Build The Future: Parker Conrad](https://ycombinator.com/library/M2-how-to-build-the-future-parker-conrad) -- [[Parker Conrad]], [[Garry Tan]] (2025)
+7. [How to Start a Startup: Building Company Culture, Part I](https://ycombinator.com/library/JN-how-to-start-a-startup-building-company-culture-part-i) -- [[Brian Chesky]], [[Alfred Lin]] (2014)
+8. [How to Start a Startup: Raising Money and Succeeding Long-Term](https://ycombinator.com/library/JM-how-to-start-a-startup-raising-money-and-succeeding-long-term) -- Jess Lee, Aaron Harris, [[Ali Rowghani]] (2014)

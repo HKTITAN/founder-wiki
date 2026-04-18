@@ -2,11 +2,11 @@
 title: Doing Things That Don't Scale
 type: topic
 created: 2026-04-05
-last_updated: 2026-04-05
+last_updated: 2026-04-18
 aliases: ["unscalable tactics", "manual user acquisition", "Collison installation", "pulling a Meraki", "do things that don't scale", "DTDS"]
-related: ["[[Paul Graham]]", "[[Startup Ideas]]", "[[Growth]]", "[[Early-Stage Mistakes]]", "[[Founder Mindset]]", "[[Default Alive or Default Dead]]"]
-sources: ["96-do-things-that-don-t-scale", "8w-the-hardest-lessons-for-startups-to-learn", "8t-the-18-mistakes-that-kill-startups", "MJ-how-to-build-the-future-tony-xu", "5f-on-starting-and-scaling-one-of-the-biggest-ios-apps", "6L-on-starting-and-scaling-construction-startup-plangrid", "6a-on-starting-and-scaling-direct-mail-automation-startup-lob", "69-on-starting-and-scaling-meal-kit-company-gobble"]
-speakers_referenced: ["Paul Graham", "Tony Xu", "David Lieb", "Tracy Young", "Harry Zhang", "Ooshma Garg"]
+related: ["[[Paul Graham]]", "[[Startup Ideas]]", "[[Growth]]", "[[Early-Stage Mistakes]]", "[[Founder Mindset]]", "[[Default Alive or Default Dead]]", "[[Stanley Tang]]", "[[Walker Williams]]", "[[Brian Chesky]]"]
+sources: ["96-do-things-that-don-t-scale", "8w-the-hardest-lessons-for-startups-to-learn", "8t-the-18-mistakes-that-kill-startups", "MJ-how-to-build-the-future-tony-xu", "5f-on-starting-and-scaling-one-of-the-biggest-ios-apps", "6L-on-starting-and-scaling-construction-startup-plangrid", "6a-on-starting-and-scaling-direct-mail-automation-startup-lob", "69-on-starting-and-scaling-meal-kit-company-gobble", "JL-how-to-start-a-startup-getting-started-getting-press-and-doing-things-that-don-t-scale", "JN-how-to-start-a-startup-building-company-culture-part-i"]
+speakers_referenced: ["Paul Graham", "Tony Xu", "David Lieb", "Tracy Young", "Harry Zhang", "Ooshma Garg", "Stanley Tang", "Walker Williams", "Brian Chesky"]
 ---
 
 # Doing Things That Don't Scale
@@ -124,6 +124,55 @@ The practice produced three categories of insight no dashboard could provide:
 
 [[Ooshma Garg]] prototyped Gobble with email, PayPal, and her personal car. She created a calendar of chefs and their daily menus, emailed friends asking if they wanted to order, collected payments via PayPal, and personally drove deliveries [8]. When Gobble pivoted to dinner kits, the team tested the concept by having TaskRabbit workers deliver prototype kits to friends in Palo Alto [8].
 
+## DoorDash: The One-Hour Launch (Stanley Tang)
+
+[[Stanley Tang]] provides one of the most extreme examples of launching fast. DoorDash's first version -- paloaltodelivery.com -- launched in under an hour. It consisted of PDF menus from Palo Alto restaurants and a phone number (the founders' personal cell phones). There was no backend, no dispatch system, no driver network [9].
+
+The first customer called wanting Thai food. The founders, driving home, decided to personally pick up and deliver the order. The customer turned out to be the author of a book called "Weed the People" [9].
+
+The validation signal was not the quality of the product but the strength of the need: "When people are willing to put up with all this" -- PDF menus, phone calls, no app -- "we knew we found the need" [9].
+
+The co-founders used Square to charge customers (until Square shut them down for suspected money laundering), Google Docs to track orders, and Apple's Find My Friends to monitor driver locations. Tang personally emailed every new customer each night with personalized messages: "If I see someone order chicken skewers from Orange Hummus, I would say, 'I love Orange Hummus. How were the chicken skewers?'" [9].
+
+Tang's three lessons: treat startup ideas like experiments, launch fast (under an hour), and do things that don't scale because "doing things that don't scale is one of your biggest competitive advantages when you're starting out" [9].
+
+## Teespring: The Boulder Metaphor (Walker Williams)
+
+[[Walker Williams]] of Teespring describes unscalable tactics through three phases [9]:
+
+### Finding First Users
+There is no silver bullet for user acquisition. Williams equates early user acquisition to pushing a boulder uphill: "the incline is the steepest" at the beginning, gets easier with progress, and eventually the boulder rolls on its own [9].
+
+Williams advises against giving products away for free: "People have a different -- they treat products that are free in a much different way than a paid product. And oftentimes it can give you a false sense of security" [9].
+
+### Turning Users into Champions
+A champion is a user who talks about and advocates for the product. Williams creates champions through customer service (he and his co-founder handled all support until $130,000-$140,000/month in revenue), proactive outreach to current and departing customers, and obsessive monitoring of social media [9].
+
+On detractors: "One detractor who's had a terrible experience on your platform is enough to reverse the progress of ten champions" [9].
+
+### Speed Over Scalability
+The product at launch is almost certainly not the product that scales. Williams's co-founder Evan, faced with enterprise features that would take a month to build properly, duplicated the entire codebase and database, built a separate product in three to four days, validated which features mattered, then integrated the winners [9].
+
+Williams's rule: "Only worry about the next order of magnitude" [9].
+
+### Never Stop
+Williams is emphatic that doing things that don't scale should continue as long as possible: "There's not some magical moment. It's not the Series A. It's not when you hit a certain revenue milestone. It should be ripped from you" [9].
+
+## Airbnb: The Photography Service as Scaling Pattern (Brian Chesky)
+
+[[Brian Chesky]] describes the full lifecycle of a single unscalable tactic scaling into a global service. A New York host could not transfer photos from her camera to her computer. Chesky asked: "What if you could press a button and a professional photographer showed up?" She said it would be magic. "Next day I knocked on her door and said, 'I'm here'" [10].
+
+The progression [10]:
+1. Chesky personally photographed homes, renting a camera in Brooklyn
+2. Started hiring contract photographers
+3. Got an intern to manage the contractors
+4. The intern became full-time, managing other interns managing contractors
+5. Only after the process was fully understood did they build the technology
+
+Airbnb now operates one of the largest on-demand photography networks in the world -- 5,000 photographers, hundreds of thousands of homes photographed. "We did it only after we knew exactly what the perfect service was" [10].
+
+Chesky credits [[Paul Graham]]'s advice: "It's better to have 100 people that love you than to have a million people that just sort of like you." The logic: you cannot make a million people care, but 100 passionate users will each tell 100 others [10].
+
 ## References
 
 1. [Do Things That Don't Scale](https://www.ycombinator.com/library/96-do-things-that-don-t-scale) -- [[Paul Graham]] (July 2013)
@@ -134,3 +183,5 @@ The practice produced three categories of insight no dashboard could provide:
 6. [On starting and scaling construction startup PlanGrid](https://ycombinator.com/library/6L-on-starting-and-scaling-construction-startup-plangrid) -- [[Tracy Young]], Kat Manalac (2019)
 7. [On starting and scaling direct mail automation startup Lob](https://ycombinator.com/library/6a-on-starting-and-scaling-direct-mail-automation-startup-lob) -- [[Harry Zhang]], [[Kevin Hale]] (2019)
 8. [On starting and scaling meal kit company Gobble](https://ycombinator.com/library/69-on-starting-and-scaling-meal-kit-company-gobble) -- [[Ooshma Garg]] (2016)
+9. [How to Start a Startup: Getting Started, Getting Press, and Doing Things That Don't Scale](https://ycombinator.com/library/JL-how-to-start-a-startup-getting-started-getting-press-and-doing-things-that-don-t-scale) -- [[Stanley Tang]], [[Walker Williams]], Justin Kan (2014)
+10. [How to Start a Startup: Building Company Culture, Part I](https://ycombinator.com/library/JN-how-to-start-a-startup-building-company-culture-part-i) -- [[Brian Chesky]], [[Alfred Lin]] (2014)

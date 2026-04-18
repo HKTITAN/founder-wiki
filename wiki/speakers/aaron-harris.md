@@ -2,34 +2,35 @@
 title: Aaron Harris
 type: speaker
 created: 2026-04-05
-last_updated: 2026-04-05
-sources: ["2u-how-to-build-your-seed-round-pitch-deck", "3h-series-a-diligence-checklist"]
+last_updated: 2026-04-18
+sources: ["Gm-how-to-set-up-your-seed-round", "Gn-series-a-diligence", "JM-how-to-start-a-startup-raising-money-and-succeeding-long-term"]
 aliases: ["Aaron Harris"]
-related: ["[[Seed Fundraising]]", "[[Series A Fundraising]]", "pitch deck"]
-
-speakers_referenced: []
+related: ["[[Seed Fundraising]]", "[[Series A Fundraising]]", "[[Convincing Investors]]", "[[Jess Lee]]"]
+speakers_referenced: ["Aaron Harris"]
 ---
 
-# Aaron Harris
+ENRICH EXISTING ARTICLE with the following from source [3]:
 
-Aaron Harris is a partner at Y Combinator. He is a key contributor to YC's fundraising infrastructure, having created the canonical YC seed deck template and co-authored the Series A diligence checklist that emerged from YC's Series A program.
+## On Fundraising Process
 
-## Worldview
+In a joint session with [[Jess Lee]] at Stanford's "How to Start a Startup" course, Harris provides tactical advice on running a fundraising process [3].
 
-Harris's advice is built around a principle of radical simplicity:
+**Build a spreadsheet.** Put every single person you want to talk to in it. Note when you reached out, what their response was, when you met, the result, and probability-weight each conversation by amount and likelihood of closing [3].
 
-**Clarity and concision above all else in fundraising.** Harris argues that most seed-stage companies do not have meaningful detail to explore, and when founders pretend otherwise, "their stories get muddled, and the investors get lost" [1]. He distills the entire philosophy of seed pitching to: "Focus on narrative. The rest is commentary" [1].
+**Run conversations in parallel.** Create a competitive dynamic by having multiple investors evaluating simultaneously. "A narrow gate with a lot of people trying to push through it" [3]. The only exception: a friendly investor who might jump the gun before you go to market, but Harris calls this "next-level stuff" [3].
 
-**Operational preparation reduces closing friction.** In his work on Series A diligence, Harris emphasizes that the closing process is where many founders lose time and momentum. Having a complete data room before signing a term sheet can save a week [2]. His approach is procedural and checklist-driven, reflecting a belief that fundraising overhead can be minimized through advance preparation.
+**Clarity of communication is a founder quality signal.** Harris argues that the ability to explain what you do in a single sentence "seems a little esoteric, but it's really just an exercise in condensing and clarifying thought." The best founders "can communicate clearly and adjust their explanation for whoever they're talking to" -- engineers, investors, customers, parents. "That clarity of thought in the end is a real defining factor when you're going in and pitching" [3].
 
-**Team trumps advisors.** In discussing the team slide of a pitch deck, Harris is blunt: "This should be about founders. Nobody cares about your advisors" [1].
+He draws an analogy to programming: "Can you take a big, hairy, complex problem and then break it down into simpler problems? Just like you'd take a program and decompose it into different functions." The ability to do this with a pitch deck is "a tell of an important skill for building a startup" [3].
 
-## Key Frameworks
+**Don't cavalierly take money.** Harris warns against accepting money just because someone offers it. "Oh, this random person just offered me $200,000" -- that is a permanent cap table relationship. "The first rule is: get the money you need to run your business." Only if you have more offers than capacity do you start choosing [3].
 
-- **YC Seed Deck Template**: A 10-slide structure covering title, problem, solution, traction, metrics, insights, business model, market, team, and the ask [1]
-- **Series A Diligence Checklist**: Comprehensive checklist for data room preparation, covering corporate records, IP, securities, material agreements, litigation, and employee information [2]
+**Don't take investor office space.** Harris's counterintuitive advice: free office space from investors inhibits experimentation. "If you know your investor is going to come look at your product, you're not going to try the super weird, crazy idea that needs room to grow" [3].
+
+**Investor time incentives work against founders.** "It is in their best interest to wait as long as possible before making a decision because they gather more evidence. But as a founder, that's bad for you" [3].
 
 ## References
 
-1. [How to Build Your Seed Round Pitch Deck](https://www.ycombinator.com/library/2u-how-to-build-your-seed-round-pitch-deck) — Aaron Harris (March 2018)
-2. [Series A Diligence Checklist](https://www.ycombinator.com/library/3h-series-a-diligence-checklist) — Aaron Harris, Jason Kwon (n.d.)
+1. [How to Set Up Your Seed Round](https://www.ycombinator.com/library/Gm-how-to-set-up-your-seed-round) -- [[Aaron Harris]] (n.d.)
+2. [Series A Diligence](https://www.ycombinator.com/library/Gn-series-a-diligence) -- [[Aaron Harris]] (n.d.)
+3. [How to Start a Startup: Raising Money and Succeeding Long-Term](https://ycombinator.com/library/JM-how-to-start-a-startup-raising-money-and-succeeding-long-term) -- [[Jess Lee]], Aaron Harris, Ali Rowghani (2014)

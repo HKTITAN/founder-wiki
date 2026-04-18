@@ -2,11 +2,11 @@
 title: "DoorDash: Creating a Market from Scratch"
 type: case-study
 created: 2026-04-05
-last_updated: 2026-04-05
-aliases: ["DoorDash", "Tony Xu", "DoorDash case study", "Palo Alto Delivery", "food delivery startup"]
-related: ["[[Tony Xu]]", "[[Doing Things That Don't Scale]]", "[[Talking to Users]]", "[[Product-Market Fit]]", "[[Customer Relationships]]", "[[Dealing with Setbacks]]", "[[Fundraising Mistakes]]", "[[Competing with Big Companies]]"]
-sources: ["MJ-how-to-build-the-future-tony-xu"]
-speakers_referenced: ["Tony Xu", "Garry Tan"]
+last_updated: 2026-04-18
+aliases: ["DoorDash", "Tony Xu", "DoorDash case study", "Palo Alto Delivery", "food delivery startup", "Stanley Tang DoorDash"]
+related: ["[[Tony Xu]]", "[[Doing Things That Don't Scale]]", "[[Talking to Users]]", "[[Product-Market Fit]]", "[[Customer Relationships]]", "[[Dealing with Setbacks]]", "[[Fundraising Mistakes]]", "[[Competing with Big Companies]]", "[[Stanley Tang]]", "[[MVP Planning]]"]
+sources: ["MJ-how-to-build-the-future-tony-xu", "JL-how-to-start-a-startup-getting-started-getting-press-and-doing-things-that-don-t-scale"]
+speakers_referenced: ["Tony Xu", "Garry Tan", "Stanley Tang"]
 ---
 
 # DoorDash: Creating a Market from Scratch
@@ -114,6 +114,42 @@ Xu's advice to his 18-year-old self: "Especially when you're on the cusp of some
 
 Xu argues the physical world remains an untapped frontier: "Where is the last parking spot in a rainstorm here in San Francisco? How many apples does the local grocery store have in aisle six? These are questions that actually nobody has the answer to. No LLM has the answer to" [1]. Physical businesses -- small, medium, and large -- produce the vast majority of jobs and GDP in any society. DoorDash's long-term mission is to grow the GDP of every city by empowering these businesses [1].
 
+## Stanley Tang's Origin Account
+
+Co-founder [[Stanley Tang]] provides a complementary account of DoorDash's origin from the Stanford perspective. While [[Tony Xu]]'s account (source [1]) emphasizes the macaroon store shadowing and the strategic questions answered during YC, Tang's account (source [2]) emphasizes the speed of the initial experiment and the validation signal [2].
+
+### The Macaron Store Meeting
+
+Tang was passionate about building technology for small business owners. During his junior year at Stanford (Fall 2012), he sat down with Chloe, the owner of a macaron store in Palo Alto, to interview her about her problems. Chloe produced a "really, really thick booklet" showing pages of delivery orders she had to turn down because she had no drivers and was personally delivering orders herself [2].
+
+Over the following weeks, the founders talked to 150-200 small business owners. When they raised delivery, "they kept agreeing -- this is a really big problem for us. We don't have delivery infrastructure. There's not any good solutions out there" [2].
+
+### The One-Hour Launch
+
+To test whether consumer demand existed, the founders created paloaltodelivery.com in "about an afternoon." Tang found PDF menus from Palo Alto restaurants online, uploaded them, and added a phone number at the bottom -- their personal cell phone. "We weren't really expecting anything" [2].
+
+The first call came while they were driving home. Someone wanted Thai food. "We're like, we're not doing anything right now. Might as well swing by, pick up some Pad Thai, and deliver it to this person" [2]. The customer handed over a business card identifying him as the author of "Weed the People" -- "the best first delivery slash worst delivery you could have asked for" [2].
+
+Two calls the next day, then five, then seven, then ten. The key validation: people were willing to endure a terrible experience -- looking up PDF menus, calling a phone number -- to get delivery. "When people are willing to put up with all this, we knew we were on to something" [2].
+
+### The Unscalable Infrastructure
+
+The co-founders served as delivery drivers, customer support, and marketers simultaneously [2]:
+- **Payments**: Square (shut down on suspicion of money laundering due to rapid small transactions; resolved by co-founder Tony Xu emailing former Square colleagues)
+- **Order tracking**: Google Docs
+- **Driver tracking**: Apple's Find My Friends
+- **Customer acquisition**: Passing out flyers on University Avenue; taking phone calls during lectures
+- **Customer support**: Personally emailing every new customer each night with personalized messages
+
+### The Mobile Insight
+
+When asked why nobody had solved delivery before, Tang's answer was mobile: "What if you could design a delivery system that was entirely based off mobile? Instead of hiring drivers full-time, purchasing vehicles, what if you could tap into an on-demand pool of independent contractors and only send orders to them when they have time?" [2].
+
+### The Ridiculousness of the Journey
+
+Tang captures the absurdity of building DoorDash while still a Stanford student by describing a single moment: walking home the night they raised their Series A from Sequoia, holding CS247 homework, tax forms, a speeding ticket, and "a $15 million piece of paper" in the same hands [2].
+
 ## References
 
 1. [How To Build The Future: Tony Xu](https://ycombinator.com/library/MJ-how-to-build-the-future-tony-xu) -- Tony Xu, [[Garry Tan]] (2025)
+2. [How to Start a Startup: Getting Started, Getting Press, and Doing Things That Don't Scale](https://ycombinator.com/library/JL-how-to-start-a-startup-getting-started-getting-press-and-doing-things-that-don-t-scale) -- [[Stanley Tang]], Walker Williams, Justin Kan (2014)

@@ -1336,5 +1336,210 @@
       "wiki/topics/inventing-the-future.md",
       "wiki/speakers/alan-kay.md"
     ]
+  },
+  "Iv-critiquing-ai-startup-websites-with-yc-president-garry-tan": {
+    "absorbed_date": "2026-04-18",
+    "articles_touched": [
+      "wiki/topics/startup-website-design.md",
+      "wiki/speakers/garry-tan.md"
+    ]
+  },
+  "Je-garry-s-channel-stop-chasing-money-chase-wealth": {
+    "absorbed_date": "2026-04-18",
+    "articles_touched": [
+      "wiki/topics/wealth-vs-money.md",
+      "wiki/speakers/garry-tan.md"
+    ]
+  },
+  "Jf-garry-s-channel-how-i-turned-300k-into-2-billion": {
+    "absorbed_date": "2026-04-18",
+    "articles_touched": [
+      "wiki/case-studies/coinbase.md",
+      "wiki/speakers/brian-armstrong.md",
+      "wiki/speakers/garry-tan.md"
+    ]
+  },
+  "Jh-garry-s-channel-my-200-million-startup-mistake": {
+    "absorbed_date": "2026-04-18",
+    "articles_touched": [
+      "wiki/speakers/garry-tan.md",
+      "wiki/topics/leaving-big-tech.md"
+    ]
+  },
+  "Ji-garry-s-channel-billion-dollar-startup-ideas": {
+    "absorbed_date": "2026-04-18",
+    "articles_touched": [
+      "wiki/speakers/garry-tan.md",
+      "wiki/topics/startup-ideas.md"
+    ]
+  },
+  "Jj-garry-s-channel-you-can-beat-google-the-way-amazon-does-here-s-how": {
+    "absorbed_date": "2026-04-18",
+    "articles_touched": [
+      "wiki/speakers/garry-tan.md",
+      "wiki/topics/competing-with-big-companies.md"
+    ]
+  },
+  "Jk-garry-s-channel-coinbase-ceo-brian-armstrong-on-cryptocurrency-and-the-future-of-decentralization": {
+    "absorbed_date": "2026-04-18",
+    "articles_touched": [
+      "wiki/case-studies/coinbase.md",
+      "wiki/speakers/brian-armstrong.md",
+      "wiki/speakers/garry-tan.md",
+      "wiki/topics/founder-mindset.md"
+    ]
+  },
+  "Jl-garry-s-channel-6-skills-for-successful-startup-founders": {
+    "absorbed_date": "2026-04-18",
+    "articles_touched": [
+      "wiki/topics/six-founder-skills.md",
+      "wiki/speakers/garry-tan.md",
+      "wiki/topics/founder-mindset.md"
+    ]
+  },
+  "Jm-garry-s-channel-how-real-movements-start-then-change-the-world": {
+    "absorbed_date": "2026-04-18",
+    "articles_touched": [
+      "wiki/topics/building-movements.md",
+      "wiki/speakers/garry-tan.md",
+      "wiki/topics/founder-mindset.md"
+    ]
+  },
+  "Jn-garry-s-channel-billion-dollar-startups-are-better-faster-or-cheaper": {
+    "absorbed_date": "2026-04-18",
+    "articles_touched": [
+      "wiki/frameworks/better-faster-cheaper.md",
+      "wiki/speakers/garry-tan.md"
+    ]
+  },
+  "Jo-garry-s-channel-flexport-ceo-ryan-petersen-on-scaling-a-startup-from-zero-to-8b": {
+    "absorbed_date": "2026-04-18",
+    "articles_touched": [
+      "wiki/case-studies/flexport.md",
+      "wiki/speakers/ryan-petersen.md",
+      "wiki/speakers/garry-tan.md"
+    ]
+  },
+  "Jp-garry-s-channel-figma-s-20b-10-year-overnight-success": {
+    "absorbed_date": "2026-04-18",
+    "articles_touched": [
+      "wiki/case-studies/figma.md",
+      "wiki/speakers/dylan-field.md",
+      "wiki/speakers/garry-tan.md"
+    ]
+  },
+  "Js-garry-s-channel-3-steps-for-billion-dollar-startups-how-airbnb-doordash-succeeded": {
+    "absorbed_date": "2026-04-18",
+    "articles_touched": [
+      "wiki/topics/first-principles-thinking.md",
+      "wiki/speakers/garry-tan.md"
+    ]
+  },
+  "Ju-garry-s-channel-an-interview-with-kai-stinchcombe-founder-of-true-link-financial": {
+    "absorbed_date": "2026-04-18",
+    "articles_touched": [
+      "wiki/case-studies/true-link-financial.md",
+      "wiki/speakers/garry-tan.md"
+    ]
+  },
+  "73-how-to-start-a-startup-building-for-the-enterprise": {
+    "absorbed_date": "2026-04-18",
+    "articles_touched": [
+      "wiki/case-studies/box.md",
+      "wiki/topics/enterprise-sales.md"
+    ]
+  },
+  "86-how-to-start-a-startup-finding-product-market-fit": {
+    "absorbed_date": "2026-04-18",
+    "articles_touched": [
+      "wiki/case-studies/segment.md",
+      "wiki/speakers/peter-reinhardt.md",
+      "wiki/topics/product-market-fit.md"
+    ]
+  },
+  "8B-how-to-start-a-startup-how-to-get-ideas-and-find-what-s-working": {
+    "absorbed_date": "2026-04-18",
+    "articles_touched": [
+      "wiki/case-studies/slack.md",
+      "wiki/topics/startup-ideas.md",
+      "wiki/topics/startup-metrics.md"
+    ]
+  },
+  "JI-how-to-start-a-startup-before-the-startup": {
+    "absorbed_date": "2026-04-18",
+    "articles_touched": [
+      "wiki/topics/starting-young.md",
+      "wiki/topics/founder-mindset.md",
+      "wiki/topics/startup-ideas.md",
+      "wiki/speakers/paul-graham.md"
+    ]
+  },
+  "JK-how-to-start-a-startup-building-products-users-love": {
+    "absorbed_date": "2026-04-18",
+    "articles_touched": [
+      "wiki/topics/building-products-users-love.md",
+      "wiki/speakers/kevin-hale.md"
+    ]
+  },
+  "JL-how-to-start-a-startup-getting-started-getting-press-and-doing-things-that-don-t-scale": {
+    "absorbed_date": "2026-04-18",
+    "articles_touched": [
+      "wiki/speakers/stanley-tang.md",
+      "wiki/speakers/walker-williams.md",
+      "wiki/speakers/justin-kan.md",
+      "wiki/topics/getting-press.md",
+      "wiki/topics/doing-things-that-dont-scale.md",
+      "wiki/case-studies/doordash.md"
+    ]
+  },
+  "JM-how-to-start-a-startup-raising-money-and-succeeding-long-term": {
+    "absorbed_date": "2026-04-18",
+    "articles_touched": [
+      "wiki/speakers/jess-lee.md",
+      "wiki/speakers/ali-rowghani.md",
+      "wiki/speakers/aaron-harris.md",
+      "wiki/topics/startup-leadership.md",
+      "wiki/topics/seed-fundraising.md"
+    ]
+  },
+  "JN-how-to-start-a-startup-building-company-culture-part-i": {
+    "absorbed_date": "2026-04-18",
+    "articles_touched": [
+      "wiki/speakers/brian-chesky.md",
+      "wiki/speakers/alfred-lin.md",
+      "wiki/topics/doing-things-that-dont-scale.md",
+      "wiki/topics/company-culture.md"
+    ]
+  },
+  "JO-how-to-start-a-startup-building-company-culture-part-ii": {
+    "absorbed_date": "2026-04-18",
+    "articles_touched": [
+      "wiki/topics/company-culture.md",
+      "wiki/speakers/ben-silbermann.md",
+      "wiki/speakers/patrick-collison.md",
+      "wiki/speakers/john-collison.md"
+    ]
+  },
+  "JQ-how-to-start-a-startup-talking-to-users": {
+    "absorbed_date": "2026-04-18",
+    "articles_touched": [
+      "wiki/topics/talking-to-users.md",
+      "wiki/speakers/emmett-shear.md"
+    ]
+  },
+  "JR-how-to-start-a-startup-startup-mechanics": {
+    "absorbed_date": "2026-04-18",
+    "articles_touched": [
+      "wiki/topics/startup-legal-mechanics.md",
+      "wiki/topics/equity-split.md",
+      "wiki/speakers/kirsty-nathoo.md"
+    ]
+  },
+  "JS-how-to-start-a-startup-diversity-and-inclusion-at-early-stage-startups": {
+    "absorbed_date": "2026-04-18",
+    "articles_touched": [
+      "wiki/topics/diversity-and-inclusion.md",
+      "wiki/speakers/kat-manalac.md"
+    ]
   }
 }

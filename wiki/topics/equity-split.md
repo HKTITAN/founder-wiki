@@ -2,11 +2,11 @@
 title: Equity Split
 type: topic
 created: 2026-04-05
-last_updated: 2026-04-05
-aliases: ["equity split", "equity division", "founder equity", "co-founder equity", "splitting equity"]
-related: ["[[Co-Founders]]", "[[University Spinouts]]", "[[Equity Equation]]", "[[Seed Fundraising]]"]
-sources: ["8f-how-to-spin-your-scientific-research-out-of-a-university-and-into-a-startup", "Hj-10-questions-to-discuss-with-a-potential-co-founder", "5x-how-to-split-equity-among-co-founders", "LP-co-founder-equity-mistakes-to-avoid", "6N-vinod-khosla-on-how-to-build-the-future"]
-speakers_referenced: ["Jared Friedman", "Michael Seibel", "Vinod Khosla", "Sam Altman"]
+last_updated: 2026-04-18
+aliases: ["equity split", "equity division", "founder equity", "co-founder equity", "splitting equity", "vesting", "stock vesting", "founder vesting"]
+related: ["[[Co-Founders]]", "[[University Spinouts]]", "[[Equity Equation]]", "[[Seed Fundraising]]", "[[Startup Legal Mechanics]]", "[[Kirsty Nathoo]]"]
+sources: ["8f-how-to-spin-your-scientific-research-out-of-a-university-and-into-a-startup", "Hj-10-questions-to-discuss-with-a-potential-co-founder", "5x-how-to-split-equity-among-co-founders", "LP-co-founder-equity-mistakes-to-avoid", "6N-vinod-khosla-on-how-to-build-the-future", "JR-how-to-start-a-startup-startup-mechanics"]
+speakers_referenced: ["Jared Friedman", "Michael Seibel", "Vinod Khosla", "Sam Altman", "Kirsty Nathoo"]
 ---
 
 # Equity Split
@@ -15,7 +15,7 @@ Equity split refers to how ownership of a startup is divided among co-founders a
 
 ## The Default: Equal Splits
 
-Y Combinator's general guidance favors equal or near-equal splits among co-founders. [[Michael Seibel]] presents the case for this position in detail, drawing on his own experience across multiple startups [3].
+Y Combinator's general guidance favors equal or near-equal splits among co-founders. [[Michael Seibel]] presents the case for this position in detail, drawing on his own experience across multiple startups [3]. [[Kirsty Nathoo]], YC's Managing Director of Finance, reinforces this position from the operational side, noting that equity disputes are the number one reason YC sees co-founders break up [6].
 
 ### Why Founders Get It Wrong
 
@@ -39,6 +39,12 @@ All of these reasons over-weight early contributions relative to future work. Se
 
 4. **Startups are about execution, not ideas.** Dramatically unequal splits often give undue preference to the co-founder who initially came up with the idea, as opposed to the team that got the product to market and generated initial traction [3].
 
+### The Forward-Looking Principle (Kirsty Nathoo)
+
+Nathoo frames the same argument from the operational perspective. When founders tell her they deserve 70% because they came up with the idea, built the prototype, or started three months earlier, her response: "Everything is ahead of you. This is the early days of the company. If you've worked on it for three months, you've probably got five, ten, fifteen years of this company ahead of you, if it's going to be a success. So think about forwards, not backwards. All the effort is in front of you. You're going to be iterating on the product. The prototype is probably going to bear no resemblance to the final product that becomes successful" [6].
+
+The only valid reason for a slight imbalance is preventing founder deadlock on votes. But Nathoo notes: "If you're at the point where the founders are having to vote their shares to make decisions, then there's probably something more fundamentally broken in the relationship that this is not going to solve" [6].
+
 ### The Motivation Framework
 
 Seibel frames equity split primarily as a tool for long-term motivation, not as compensation for past work [3]. As CEO, the first thought should not be "how do I negotiate the best deal?" but "how do I come up with an equity split that's going to maximize the motivation of my teammates?" [3].
@@ -49,17 +55,33 @@ Seibel notes that while he has historically recommended equal splits as a simple
 
 ## Vesting as the Safety Mechanism
 
-The primary risk mitigation tool for generous equity grants is vesting with a cliff [3]. The standard structure:
+The primary risk mitigation tool for generous equity grants is vesting with a cliff [3][6]. The standard structure:
 
 - **Four-year vesting**: The co-founder earns equity over four years
 - **One-year cliff**: If a co-founder leaves or is fired within the first year, they receive nothing
-- After the cliff, 25% of shares vest, then an additional 1/48th of total stock vests each month [3]
+- After the cliff, 25% of shares vest, then an additional 1/48th of total stock vests each month [3][6]
 
 Seibel calls vesting and the cliff the CEO's "get-out-of-jail-free card": if the co-founder choice was incorrect, as long as it is corrected within one year, there is no long-term harm to the company [3]. Because this safety mechanism exists, it benefits founders to be more generous with equity, not less [3].
+
+### Why Vesting Matters (Nathoo's Three Reasons)
+
+Nathoo provides three distinct justifications for vesting [6]:
+
+1. **Protection for remaining founders**: Without vesting, a co-founder who leaves after six months retains the same ownership as founders who work for another decade. In a $500 million acquisition, the departed co-founder would receive the same payout despite contributing nothing after month six [6].
+
+2. **Skin in the game**: Creates incentive to stay and work hard. Investors care deeply about this because they are investing in the founders specifically [6].
+
+3. **Sets an example for employees**: "It's very unfair to say to your employees, 'You must have vesting,' but I don't as a founder." Same standards for everyone signals fairness [6].
 
 ### Board Seat as Additional Protection
 
 Seibel recommends that only the CEO hold a board seat before a significant equity fundraise. This prevents board disputes during tough decisions, including the unlikely event that the CEO has to fire a co-founder [3].
+
+## The 83(b) Election
+
+When shares are subject to vesting, the 83(b) election determines when the founder is taxed. Without filing the 83(b), founders are taxed on the increase in value of their shares every time shares vest. This can create enormous personal and company tax liabilities [6].
+
+Filing the 83(b) election with the IRS within 30 days of the share purchase eliminates this problem. It is the one thing in the incorporation process that cannot be fixed retroactively. Nathoo has seen both funding rounds and acquisitions fall apart because proof of 83(b) filing was missing [6]. See [[Startup Legal Mechanics]] for the full treatment.
 
 ## The Co-Founder Conversation
 
@@ -102,6 +124,17 @@ The rationale for the 5% cap: "When a company's pre-product-market-fit, so much 
 
 [[Paul Graham]]'s [[Equity Equation]] provides a mathematical framework for evaluating any equity trade: if someone joining the company makes your stock worth more than 1/(1-n) where n is the fraction you are giving up, the trade is worth it. This applies to early employees, advisors, and anyone receiving equity.
 
+## Employee Equity (Nathoo)
+
+Nathoo provides specific guidance on employee equity allocation [6]:
+
+- Reserve approximately 10% of the company for the first 10 employees, on a sliding scale
+- For the first 5 employees, target 7-8%
+- All employee equity should vest on the standard four-year schedule
+- Stock options (the right to buy shares at today's price in the future) are the standard instrument for employees
+- Be generous: early employees work nearly as hard as founders, are paid below market rate, and set the cultural DNA
+
+The critical communication requirement: "You need to understand the number of shares they're getting and what that represents in terms of percentage of the company. Because if you only give them one and not the other, it gets very confusing" [6].
 
 ## Be Radically Generous with Early Employee Equity (Vinod Khosla)
 
@@ -124,3 +157,4 @@ Khosla identifies this as his "single biggest beef with YC" -- option pools are 
 3. [How to Split Equity Among Co-Founders](https://www.ycombinator.com/library/5x-how-to-split-equity-among-co-founders) -- [[Michael Seibel]] (n.d.)
 4. [Co-Founder Equity Mistakes to Avoid](https://ycombinator.com/library/LP-co-founder-equity-mistakes-to-avoid) -- [[Michael Seibel]] (2024)
 5. [Vinod Khosla on How to Build the Future](https://ycombinator.com/library/6N-vinod-khosla-on-how-to-build-the-future) -- [[Vinod Khosla]], [[Sam Altman]] (n.d.)
+6. [How to Start a Startup: Startup Mechanics](https://ycombinator.com/library/JR-how-to-start-a-startup-startup-mechanics) -- [[Kirsty Nathoo]] (2014)

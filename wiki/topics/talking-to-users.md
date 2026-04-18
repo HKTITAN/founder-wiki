@@ -2,16 +2,16 @@
 title: Talking to Users
 type: topic
 created: 2026-04-05
-last_updated: 2026-04-05
+last_updated: 2026-04-18
 aliases: ["talking to users", "user interviews", "customer interviews", "user research", "how to talk to users", "customer discovery", "user feedback", "customer validation"]
-related: ["[[Product-Market Fit]]", "[[Startup Ideas]]", "[[Doing Things That Don't Scale]]", "[[Startup Essentials]]", "[[Dalton Caldwell]]", "[[Michael Seibel]]", "Gustaf Alstromer"]
-sources: ["DV-dalton-michael-successful-founders-are-ok-with-rejection", "Iq-how-to-talk-to-users", "5f-on-starting-and-scaling-one-of-the-biggest-ios-apps", "MJ-how-to-build-the-future-tony-xu", "MC-how-to-build-the-future-aravind-srinivas", "6M-on-starting-and-scaling-indian-shopping-site-meesho", "K2-backstory-surbhi-sarna", "6I-on-starting-and-scaling-recruiting-software-startup-lever"]
-speakers_referenced: ["Dalton Caldwell", "Michael Seibel", "Gustaf Alstromer", "David Lieb", "Tony Xu", "Aravind Srinivas", "Vidit Aatrey", "Surbhi Sarna", "Sarah Nahm"]
+related: ["[[Product-Market Fit]]", "[[Startup Ideas]]", "[[Doing Things That Don't Scale]]", "[[Startup Essentials]]", "[[Dalton Caldwell]]", "[[Michael Seibel]]", "[[Gustaf Alstromer]]", "[[Emmett Shear]]"]
+sources: ["DV-dalton-michael-successful-founders-are-ok-with-rejection", "Iq-how-to-talk-to-users", "5f-on-starting-and-scaling-one-of-the-biggest-ios-apps", "MJ-how-to-build-the-future-tony-xu", "MC-how-to-build-the-future-aravind-srinivas", "6M-on-starting-and-scaling-indian-shopping-site-meesho", "K2-backstory-surbhi-sarna", "6I-on-starting-and-scaling-recruiting-software-startup-lever", "JQ-how-to-start-a-startup-talking-to-users"]
+speakers_referenced: ["Dalton Caldwell", "Michael Seibel", "Gustaf Alstromer", "David Lieb", "Tony Xu", "Aravind Srinivas", "Vidit Aatrey", "Surbhi Sarna", "Sarah Nahm", "Emmett Shear"]
 ---
 
 # Talking to Users
 
-"Talk to your users" is one of the most reinforced principles in the YC canon, cited by [[Paul Graham]], [[Michael Seibel]], [[Dalton Caldwell]], Gustaf Alstromer, and others across dozens of sources. The phrase is deceptively simple. The actual practice of talking to users well -- asking the right questions, interpreting the feedback correctly, and resisting the urge to protect your ego -- is one of the hardest things founders do [1] [2].
+"Talk to your users" is one of the most reinforced principles in the YC canon, cited by [[Paul Graham]], [[Michael Seibel]], [[Dalton Caldwell]], Gustaf Alstromer, [[Emmett Shear]], and others across dozens of sources. The phrase is deceptively simple. The actual practice of talking to users well -- asking the right questions, interpreting the feedback correctly, and resisting the urge to protect your ego -- is one of the hardest things founders do [1] [2].
 
 ## Why Founders Avoid It
 
@@ -37,19 +37,85 @@ A YC founder contributed a framework that Caldwell introduces and elaborates on:
 
 If a potential user is not willing to spend at least one of these capitals, their positive feedback is noise [1].
 
-## The Twitch Streaming Story
+## The Twitch User Interview Deep Dive (Emmett Shear)
 
-Seibel shares a formative experience from the pivot from Justin.tv to Twitch. After five years of building every feature a live video social media site could have -- chat, messaging, feeds, embedding, multi-platform support -- Emmett Shear and Kevin Lin started interviewing video game streamers and asking what they wanted [1].
+[[Emmett Shear]] provides the most detailed case study of user interviews in the YC canon, walking through the Twitch origin story and demonstrating live interview technique [9].
 
-The first request was: "Can I stream in higher quality?" Seibel was shocked. "We'll build you anything" and the answer was better video quality. The streamers explained: "My computer costs like four grand, and I paid for the best internet connection in my neighborhood, and I'm streaming this HD game, and it looks like crap" [1].
+### Learning from Kiko and Justin.tv
 
-Because Justin.tv had built its own media server, the fix was trivial -- changing an integer. Three days later, HD streaming was live. Streamers were stunned: "I've never used the website where I talked to someone about it and then it got better" [1].
+Shear traces his evolution across three startups. At Kiko Calendar, "neither of us were users of calendars nor did we during the period of time we worked on Kiko talk to anyone who actually did use a calendar" [9]. At Justin.tv, the founders were their own users -- building a reality TV show about Justin Kan's life -- which let them "cheat and get away with not talking to many other users." But this was limiting: when they wanted to expand beyond live broadcasting, "we didn't have the insight to figure that out because we weren't that user" [9].
 
-The second request was equally anticlimactic: "I'd like to make money please." The team already had video ads. They just needed a button for streamers to run ads on their own channels. The hardest part was designing the button [1].
+Only with the Twitch pivot did the team begin doing systematic user interviews. "I was very aware that neither I nor anyone else in the company knew anything about broadcasting video games" [9]. The result: user interview insights formed the core of all product decisions for the next three years, and Twitch built an entire division whose job was talking to users -- a function that did not exist at Justin.tv [9].
 
-Both requests were easy to build compared to the months-long projects on the brainstorm list. "Not only did it blow our minds -- the engineers listening should appreciate it -- it wasn't hard to build. Like, we could make them happy so easily compared to all the other things on our brainstorm list" [1].
+### Who to Talk to Matters as Much as What to Ask
 
-## How to Interview Users
+Shear emphasizes that selecting the right people to interview is as important as the questions themselves. For Twitch, the team determined that broadcasters (not viewers) were the most important users, because viewers followed content and would move to whichever platform the broadcaster chose [9].
+
+"If we'd gone and talked to viewers only, we would have gotten a completely different set of feedback than talking to the broadcasters" [9]. There is no recipe for identifying the right target user. "It comes down to think really hard and use your judgment" [9].
+
+### Three Groups, Three Insights
+
+Shear interviewed three distinct groups and extracted different lessons from each [9]:
+
+**Existing users** (Justin.tv gaming broadcasters): Requested specific features -- clearing ban lists, editing highlight titles, polls, scrolling text. Shear's insight: "People who are using your service already and are willing to put up with all these issues kind of means that these are probably not actually the biggest problems" [9]. If they tolerate broken features and still use the product, those features are not the primary blockers.
+
+**Competitor users** (broadcasters on rival platforms): Wanted multi-person channels, revenue sharing, and above all, video stability. "The things that people who didn't use our service said about what they cared about was completely different than the things that people who were using the service cared about" [9]. These users had already evaluated all options and chose competitors for specific reasons. This feedback revealed the dealbreakers.
+
+**Non-users** (people not broadcasting at all): Cited barriers like "my computer isn't fast enough," "I'm focused on training for tournaments," "I prefer editing and uploading to YouTube," and in Korea, "broadcasting our practice sessions would reveal our strategy to opponents" [9]. This was the most strategically important group because "the majority of people you're competing with are non-users." Focusing only on existing users and competitors means "you can never expand the size of the market with your features" [9].
+
+The team focused on competitor users first for short-term survival -- "my gaming project inside of Justin.tv would have been killed if it wasn't showing 25% month-over-month growth every single month" [9]. But the non-user insights drove long-term strategy: buying people computers, working with broadcasting software companies, and building broadcasting into Xbox and PlayStation 4 [9].
+
+### Features vs. Problems
+
+The features users requested -- polls, child accounts, ban list management -- were largely not built. But the underlying problems -- wanting to earn money, wanting stable video quality, wanting global accessibility -- became the focus [9]. "We dumped almost all of our resources into things that no one ever mentioned in an interview, but those were the things that actually addressed the problem" [9].
+
+### The Conversion Loop
+
+An unexpected benefit: the people interviewed during user research became the first converts. When Twitch shipped a subscription program and told the broadcasters who had asked for revenue, "it's astonishing because most people have never had that experience. They've never talked to someone and said, 'It would be really great if your product had feature X,' and then a month later, your product actually has feature X" [9].
+
+### What Not to Do
+
+Shear identifies the three most common user interview mistakes [9]:
+
+1. **Showing people your product**: "You want to learn about what's already in their heads. You want to avoid putting things there."
+2. **Asking about your pet feature**: "Would you pay for a subscription? Would you use this feature?" generates unreliable positive responses.
+3. **Talking to who's available rather than who you need**: Forum users are easy to reach but may not represent the audience that matters. Twitch spent weeks tracking down identity information to contact the right people through site messaging systems, email, and events.
+
+### Don't Ask "Is This Feature Good?"
+
+After gathering insights and generating a feature idea, the one question founders must not ask is "Is this feature good?" [9]. Users will say yes. But saying a feature sounds clever and actually switching products to get it are entirely different behaviors. "The money test is amazing. If you're not five-dollar excited about it, you're probably not very excited about it" [9].
+
+### Validate Through Hacks, Not Full Builds
+
+Sam Altman asks Shear what the minimum viable validation looks like. Shear's answer: cheat. If the idea is to build on top of Google Docs, do not rebuild Google Docs. Write a browser extension that adds the one incremental feature and see if anyone uses it [9]. For products people would pay for, get them to hand over a credit card. "Sales is this cure-all for this problem" [9].
+
+### Record Everything
+
+Shear strongly recommends recording interviews. Recording stops you from taking disruptive notes, and the recordings can be played for the rest of the company. "It's like magic the influence it has on people's thoughts about what's the right thing to build" [9]. Getting company-wide buy-in by telling people "I figured it out, I talked to the users" is hard. Playing the actual recording is transformative.
+
+### Use Skype or In-Person, Not Email
+
+Email interviews are "basically useless" because they lack interactivity [9]. The most valuable moments come from "Tell me more" follow-ups when a user says something unexpected. "People don't like silence, so they'll keep talking to fill the void" [9]. In-person and video calls allow this detective-mode probing.
+
+### International Markets Are Harder
+
+Twitch works better in English-speaking countries than elsewhere, and Shear attributes this partly to the difficulty of conducting user interviews across language barriers. Even hiring Korean-speaking staff and finding bilingual representatives does not solve the fundamental sampling problem: "The very fact that they are a fluent English speaker means they're not representative of all the people who don't speak fluent English" [9].
+
+### Keep Doing It
+
+The pool of important users shifts over time. Game publishers, irrelevant to Twitch in year one because "when you're a tiny little startup, they don't have the time to talk to all of you," became a critical constituency three years later [9]. Stopping user interviews after initial success means "the next set of features you build will be not as good as the first ones" [9].
+
+## The Twitch Streaming Story (Seibel Version)
+
+Seibel shares a complementary version of the Twitch pivot story. After five years of building every feature a live video social media site could have, Emmett Shear and Kevin Lin started interviewing video game streamers and asking what they wanted [1].
+
+The first request was: "Can I stream in higher quality?" The fix was trivial -- changing an integer in the media server. Three days later, HD streaming was live. Streamers were stunned: "I've never used the website where I talked to someone about it and then it got better" [1].
+
+The second request: "I'd like to make money please." The team already had video ads. They just needed a button for streamers to run ads on their own channels [1].
+
+"Not only did it blow our minds -- the engineers listening should appreciate it -- it wasn't hard to build. Like, we could make them happy so easily compared to all the other things on our brainstorm list" [1].
+
+## How to Interview Users (Gustaf Alstromer)
 
 Gustaf Alstromer, YC Group Partner and former Airbnb practitioner, provides a detailed methodology for user interviews [2].
 
@@ -126,8 +192,6 @@ Caldwell extends this into a practical technique: "Every sales call should start
 
 Caldwell reads a warning sign submitted by a YC founder: "When the customer you're pitching says, 'We really love your tech, but we can't pick it up today because X, but we want to use it in our next project, and we'll be in touch soon.' This is a rejection. They don't want your tech. They just said they loved it. They just want you out of their office. This is a 'don't call me, I'll call you'" [1]. He calls this the "terrorist user" -- the user that the founder loves more than the user loves the founder [1].
 
-Seibel argues that a scientist would process this dispassionately and move on. Founders get trapped because they have never been taught what sales really is. Seibel reframes: most founders think sales is like lawyering -- convincing a jury. But the best salespeople focus on two things: "learning and filtering." They interpret "no" as a gift, not a signal to explain better [1].
-
 ## The Scientist Mindset
 
 Seibel repeatedly returns to the analogy of founders as scientists [1]. A scientist designs experiments that test the actual hypothesis. Seibel observes that many founders design experiments that avoid testing the critical variable -- because if the hypothesis is wrong, "my ego shatters, or my investors will hate me, or my co-founders will leave" [1].
@@ -179,6 +243,14 @@ His principle: "The day you start taking assumptions, start thinking on behalf o
 
 [[Sarah Nahm]] of Lever frames customer listening as the company's accountability system: "What your customers say about you or what they say to their friends when they're talking about your software -- that's ultimately who you are" [8]. When Lever's first product was described by customers as incremental, the team threw it out entirely [8].
 
+## Data Alone Is Not Enough (Emmett Shear)
+
+At Justin.tv, the team spent significant time analyzing Google Analytics, Mixpanel, in-house tools, traffic sources, and completion rates. Shear's assessment: "That's good. I mean, you can learn things from that. I'm not telling you not to look at your data, but it doesn't tell you where you need to go. It doesn't tell you what the problems are you need to address" [9]. The team would invent ideas based on data, and "nine times out of ten, without talking to someone, that idea turns out to be bad" [9].
+
+## Almost Everyone Will Talk to You
+
+Shear offers reassurance: "Almost everyone is flattered to be asked what they think. And so most of them will actually talk to you and tell you things" [9]. Twitch did not compensate interviewees. "If people don't care enough about the problem to talk to someone who's trying to solve it, you're probably barking up the wrong tree" [9].
+
 ## References
 
 1. [Dalton & Michael: Successful Founders Are OK with Rejection](https://ycombinator.com/library/DV-dalton-michael-successful-founders-are-ok-with-rejection) -- [[Dalton Caldwell]], [[Michael Seibel]] (2022)
@@ -189,3 +261,4 @@ His principle: "The day you start taking assumptions, start thinking on behalf o
 6. [On Starting and Scaling Indian Shopping Site Meesho](https://ycombinator.com/library/6M-on-starting-and-scaling-indian-shopping-site-meesho) -- [[Vidit Aatrey]], Adora Cheung (2019)
 7. [Backstory: Surbhi Sarna](https://ycombinator.com/library/K2-backstory-surbhi-sarna) -- [[Surbhi Sarna]] (2024)
 8. [On Starting and Scaling Recruiting Software Startup Lever](https://ycombinator.com/library/6I-on-starting-and-scaling-recruiting-software-startup-lever) -- [[Sarah Nahm]], Holly Liu (2019)
+9. [How to Start a Startup: Talking to Users](https://ycombinator.com/library/JQ-how-to-start-a-startup-talking-to-users) -- [[Emmett Shear]] (2014)

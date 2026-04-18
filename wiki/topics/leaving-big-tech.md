@@ -2,11 +2,11 @@
 title: Leaving Big Tech
 type: topic
 created: 2026-04-05
-last_updated: 2026-04-05
+last_updated: 2026-04-18
 aliases: ["leaving FAANG", "leaving big tech", "quitting Google", "FAANG to startup", "big tech to startup", "golden handcuffs", "breaking out of FAANG"]
-related: ["[[Becoming a Founder]]", "[[Founder Mindset]]", "[[Starting Young]]", "[[Dalton Caldwell]]", "[[Michael Seibel]]"]
-sources: ["Ih-dalton-michael-why-you-should-leave-your-faang-job"]
-speakers_referenced: ["Dalton Caldwell", "Michael Seibel"]
+related: ["[[Becoming a Founder]]", "[[Founder Mindset]]", "[[Starting Young]]", "[[Dalton Caldwell]]", "[[Michael Seibel]]", "[[Garry Tan]]", "[[Wealth vs. Money]]"]
+sources: ["Ih-dalton-michael-why-you-should-leave-your-faang-job", "Jh-garry-s-channel-my-200-million-startup-mistake"]
+speakers_referenced: ["Dalton Caldwell", "Michael Seibel", "Garry Tan"]
 ---
 
 # Leaving Big Tech
@@ -72,6 +72,40 @@ For those who decide FAANG is a stepping stone, not a destination [1]:
 3. **Do not work on projects that will make you hate technology.** Seibel knows many ex-Facebook employees who feel they "did evil and they made money doing it" and are unhappy about it. The psychological cost prevents them from being optimistic about tech, which is a prerequisite for being a startup founder [1].
 4. **Remember you can always go back.** "If you're a good programmer and you leave in a nice way, no matter what happens to you, you can come back. There's actually not that much loss you have to take" [1].
 5. **Have the plan before you are looking a bonus in the eye.** "It's a lot easier to have a plan when you're not looking a bonus in the eye. If you come in with the plan, when the bonus thing happens, you'll see it coming" [1].
+
+# Leaving Big Tech
+
+## The $200 Million Mistake (Garry Tan)
+
+[[Garry Tan]] provides the most personal case study of the cost of staying at a big company. In 2003, at age 23, he was earning $72,000/year at Microsoft. Peter Thiel offered him a check for his full annual salary and told him to quit: "Cash this check. Quit your job. This is a zero-risk opportunity for you." Tan declined -- "Thank you very much, Mr. Thiel, but I might get promoted to level sixty next year" [2]. The company was Palantir, now worth $20 billion+. The missed equity was worth at least $200 million [2].
+
+Tan also turned down a Google job interview in 2004, when "it was obviously useful, but it wasn't clear that it was going to make money" [2].
+
+### The Value Gap
+
+Tan frames the structural problem: Google's pure profit per employee is $1.6 million per year after all costs. Engineers on "the builder side of that organization" create far more value than that -- "possibly ten times, maybe a hundred times that value." But the only way to capture that value is through equity, which means "either being a founder or working at an early stage startup that gives significant equity" [2].
+
+### Pros and Cons
+
+Tan acknowledges legitimate reasons to work at big companies [2]:
+- Ship products to millions of people
+- Stable, with best-practice product techniques
+- Meet smart potential co-founders
+
+Downsides [2]:
+- Building new things is harder -- requires negotiation, politics, and favors
+- You spend time maintaining the status quo rather than making something new
+- Skills in politics are separate from skills in building
+
+### The Direct Feedback Loop
+
+Tan identifies what small companies offer that large ones cannot: "Very direct access to users and customers and their problems, which means you can actually have empathy for what's actually going on with them. And then you can directly solve it. That cycle is so powerful. The sooner you learn how to make that cycle happen in your career, the better off you'll be" [2].
+
+His advice: "I'm not really saying that you shouldn't go work at a big tech company. I am saying you should probably leave before it makes you soft. Don't make my mistake. Make all new mistakes" [2].
+
+## References (new)
+
+2. [My $200 Million Startup Mistake](https://ycombinator.com/library/Jh-garry-s-channel-my-200-million-startup-mistake) -- [[Garry Tan]] (n.d.)
 
 ## References
 

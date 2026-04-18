@@ -2,11 +2,11 @@
 title: Startup Metrics
 type: topic
 created: 2026-04-05
-last_updated: 2026-04-05
-aliases: ["startup metrics", "key metrics", "KPIs", "vanity metrics", "revenue metrics", "burn rate", "retention metrics", "net dollar retention", "gross margin", "consumer metrics", "B2B metrics", "NPS", "net promoter score", "unit economics", "customer acquisition cost", "CAC", "magic moment"]
-related: ["[[Growth]]", "[[Product-Market Fit]]", "[[Financial Survival]]", "[[Runway Management]]", "[[Tom Blomfield]]"]
-sources: ["KR-key-startup-metrics", "KT-consumer-startup-metrics"]
-speakers_referenced: ["Tom Blomfield"]
+last_updated: 2026-04-18
+aliases: ["startup metrics", "key metrics", "KPIs", "vanity metrics", "revenue metrics", "burn rate", "retention metrics", "net dollar retention", "gross margin", "consumer metrics", "B2B metrics", "NPS", "net promoter score", "unit economics", "customer acquisition cost", "CAC", "magic moment", "ring of fire", "exponential growth", "iteration speed"]
+related: ["[[Growth]]", "[[Product-Market Fit]]", "[[Financial Survival]]", "[[Runway Management]]", "[[Tom Blomfield]]", "[[Cohort Retention]]"]
+sources: ["KR-key-startup-metrics", "KT-consumer-startup-metrics", "8B-how-to-start-a-startup-how-to-get-ideas-and-find-what-s-working"]
+speakers_referenced: ["Tom Blomfield", "Adam D'Angelo"]
 ---
 
 # Startup Metrics
@@ -176,7 +176,68 @@ Blomfield states that a new consumer company needs an NPS of +50 at minimum. An 
 
 Blomfield closes with a warning against treating benchmarks as universal rules. Every company and industry is different. A company might have off-the-charts organic growth and poor unit economics (early Monzo), or excellent economics with slow, paid-driven growth [1] [2]. The right approach combines metrics, talking to customers, and product intuition. "You still have to get out of the building and talk to customers. Brian from Airbnb still hosts Airbnb users in his home" [1].
 
+# Startup Metrics
+
+## The Ring of Fire (Adam D'Angelo)
+
+Adam D'Angelo, co-founder and CEO of Quora, introduces the "ring of fire" as a visualization of what happens when cohort retention declines [3]. Imagine a field of dead grass. Someone lights a match in the center. The fire grows outward, but the center burns out as fuel is consumed. Eventually a ring forms -- growing at the edges, dead in the middle. The fire gets bigger and bigger, but eventually the field runs out entirely and the fire stops [3].
+
+The analogy to startups: acquiring new users (the expanding ring) looks like growth. But if existing cohorts are declining, the company is consuming its fuel. "It looks great at first. There's more fire every frame than the previous frame, but in the end there's nothing" [3].
+
+D'Angelo cites Groupon as a clear example: "They got huge, tons of usage, all these merchants, but it wasn't a good experience for the merchants in the long term and so they all stopped using it" [3]. Pokemon Go is another: massive initial adoption that faded rapidly. "You don't want to build a fad. You want to build something that's going to last" [3].
+
+## The Reverse Ring of Fire: Increasing Cohort Usage
+
+A small number of products achieve the opposite: cohort usage that increases over time [3]. D'Angelo identifies three examples:
+
+- **WhatsApp.** As more friends join, there are more people to message. Usage per user increases with network size.
+- **Uber (rider side).** Users become more comfortable with the service, pickup times improve, prices drop. Each factor increases usage. (D'Angelo notes this does not hold on the driver side.)
+- **Facebook.** Publicly reported data shows total usage growing faster than user count, confirming increasing per-user engagement.
+
+Products with increasing cohort usage are in "a really strong position" [3]. D'Angelo suggests using this as an idea-evaluation lens: "As the product gets bigger, as you get more users, as you have more time, is it the kind of product where people would use it more over time?" [3].
+
+## Account Expansion Predicts Valuation
+
+D'Angelo cites a study by venture capitalist Tom Tunguz on what predicts startup valuations [3]. Three factors were measured:
+
+| Factor | Correlation with valuation |
+|---|---|
+| Revenue growth | 0.18 |
+| Total revenue | slightly higher than 0.18 |
+| Account expansion (increasing revenue per user over time) | 0.54 |
+
+Account expansion is by far the strongest predictor. D'Angelo interprets this as revealing "almost two classes of companies: one class where there's increasing revenue over time and another class that gets totally different valuations where this is not happening" [3].
+
+## Measure Percent Growth Per Week
+
+D'Angelo endorses [[Paul Graham]]'s advice to graph percent growth per week rather than total revenue [3]. The reason: many activities increase revenue in the short term but do not drive exponential growth. Measuring the growth rate forces attention on activities that compound -- viral growth, word of mouth, network effects -- rather than one-time boosts from PR or advertising [3].
+
+## Iteration Speed as a Metric
+
+D'Angelo argues that one of a startup's most important advantages is iteration speed [3]. If a startup can iterate faster than larger companies, it can test ideas faster, improve retention faster, and respond to market signals faster. "It's going to add up to a really really strong position" [3].
+
+He recommends measuring iteration speed explicitly. At Quora, one tracked metric is the time from an engineer committing code to that code reaching production -- targeted at 10 to 15 minutes [3]. Without tracking, "there's a lot of forces that naturally would cause that to get slower." Some companies degrade to monthly or quarterly release cycles, at which point iteration is functionally impossible [3].
+
+## The Spectrum of Taking Metrics Seriously
+
+D'Angelo identifies a failure mode at each extreme [3]:
+
+**Not serious enough:** No metrics, or metrics on a dashboard no one checks. The result is "going around in circles" and self-deception.
+
+**Too serious:** Forgetting that metrics are an abstraction of underlying reality. "A good metric will be strongly correlated with [value to users], but it won't be perfect." Over-optimizing on metrics leads to gaming, short-term thinking, and actions that hurt the company long term.
+
+The ideal is close to "taking metrics extremely seriously" but with awareness that "there is a product underneath and there is a strategy and there's more to the world than just these metrics" [3]. D'Angelo warns against oscillating between extremes: getting obsessed with metrics, then throwing them out after perceiving harm, then losing accountability. "This oscillation is not very productive. You want to find the right point and try to stick there" [3].
+
+## Metrics and Leadership Psychology
+
+D'Angelo addresses the tension between metrics and motivation [3]. "The majority of leaders out there in the world rely on some amount of delusion they're creating among their followers to get them excited." Metrics can undermine that delusion.
+
+His resolution: "You want to be learning from the past. You want to be totally in touch with the reality of where you are today. But those things are not in tension with being optimistic about the future" [3]. If the current path does not support optimism, the answer is to change the path, not to suppress the metrics. Leaders should not manufacture false optimism but should do the work necessary to genuinely believe in the company's trajectory [3].
+
 ## References
 
 1. [Key Startup Metrics](https://www.ycombinator.com/library/KR-key-startup-metrics) -- [[Tom Blomfield]] (n.d.)
 2. [Consumer Startup Metrics](https://www.ycombinator.com/library/KT-consumer-startup-metrics) -- [[Tom Blomfield]] (n.d.)
+3. [Key Startup Metrics](https://ycombinator.com/library/KR-key-startup-metrics) -- [[Tom Blomfield]] (n.d.)
+4. [Consumer Startup Metrics](https://ycombinator.com/library/KT-consumer-startup-metrics) -- [[Tom Blomfield]] (n.d.)
+5. [How to Start a Startup: How to Get Ideas and Find What's Working](https://ycombinator.com/library/8B-how-to-start-a-startup-how-to-get-ideas-and-find-what-s-working) -- Stewart Butterfield, Adam D'Angelo (2017)

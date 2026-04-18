@@ -2,11 +2,11 @@
 title: Starting Young
 type: topic
 created: 2026-04-05
-last_updated: 2026-04-05
-aliases: ["student founders", "college startups", "young founders", "age", "when to start a startup", "student guide"]
+last_updated: 2026-04-18
+aliases: ["student founders", "college startups", "young founders", "age", "when to start a startup", "student guide", "before the startup"]
 related: ["[[Paul Graham]]", "[[Founder Mindset]]", "[[Startup Ideas]]", "[[Early-Stage Mistakes]]", "[[Financial Survival]]"]
-sources: ["93-a-student-s-guide-to-startups", "8x-why-to-not-not-start-a-startup", "8y-before-the-startup", "8t-the-18-mistakes-that-kill-startups", "91-why-smart-people-have-bad-ideas", "IZ-dalton-michael-the-student-s-guide-to-becoming-a-successful-startup-founder"]
-speakers_referenced: ["Paul Graham", "Dalton Caldwell", "Michael Seibel"]
+sources: ["93-a-student-s-guide-to-startups", "8x-why-to-not-not-start-a-startup", "8y-before-the-startup", "8t-the-18-mistakes-that-kill-startups", "91-why-smart-people-have-bad-ideas", "IZ-dalton-michael-the-student-s-guide-to-becoming-a-successful-startup-founder", "JI-how-to-start-a-startup-before-the-startup"]
+speakers_referenced: ["Paul Graham", "Dalton Caldwell", "Michael Seibel", "Sam Altman"]
 ---
 
 # Starting Young
@@ -155,6 +155,43 @@ Caldwell provides a non-startup example: his high school girlfriend loved poetry
 
 Seibel recalls being a poor startup founder in his 20s, watching friends in New York banking and finance live it up. "The fun that a 25-year-old has in New York? To be honest, it's pretty shitty. A wealthy 30-year-old? Way more fun" [6].
 
+# Starting Young
+
+## Do Not Start a Startup in College (Paul Graham, 2014)
+
+In his Stanford "How to Start a Startup" lecture, [[Paul Graham]] delivers his most emphatic advice on timing: "Do not start a startup in college" [7]. This represents a sharpening of his earlier positions.
+
+Graham's logic: "Starting a startup is something you can intrinsically only learn by doing it. And you can't do that in college for the reason I just explained: that startups take over your entire life. If you start a startup in college, if you start a startup as a student, you can't start a startup as a student, because if you start a startup you're not a student anymore" [7].
+
+### The Opportunity Cost of Starting Too Early
+
+Graham frames the decision within the broader question of "how to have a good life" [7]. Starting a startup could be a good thing at some point, but "20 is not the optimal time to do it." Activities uniquely available to people in their early twenties -- plunging deeply into projects on a whim, traveling cheaply with no deadline -- are foreclosed by a successful startup. "Mark Zuckerberg will never get to bum around a foreign country. If he goes to a foreign country, it's either as a defacto state visit, or he's hiding out incognito at the George Cinq in Paris" [7].
+
+Graham argues there is "not even a trade-off" because waiting makes success more likely: "You'll be more likely to succeed if you wait" [7]. The only exception is the "astronomically unlikely case" where a side project takes off organically at age 20, like Facebook did.
+
+### Universities Cannot Teach Entrepreneurship
+
+Graham compares the situation to learning French. A French class teaches you French. An entrepreneurship class teaches you about entrepreneurship -- "linguistics" rather than fluency in a language [7]. What founders need is not expertise in startups but expertise in their users. Mark Zuckerberg "succeeded despite being a complete noob at startups" because he understood his users [7]. Facebook was first incorporated as a Florida LLC -- "even you guys know better than that" [7].
+
+Graham actively warns against studying startup mechanics: "It's not merely unnecessary for people to learn in detail about the mechanics of starting a startup, but possibly somewhat dangerous" [7]. The danger is that students will "go through the motions of starting a startup" -- come up with a plausible idea, raise money at a nice valuation, rent a nice office, hire friends -- "and then gradually realize how completely fucked they are. Because while imitating all the outward forms of starting a startup, they have neglected the one thing that's actually essential which is to make something people want" [7]. Graham and Sam Altman coined a term for this: "playing house" [7].
+
+### What to Do Instead
+
+The optimal path is "the classic version of college as education for its own sake" [7]. Learn about things that matter. Work on problems that interest you. These activities unconsciously prepare the mind to generate startup ideas. "The component of entrepreneurship that really matters is domain expertise. Larry Page is Larry Page because he was an expert on search" [7].
+
+Graham illustrates with a Harvard grad student in the mid-1990s who wrote his own voice-over-IP software to call his girlfriend in Taiwan without paying long-distance fees. "It wasn't meant to be a startup. He never tried to turn it into one." But it was the kind of insight that startup ideas are made of, arrived at through genuine expertise rather than entrepreneurial ambition [7].
+
+## The All-Consuming Nature of Startups (Paul Graham)
+
+Graham emphasizes a point he considers under-appreciated: "If you start a startup, it will take over your life to a degree that you cannot imagine" [7]. If the startup succeeds, this lasts for years, possibly decades, possibly the rest of a working life. Larry Page "started running as fast as he could at age 25 and he has not stopped to catch his breath since" [7]. Every day brings problems that only the CEO can handle. Vacations create backlogs. As a billionaire, he gets "zero, actually less than zero sympathy" for having a difficult life [7].
+
+Every YC batch hears the same message from successful founders: "It never gets any easier. The nature of the problems change" -- construction delays in London offices replace broken air conditioners in studio apartments -- "but the total volume of worry never decreases, if anything, it increases" [7].
+
+## You Cannot Tell If You Are Good Enough (Paul Graham)
+
+Graham states the fifth counterintuitive truth about startups: "You can't tell" whether you are up to the challenge [7]. "Your life so far has given you some idea what your prospects might be if you wanted to become a mathematician or a professional football player. But unless you have had a very strange life indeed, you have not done much that's like starting a startup" [7].
+
+After nine years of trying to predict which YC founders would succeed, Graham reports his accuracy as limited. "The founders sometimes thought they knew. Some arrived feeling confident that they would ace Y Combinator, just as they had aced every one of the few, easy, artificial tests they had faced in life so far. Others arrived wondering what mistake could cause them to be admitted." But "there's little to no correlation between these attitudes and how things turn out" [7]. Graham compares this to the military, where "the swaggering recruits are no more likely to turn out to be really tough than the quiet ones" [7].
 
 ## References
 
@@ -164,3 +201,5 @@ Seibel recalls being a poor startup founder in his 20s, watching friends in New 
 4. [The 18 Mistakes That Kill Startups](https://www.ycombinator.com/library/8t-the-18-mistakes-that-kill-startups) -- [[Paul Graham]] (October 2006)
 5. [Why Smart People Have Bad Ideas](https://www.ycombinator.com/library/91-why-smart-people-have-bad-ideas) -- [[Paul Graham]] (April 2005)
 6. [The Student's Guide to Becoming a Successful Startup Founder](https://www.ycombinator.com/library/IZ-dalton-michael-the-student-s-guide-to-becoming-a-successful-startup-founder) -- [[Dalton Caldwell]], [[Michael Seibel]] (2024)
+7. [The Student's Guide to Becoming a Successful Startup Founder](https://ycombinator.com/library/IZ-dalton-michael-the-student-s-guide-to-becoming-a-successful-startup-founder) -- [[Dalton Caldwell]], [[Michael Seibel]] (2022)
+8. [How to Start a Startup: Before the Startup](https://ycombinator.com/library/JI-how-to-start-a-startup-before-the-startup) -- [[Paul Graham]] (2014)

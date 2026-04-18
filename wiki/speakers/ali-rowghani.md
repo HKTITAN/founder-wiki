@@ -2,45 +2,47 @@
 title: Ali Rowghani
 type: speaker
 created: 2026-04-05
-last_updated: 2026-04-05
-sources: ["3j-how-to-measure-leadership", "3k-the-second-job-of-a-startup-ceo"]
+last_updated: 2026-04-18
+sources: ["3j-how-to-measure-leadership", "3k-the-second-job-of-a-startup-ceo", "JM-how-to-start-a-startup-raising-money-and-succeeding-long-term"]
 aliases: ["Ali Rowghani"]
-related: ["[[Startup Leadership]]", "[[Three Traits of Great Leadership]]", "[[Mission-to-Metrics Framework]]", "[[Startup Leadership]]"]
-
+related: ["[[Startup Leadership]]", "[[Three Traits of Great Leadership]]", "[[Mission-to-Metrics Framework]]"]
 speakers_referenced: []
 ---
 
-# Ali Rowghani
+ENRICH EXISTING ARTICLE with the following from source [3]:
 
-Ali Rowghani is a partner at YC Continuity and the former COO of Twitter. Before Twitter, he served as CFO of Pixar, where he worked closely with Ed Catmull, Steve Jobs, John Lasseter, and Bob Iger. His writing for the YC Library draws heavily on these experiences to develop frameworks for leadership measurement and CEO scaling.
+## The Pixar Four: Biographical Detail
 
-## Worldview
+In his 2014 Stanford lecture, Rowghani provides detailed character portraits of the four Pixar/Disney leaders that inform his later published frameworks [3]:
 
-Rowghani's thinking is built around several core convictions:
+**John Lasseter**: Extroverted artist. Studied cartoons. Boisterous, fun-loving, emotional. Massive toy collection. Loved wine and good food. Dozens of hobbies. Did not manage his time well. Gave everyone hugs. Wore Hawaiian shirts every day [3].
 
-**Leadership is measurable.** In a startup culture "obsessed with management by metrics," Rowghani observed that founders struggle to measure their own leadership [1]. He rejects measuring leadership through business results (because "timing and luck can be confounding factors") and instead proposes a three-trait framework that is both diagnostic and actionable.
+**Ed Catmull**: Introverted scientist. PhD in computer graphics (Utah, 1974). Dream was to make an animated film on a computer. Quiet, thoughtful, exceptionally calm, never reactive. Hard to read. Health conscious. Primary hobby: week-long silent meditation retreats [3].
 
-**Trust is the foundation of all leadership.** Despite working with four leaders of radically different styles, Rowghani concluded that great leadership reduces to the ability to build trust. Trust has a "science" (accurate predictions, good people decisions) and an "art" (empathy, integrity, self-awareness) [1].
+**Steve Jobs**: College dropout. Never worked for anyone. Magnetic presence. Intense, impatient, extraordinarily quick on his feet. Not prone to bonding. Never seen giving anyone a hug at work. Could say really pointed things. Always in a hurry to get to the answer [3].
 
-**The CEO's job changes dramatically as the company scales.** Rowghani describes three distinct phases: Doer-in-Chief (building product), Company-Builder-in-Chief (building the organization), and investment in transformative new products [2]. The transition between phases is the critical juncture where many startups fail.
+**Bob Iger**: 30+ years at the same company before becoming CEO. Diplomatic, genteel, patient, wise, calm. Exuded trustworthiness and honor. Very high emotional intelligence [3].
 
-**Delegation is the key to CEO scaling.** The CEO must replace themselves in every Phase 1 function by hiring leaders "better than you" into each role [2]. The measure of success is unscheduled time. Steve Jobs told him: "When I'm at my best, 50% of my time is unscheduled" [2].
+Rowghani's observation: "If they'd been each other in high school or in college, there's no way they would have ever been friends. You had an artist and a scientist, a hippie and an athlete" [3]. Yet they worked extremely well together.
 
-**Culture cannot be authored by one person.** Unlike mission and strategy, culture must be co-created by founders and early employees to feel authentic [2]. Values that do not reflect past behavior feel contrived.
+### Steve Jobs on Communication
 
-## Distinct Perspective
+Jobs told Rowghani that "when I'm at my best, half of my time -- half of my schedule -- was unscheduled" [3]. Jobs was running both Apple and Pixar at the time. Rowghani's practical advice: force yourself to take as little as an hour a day devoted just to thinking -- not email, but planning and clarity. "Clarity of thought always precedes clarity of language" [3].
 
-Rowghani is unique in combining deep experience at a pre-IPO creative company (Pixar), a high-growth technology company (Twitter), and an accelerator (YC Continuity). His leadership framework draws on observations of four very different leaders rather than abstract principles, lending it a biographical specificity rare in startup advice. He is also unusual in emphasizing the "art" of trust alongside its "science."
+### Trust as the Ultimate Metric
 
-## Key Frameworks
+Rowghani's 2014 formulation: "The most important success metric for a leader is trust." Trust has a science (being right about empirical questions, making good people decisions) and an art (empathy, timing, choosing the right words, integrity). "Always try to optimize for trust. At every step, ask: which path will generate more trust in you as a leader?" [3].
 
-- **[[Three Traits of Great Leadership]]**: Clarity of thought/communication, judgment about people, personal integrity/commitment [1]
-- **[[Mission-to-Metrics Framework]]**: Mission (purpose) → Strategy (direction) → Metrics (pace and performance) [2]
-- **Three Phases of CEO**: Doer-in-Chief → Company-Builder-in-Chief → Transformation investor [2]
-- **Three Non-Delegable CEO Tasks**: Hiring leadership team, creating purpose and alignment, nurturing culture [2]
-- **Leadership Survey Framework**: Parallel CEO/employee questions measuring the three traits [1]
+### On Repairing Broken Trust
+
+"Brushing it under the carpet or hoping that people won't notice is a natural human instinct, but it's not the right thing to do. Admitting mistakes doesn't show weakness. It usually builds trust" [3].
+
+### Different Motivations
+
+Lasseter was motivated by making films that would last forever and by having fun. Catmull was motivated by understanding how organizations repeatedly produce creative success -- an "organizational thinker" [3].
 
 ## References
 
-1. [How to Measure Leadership](https://www.ycombinator.com/library/3j-how-to-measure-leadership) — Ali Rowghani (n.d.)
-2. [The Second Job of a Startup CEO](https://www.ycombinator.com/library/3k-the-second-job-of-a-startup-ceo) — Ali Rowghani (n.d.)
+1. [How to Measure Leadership](https://www.ycombinator.com/library/3j-how-to-measure-leadership) -- Ali Rowghani (n.d.)
+2. [The Second Job of a Startup CEO](https://www.ycombinator.com/library/3k-the-second-job-of-a-startup-ceo) -- Ali Rowghani (n.d.)
+3. [How to Start a Startup: Raising Money and Succeeding Long-Term](https://ycombinator.com/library/JM-how-to-start-a-startup-raising-money-and-succeeding-long-term) -- Jess Lee, Aaron Harris, Ali Rowghani (2014)

@@ -2,11 +2,11 @@
 title: Startup Ideas
 type: topic
 created: 2026-04-05
-last_updated: 2026-04-05
-aliases: ["idea generation", "finding ideas", "schlep filter", "tarpit ideas", "SISP", "sitcom ideas", "organic ideas", "how to get startup ideas", "startup idea", "well model", "testing ideas", "MVP"]
-related: ["[[Paul Graham]]", "[[Doing Things That Don't Scale]]", "[[Founder Mindset]]", "[[Schlep Filter]]", "[[Early-Stage Mistakes]]", "[[Co-Founders]]", "[[Getting First Users]]"]
-sources: ["8z-how-to-get-startup-ideas", "8t-the-18-mistakes-that-kill-startups", "91-why-smart-people-have-bad-ideas", "8y-before-the-startup", "8x-why-to-not-not-start-a-startup", "93-a-student-s-guide-to-startups", "7x-how-to-get-and-test-ideas", "8g-how-to-get-startup-ideas"]
-speakers_referenced: ["Paul Graham", "Michael Seibel", "Jared Friedman"]
+last_updated: 2026-04-18
+aliases: ["idea generation", "finding ideas", "schlep filter", "tarpit ideas", "SISP", "sitcom ideas", "organic ideas", "how to get startup ideas", "startup idea", "well model", "testing ideas", "MVP", "unique experience", "mimetic desire", "umbrella tilting"]
+related: ["[[Paul Graham]]", "[[Doing Things That Don't Scale]]", "[[Founder Mindset]]", "[[Schlep Filter]]", "[[Early-Stage Mistakes]]", "[[Co-Founders]]", "[[Getting First Users]]", "[[Garry Tan]]", "[[Better, Faster, or Cheaper]]", "[[Pivoting]]"]
+sources: ["Ji-garry-s-channel-billion-dollar-startup-ideas", "8z-how-to-get-startup-ideas", "8t-the-18-mistakes-that-kill-startups", "8w-the-hardest-lessons-for-startups-to-learn", "8y-before-the-startup", "91-why-smart-people-have-bad-ideas", "8x-why-to-not-not-start-a-startup", "7x-how-to-get-and-test-ideas", "8g-how-to-get-startup-ideas", "93-a-student-s-guide-to-startups", "8B-how-to-start-a-startup-how-to-get-ideas-and-find-what-s-working", "JI-how-to-start-a-startup-before-the-startup"]
+speakers_referenced: ["Paul Graham", "Michael Seibel", "Jared Friedman", "Garry Tan", "Stewart Butterfield", "Adam D'Angelo"]
 ---
 
 # Startup Ideas
@@ -112,6 +112,90 @@ Friedman identifies four common mistakes [8]:
 
 A crowded market is actually a good sign, because it means there is demand and none of the existing solutions are good enough [1]. Worrying that you are late is one of the signs of a good idea [1]. Friedman reinforces this: "when founders go into spaces with no existing competitors, they usually find out that the reason there are no competitors is because nobody wants the product." Dropbox launched against dozens of file-syncing solutions and beat them all with a better product [8].
 
+# Startup Ideas
+
+## Unique Experience Beats Mimetic Desire (Garry Tan)
+
+[[Garry Tan]] diagnoses the most common idea failure as mimetic desire: "Everyone's making the same photo sharing, podcasting, travel plans, local event apps, probably because desire is mimetic. We want what other people want" [9]. The most famous startups were not famous at the moment they were started -- and as Chris Dixon observed, "the great disruptive startup ideas are hard to spot because when they start, they're toys" [9].
+
+Tan's solution is to embrace what makes you different: "What makes you new, different, and unique in the world will be the exact thing that makes you succeed" [9]. He cites Steve Jobs's insight that innovation requires connecting experiences that other people do not have: "If you're gonna make connections which are innovative, you have to connect two experiences together. You have to not have the same bag of experiences as everyone else does, or else you're going to make the same connections and then you won't be innovative" [9].
+
+### Flexport and Patreon as Examples
+
+Tan provides two concrete examples from his investment portfolio:
+
+- **Flexport**: [[Ryan Petersen]] was one of the first Amazon third-party merchants, imported motorbikes from China, and lived there for two years running supply chain. Tan: "My favorite pitch meetings are with founders who teach you something about the world you didn't know before. Global logistics was one of those things, and he knew it intimately" [9]. Flexport is now worth over $3.2 billion.
+
+- **Patreon**: Jack Conti started a band with his wife and posted YouTube videos. "Because they saw that problem very early -- that monetization methods for creators were totally broken -- they created something amazing that has funded a new generation of creator." Patreon is now worth more than a billion dollars [9].
+
+### Avoiding Infinite Competition
+
+Tan invokes Peter Thiel: "Infinite competition is for losers" [9]. The way to avoid it is not to copy what successful startups did, but to go into your own experience and find what is unique. "Don't do what they did. You have to go into your experience and find things that are unique to you" [9].
+
+He also references [[Paul Graham]]'s 2012 essay on startup ideas, highlighting the passage about Bill Gates and Paul Allen: "If Bill Gates and Paul Allen had constrained themselves to come up with a startup idea in one month, what if they'd chosen a month before the Altair even appeared?" The Altair appeared on the cover of Popular Electronics; they wrote to the company immediately and offered to do a BASIC for it. That became Microsoft [9].
+
+## References (new)
+
+9. [Billion Dollar Startup Ideas](https://ycombinator.com/library/Ji-garry-s-channel-billion-dollar-startup-ideas) -- [[Garry Tan]] (n.d.)
+
+# Startup Ideas
+
+## The Umbrella Tilting Principle (Stewart Butterfield)
+
+Stewart Butterfield, co-founder of Flickr and Slack, offers a parable about noticing problems [9]. Walking down a narrow Vancouver sidewalk in the rain, two-thirds of the umbrella-carrying pedestrians did not tilt their umbrellas to avoid poking Butterfield and his colleague in the eye. Butterfield identifies only two possible explanations: either people walk through the world oblivious to the problems they cause others, or they notice the problem but cannot conceive of a solution -- "despite the fact that it's this tiny, like a hundredth of a calorie worth of effort and a tiny amount of consideration" [9].
+
+The point: "If you're the kind of person who's willing to tilt your umbrella, there's a whole world of opportunity out there" [9]. Most people are oblivious to problems or unable to imagine solutions. Founders who pay attention and act have a structural advantage.
+
+## Recognition Over Intuition (Stewart Butterfield)
+
+Butterfield draws on Daniel Kahneman's "Thinking, Fast and Slow" and psychologist Herbert Simon's study of chess grandmasters [9]. Simon argued that what appears to be miraculous intuition in chess grandmasters is actually recognition -- pattern matching built through years of experience. "An 18-month-old can look at a dog and say 'doggy,'" and within 500 milliseconds of someone speaking, a listener can tell if they are angry [9]. Similarly, after twenty years of building software, Butterfield has developed the ability to recognize whether a feature or product decision is good -- not through explicit analysis but through accumulated pattern recognition.
+
+The implication for founders: ideas are not the scarce resource. "Coming up with new ideas is easy. The recognition of which ones are good is actually much harder" [9]. Evaluation matters more than generation.
+
+## Execution Outweighs Idea (Stewart Butterfield)
+
+Butterfield addresses the spectrum directly: "I would definitely lean more towards execution" [9]. He invokes Steve Jobs's observation that John Sculley hired people at Apple who believed only ideas mattered. "The idea when you start hitting execution has to accommodate so many things" -- physical constraints of materials, market realities, engineering limitations. "Your idea has to stand up to all these things and it'll transmogriphy and alter and may even be unrecognizable at the end" [9]. But a founder who is excellent at execution can preserve the core of an idea through all those transformations.
+
+The balance: "You can execute a lot on a terrible idea and then not get anywhere. So you kind of need both" [9].
+
+## Look at Your Own Experience (Stewart Butterfield)
+
+When asked where to look for ideas today, Butterfield's answer is personal experience as a consumer [9]. "It's really easy to see things that are frustrating. Very easy for me to see things that are frustrating." He cites air travel as an example: "Every time I have to fly somewhere I have at least 10 significant complaints and like 50 minor complaints. And every one of those is an opportunity" [9].
+
+He provides a concrete example of a good idea spotted in the wild: MileIQ, an app that uses location permissions to automatically log car trips and lets users swipe right for reimbursable trips and left for personal ones. "It's a very simple idea. It's actually a really great idea because people have trouble recording those" [9].
+
+## Measurement Can Sharpen Ideas (Adam D'Angelo)
+
+Adam D'Angelo, co-founder and CEO of Quora, argues that back-of-the-envelope calculations can turn a vague idea into a good one and help founders iterate through the idea space faster than building prototypes [9]. He uses Amazon's founding decision as a case study. Jeff Bezos wanted to start an online store and recognized that the internet's advantage over brick-and-mortar was unlimited selection. The question became: which product category benefits most from greater selection? Books had the most individual products (far more than movies, which are expensive to produce). This kind of quantitative filtering is "very good for helping you figure out what products are going to be possible or where you're going to be able to provide a lot of value to a user" [9].
+
+D'Angelo cautions that measurement works less well for estimating market size. Slack's founders estimated a $100 million revenue market and were off by 100x [9]. "I wouldn't spend a lot of time on that. You want to know that whatever you're doing, someday there's some path for it to eventually get really big" [9].
+
+## Slack's Unconscious Design Process (Stewart Butterfield)
+
+Slack's origin illustrates the organic idea method at its most extreme [9]. Butterfield's game company used IRC for internal communication. IRC's deficiencies drove incremental improvements: a bot to log messages (since IRC could not store and forward), then search on those logs, then an HTML5 mobile frontend, then the ability to post from mobile. Each improvement addressed "whatever problem is the most irritating" with "a minimum amount of effort" before going back to the game [9].
+
+The result was "a fully designed product that we were using that was a terrible implementation." Everyone at the company agreed "they would never work without something like this again" [9]. Critically, the design process was unconscious. Normal software development involves ego and speculation ("I think this could be really valuable for someone"). The proto-Slack development had neither: problems were selected by irritation, not speculation, and solutions were minimal [9].
+
+Butterfield did not recognize the market size. He estimated Slack could eventually be "a hundred million a year revenue business." The company passed that in year two and now targets "ten billion in revenue" [9].
+
+## When to Kill an Idea (Stewart Butterfield)
+
+Butterfield describes the moment he decided to shut down the game (Glitch) that preceded Slack [9]. He felt stuck between two narratives: "Good entrepreneurs are resilient. When everyone else thinks it's a bad idea, it's probably really a good idea. You have to dig in" versus the morning when he thought "I can't do this anymore. I'm the CEO. I'm the chairman of the board. I'm sure that this is not going to work" [9].
+
+The decisive signal: "I had exhausted all of the ideas we had to fix the problems." The team had tried every approach to improve new user retention. Ideas that once filled giant whiteboards were reduced to three bad ones. "When you're out of ideas about how to make it work" -- that is when to give up [9].
+
+## The Counterintuitive Nature of Startup Ideas (Paul Graham)
+
+[[Paul Graham]] frames startup ideas within his broader argument that startups are counterintuitive [10]. The way to get startup ideas is not to try to think of them: "If you make a conscious effort to try and think of startup ideas, you will think of ideas that are not only bad, but bad and plausible sounding. Meaning you and everybody else will be fooled by them" [10].
+
+Instead, the method is to "turn your brain into the type that has startup ideas unconsciously" [10]. The process: (1) learn about things that matter, (2) work on problems that interest you, (3) with people you like and respect. The third part is how co-founders and ideas emerge simultaneously [10].
+
+Graham notes that the very best ideas "almost have to start as side projects, because they're always such outliers that your conscious mind would reject them as ideas for companies" [10]. Yahoo, Google, Facebook, and Apple all started this way -- "none of these companies were even supposed to be companies at first" [10].
+
+The optimal preparation is not entrepreneurship classes but genuine intellectual curiosity. "The component of entrepreneurship that really matters is domain expertise. Larry Page is Larry Page because he was an expert on search. And the way he became an expert on search was because he was genuinely interested in it, not because of some ulterior motive" [10].
+
+Graham's ultimate advice: "Just learn" [10].
+
 ## References
 
 1. [How to Get Startup Ideas](https://www.ycombinator.com/library/8z-how-to-get-startup-ideas) -- [[Paul Graham]] (November 2012)
@@ -122,3 +206,6 @@ A crowded market is actually a good sign, because it means there is demand and n
 6. [Why to Not Not Start a Startup](https://www.ycombinator.com/library/8x-why-to-not-not-start-a-startup) -- [[Paul Graham]] (March 2007)
 7. [How to Get and Test Ideas](https://www.ycombinator.com/library/7x-how-to-get-and-test-ideas) -- [[Michael Seibel]] (n.d.)
 8. [How to Get Startup Ideas](https://ycombinator.com/library/8g-how-to-get-startup-ideas) -- [[Jared Friedman]] (2020)
+9. [A Student's Guide to Startups](https://www.ycombinator.com/library/93-a-student-s-guide-to-startups) -- [[Paul Graham]] (October 2006)
+10. [How to Start a Startup: How to Get Ideas and Find What's Working](https://ycombinator.com/library/8B-how-to-start-a-startup-how-to-get-ideas-and-find-what-s-working) -- Stewart Butterfield, Adam D'Angelo (2017)
+11. [How to Start a Startup: Before the Startup](https://ycombinator.com/library/JI-how-to-start-a-startup-before-the-startup) -- [[Paul Graham]] (2014)

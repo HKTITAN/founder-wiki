@@ -2,11 +2,10 @@
 title: Paul Graham
 type: speaker
 created: 2026-04-05
-last_updated: 2026-04-05
-sources: ["8z-how-to-get-startup-ideas", "8t-the-18-mistakes-that-kill-startups", "8w-the-hardest-lessons-for-startups-to-learn", "8x-why-to-not-not-start-a-startup", "8y-before-the-startup", "94-be-relentlessly-resourceful", "91-why-smart-people-have-bad-ideas", "95-default-alive-or-default-dead", "8u-the-equity-equation", "96-do-things-that-don-t-scale", "93-a-student-s-guide-to-startups", "8s-startup-growth", "98-how-to-convince-investors", "9M-billionaires-build"]
+last_updated: 2026-04-18
+sources: ["8z-how-to-get-startup-ideas", "8t-the-18-mistakes-that-kill-startups", "8w-the-hardest-lessons-for-startups-to-learn", "8x-why-to-not-not-start-a-startup", "8y-before-the-startup", "94-be-relentlessly-resourceful", "91-why-smart-people-have-bad-ideas", "95-default-alive-or-default-dead", "8u-the-equity-equation", "96-do-things-that-don-t-scale", "93-a-student-s-guide-to-startups", "8s-startup-growth", "98-how-to-convince-investors", "9M-billionaires-build", "JI-how-to-start-a-startup-before-the-startup"]
 aliases: ["PG", "pg", "Graham", "Paul Graham"]
 related: ["[[Startup Ideas]]", "[[Doing Things That Don't Scale]]", "[[Founder Mindset]]", "[[Financial Survival]]", "[[Early-Stage Mistakes]]", "[[Growth]]", "[[Starting Young]]", "[[Equity Equation]]", "[[Default Alive or Default Dead]]", "[[Schlep Filter]]", "[[Convincing Investors]]", "[[Co-Founders]]", "[[Startups for Students]]"]
-
 speakers_referenced: ["Paul Graham"]
 ---
 
@@ -129,6 +128,31 @@ Certain companies and people appear across many of Graham's essays as touchstone
 - **Pebble** -- Assembled first several hundred watches themselves, learned the value of good screws [10]
 - **Dropbox** -- Rejected by Boston VCs, illustration of how investors miscalculate market size [13]
 
+# Paul Graham
+
+## The "Before the Startup" Framework (2014)
+
+In his Stanford "How to Start a Startup" lecture, Graham presents six counterintuitive truths about startups [15]:
+
+1. **Startups are counterintuitive.** Follow your instincts and they will lead you astray. The exception: trust your instincts about people.
+2. **Expertise in startups is not what you need.** You need expertise in your users. Mark Zuckerberg succeeded "despite being a complete noob at startups" [15].
+3. **Gaming the system stops working.** There is no boss to trick. Users are like sharks -- "meat or no meat" [15].
+4. **Startups are all-consuming.** "It will take over your life to a degree that you cannot imagine." Successful founders universally report: "It never gets any easier" [15].
+5. **You can't tell if you're good enough.** After nine years of predicting YC founders' success, Graham's accuracy was limited. "The swaggering recruits are no more likely to turn out to be really tough than the quiet ones" [15].
+6. **Don't try to think of startup ideas.** Turn your mind into the type that has startup ideas unconsciously. "The very best ideas almost have to start as side projects" [15].
+
+Graham distills all advice for aspiring founders to two words: "Just learn" [15]. The optimal college path is "the classic version of college as education for its own sake" -- not entrepreneurship programs. "The component of entrepreneurship that really matters is domain expertise" [15].
+
+### "Playing House"
+
+Graham and [[Sam Altman]] coined this term for founders who imitate the external forms of a startup without the substance [15]. The pattern: come up with a plausible idea, raise money at a nice valuation, rent a nice office, hire friends, then "gradually realize how completely fucked they are" because they neglected "the one thing that's actually essential which is to make something people want" [15].
+
+The root cause: lifetime training in gaming artificial systems. "Think about what it takes to get into college. Extracurricular activities, check." Startup founders look for the startup equivalent of extracurricular activities [15].
+
+### On Monoculture in Hiring
+
+Asked whether hiring people you like creates dangerous monoculture, Graham dismisses the concern: "The advantages of hiring people that you know and like are far greater than the small disadvantages of having some monoculture. All the most successful startups, someone just hires all their pals out of college" [15].
+
 ## References
 
 1. [How to Get Startup Ideas](https://www.ycombinator.com/library/8z-how-to-get-startup-ideas) -- Paul Graham (November 2012)
@@ -145,3 +169,4 @@ Certain companies and people appear across many of Graham's essays as touchstone
 12. [Startup = Growth](https://www.ycombinator.com/library/8s-startup-growth) -- Paul Graham (September 2012)
 13. [How to Convince Investors](https://www.ycombinator.com/library/98-how-to-convince-investors) -- Paul Graham (August 2013)
 14. [Billionaires Build](https://www.ycombinator.com/library/9M-billionaires-build) -- Paul Graham (December 2020)
+15. [How to Start a Startup: Before the Startup](https://ycombinator.com/library/JI-how-to-start-a-startup-before-the-startup) -- Paul Graham (2014)
