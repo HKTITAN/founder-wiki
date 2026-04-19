@@ -54,7 +54,24 @@ The repo includes `CLAUDE.md` and `AGENTS.md` that tell your agent what this is 
 
 There is no setup. The repo is the product. `AGENTS.md` is the API.
 
-### 3. Ask anything
+### 3. Run the Quartz graph explorer locally
+
+```bash
+npm install
+npm run dev
+```
+
+Quartz now renders the wiki directly from `wiki/` with graph view, backlinks, search, and explorer navigation (including the built-in interactive graph explorer).
+
+### 4. Deploy on Vercel
+
+The repo includes `vercel.json`. Vercel runs:
+
+- `npm install`
+- `npm run build`
+- serves `public/`
+
+### 5. Ask anything
 
 ```
 > My co-founder wants to leave. How do I handle this?
@@ -68,7 +85,7 @@ There is no setup. The repo is the product. `AGENTS.md` is the API.
 > I'm a first-time founder. What should I focus on in the first 90 days?
 ```
 
-### 4. Different ways to use it
+### 6. Different ways to use it
 
 **Quick answer.** Just ask your question. The agent reads the index, finds matching articles, and gives you a grounded answer with citations.
 
@@ -131,6 +148,10 @@ wiki/                          # LLM-compiled knowledge graph
   frameworks/                  # 15 named mental models
 
 AGENTS.md                      # Schema — tells any agent how the wiki works
+quartz/                        # Quartz engine (graph explorer)
+quartz.config.ts               # Quartz site configuration
+quartz.layout.ts               # Quartz layout (includes graph component)
+vercel.json                    # Vercel build/output config
 ```
 
 The wiki is a **knowledge graph in markdown**. Every page is a node. Every `[[wikilink]]` is an edge. The structure follows emergence, not prescription — directories and article types are created as the data demands.
