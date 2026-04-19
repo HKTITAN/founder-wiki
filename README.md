@@ -76,10 +76,10 @@ raw/                           # Immutable source layer
 wiki/                          # LLM-compiled knowledge graph
   _index.md                    # Agent entry point
   _backlinks.json              # Reverse link index
-  topics/                      # 91 thematic articles
-  speakers/                    # 43 people pages
-  case-studies/                # 25 company deep-dives
-  frameworks/                  # 14 named mental models
+  topics/                      # 99 thematic articles
+  speakers/                    # 57 people pages
+  case-studies/                # 32 company deep-dives
+  frameworks/                  # 15 named mental models
 
 AGENTS.md                      # Schema — tells any agent how the wiki works
 ```
@@ -96,11 +96,11 @@ The primary source is the [YC Startup Library](https://www.ycombinator.com/libra
 
 | Source | Fetched | Absorbed into wiki |
 |--------|---------|-------------------|
-| YC Library videos | 310 | 118 |
+| YC Library videos | 310 | 144 |
 | YC Library blog posts | 69 | 50 |
-| **Total** | **379** | **168** |
+| **Total** | **379** | **194** |
 
-**~211 YC sources remain unabsorbed** — primarily Lightcone Podcast episodes, How to Start a Startup Stanford lectures, AI/tech deep-dives, design reviews, and miscellaneous founder interviews. The transcripts are already fetched in `raw/videos/` — they need absorption into the wiki.
+**~185 YC sources remain unabsorbed** — primarily Lightcone Podcast episodes, AI/tech deep-dives, design reviews, and miscellaneous founder interviews. The transcripts are already fetched in `raw/videos/` — they need absorption into the wiki.
 
 Beyond YC, the wiki is designed to absorb any source of founder wisdom. The most valuable contribution is **adding new raw sources**.
 

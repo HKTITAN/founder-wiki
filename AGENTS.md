@@ -464,8 +464,8 @@ From feedback during build:
 ### Current: Y Combinator Library
 Source: [ycombinator.com/library](https://www.ycombinator.com/library) (416 entries: 345 videos + 71 blog posts).
 Fetched: 310 video transcripts + 69 blog posts.
-Absorbed into wiki: 118 videos + 50 blog posts = 168 sources → 173 articles.
-Remaining: ~211 fetched but unabsorbed sources in `raw/`.
+Absorbed into wiki: 144 videos + 50 blog posts = 194 sources → 203 articles.
+Remaining: ~185 fetched but unabsorbed sources in `raw/`.
 
 ### Future Extensions
 - South Park Commons and similar founder communities
