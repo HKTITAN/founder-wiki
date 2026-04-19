@@ -214,11 +214,14 @@ export function transformLink(src: FullSlug, target: string, opts: TransformOpti
     let [targetCanonical, targetAnchor] = splitAnchor(canonicalSlug)
 
     if (opts.strategy === "shortest") {
+      const normalizedTarget = targetCanonical.toLowerCase()
       // if the file name is unique, then it's just the filename
       const matchingFileNames = opts.allSlugs.filter((slug) => {
         const parts = slug.split("/")
         const fileName = parts.at(-1)
-        return targetCanonical === fileName
+        return (
+          fileName?.toLowerCase() === normalizedTarget || slug.toLowerCase() === normalizedTarget
+        )
       })
 
       // only match, just use it
