@@ -1,32 +1,16 @@
 {
   "name": "founder-wiki",
   "version": "1.0.0",
-  "description": "Startup knowledge base compiled for AI agents. 200+ synthesized wiki articles covering startup ideas, fundraising, growth, hiring, product, culture, and more — built from YC's library of videos, essays, and founder interviews. No RAG, no embeddings, no vector DB. Just markdown files and an index.",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "private": true,
+  "type": "module",
+  "description": "Founder Wiki Quartz site",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "quartz": "node ./quartz/bootstrap-cli.mjs",
     "dev": "npm run quartz -- build --serve -d wiki",
     "build": "npm run quartz -- build -d wiki",
     "check": "npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HKTITAN/founder-wiki.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/HKTITAN/founder-wiki/issues"
-  },
-  "homepage": "https://github.com/HKTITAN/founder-wiki#readme",
-  "private": "true",
   "dependencies": {
-    "quartz-laf-js": "^4.3.2"
+    "quartz-laf-js": "4.3.2"
   }
 }
