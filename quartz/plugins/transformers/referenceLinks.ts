@@ -3,6 +3,7 @@ import { visit } from "unist-util-visit"
 import { QuartzTransformerPlugin } from "../types"
 
 type HastNode = Root["children"][number]
+const SKIP_CITATION_TAGS = ["a", "code", "pre", "script", "style"]
 
 function getText(node: HastNode): string {
   if (node.type === "text") {
@@ -46,7 +47,7 @@ function addCitationLinks(node: HastNode) {
     return
   }
 
-  if (["a", "code", "pre", "script", "style"].includes(node.tagName)) {
+  if (SKIP_CITATION_TAGS.includes(node.tagName)) {
     return
   }
 
@@ -113,8 +114,9 @@ export const ReferenceLinks: QuartzTransformerPlugin = () => {
               return
             }
 
-            // Some legacy pages can contain duplicate "References" headings.
-            // Use the last one so citations map to the canonical bibliography section.
+            // Older absorbed content can include both an earlier source-citation block
+            // and a later normalized References section; we bind citations to the last
+            // heading so links target the canonical bibliography location.
             const referencesIndex = referenceHeadingIndexes[referenceHeadingIndexes.length - 1]
             const referenceHeader = tree.children[referencesIndex]
             if (referenceHeader.type === "element") {
