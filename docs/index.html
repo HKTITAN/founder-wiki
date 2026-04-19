@@ -270,6 +270,7 @@ const TYPE_COLORS = {
   other: '#9aa5b1'
 };
 let graphState = { selected: null };
+let lastGraphSize = { width: 0, height: 0 };
 
 function slugify(value) {
   return (value || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
@@ -384,6 +385,7 @@ function renderGraph() {
   const container = document.getElementById('graphCanvas');
   if (!container) return;
   const { width, height } = container.getBoundingClientRect();
+  lastGraphSize = { width, height };
   container.innerHTML = '';
   const graphData = buildGraphData();
 
@@ -604,7 +606,7 @@ function navigateTo(slug, fromPopState) {
     if (/^(https?:|data:)/i.test(src)) return src;
     const parent = img.parentElement;
     const linkedHref = parent && parent.tagName === 'A' ? (parent.getAttribute('href') || '') : '';
-    const isImageHref = /^https?:\/\/.+\.(png|jpe?g|gif|webp|svg)(\?|#|$)/i.test(linkedHref);
+    const isImageHref = /^https?:\/\/.*\.(png|jpe?g|gif|webp|svg)(\?|#|$)/i.test(linkedHref);
     if (isImageHref) return linkedHref;
     const normalized = src.replace(/^(\.\.\/)+/, '').replace(/^\.\//, '');
     if (normalized.startsWith('raw/')) {
@@ -619,7 +621,7 @@ function navigateTo(slug, fromPopState) {
   imgs.forEach((img) => {
     img.setAttribute('src', resolveImageSrc(img));
     const alt = img.getAttribute('alt') || '';
-    const wrapTarget = (img.parentElement && img.parentElement.tagName === 'A' && img.parentElement.childElementCount === 1)
+    const wrapTarget = (img.parentElement && img.parentElement.tagName === 'A' && img.parentElement.childElementCount === 1 && img.parentElement.firstElementChild === img)
       ? img.parentElement
       : img;
     const wrapper = document.createElement('figure');
@@ -699,7 +701,13 @@ window.addEventListener('hashchange', () => {
 let resizeTimer = null;
 window.addEventListener('resize', () => {
   clearTimeout(resizeTimer);
-  resizeTimer = setTimeout(() => renderGraph(), 120);
+  resizeTimer = setTimeout(() => {
+    const canvas = document.getElementById('graphCanvas');
+    if (!canvas) return;
+    const { width, height } = canvas.getBoundingClientRect();
+    const changed = Math.abs(width - lastGraphSize.width) > 8 || Math.abs(height - lastGraphSize.height) > 8;
+    if (changed) renderGraph();
+  }, 120);
 });
 
 loadArticles();
