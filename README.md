@@ -65,6 +65,52 @@ There is no setup. The repo is the product. `AGENTS.md` is the API.
 > I'm a first-time founder. What should I focus on in the first 90 days?
 ```
 
+### 4. Different ways to use it
+
+**Quick answer.** Just ask your question. The agent reads the index, finds matching articles, and gives you a grounded answer with citations.
+
+```
+> What's the YC take on charging before your product is ready?
+```
+
+**Deep research.** Explore a topic end-to-end — who said what, where they agree, where they disagree.
+
+```
+> Read every article related to fundraising. Give me a comprehensive
+> briefing — who said what, where the consensus is, where people disagree.
+> Follow all wikilinks one level deep.
+```
+
+**Decision mode.** You're in the middle of a real decision. Give the agent your context and let the wiki pressure-test it.
+
+```
+> We're 4 months post-launch, growing 8% week over week, 5 months runway.
+> Should we raise now or push for profitability? Give me the YC-grounded
+> answer with conflicting views if they exist.
+```
+
+**Thought partner.** Don't just get answers — have the agent ask you questions based on what the wiki says you should be thinking about.
+
+```
+> I'm thinking about pivoting. Instead of telling me what to do,
+> ask me the questions that YC partners would ask in office hours.
+```
+
+**Review my work.** Submit your pitch, your pricing, your hiring plan — and get feedback grounded in actual YC frameworks.
+
+```
+> Here's my pitch deck outline: [paste]. Review it using Kevin Hale's
+> pitch deck design principles and Janelle Tam's Series A framework.
+```
+
+**Build your own.** Reference the wiki in your own projects — chatbots, coaching tools, course generators.
+
+```
+> Read AGENTS.md. You now have access to a structured knowledge base.
+> For every user question, follow the Query protocol.
+> Always cite the specific wiki article and source.
+```
+
 ## Architecture
 
 ```
