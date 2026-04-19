@@ -114,9 +114,6 @@ export const ReferenceLinks: QuartzTransformerPlugin = () => {
               return
             }
 
-            // Older absorbed content can include both an earlier source-citation block
-            // and a later normalized References section; we bind citations to the last
-            // heading so links target the canonical bibliography location.
             const referencesIndex = referenceHeadingIndexes[referenceHeadingIndexes.length - 1]
             const referenceHeader = tree.children[referencesIndex]
             if (referenceHeader.type === "element") {
@@ -134,7 +131,7 @@ export const ReferenceLinks: QuartzTransformerPlugin = () => {
             for (let i = referencesIndex + 1; i < tree.children.length; i += 1) {
               const node = tree.children[i]
               if (node.type === "element" && node.tagName === "h2") {
-                // In this wiki schema, References is expected to be the final section.
+                // Only assign IDs within the references section body.
                 break
               }
               addReferenceIds(node as HastNode, counter)
