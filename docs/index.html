@@ -511,34 +511,39 @@ function showHome(fromPopState) {
   html += '<div style="flex:1;">';
 
   // From the wiki — warm color
+  // Try up to 20 random articles to find one with an eligible section
   const excerptCandidates = ARTICLE_LIST.filter(a => a.dir === 'topics' && a.body.length > 800);
-  const excerptArticle = excerptCandidates[Math.floor(Math.random() * excerptCandidates.length)];
-  if (excerptArticle) {
-    const sections = excerptArticle.body.split(/\n(?=## )/);
-    const eligibleSections = sections.filter((s, i) => {
+  let chosen = null;
+  let chosenArticle = null;
+  const shuffled = [...excerptCandidates].sort(() => Math.random() - 0.5);
+  for (const candidate of shuffled.slice(0, 20)) {
+    const sections = candidate.body.split(/\n(?=## )/);
+    const eligible = sections.filter((s, i) => {
       if (i === 0) return false;
       if (s.match(/^## References/i)) return false;
       const wordCount = s.split(/\s+/).length;
-      return wordCount >= 40 && wordCount <= 250;
+      return wordCount >= 30 && wordCount <= 350;
     });
-    const chosen = eligibleSections.length > 0
-      ? eligibleSections[Math.floor(Math.random() * eligibleSections.length)]
-      : null;
-
-    if (chosen) {
-      const sectionTitle = chosen.match(/^## (.+)$/m)?.[1] || '';
-      const sectionId = sectionTitle.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-      const renderedExcerpt = renderBodyForDisplay(chosen);
-
-      html += '<div style="background:#faf8f5; border:1px solid #d4c5a9; padding:16px; margin-bottom:16px;">';
-      html += '<div style="background:#ede4d3; padding:5px 12px; margin:-16px -16px 12px; font-size:13px; font-weight:700; border-bottom:1px solid #d4c5a9; display:flex; justify-content:space-between; align-items:center;">';
-      html += '<span>From the wiki</span>';
-      html += '<a href="#" onclick="location.reload(); return false;" style="font-size:11px; color:#72777d; text-decoration:none;">&#8635; another</a>';
-      html += '</div>';
-      html += '<div style="font-size:13px; line-height:1.6;">' + renderedExcerpt + '</div>';
-      html += '<p style="margin-top:10px;"><a href="#' + excerptArticle.slug + '" style="font-size:12px;">from: ' + excerptArticle.title + ' &rarr;</a></p>';
-      html += '</div>';
+    if (eligible.length > 0) {
+      chosen = eligible[Math.floor(Math.random() * eligible.length)];
+      chosenArticle = candidate;
+      break;
     }
+  }
+
+  if (chosen && chosenArticle) {
+    const sectionTitle = chosen.match(/^## (.+)$/m)?.[1] || '';
+    const sectionId = sectionTitle.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    const renderedExcerpt = renderBodyForDisplay(chosen);
+
+    html += '<div style="background:#faf8f5; border:1px solid #d4c5a9; padding:16px; margin-bottom:16px;">';
+    html += '<div style="background:#ede4d3; padding:5px 12px; margin:-16px -16px 12px; font-size:13px; font-weight:700; border-bottom:1px solid #d4c5a9; display:flex; justify-content:space-between; align-items:center;">';
+    html += '<span>From the wiki</span>';
+    html += '<a href="#" onclick="location.reload(); return false;" style="font-size:11px; color:#72777d; text-decoration:none;">&#8635; another</a>';
+    html += '</div>';
+    html += '<div style="font-size:13px; line-height:1.6;">' + renderedExcerpt + '</div>';
+    html += '<p style="margin-top:10px;"><a href="#' + chosenArticle.slug + '" style="font-size:12px;">from: ' + chosenArticle.title + ' &rarr;</a></p>';
+    html += '</div>';
   }
 
   // Right column categories
