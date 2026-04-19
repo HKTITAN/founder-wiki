@@ -113,6 +113,8 @@ export const ReferenceLinks: QuartzTransformerPlugin = () => {
               return
             }
 
+            // Some legacy pages can contain duplicate "References" headings.
+            // Use the last one so citations map to the canonical bibliography section.
             const referencesIndex = referenceHeadingIndexes[referenceHeadingIndexes.length - 1]
             const referenceHeader = tree.children[referencesIndex]
             if (referenceHeader.type === "element") {
@@ -130,6 +132,7 @@ export const ReferenceLinks: QuartzTransformerPlugin = () => {
             for (let i = referencesIndex + 1; i < tree.children.length; i += 1) {
               const node = tree.children[i]
               if (node.type === "element" && node.tagName === "h2") {
+                // In this wiki schema, References is expected to be the final section.
                 break
               }
               addReferenceIds(node as HastNode, counter)
