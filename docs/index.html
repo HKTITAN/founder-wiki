@@ -237,9 +237,9 @@
   <a class="site-logo" onclick="showHome()">Founder<span>Wiki</span></a>
   <span class="site-tagline">Startup knowledge base compiled for AI agents</span>
   <span class="site-links">
-    <a href="https://founderwiki.co" target="_blank" rel="noopener">Original project</a>
+    <a href="https://founderwiki.co" target="_blank" rel="noopener noreferrer">Original project</a>
     <span aria-hidden="true">·</span>
-    <a href="https://github.com/VishalRohra/founder-wiki" target="_blank" rel="noopener">Repository</a>
+    <a href="https://github.com/VishalRohra/founder-wiki" target="_blank" rel="noopener noreferrer">Repository</a>
   </span>
   <div class="search-bar">
     <input type="text" id="search" placeholder="Search founder wiki..." oninput="onSearch(this.value)" onfocus="onSearch(this.value)">
@@ -617,11 +617,19 @@ function navigateTo(slug, fromPopState) {
 
   const tempDiv = document.createElement('div');
   tempDiv.innerHTML = metaLine + toc + rendered + blHtml;
+  function isImageWrappedInLink(image) {
+    return Boolean(
+      image.parentElement &&
+      image.parentElement.tagName === 'A' &&
+      image.parentElement.childElementCount === 1 &&
+      image.parentElement.firstElementChild === image
+    );
+  }
   const imgs = tempDiv.querySelectorAll('img');
   imgs.forEach((img) => {
     img.setAttribute('src', resolveImageSrc(img));
     const alt = img.getAttribute('alt') || '';
-    const wrapTarget = (img.parentElement && img.parentElement.tagName === 'A' && img.parentElement.childElementCount === 1 && img.parentElement.firstElementChild === img)
+    const wrapTarget = isImageWrappedInLink(img)
       ? img.parentElement
       : img;
     const wrapper = document.createElement('figure');
