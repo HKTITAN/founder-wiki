@@ -199,3 +199,7 @@ If you build an app, tool, or experience on top of founder-wiki, we'd love to he
 - **Startup course generator** — learning paths assembled from wiki articles by stage
 
 If you build something, credit this repo and open an issue to showcase it.
+
+### Projects using founder-wiki
+
+- [@harshitkhemani](https://x.com/harshitkhemani) built a [Poke recipe](https://poke.com/r/B44Jd5vpgU2) — query founder-wiki through your Poke assistant
