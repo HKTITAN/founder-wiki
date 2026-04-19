@@ -372,43 +372,6 @@ export async function handleBuild(argv) {
 
       let fp = req.url?.split("?")[0] ?? "/"
 
-      // handle redirects
-      if (fp.endsWith("/")) {
-        // /trailing/
-        // does /trailing/index.html exist? if so, serve it
-        const indexFp = path.posix.join(fp, "index.html")
-        if (fs.existsSync(path.posix.join(argv.output, indexFp))) {
-          req.url = fp
-          return serve()
-        }
-
-        // does /trailing.html exist? if so, redirect to /trailing
-        let base = fp.slice(0, -1)
-        if (path.extname(base) === "") {
-          base += ".html"
-        }
-        if (fs.existsSync(path.posix.join(argv.output, base))) {
-          return redirect(fp.slice(0, -1))
-        }
-      } else {
-        // /regular
-        // does /regular.html exist? if so, serve it
-        let base = fp
-        if (path.extname(base) === "") {
-          base += ".html"
-        }
-        if (fs.existsSync(path.posix.join(argv.output, base))) {
-          req.url = fp
-          return serve()
-        }
-
-        // does /regular/index.html exist? if so, redirect to /regular/
-        let indexFp = path.posix.join(fp, "index.html")
-        if (fs.existsSync(path.posix.join(argv.output, indexFp))) {
-          return redirect(fp + "/")
-        }
-      }
-
       return serve()
     })
     server.listen(argv.port)
