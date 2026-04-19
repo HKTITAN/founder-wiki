@@ -238,7 +238,7 @@
   <span class="site-tagline">Startup knowledge base compiled for AI agents</span>
   <span class="site-links">
     <a href="https://founderwiki.co" target="_blank" rel="noopener">Original project</a>
-    <span>·</span>
+    <span aria-hidden="true">·</span>
     <a href="https://github.com/VishalRohra/founder-wiki" target="_blank" rel="noopener">Repository</a>
   </span>
   <div class="search-bar">
@@ -604,7 +604,8 @@ function navigateTo(slug, fromPopState) {
     if (/^(https?:|data:)/i.test(src)) return src;
     const parent = img.parentElement;
     const linkedHref = parent && parent.tagName === 'A' ? (parent.getAttribute('href') || '') : '';
-    if (/^https?:\/\//i.test(linkedHref)) return linkedHref;
+    const isImageHref = /^https?:\/\/.+\.(png|jpe?g|gif|webp|svg)(\?|#|$)/i.test(linkedHref);
+    if (isImageHref) return linkedHref;
     const normalized = src.replace(/^(\.\.\/)+/, '').replace(/^\.\//, '');
     if (normalized.startsWith('raw/')) {
       return `https://raw.githubusercontent.com/VishalRohra/founder-wiki/main/${normalized}`;
@@ -618,7 +619,7 @@ function navigateTo(slug, fromPopState) {
   imgs.forEach((img) => {
     img.setAttribute('src', resolveImageSrc(img));
     const alt = img.getAttribute('alt') || '';
-    const media = (img.parentElement && img.parentElement.tagName === 'A' && img.parentElement.childElementCount === 1)
+    const wrapTarget = (img.parentElement && img.parentElement.tagName === 'A' && img.parentElement.childElementCount === 1)
       ? img.parentElement
       : img;
     const wrapper = document.createElement('figure');
@@ -626,8 +627,8 @@ function navigateTo(slug, fromPopState) {
     const caption = document.createElement('figcaption');
     caption.className = 'thumb-caption';
     caption.textContent = alt;
-    media.parentNode.insertBefore(wrapper, media);
-    wrapper.appendChild(media);
+    wrapTarget.parentNode.insertBefore(wrapper, wrapTarget);
+    wrapper.appendChild(wrapTarget);
     if (alt) wrapper.appendChild(caption);
   });
 
