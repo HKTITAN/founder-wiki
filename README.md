@@ -61,7 +61,7 @@ npm install
 npm run dev
 ```
 
-Quartz now renders the wiki directly from `wiki/` with graph view, backlinks, search, and explorer navigation.
+Quartz now renders the wiki directly from `wiki/` with graph view, backlinks, search, and explorer navigation (including the built-in interactive graph explorer).
 
 ### 4. Deploy on Vercel
 
