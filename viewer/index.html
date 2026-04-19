@@ -55,6 +55,9 @@
   }
   .site-logo span { color: #36c; }
   .site-tagline { font-size: 11px; color: #54595d; }
+  .site-links { font-size: 11px; color: #72777d; display: flex; gap: 8px; align-items: center; }
+  .site-links a { color: #54595d; }
+  .site-links a:hover { color: #36c; }
 
   .search-bar { margin-left: auto; position: relative; }
   .search-bar input {
@@ -78,58 +81,53 @@
   .search-result-item .sr-aliases { font-size: 11px; color: #72777d; }
 
   /* Layout */
-  .layout { display: flex; max-width: 1400px; margin: 0 auto; }
+  .layout { display: flex; max-width: 1400px; margin: 0 auto; min-height: calc(100vh - 40px); }
 
-  /* Sidebar */
-  .sidebar {
-    width: 200px; min-width: 200px;
-    background: #f8f9fa; border-right: 1px solid #eaecf0;
-    min-height: calc(100vh - 40px); padding: 12px 0; font-size: 13px;
+  /* Graph view */
+  .graph-view {
+    flex: 1; background: #fff; border-right: 1px solid #eaecf0; position: relative;
+    min-height: calc(100vh - 40px);
   }
-  .sidebar .nav-label { display: block; padding: 10px 14px 3px; font-size: 11px; color: #72777d; font-weight: 700; text-transform: uppercase; }
-  .sidebar .nav-section { margin-bottom: 2px; }
-  .sidebar .nav-section-header {
-    font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;
-    color: #54595d; padding: 8px 14px 4px; margin-top: 2px; font-weight: 700;
-    cursor: pointer; display: flex; align-items: center; user-select: none;
+  .graph-canvas { width: 100%; height: calc(100vh - 40px); min-height: 620px; background: #fbfbfc; }
+  .graph-legend {
+    position: absolute; left: 14px; bottom: 14px; background: rgba(255,255,255,0.96);
+    border: 1px solid #c8ccd1; border-radius: 4px; padding: 8px 10px; font-size: 11px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.06); z-index: 5;
   }
-  .sidebar .nav-section-header:hover { background: #eef1f4; }
-  .sidebar .nav-section-header .toggle {
-    font-size: 9px; margin-right: 6px; transition: transform 0.15s; color: #a2a9b1;
-  }
-  .sidebar .nav-section-header .toggle.open { transform: rotate(90deg); }
-  .sidebar .nav-section-header .count { font-size: 10px; color: #a2a9b1; margin-left: 4px; font-weight: 400; }
-  .sidebar .nav-section-items { display: none; }
-  .sidebar .nav-section-items.open { display: block; }
-  .sidebar a {
-    display: block; padding: 1px 14px 1px 24px; color: #36c; font-size: 12px; line-height: 1.7;
-    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-  }
-  .sidebar a:hover { background: #eaf3ff; text-decoration: none; }
-  .sidebar a.active { background: #eaf3ff; font-weight: 600; }
-
-  /* Content */
-  .content {
-    flex: 1; background: #fff; padding: 20px 28px; min-height: calc(100vh - 40px);
+  .legend-item { display: flex; align-items: center; gap: 6px; margin: 2px 0; }
+  .legend-dot {
+    width: 10px; height: 10px; border-radius: 50%; border: 1px solid rgba(0,0,0,0.2);
+    flex-shrink: 0;
   }
 
-  .content h1 {
+  /* Side panel */
+  .panel {
+    width: 460px; min-width: 360px; max-width: 520px; background: #fff;
+    max-height: calc(100vh - 40px); overflow-y: auto; padding: 20px 28px;
+  }
+  .panel .home-note {
+    background: #f8f9fa; border: 1px solid #a2a9b1; padding: 14px 16px; margin-bottom: 16px;
+    font-size: 13px;
+  }
+  .panel .home-note h2 { margin: 0 0 8px; border: none; font-size: 18px; }
+
+  .panel h1 {
     font-size: 26px; font-weight: 400; border-bottom: 1px solid #a2a9b1;
     padding-bottom: 2px; margin-bottom: 12px; font-family: 'Linux Libertine', Georgia, serif;
   }
-  .content h2 {
+  .panel h2 {
     font-size: 19px; font-weight: 400; border-bottom: 1px solid #eaecf0;
     padding-bottom: 2px; margin: 20px 0 8px; font-family: 'Linux Libertine', Georgia, serif;
   }
-  .content h3 { font-size: 15px; font-weight: 600; margin: 14px 0 6px; }
-  .content p { margin-bottom: 10px; }
-  .content ul, .content ol { margin: 8px 0 12px 24px; }
-  .content li { margin-bottom: 4px; }
-  .content blockquote { border-left: 3px solid #c8ccd1; padding: 4px 12px; margin: 8px 0; color: #54595d; }
-  .content strong { font-weight: 600; }
+  .panel h3 { font-size: 15px; font-weight: 600; margin: 14px 0 6px; }
+  .panel p { margin-bottom: 10px; }
+  .panel ul, .panel ol { margin: 8px 0 12px 24px; }
+  .panel li { margin-bottom: 4px; }
+  .panel blockquote { border-left: 3px solid #c8ccd1; padding: 4px 12px; margin: 8px 0; color: #54595d; }
+  .panel strong { font-weight: 600; }
 
   /* Images — Wikipedia-style thumbnail */
-  .content img {
+  .panel img {
     max-width: 220px;
     height: auto;
     border: 1px solid #c8ccd1;
@@ -167,17 +165,17 @@
   }
 
   /* Tables — Wikipedia style */
-  .content table {
+  .panel table {
     border-collapse: collapse; margin: 12px 0; font-size: 13px; width: 100%;
   }
-  .content th {
+  .panel th {
     background: #eaecf0; border: 1px solid #a2a9b1; padding: 6px 10px;
     text-align: left; font-weight: 600;
   }
-  .content td {
+  .panel td {
     border: 1px solid #c8ccd1; padding: 6px 10px; vertical-align: top;
   }
-  .content tr:nth-child(even) td { background: #f8f9fa; }
+  .panel tr:nth-child(even) td { background: #f8f9fa; }
 
   /* Article meta line */
   .article-meta-line {
@@ -222,38 +220,13 @@
   }
   .footnote-ref:hover { text-decoration: underline; }
 
-  /* Home page */
-  .home-welcome {
-    background: #f8f9fa; border: 1px solid #a2a9b1; padding: 16px 20px; margin-bottom: 20px;
-  }
-  .home-welcome h2 { border: none; margin: 0 0 8px; font-size: 20px; }
-  .home-welcome p { margin-bottom: 6px; font-size: 14px; }
-  .home-welcome .home-stats { font-size: 13px; color: #54595d; margin-top: 8px; }
-
-  .category-section { margin-bottom: 20px; }
-  .category-section h2 {
-    background: #dde8f0; padding: 6px 12px; margin: 0 0 1px;
-    font-size: 15px; font-weight: 600; border: 1px solid #a2a9b1; border-bottom: none;
-    font-family: -apple-system, sans-serif;
-  }
-  .category-list {
-    border: 1px solid #a2a9b1; padding: 10px 14px; background: #fff;
-  }
-  .category-list ul { list-style: none; padding: 0; margin: 0; }
-  .category-list li {
-    display: inline; font-size: 13px;
-  }
-  .category-list li:after { content: " · "; color: #a2a9b1; }
-  .category-list li:last-child:after { content: ""; }
-  .category-list .item-type { color: #72777d; font-size: 12px; }
-
-  .home-columns { display: flex; gap: 20px; }
-  .home-col { flex: 1; }
-
   @media (max-width: 768px) {
-    .sidebar { display: none; }
+    .layout { flex-direction: column; }
+    .graph-view { min-height: 50vh; border-right: none; border-bottom: 1px solid #eaecf0; }
+    .graph-canvas { height: 52vh; min-height: 360px; }
+    .panel { width: 100%; min-width: 0; max-width: none; max-height: none; }
+    .site-links { display: none; }
     .search-bar input { width: 160px; }
-    .home-columns { flex-direction: column; }
   }
 </style>
 </head>
@@ -263,6 +236,11 @@
 <header class="site-header">
   <a class="site-logo" onclick="showHome()">Founder<span>Wiki</span></a>
   <span class="site-tagline">Startup knowledge base compiled for AI agents</span>
+  <span class="site-links">
+    <a href="https://founderwiki.co" target="_blank" rel="noopener noreferrer" aria-label="Founder Wiki original project site">Original project</a>
+    <span aria-hidden="true">·</span>
+    <a href="https://github.com/VishalRohra/founder-wiki" target="_blank" rel="noopener noreferrer" aria-label="Founder Wiki GitHub repository">Repository</a>
+  </span>
   <div class="search-bar">
     <input type="text" id="search" placeholder="Search founder wiki..." oninput="onSearch(this.value)" onfocus="onSearch(this.value)">
     <div class="search-results" id="searchResults"></div>
@@ -271,24 +249,68 @@
 </div>
 
 <div class="layout">
-  <nav class="sidebar" id="sidebar"></nav>
-  <main class="content" id="content"></main>
+  <main class="graph-view">
+    <div class="graph-canvas" id="graphCanvas"></div>
+    <div class="graph-legend" id="graphLegend"></div>
+  </main>
+  <aside class="panel" id="panel"></aside>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
 <script>
 const ARTICLES = {};
 const ARTICLE_LIST = [];
+const TYPE_COLORS = {
+  topic: '#5b8ff9',
+  framework: '#f6bd16',
+  'case-study': '#61ddaa',
+  speaker: '#e8684a',
+  industry: '#9263e8',
+  other: '#9aa5b1'
+};
+let graphState = { selected: null };
+let lastGraphSize = { width: 0, height: 0 };
+const IMAGE_URL_PATTERN = /^https?:\/\/.*\.(png|jpe?g|gif|webp|svg)(\?|#|$)/i;
+const GRAPH_RESIZE_THRESHOLD = 8;
+
+function slugify(value) {
+  return (value || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+}
+
+function articleType(article) {
+  if (article?.type) {
+    const t = article.type.toLowerCase();
+    if (t === 'case study') return 'case-study';
+    return t;
+  }
+  if (article?.dir === 'case-studies') return 'case-study';
+  if (article?.dir === 'frameworks') return 'framework';
+  if (article?.dir === 'speakers') return 'speaker';
+  if (article?.dir === 'topics') return 'topic';
+  if (article?.dir === 'industries') return 'industry';
+  return 'other';
+}
 
 // Wikilink handling — supports [[Name]] and [[Slug|Display Name]]
 function processWikilinks(html) {
   return html.replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, (m, target, display) => {
-    const slug = target.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    const slug = slugify(target);
     return `<a href="#" onclick="navigateTo('${slug}'); return false;">${display}</a>`;
   }).replace(/\[\[([^\]]+)\]\]/g, (m, name) => {
-    const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    const slug = slugify(name);
     return `<a href="#" onclick="navigateTo('${slug}'); return false;">${name}</a>`;
   });
+}
+
+function extractWikilinkSlugs(body) {
+  const links = [];
+  const matches = (body || '').matchAll(/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g);
+  for (const match of matches) {
+    const slug = slugify(match[1]);
+    if (slug) links.push(slug);
+  }
+  return links;
 }
 
 // Compute backlinks for an article
@@ -296,11 +318,8 @@ function getBacklinks(slug) {
   const links = [];
   ARTICLE_LIST.forEach(a => {
     if (a.slug === slug) return;
-    // Check if this article's body contains a wikilink to our article
-    const titlePattern = ARTICLES[slug]?.title;
-    if (!titlePattern) return;
-    const body = a.body || '';
-    if (body.includes(`[[${titlePattern}]]`) || body.includes(`[[${titlePattern}|`)) {
+    const targets = extractWikilinkSlugs(a.body);
+    if (targets.includes(slug)) {
       links.push(a);
     }
   });
@@ -313,78 +332,129 @@ async function loadArticles() {
     const data = await resp.json();
     data.forEach(a => { ARTICLES[a.slug] = a; ARTICLE_LIST.push(a); });
   } catch(e) { console.error('Failed to load articles.json', e); }
-  buildSidebar();
+  renderGraph();
+  renderGraphLegend();
   showHome();
   handleInitialRoute();
 }
 
-function buildSidebar() {
-  const sidebar = document.getElementById('sidebar');
-
-  const dirLabels = {
-    'topics': 'Topics',
-    'frameworks': 'Frameworks',
-    'case-studies': 'Case Studies',
-    'speakers': 'People',
-    'industries': 'Industries',
-  };
-
-  const groups = {};
+function buildGraphData() {
+  const nodes = ARTICLE_LIST.map(a => ({
+    id: a.slug,
+    slug: a.slug,
+    title: a.title,
+    type: articleType(a),
+  }));
+  const nodeSet = new Set(nodes.map(n => n.slug));
+  const seen = new Set();
+  const links = [];
   ARTICLE_LIST.forEach(a => {
-    const dir = a.dir || 'other';
-    if (!groups[dir]) groups[dir] = [];
-    groups[dir].push(a);
-  });
-
-  let html = '<span class="nav-label">Navigation</span>';
-  html += `<a href="#" onclick="showHome(); return false;" style="padding-left:14px;">Main page</a>`;
-
-  const order = ['topics', 'frameworks', 'case-studies', 'speakers', 'industries'];
-  Object.keys(groups).forEach(d => { if (!order.includes(d)) order.push(d); });
-
-  order.forEach(dir => {
-    if (!groups[dir] || !groups[dir].length) return;
-    const label = dirLabels[dir] || dir.charAt(0).toUpperCase() + dir.slice(1);
-    const count = groups[dir].length;
-    html += `<div class="nav-section" data-dir="${dir}">`;
-    html += `<div class="nav-section-header" onclick="toggleNavSection(this)">`;
-    html += `<span class="toggle">&#9654;</span>${label}<span class="count">(${count})</span></div>`;
-    html += `<div class="nav-section-items">`;
-    groups[dir].sort((a,b) => (a.title||'').localeCompare(b.title||''));
-    groups[dir].forEach(a => {
-      html += `<a href="#" onclick="navigateTo('${a.slug}'); return false;" data-slug="${a.slug}">${a.title}</a>`;
+    extractWikilinkSlugs(a.body).forEach(target => {
+      if (!nodeSet.has(target)) return;
+      const key = `${a.slug}::${target}`;
+      if (seen.has(key)) return;
+      seen.add(key);
+      links.push({ source: a.slug, target });
     });
-    html += `</div></div>`;
   });
-
-  sidebar.innerHTML = html;
+  return { nodes, links };
 }
 
-function toggleNavSection(header) {
-  const toggle = header.querySelector('.toggle');
-  const items = header.nextElementSibling;
-  const isOpen = items.classList.contains('open');
-  items.classList.toggle('open');
-  toggle.classList.toggle('open');
+function renderGraphLegend() {
+  const legend = document.getElementById('graphLegend');
+  const labels = {
+    topic: 'Topics',
+    framework: 'Frameworks',
+    'case-study': 'Case studies',
+    speaker: 'People',
+    industry: 'Industries',
+    other: 'Other'
+  };
+  legend.innerHTML = Object.entries(TYPE_COLORS).map(([type, color]) => {
+    return `<div class="legend-item"><span class="legend-dot" style="background:${color}"></span><span>${labels[type] || type}</span></div>`;
+  }).join('');
 }
 
-function openSidebarSection(slug) {
-  // Open the section containing the active article and highlight it
-  document.querySelectorAll('.sidebar a').forEach(a => a.classList.remove('active'));
-  const activeLink = document.querySelector(`.sidebar a[data-slug="${slug}"]`);
-  if (activeLink) {
-    activeLink.classList.add('active');
-    // Open parent section
-    const section = activeLink.closest('.nav-section');
-    if (section) {
-      const items = section.querySelector('.nav-section-items');
-      const toggle = section.querySelector('.toggle');
-      if (items && !items.classList.contains('open')) {
-        items.classList.add('open');
-        toggle.classList.add('open');
-      }
-    }
-  }
+function setActiveNode(slug) {
+  graphState.selected = slug || null;
+  d3.selectAll('.graph-node')
+    .attr('stroke', d => d.slug === graphState.selected ? '#1f2937' : '#fff')
+    .attr('stroke-width', d => d.slug === graphState.selected ? 2.5 : 1.2)
+    .attr('r', d => d.slug === graphState.selected ? 7 : 5.2);
+}
+
+function renderGraph() {
+  const container = document.getElementById('graphCanvas');
+  if (!container) return;
+  const { width, height } = container.getBoundingClientRect();
+  lastGraphSize = { width, height };
+  container.innerHTML = '';
+  const graphData = buildGraphData();
+
+  const svg = d3.select(container)
+    .append('svg')
+    .attr('width', width)
+    .attr('height', Math.max(height, 420))
+    .style('display', 'block');
+
+  const g = svg.append('g');
+  svg.call(d3.zoom().scaleExtent([0.35, 4]).on('zoom', (event) => g.attr('transform', event.transform)));
+
+  const link = g.append('g')
+    .attr('stroke', '#d6dbe1')
+    .attr('stroke-opacity', 0.55)
+    .selectAll('line')
+    .data(graphData.links)
+    .join('line')
+    .attr('stroke-width', 0.7);
+
+  const node = g.append('g')
+    .selectAll('circle')
+    .data(graphData.nodes)
+    .join('circle')
+    .attr('class', 'graph-node')
+    .attr('r', 5.2)
+    .attr('fill', d => TYPE_COLORS[d.type] || TYPE_COLORS.other)
+    .attr('stroke', '#fff')
+    .attr('stroke-width', 1.2)
+    .style('cursor', 'pointer')
+    .on('click', (_, d) => navigateTo(d.slug))
+    .call(d3.drag()
+      .on('start', (event, d) => {
+        if (!event.active) simulation.alphaTarget(0.2).restart();
+        d.fx = d.x;
+        d.fy = d.y;
+      })
+      .on('drag', (event, d) => {
+        d.fx = event.x;
+        d.fy = event.y;
+      })
+      .on('end', (event, d) => {
+        if (!event.active) simulation.alphaTarget(0);
+        d.fx = null;
+        d.fy = null;
+      })
+    );
+
+  node.append('title').text(d => `${d.title} (${d.type})`);
+
+  const simulation = d3.forceSimulation(graphData.nodes)
+    .force('link', d3.forceLink(graphData.links).id(d => d.id).distance(44).strength(0.2))
+    .force('charge', d3.forceManyBody().strength(-28))
+    .force('center', d3.forceCenter(width / 2, Math.max(height, 420) / 2))
+    .force('collide', d3.forceCollide(6.5))
+    .on('tick', () => {
+      link
+        .attr('x1', d => d.source.x)
+        .attr('y1', d => d.source.y)
+        .attr('x2', d => d.target.x)
+        .attr('y2', d => d.target.y);
+      node
+        .attr('cx', d => d.x)
+        .attr('cy', d => d.y);
+    });
+
+  setActiveNode(graphState.selected);
 }
 
 function showHome(fromPopState) {
@@ -392,181 +462,23 @@ function showHome(fromPopState) {
     history.pushState({}, 'Founder Wiki', '#');
   }
   document.title = 'Founder Wiki';
-  const content = document.getElementById('content');
-
-  // Dynamically group ALL articles by directory
-  const groups = {};
-  ARTICLE_LIST.forEach(a => {
-    const dir = a.dir || 'other';
-    if (!groups[dir]) groups[dir] = [];
-    groups[dir].push(a);
-  });
-
-  const dirMeta = {
-    'topics': { label: 'Topics', desc: 'Core concepts synthesized from multiple sources' },
-    'frameworks': { label: 'Frameworks & Mental Models', desc: 'Named decision frameworks and mental models' },
-    'case-studies': { label: 'Case Studies', desc: 'Deep dives on specific companies and their strategies' },
-    'speakers': { label: 'People', desc: 'Key contributors and their distinct perspectives' },
-    'industries': { label: 'Industries', desc: 'Industry-specific guidance' },
-  };
-
-  const topics = groups['topics'] || [];
-  const speakers = groups['speakers'] || [];
-  const frameworks = groups['frameworks'] || [];
-  const caseStudies = groups['case-studies'] || [];
-
-  let html = `
+  graphState.selected = null;
+  const panel = document.getElementById('panel');
+  const counts = ARTICLE_LIST.reduce((acc, article) => {
+    const type = articleType(article);
+    acc[type] = (acc[type] || 0) + 1;
+    return acc;
+  }, {});
+  panel.innerHTML = `
     <h1>Founder Wiki</h1>
-    <div class="home-welcome">
-      <h2>Welcome to Founder Wiki</h2>
-      <p>A compiled knowledge base of startup and founder wisdom, built from Y Combinator's library of essays, lectures, and founder stories using the <a href="https://x.com/karpathy/status/2039805659525644595" target="_blank">LLM Knowledge Base pattern</a>.</p>
-      <p>Articles synthesize advice from multiple sources into concept-centric pages with citations and cross-references. Every claim links back to its source.</p>
-      <div class="home-stats">
-        <span><strong>${ARTICLE_LIST.length}</strong> articles</span>
-        <span><strong>${topics.length}</strong> topics</span>
-        <span><strong>${speakers.length}</strong> people</span>
-        <span><strong>${frameworks.length}</strong> frameworks</span>
-        <span><strong>${caseStudies.length}</strong> case studies</span>
-      </div>
+    <div class="home-note">
+      <h2>Graph view</h2>
+      <p>Browse the wiki as a knowledge graph. Node colors map to page types, and clicking a node opens the article in this panel.</p>
+      <p><strong>${ARTICLE_LIST.length}</strong> pages · ${counts.topic || 0} topics · ${counts.speaker || 0} people · ${counts.framework || 0} frameworks · ${counts['case-study'] || 0} case studies</p>
+      <p><a href="https://founderwiki.co" target="_blank" rel="noopener">Original project</a> · <a href="https://github.com/VishalRohra/founder-wiki" target="_blank" rel="noopener">Repository</a></p>
     </div>
   `;
-
-  // Render each directory group
-  const order = ['topics', 'frameworks', 'case-studies', 'speakers', 'industries'];
-  Object.keys(groups).forEach(d => { if (!order.includes(d)) order.push(d); });
-
-  // Helper: render markdown body content for display
-  function renderBodyForDisplay(bodyText) {
-    let rendered = marked.parse(bodyText);
-    rendered = processWikilinks(rendered);
-    rendered = rendered.replace(/\[(\d+)\]/g, '<sup style="font-size:0.75em; color:#72777d;">[$1]</sup>');
-    return rendered;
-  }
-
-  // === Two-column layout for everything ===
-  html += '<div style="display:flex; gap:20px; align-items:flex-start;">';
-
-  // LEFT COLUMN
-  html += '<div style="flex:1;">';
-
-  // Article of the day — dark blue header
-  const today = new Date();
-  const dayOfYear = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 86400000);
-  const allTopics = ARTICLE_LIST.filter(a => a.dir === 'topics' && a.body.length > 500);
-  const aotd = allTopics[dayOfYear % allTopics.length];
-  if (aotd) {
-    const bodyNoFrontmatter = aotd.body.replace(/^---[\s\S]*?---\n*/, '');
-    const firstH2 = bodyNoFrontmatter.indexOf('\n## ');
-    const firstSection = firstH2 > 0 ? bodyNoFrontmatter.substring(0, firstH2) : bodyNoFrontmatter.substring(0, 1500);
-    const renderedSection = renderBodyForDisplay(firstSection);
-
-    html += '<div style="background:#f8f9fa; border:1px solid #36c; padding:16px; margin-bottom:16px;">';
-    html += '<div style="background:#36c; padding:5px 12px; margin:-16px -16px 12px; font-size:13px; font-weight:700; color:#fff; border-bottom:1px solid #2a56a5;">Article of the day</div>';
-    html += '<div style="font-size:13px; line-height:1.6;">' + renderedSection + '</div>';
-    html += '<p style="margin-top:10px;"><a href="#' + aotd.slug + '" style="font-size:12px;">Read full article &rarr;</a></p>';
-    html += '</div>';
-  }
-
-  // Recently updated — under Article of the Day
-  const recentArticles = ARTICLE_LIST
-    .filter(a => a.last_updated)
-    .sort((a, b) => (b.last_updated || '').localeCompare(a.last_updated || ''))
-    .slice(0, 8);
-  if (recentArticles.length) {
-    html += '<div style="margin-bottom:16px;">';
-    html += '<div style="background:#dde8f0; padding:5px 12px; font-size:13px; font-weight:700; border:1px solid #a2a9b1; border-bottom:none;">Recently updated</div>';
-    html += '<div style="border:1px solid #a2a9b1; padding:6px 12px; background:#fff; font-size:13px;"><ul style="list-style:none; margin:0; padding:0;">';
-    recentArticles.forEach(a => {
-      const srcCount = Array.isArray(a.sources) ? a.sources.length : 0;
-      const typeLabel = a.dir === 'speakers' ? 'speaker' : a.dir === 'case-studies' ? 'case study' : a.dir === 'frameworks' ? 'framework' : '';
-      html += '<li style="padding:2px 0; border-bottom:1px solid #f0f0f0;">';
-      html += '<a href="#" onclick="navigateTo(\'' + a.slug + '\'); return false;">' + a.title + '</a>';
-      if (typeLabel) html += ' <span style="color:#72777d; font-size:11px;">' + typeLabel + '</span>';
-      if (srcCount > 0) html += ' <span style="color:#a2a9b1; font-size:11px;">' + srcCount + ' sources</span>';
-      html += '</li>';
-    });
-    html += '</ul></div></div>';
-  }
-
-  // Left column categories
-  const leftDirs = ['topics', 'frameworks'];
-  leftDirs.forEach(dir => {
-    if (!groups[dir] || !groups[dir].length) return;
-    const meta = dirMeta[dir] || { label: dir };
-    html += '<div class="category-section" style="margin-bottom:16px;">';
-    html += '<h2>' + meta.label + '</h2>';
-    html += '<div class="category-list"><ul>';
-    groups[dir].sort((a,b) => (a.title||'').localeCompare(b.title||''));
-    groups[dir].forEach(a => {
-      const srcCount = Array.isArray(a.sources) ? a.sources.length : 0;
-      const srcLabel = srcCount > 0 ? ' <span class="item-type">' + srcCount + ' sources</span>' : '';
-      html += '<li><a href="#" onclick="navigateTo(\'' + a.slug + '\'); return false;">' + a.title + '</a>' + srcLabel + '</li>';
-    });
-    html += '</ul></div></div>';
-  });
-
-  html += '</div>'; // end left column
-
-  // RIGHT COLUMN
-  html += '<div style="flex:1;">';
-
-  // From the wiki — warm color
-  // Try up to 20 random articles to find one with an eligible section
-  const excerptCandidates = ARTICLE_LIST.filter(a => a.dir === 'topics' && a.body.length > 800);
-  let chosen = null;
-  let chosenArticle = null;
-  const shuffled = [...excerptCandidates].sort(() => Math.random() - 0.5);
-  for (const candidate of shuffled.slice(0, 20)) {
-    const sections = candidate.body.split(/\n(?=## )/);
-    const eligible = sections.filter((s, i) => {
-      if (i === 0) return false;
-      if (s.match(/^## References/i)) return false;
-      const wordCount = s.split(/\s+/).length;
-      return wordCount >= 30 && wordCount <= 350;
-    });
-    if (eligible.length > 0) {
-      chosen = eligible[Math.floor(Math.random() * eligible.length)];
-      chosenArticle = candidate;
-      break;
-    }
-  }
-
-  if (chosen && chosenArticle) {
-    const sectionTitle = chosen.match(/^## (.+)$/m)?.[1] || '';
-    const sectionId = sectionTitle.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-    const renderedExcerpt = renderBodyForDisplay(chosen);
-
-    html += '<div style="background:#faf8f5; border:1px solid #d4c5a9; padding:16px; margin-bottom:16px;">';
-    html += '<div style="background:#ede4d3; padding:5px 12px; margin:-16px -16px 12px; font-size:13px; font-weight:700; border-bottom:1px solid #d4c5a9; display:flex; justify-content:space-between; align-items:center;">';
-    html += '<span>From the wiki</span>';
-    html += '<a href="#" onclick="location.reload(); return false;" style="font-size:11px; color:#72777d; text-decoration:none;">&#8635; another</a>';
-    html += '</div>';
-    html += '<div style="font-size:13px; line-height:1.6;">' + renderedExcerpt + '</div>';
-    html += '<p style="margin-top:10px;"><a href="#' + chosenArticle.slug + '" style="font-size:12px;">from: ' + chosenArticle.title + ' &rarr;</a></p>';
-    html += '</div>';
-  }
-
-  // Right column categories
-  const rightDirs = ['case-studies', 'speakers', 'industries'];
-  rightDirs.forEach(dir => {
-    if (!groups[dir] || !groups[dir].length) return;
-    const meta = dirMeta[dir] || { label: dir };
-    html += '<div class="category-section" style="margin-bottom:16px;">';
-    html += '<h2>' + meta.label + '</h2>';
-    html += '<div class="category-list"><ul>';
-    groups[dir].sort((a,b) => (a.title||'').localeCompare(b.title||''));
-    groups[dir].forEach(a => {
-      const srcCount = Array.isArray(a.sources) ? a.sources.length : 0;
-      const srcLabel = srcCount > 0 ? ' <span class="item-type">' + srcCount + ' sources</span>' : '';
-      html += '<li><a href="#" onclick="navigateTo(\'' + a.slug + '\'); return false;">' + a.title + '</a>' + srcLabel + '</li>';
-    });
-    html += '</ul></div></div>';
-  });
-
-  html += '</div>'; // end right column
-  html += '</div>'; // end two-column layout
-  content.innerHTML = html;
-  document.querySelectorAll('.sidebar a').forEach(a => a.classList.remove('active'));
+  setActiveNode(null);
 }
 
 // Handle initial load from URL hash — works with static hosting
@@ -691,29 +603,55 @@ function navigateTo(slug, fromPopState) {
   }
 
   // Wrap images in Wikipedia-style thumb containers (float right, like Wikipedia)
+  function resolveImageSrc(img) {
+    const src = img.getAttribute('src') || '';
+    if (/^(https?:|data:)/i.test(src)) return src;
+    const parent = img.parentElement;
+    const linkedHref = parent && parent.tagName === 'A' ? (parent.getAttribute('href') || '') : '';
+    const isImageHref = IMAGE_URL_PATTERN.test(linkedHref);
+    if (isImageHref) return linkedHref;
+    const normalized = src.replace(/^(\.\.\/)+/, '').replace(/^\.\//, '');
+    if (normalized.startsWith('raw/')) {
+      return `https://raw.githubusercontent.com/VishalRohra/founder-wiki/main/${normalized}`;
+    }
+    return src;
+  }
+
   const tempDiv = document.createElement('div');
   tempDiv.innerHTML = metaLine + toc + rendered + blHtml;
+  function isImageWrappedInLink(image) {
+    return Boolean(
+      image.parentElement &&
+      image.parentElement.tagName === 'A' &&
+      image.parentElement.childElementCount === 1 &&
+      image.parentElement.firstElementChild === image
+    );
+  }
   const imgs = tempDiv.querySelectorAll('img');
   imgs.forEach((img) => {
+    img.setAttribute('src', resolveImageSrc(img));
     const alt = img.getAttribute('alt') || '';
-    const wrapper = document.createElement('div');
+    const wrapTarget = isImageWrappedInLink(img)
+      ? img.parentElement
+      : img;
+    const wrapper = document.createElement('figure');
     wrapper.className = 'wiki-thumb';
-    const caption = document.createElement('div');
-    caption.className = 'thumb-caption';
-    caption.textContent = alt;
-    img.parentNode.insertBefore(wrapper, img);
-    wrapper.appendChild(img);
-    if (alt) wrapper.appendChild(caption);
+    wrapTarget.parentNode.insertBefore(wrapper, wrapTarget);
+    wrapper.appendChild(wrapTarget);
+    if (alt) {
+      const caption = document.createElement('figcaption');
+      caption.className = 'thumb-caption';
+      caption.textContent = alt;
+      wrapper.appendChild(caption);
+    }
   });
 
-  document.getElementById('content').innerHTML = tempDiv.innerHTML;
-
-  // Open sidebar section and highlight active article
-  openSidebarSection(slug);
+  document.getElementById('panel').innerHTML = tempDiv.innerHTML;
+  setActiveNode(slug);
 
   document.getElementById('searchResults').classList.remove('active');
   document.getElementById('search').value = '';
-  window.scrollTo(0, 0);
+  document.getElementById('panel').scrollTo(0, 0);
 }
 
 function onSearch(query) {
@@ -770,6 +708,18 @@ window.addEventListener('hashchange', () => {
   } else if (!hash || hash === '') {
     showHome(true);
   }
+});
+
+let resizeTimer = null;
+window.addEventListener('resize', () => {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(() => {
+    const canvas = document.getElementById('graphCanvas');
+    if (!canvas) return;
+    const { width, height } = canvas.getBoundingClientRect();
+    const changed = Math.abs(width - lastGraphSize.width) > GRAPH_RESIZE_THRESHOLD || Math.abs(height - lastGraphSize.height) > GRAPH_RESIZE_THRESHOLD;
+    if (changed) renderGraph();
+  }, 120);
 });
 
 loadArticles();
