@@ -2,7 +2,7 @@
 
 The compiled startup knowledge base. 200+ synthesized wiki articles covering startup ideas, fundraising, growth, hiring, product, culture, and more — built from YC's library of videos, essays, and founder interviews. Any AI agent can navigate and query it. No RAG, no embeddings, no vector DB. Just markdown files and an index.
 
-**[Browse the wiki](https://founderwiki.co)** | **[Read AGENTS.md](AGENTS.md)**
+**[Browse the wiki](https://founderwiki.co)** — a visual wiki for us mere mortals | **[Read AGENTS.md](AGENTS.md)** — the API for agents
 
 ## Inspiration
 
