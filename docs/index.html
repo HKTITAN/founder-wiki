@@ -271,6 +271,8 @@ const TYPE_COLORS = {
 };
 let graphState = { selected: null };
 let lastGraphSize = { width: 0, height: 0 };
+const IMAGE_URL_PATTERN = /^https?:\/\/.*\.(png|jpe?g|gif|webp|svg)(\?|#|$)/i;
+const GRAPH_RESIZE_THRESHOLD = 8;
 
 function slugify(value) {
   return (value || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
@@ -606,7 +608,7 @@ function navigateTo(slug, fromPopState) {
     if (/^(https?:|data:)/i.test(src)) return src;
     const parent = img.parentElement;
     const linkedHref = parent && parent.tagName === 'A' ? (parent.getAttribute('href') || '') : '';
-    const isImageHref = /^https?:\/\/.*\.(png|jpe?g|gif|webp|svg)(\?|#|$)/i.test(linkedHref);
+    const isImageHref = IMAGE_URL_PATTERN.test(linkedHref);
     if (isImageHref) return linkedHref;
     const normalized = src.replace(/^(\.\.\/)+/, '').replace(/^\.\//, '');
     if (normalized.startsWith('raw/')) {
@@ -634,12 +636,14 @@ function navigateTo(slug, fromPopState) {
       : img;
     const wrapper = document.createElement('figure');
     wrapper.className = 'wiki-thumb';
-    const caption = document.createElement('figcaption');
-    caption.className = 'thumb-caption';
-    caption.textContent = alt;
     wrapTarget.parentNode.insertBefore(wrapper, wrapTarget);
     wrapper.appendChild(wrapTarget);
-    if (alt) wrapper.appendChild(caption);
+    if (alt) {
+      const caption = document.createElement('figcaption');
+      caption.className = 'thumb-caption';
+      caption.textContent = alt;
+      wrapper.appendChild(caption);
+    }
   });
 
   document.getElementById('panel').innerHTML = tempDiv.innerHTML;
@@ -713,7 +717,7 @@ window.addEventListener('resize', () => {
     const canvas = document.getElementById('graphCanvas');
     if (!canvas) return;
     const { width, height } = canvas.getBoundingClientRect();
-    const changed = Math.abs(width - lastGraphSize.width) > 8 || Math.abs(height - lastGraphSize.height) > 8;
+    const changed = Math.abs(width - lastGraphSize.width) > GRAPH_RESIZE_THRESHOLD || Math.abs(height - lastGraphSize.height) > GRAPH_RESIZE_THRESHOLD;
     if (changed) renderGraph();
   }, 120);
 });
